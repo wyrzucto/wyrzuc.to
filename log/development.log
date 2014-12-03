@@ -1,0 +1,1834 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 15:36:49 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/railties-4.2.0.rc1/lib/rails/templates/rails/welcome/index.html.erb (11.7ms)
+Completed 200 OK in 107ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePunkts (20141202144437)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "punkts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nazwa" varchar, "telefon" integer, "co" varchar, "c1" float, "c2" float, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141202144437"]]
+  [1m[35m (2.9ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateOdbiors (20141202144624)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (2.0ms)[0m  [1mCREATE TABLE "odbiors" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "ulica" varchar, "data" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141202144624"]]
+  [1m[36m (2.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 15:53:38 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 9109ms (Views: 9080.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/assets/application-31a326ac826faa78be3a27dbb55f6bb2.js?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 15:53:48 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 15:53:54 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:07:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 935ms (Views: 865.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:07:19 +0100
+
+
+Started GET "/assets/application-9df1657dda11e88a8a4acec5ee976394.css?body=1" for 127.0.0.1 at 2014-12-02 16:07:19 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:07:19 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:07:19 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:07:26 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 210ms (Views: 209.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:09:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 686ms (Views: 654.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-9df1657dda11e88a8a4acec5ee976394.css?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:09:15 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:12:05 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 486ms (Views: 449.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:12:07 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:18:01 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 461ms (Views: 427.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:18:03 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:20:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 491ms (Views: 456.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:20:16 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:21:52 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 657ms (Views: 579.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:21:55 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:26:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 497ms (Views: 463.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:26:54 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:26:54 +0100
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:26:54 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:26:54 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:26:54 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:26:54 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:26:55 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:26:55 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:30:44 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 578ms (Views: 549.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:30:46 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:38:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 396ms (Views: 361.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:38:10 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:44:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 412ms (Views: 382.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:44:52 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:44:52 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:44:52 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:44:53 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:44:53 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:44:53 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:44:53 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:44:53 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:44:53 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 206ms (Views: 205.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:48 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:45:51 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 186ms (Views: 185.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:45:52 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:47:22 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 195ms (Views: 194.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:47:22 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:47:22 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:47:23 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 16:56:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 403ms (Views: 369.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 16:56:10 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:34:20 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 427ms (Views: 358.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 206ms (Views: 206.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 17:34:22 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:38:34 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 199ms (Views: 198.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 17:38:35 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:44:04 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 245ms (Views: 244.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:05 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 229ms (Views: 228.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:11 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:44:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 397ms (Views: 335.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 17:44:44 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 17:55:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 398ms (Views: 336.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 17:55:18 +0100
+
+
+Started GET "/punkts/new" for 127.0.0.1 at 2014-12-02 18:05:12 +0100
+
+ActionController::RoutingError (No route matches [GET] "/punkts/new"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.0.beta2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.0.beta2) lib/rack/server.rb:286:in `start'
+  railties (4.2.0.rc1) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0.rc1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (81.1ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (287.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:14:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 392ms (Views: 331.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:15 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 175ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:14:21 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:22:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 466ms (Views: 432.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:22:20 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:23:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 383ms (Views: 325.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:23:21 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:43:27 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 408ms (Views: 348.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:43:29 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:44:28 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 389ms (Views: 327.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:30 +0100
+
+
+Started GET "/home?fname=" for 127.0.0.1 at 2014-12-02 18:44:33 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.0.beta2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.0.beta2) lib/rack/server.rb:286:in `start'
+  railties (4.2.0.rc1) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0.rc1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (94.7ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (293.0ms)
+
+
+Started GET "/home?fname=" for 127.0.0.1 at 2014-12-02 18:44:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0.rc1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0.rc1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0.beta2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0.beta2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0.rc1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0.beta2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0.rc1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0.beta2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0.rc1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0.rc1) lib/rails/application.rb:164:in `call'
+  rack (1.6.0.beta2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.3-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.0.beta2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.0.beta2) lib/rack/server.rb:286:in `start'
+  railties (4.2.0.rc1) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.0.rc1) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.0.rc1) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (197.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:44:58 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 180ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:44:59 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:45:00 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 174ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:01 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 178ms (Views: 176.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:02 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:45:04 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 150ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:05 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 174ms (Views: 172.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:45:07 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:47:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 386ms (Views: 327.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:47:55 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:49:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 446ms (Views: 384.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:49:55 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 265ms (Views: 262.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:02 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:50:03 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 260ms (Views: 258.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:04 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:50:05 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 239ms (Views: 239.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:05 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:05 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:50:05 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:06 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:06 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:06 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:06 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:06 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:50:06 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-02 18:51:26 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 398ms (Views: 338.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:28 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 176ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:34 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-02 18:51:36 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 170ms (Views: 169.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:36 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:36 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-02 18:51:36 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:36 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:36 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:37 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:37 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:37 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-02 18:51:37 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 10:39:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 487ms (Views: 422.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 194ms (Views: 194.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:39:52 +0100
+
+
+Started GET "/main/home?fname=efe" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>"efe"}
+  Rendered main/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 247ms (Views: 246.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:42:57 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-03 10:43:25 +0100
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 232ms (Views: 232.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:43:26 +0100
+
+
+Started GET "/main/home?fname=" for 127.0.0.1 at 2014-12-03 10:49:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Parameters: {"fname"=>""}
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 445ms (Views: 412.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:49:17 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:49:17 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:49:17 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:49:17 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:49:17 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:49:17 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:49:18 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:49:18 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:49:18 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 10:50:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 463ms (Views: 389.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:50:57 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 214ms (Views: 212.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:51:01 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 10:54:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 389ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 10:54:52 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 11:02:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 366ms (Views: 336.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 11:02:51 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 11:02:51 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 11:02:52 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-03 11:06:48 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#home as HTML
+  Rendered main/home.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 416ms (Views: 354.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/application-d8ec4e897cb0d21614b510e653353ea6.css?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/leaflet-14ce231fdce207ded31869db07b4ac7e.css?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/jquery-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/jquery_ujs-99f13489684e179b71ca7517fb74318d.js?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/turbolinks-8a16743fde46b708c7e46998398b6c21.js?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/leaflet-688325fe4ee275a389fa30552cfe5738.js?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/main-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/application-be26c326adc24e66a58851312fb5ea63.js?body=1" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/marker-icon-2x-610ba4bc360ba0b0f248acbf534250b1.png" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
+
+
+Started GET "/assets/marker-shadow-868f760aed944c3ea7cec054ab52fe0d.png" for 127.0.0.1 at 2014-12-03 11:06:50 +0100
