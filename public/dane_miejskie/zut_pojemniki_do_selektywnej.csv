@@ -1,0 +1,1158 @@
+id;nazwa;miasto;kod;link www;e-mail;tel 1;tel 2;fax;x;y;ulica;numer
+5432;Subis³awa 23;Gdañsk;80-354;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418396;18.571480000000065;Subis³awa ;23
+5433;Subis³awa 22;Gdañsk;80-354;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420023;18.572912;Subis³awa;22
+5434;Rybacka 7;Gdañsk;80-340;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423077;18.571627;Rybacka;7
+5435;Pomoroska 1-2;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.414769; 18.567292;Pomorska;02-sty
+5436;Pelpliñska 5;Gdañsk;80-335;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417342;18.570938;Pelpliñska;5
+5437;Sztormowa 7;Gdañsk;80-335;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421747;18.572239;Sztormowa;7
+5438;Sztormowa 1;Gdañsk;80-335;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420898;18.572792;Sztormowa;1
+5439;Pomorska 15;Gdañsk;80-333;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418041;18.575810;Pomorska;15
+5440;Pomorska 22A;Gdañsk;80-333;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417482;18.573770;Pomorska;13
+5441;Pomorska 22A;Gdañsk;80-333;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.419744;18.580298;Pomorska;22A
+5442;Pomorska 18;Gdañsk;80-333;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418253;18.580146;Pomorska ;18
+5443;Dickmana 10;Gdañsk;80-339;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417633;18.567520;Dickmana;10
+5444;Bitwy Oliwskiej 15;Gdañsk;80-339;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421953;18.566905;Bitwy Oliwskiej;15
+5445;Grunwaldzka 607-609;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422506;18.564244;Grunwaldzka;607-609
+5446;Grunwaldzka 607/Bitwy Oliwskiej 14;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421604;18.565584;Grunwaldzka/Bitwy Oliwskiej;14
+5447;Grunwaldzka 595;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421223;18.565610;Grunwaldzka;595
+5448;Grunwaldzka 543;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415390;18.566577;Grunwaldzka ;543
+5449;Grunwaldzka 553;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.416493;18.566706;Grunwaldzka;553
+5450;Grunwaldzka 557;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.416615;18.566011;Grunwaldzka;557
+5451;Grunwaldzka 585;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.419896;18.565231;Grunwaldzka;585
+5452;Grunwaldzka 560 Shell;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415684;18.565303;Grunwaldzka;560
+5453;Droszyñskiego 5A;Gdañsk;80-381;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.410609;18.573508;Droszyñskiego;5A
+5454;Beniowskiego 4/Dar³owska przy trafostacji;Gdañsk;80-382;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406650;18.580953;Beniowskiego/Dar³owska;4
+5455;Beniowskiego 68-70;Gdañsk;80-382;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412334;18.576693;Beniowskiego;68-70
+5456;S³owiañska 28;Gdañsk;80-381;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.409205;18.576016;S³owiañska;28
+5457;Kêtrzyñskiego 24b;Gdañsk;80-376;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412150;18.583683;Kêtrzyñskiego;24b
+5458;Ch³opska 31;Gdañsk;80-349;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.410530;18.586861;Ch³opska;31
+5459;W³adys³awowska 2F;Gdañsk;80-388;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407596;18.583062;W³adys³awowska ;2F
+5460;Œl¹ska 35;Gdañsk;80-379;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407957;18.587061;Œl¹ska;35
+5461;Œl¹ska 39;Gdañsk;80-379;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407681;18.587427;Œl¹ska;39
+5462;Œl¹ska 16;Gdañsk;80-384;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406123;18.577940;Œl¹ska;16
+5463;Arkoñska 25;Gdañsk;80-387;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403108;18.579316;Arkoñska;25
+5464;Œl¹ska 84;Gdañsk;80-389;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406043;18.588090;Œl¹ska;84
+5466;Piastkowska 5;Gdañsk;80-332;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411771;18.568016;Piastkowska;5
+5467;Ko³obrzeska 39;Gdañsk;80-390;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403219;18.585814;Ko³obrzeska;39
+5468;Ko³obrzeska 27;Gdañsk;80-390;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403017;18.584623;Ko³obrzeska;27
+5469;Lêborska 21;Gdañsk;80-387;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404813;18.583048;Lêborksa;21
+5470;Ko³obrzeska 20;Gdañsk;80-394;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401705;18.580783;Ko³obrzeska;20
+5471;"Ko³obrzeska 32 ""real"" przy Krynickiej";Gdañsk;80-390;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403330;18.588732;Ko³obrzeska;32
+5472;Fromborska 24;Gdañsk;80-389;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405712;18.582958;Fromborska;24
+5473;Grunwaldzka 574;Gdañsk;80-320;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417691;18.564592;Grunwaldzka;574
+5474;Gdyñska 4;Gdañsk;80-340;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420734;18.578934;Gdyñska;4
+5475;Szyprów 3 (Szko³a Podstawowa nr89);Gdañsk;80-335;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422555;18.576093;Szyprów;3
+5476;Ch³opska 66;Gdañsk;80-350;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.419660;18.587105;Ch³opska;66
+5477;Ch³opska 70/72;Gdañsk;80-350;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.419319;18.584986999999956;Ch³opska;70/72
+5478;Pomorska 94;Gdañsk;80-333;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417698;18.578591;Pomorska ;94
+5479;Pomorska 82;Gdañsk;80-345;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.419062;18.583204;Pomorska;82
+5480;Pomorska 88;Gdañsk;80-345;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418243;18.580138;Pomorska;88
+5481;Pomorska 86;Gdañsk;80-345;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417627;18.578467;Pomorska;86
+5482;Pomorska 41;Gdañsk;80-343;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421300;18.586972;Pomorska;41
+5483;Gospody 20;Gdañsk;80-335;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.424032;18.576906;Gospody;20
+5484;Gospody 17;Gdañsk;80-340;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.424431;18.582938;Gospody;17
+5485;Gospody 17 Administracja;Gdañsk;80-340;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.424165;18.582287;Gospody;17
+5486;Gospody18/Szyprów 4;Gdañsk;80-335;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422557;18.576073;Gospody/Szyprów;18-kwi
+5487;Gospody 5;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420754;18.582575;Gospody;5
+5488;Gospody 10;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421337;18.579118;Gospody;10
+5489;Gospody 25;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423809;18.580763;Gospody;25
+5490;Gospody 21;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423594;18.579074;Gospody;21
+5491;Gospody 23;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423713;18.579918;Gospody;23
+5492;Gospody 3A;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420706;18.583248;Gospody;3A
+5493;Gospody 3B;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420729;18.584013;Gospody;3B
+5494;Wejhera 7;Gdañsk;80-346;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421497;18.584537;Wejehra;7
+5495;Wejhera 11;Gdañsk;80-346;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422027;18.586060;Wejhera;11
+5496;Wejhera 15;Gdañsk;80-346;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422577;18.587481;Wejhera;15
+5497;Or³owska 5-7;Gdañsk;80-347;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423774;18.586046;Or³owska;07-maj
+5498;Or³owska 5;Gdañsk;80-347;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423569;18.586378;Or³owska;5
+5499;Or³owska 9;Gdañsk;80-347;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423345;18.585069;Or³owska;9
+5500;Or³owska 13 (Szko³a Podstawowa nr 77);Gdañsk;80-347;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.424095;18.584406;Or³owska;13
+5501;Powstania Koœciuszkowskiego 1/2;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352156;18.571226;Powstania Koœciuszkowskiego;02-sty
+5502;Pas nadmorski (Bar Karmazyn) (jelitkowo);Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423938;18.599761;Jantarowa;4
+5503;Powstania Listopadowego 3;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354728;18.576983;Powstania Listopadowego;3
+5504;Powstania Listopadowego 5;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355499;18.576151;Powstania Listopadowego;5
+5505;Pas nadmorski (wejœcie 72) (jelitkowo);Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.426109;18.596641;wejœcie 72;
+5506;Powstania Styczniowego 3;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353873;18.572743;Powstania Styczniowego ;3
+5507;Powstania Styczniowego 9-11;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355391;18.571848;Powstania Styczniowego;11-wrz
+5508;Ergo Arena;Gdañsk;80-344;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.426615;18.580496;Plac Dwóch Miast ;1
+5509;Zwi¹zku Jaszczurczego 1;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355269;18.575708;Zwi¹zku Jaszczurczego;1
+5510;Kapiliczna 30;Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422811;18.597145;Kapiliczna;30
+5511;Tysi¹clecia 27;Gdañsk;80-351;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418853;18.592166;Tysi¹clecia;27
+5512;Kusociñskiego 8;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356425;18.577556;Jana Kusociñskiego;8
+5513;Tysi¹clecia 13;Gdañsk;80-351;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418502;18.589199;Tysi¹clecia;13
+5514;Zwi¹zku Jaszczurczego 2;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355566;18.575339;Zwi¹zku Jaszczurczego;2
+5515;Zwi¹zku Jaszczurczego 9;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353703;18.573436;Zwi¹zku Jaszczurczego;9
+5516;Buloñska 8;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356642;18.579758;Buloñska ;8
+5517;Ch³opska 44;Gdañsk;80-368;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415566;18.588874;Ch³opska;44
+5518;Buloñska 12;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355830;18.579095;Buloñska;12
+5519;Piastowska 90;Gdañsk;80-352;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.416348;18.590222;Piastowska;90
+5520;Buloñska 18;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354511;18.577914;Buloñska;18
+5521;Piastowska 92A (¯³obek);Gdañsk;80-358;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415519;18.590065;Piastowska;92A
+5522;Buloñska 26;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353336;18.579269;Buloñska;26
+5523;Piastowska 92B (Przedszkole);Gdañsk;80-358;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.414771;18.590385;Piastowska;92B
+5524;Buloñska 44;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352495; 18.578495;Buloñska;44
+5525;Buloñska 46;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352423;18.576424;Buloñska;46
+5526;Piastowska 104 (Przy sklepie);Gdañsk;80-332;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417312;18.592705;Piastowska;104
+5527;Budapesztañska 6;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353685;18.580700;Budapesztañska;6
+5528;Piastowska 104;Gdañsk;80-332;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.417309;18.592693;Piastowska;104
+5529;Budapesztañska 13-15;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353405;18.582704;Budapesztañska;13-15
+5530;Piastowska 102;Gdañsk;80-358;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.416620;18.593423;Piastowska;102
+5531;Piastowska 100;Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421736;18.601889;Piastowska;100
+5532;Burgaska 3;Gdañsk;80-287;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355512;18.581537;Burgaska ;3
+5533;Piastowska 70-74;Gdañsk;80-363;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.414659;18.584907;Piastowska;70-74
+5534;Burgaska 4-9;Gdañsk;80-287;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355732;18.581966;Burgaska;09-kwi
+5535;Piastowska 56;Gdañsk;80-332;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.414317;18.580097;Piastowska;56
+5536;Poznañska 8;Gdañsk;80-353;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413229;18.580991;Poznañska;8
+5537;Burgaska 5 (przedszkole);Gdañsk;80-287;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355133;18.582421;Burgaska ;5
+5538;Piastowska 66K;Gdañsk;80-353;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.409745;18.582137;Poznañska;66K
+5539;Warneñska 4;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357172; 18.583603;Warneñska;4
+5540;Piastowska 60;Gdañsk;80-332;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.414498;18.579966;Piastowska;60
+5541;Warneñska 7;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356475;18.583428;Warneñska;7
+5542;Wypoczynkowa 32;Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420124;18.604468;Wypoczynkowa;32
+5543;Warneñska 8;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357298;18.585387;Warneñska;8
+5544;Piastowska 82;Gdañsk;80-363;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415072;18.586438;Piastowska;82
+5545;Warneñska 9;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355859;18.585272;Warneñska;9
+5546;Warneñska 12;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357192;18.586272;Warneñska;12
+5548;Warneñska 16;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356065;18.586930;Warneñska;16
+5549;Piastowska 98;Gdañsk;80-358;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.416477;18.592300;Piastowska;98
+5550;Piastowska 175-177;Gdañsk;80-332;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420539;18.600116;Piastowska;175-177
+5551;Piastowska 183-185;Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421366;18.600583;Piastowska;183-185
+5552;Piastowska 179-181;Gdañsk;80-341;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421287;18.599703;Piastowska;179-181
+5553;D¹broszczaków 8;Gdañsk;80-365;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415500;18.595841;D¹broszczaków;8
+5554;D¹broszczaków 10;Gdañsk;80-365;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415155;18.596785;D¹broszczaków;10
+5555;Rzeczypospolitej 4 (robyg);Gdañsk;80-369;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401871;18.591414;Rzeczypospolitej;4
+5556;Rzeczypospolitej 4;Gdañsk;80-369;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402180;18.590635;Rzeczypospolitej;4
+5557;Rzeczypospolitej 8 SHELL;Gdañsk;80-369;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400807;18.591613;Rzeczypospolitej;8
+5558;Marusarzówny 2;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357598;18.578267;Marusarzówny;2
+5559;Rzeczypospolitej 5;Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402126;18.595329;Rzeczypospolitej;5
+5560;Marusarzówny 7;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357860; 18.576175;Marusarzówny;7
+5561;Rzeczypospolitej 7;Gdañsk;80-369;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400643;18.593210;Rzeczypospolitej;7
+5562;Marusarzówny 10 (Szko³a);Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358407;18.574178;Marusarzówny;10
+5563;Rzeczypospolitej 11;Gdañsk;80-369;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400774;18.595306;Rzeczypospolitej;11
+5564;Marusarzówny 19;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357586;18.573699;Marusarzówny;19
+5565;Opolska 3;Gdañsk;80-325;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403995;18.601143;Opolska;3
+5566;Opolska 6;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402166;18.597328;Opolska;6
+5567;Wyrobka 5;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359564;18.575165;Romana Wyrobka;5
+5568;Opolska 10;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401472;18.59795699999995;Opolska;10
+5569;Wyrobka 2/Czecha 1;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360718;18.575830;Romana Wyrobka/Czecha;01-lut
+5570;Opolska 9;Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402262;18.600874;Opolska;9
+5571;Ko³obrzeska 49 (szko³a);Gdañsk;80-391;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405594;18.593902;Ko³obrzeska;49
+5572;¯ylewicza 5;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358693;18.576224;Józefa ¯ylewicza;5
+5573;Ko³obrzeska 42A;Gdañsk;80-391;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404269;18.596668;Ko³obrzeska ;42A
+5574;Ko³obrzeska 42CD;Gdañsk;80-391;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404045;18.595254;Ko³obrzeska;42CD
+5575;Czecha 2;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361102;18.574394;Bronis³awa Czecha;2
+5576;Ko³obrzeska 42E;Gdañsk;80-391;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403806;18.593361;Ko³obrzeska ;42E
+5577;Czecha 3-9;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360763;18.573446;Bronis³awa Czecha;09-mar
+5578;Czecha 11;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360670;18.572653;Bronis³awa Czecha;11
+5579;Ko³obrzeska 44;Gdañsk;80-394;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407471;18.593263;Ko³obrzeska ;44
+5580;Kolumba 2a;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361079;18.577876;Krzysztofa Kolumba ;2a
+5581;Ko³obrzeska 47;Gdañsk;80-390;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405728;18.594403;Ko³obrzeska ;47
+5582;Kolumba 5;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361427;18.578959;Krzysztofa Kolumba;5
+5583;Ko³obrzeska 53M;Gdañsk;80-396;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406774;18.595089;Ko³obrzeska;53M
+5584;Ko³obrzeska 53E;Gdañsk;80-396;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405761;18.595603;Ko³obrzeska;53E
+5585;Amundsena 5a;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360248;18.579368;Roalda Amundsena ;5a
+5586;Ko³obrzeska 55K;Gdañsk;80-396;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407080;18.595189;Ko³obrzeska ;55K
+5587;Piecewska 35;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359626;18.580778;Piecewska ;35
+5588;Ko³obrzeska 65L;Gdañsk;80-396;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408132;18.598693;Ko³obrzeska;65L
+5589;Kruczkowskiego 13/15;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360499;18.583350;Leona Kruczkowskiego ;13/15
+5590;Ko³obrzeska 67F;Gdañsk;80-396;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406681;18.599771;Ko³obrzeska;67F
+5591;Kruczkowskiego 17;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360887;18.582260;Leona Kruczkowskiego;17
+5592;Ko³obrzeska 71 (Przedszkole);Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408181;18.600915;Ko³obrzeska;71
+5593;Arctowskiego 3;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359968;18.584944;Henryka Arctowskiego ;3
+5594;Ko³obrzeska 75 (szko³a);Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406603;18.600941;Ko³obrzeska;75
+5595;Arctowskiego 4-6-8;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359546;18.586262;Henryka Arctowskiego;2004-06-08
+5596;Ko³obrzeska 58;Gdañsk;80-394;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406661;18.607315;Ko³obrzeska;58
+5597;Piecewska 18/20;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358159;18.58932;Piecewska;18/20
+5598;Piecewska 30;Gdañsk;80-288;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359505;18.582941;Piecewska;30
+5599;D¹browszczaków 34A;Gdañsk;80-364;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408278;18.604534;D¹browszczaków;34A
+5600;Dobrowolskiego 1-3;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360339;18.587405;Dobrowolskiego;03-sty
+5601;Dobrowolskiego 6 (Szko³a);Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360450;18.587181;Dobrowolskiego;6
+5602;Olsztyñska 5AB;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406230;18.607026;Olsztyñska ;5AB
+5603;Olsztyñska 7AB;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405488;18.608746;Olsztyñska;7AB
+5604;Gojawiczyñskiej 3c;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358274;18.591271;Gojawiczyñskiej;3c
+5605;Obroñców Wybrze¿a 4A;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408155;18.593398;Obroñców Wybrze¿a;4A
+5606;Gojawiczyñskiej 6a;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358877;18.590850;Poli Gojawiczyñskiej;6a
+5607;Obroñców Wybrze¿a 4B ;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408164;18.592468;Obroñców Wybrze¿a;4B
+5608;Na³kowskiej 1;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360077;18.590693;Zofii Na³kowskiej;1
+5609;Obroñców Wybrze¿a 4F Przedszkole nr 59;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407440;18.593036;Obroñców Wybrze¿a;4F
+5610;Na³kowskiej 5;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360267;18.593226;Zofii Na³kowskiej;5
+5611;Na³kowskiej 6;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359739;18.593920;Zofii Na³kowskiej;6
+5612;Obroñców Wybrze¿a 6A;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408451;18.596096;Obroñców Wybrze¿a;6A
+5613;Zab³ockiego 3;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360869;18.595655;Franciszka Zab³ockiego;3
+5614;Obroñców Wybrze¿a 6C;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408405;18.594835;Obroñców Wybrze¿a;6C
+5615;Zab³ockiego 2,4;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361022;18.594036;Franciszka Zab³ockiego;2,4
+5616;Obroñców Wybrze¿a 6D;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408242;18.593773;Obroñców Wybrze¿a;6D
+5617;Morenowa 1;Gdañsk;80-172;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356333;18.593954;Morenowa ;1
+5618;Obroñców Wybrze¿a 7;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.409805;18.595650;Obroñców Wybrze¿a;7
+5619;3 lipy 3;Gdañsk;80-172;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354703;18.593501;3 lipy ;3
+5620;Obroñców Wybrze¿a 8D;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408623;18.596227;Obroñców Wybrze¿a;8D
+5621;Schumana Carrefour;Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358889;18.604327;Roberta Schumana;
+5622;Obroñców Wybrze¿a 10D;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.409322;18.599524;Obroñców Wybrze¿a;10D
+5623;Potokowa 29;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.362798;18.557157;Potokowa ;29
+5624;Obroñców Wybrze¿a 12;Gdañsk;80-398;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.409721;18.602506;Obroñców Wybrze¿a;12
+5625;Potokowa 25;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363007;18.558151;Potokowa ;25
+5626;Ch³opska 10M;Gdañsk;80-399;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407174;18.592684;Ch³opska;10M
+5627;Matemblewska 42 (parking);Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367021;18.549334;Matemblewska ;42
+5628;Ch³opska 10A;Gdañsk;80-399;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405314;18.592454;Ch³opska;10A
+5629;Ch³opska 12M;Gdañsk;80-399;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406161;18.592050;Ch³opska;12M
+5630;Matemblewska 9 (koœció³);Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.365088;18.555315;Matemblewska;9
+5631;Ch³opska 20C;Gdañsk;80-375;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.410901;18.591250;Ch³opska;20C
+5632;Ch³opska 20G;Gdañsk;80-375;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.410785;18.589929;Ch³opska;20G
+5633;Reformacka 19;Gdañsk;80-808;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340353;18.631592;Reformacka ;19
+5634;Ch³opska 22M;Gdañsk;80-375;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411052;18.589056;Ch³opska;22M
+5635;Reformacka 25;Gdañsk;80-808;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340414;18.632933;Reformacka;25
+5636;Ch³opska 24C;Gdañsk;80-375;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411638;18.590990;Ch³opska;24C
+5637;Worcella 44;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338254;18.627651;Stanis³awa Worcella;44
+5638;Ch³opska 24M;Gdañsk;80-375;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411406;18.588940;Ch³opska;24M
+5639;Jagielloñska 5 (Szko³a);Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412861;18.589424;Jagielloñska;5
+5640;Grabowskiego 3;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338775;18.625293;Witolda Grabowskiego;3
+5641;Jagielloñska 10B;Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413342;18.596605;Jagielloñska;10B
+5642;Grabowskiego 5;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338929;18.622218;Witolda Grabowskiego;5
+5644;Grabowskiego 9-11;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339740;18.625106;Witolda Grabowskiego;11-wrz
+5645;Jagielloñska 10H;Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412539;18.592432;Jagielloñska;10H
+5646;Biegañskiego 11-13;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344450;18.624395;W³adys³awa Biegañskiego;13-lis
+5647;Jagielloñska 10F;Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412782;18.593715;Jagielloñska;10F
+5648;Biegañskiego 35;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344553;18.622466;W³adys³awa Biegañskiego;35
+5649;Jagielloñska 11 (Szko³a);Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413981;18.595583;Jagielloñska;11
+5650;Jagielloñska 12 (Przedszkole);Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412209;18.594171;Jagielloñska;12
+5651;Jagielloñska 14;Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411683;18.593647;Jagielloñska;14
+5652;Jagielloñska 14;Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411639;18.593138;Jagielloñska;14
+5653;Jagielloñska 26E;Gdañsk;80-366;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411461;18.597396;Jagielloñska;26E
+5654;Jagielloñska 26M;Gdañsk;80-366;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411295;18.595767;Jagielloñska;26M
+5655;Jagielloñska 28E;Gdañsk;80-366;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411793;18.596641;Jagielloñska;28E
+5656;Jagielloñska 30K;Gdañsk;80-367;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412291;18.595950;Jagielloñska;30K
+5657;Jagielloñska 32C;Gdañsk;80-367;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412647;18.596588;Jagielloñska;32C
+5659;Jagielloñska 40D;Gdañsk;80-371;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413267;18.600177;Jagielloñska ;40D
+5661;Jagielloñska 42M;Gdañsk;80-367;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412806;18.600801;Jagielloñska ;42M
+5662;Jagielloñska 42F;Gdañsk;80-367;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412767;18.600619;Jagielloñska;42F
+5663;Jagieloñska 44C;Gdañsk;80-366;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412281;18.600926;Jagielloñska;44C
+5664;D¹broszczaków 24A;Gdañsk;80-365;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411331;18.599528;D¹broszczaków;24A
+5665;Jagielloñska 24 (szko³a);Gdañsk;80-367;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411069;18.597396;Jagielloñska;24
+5666;Biegañskiego 19;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343667;18.622862;Biegañskiego;19
+5667;Biegañskiego 15;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344448;18.624377;Biegañskiego;15
+5668;Biegañskiego 29-27-21;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344427;18.621438;Biegañskiego;29-27-21
+5669;Biegañskiego 31;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343688;18.620454;Biegañskiego;31
+5670;Biegañskiego 39;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342810;18.619276;Biegañskiego;39
+5671;Biegañskiego 14;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344454;18.624375;Biegañskiego;14
+5672;Skar¿yñskiego 3b;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388500;18.606105;Stanis³awa Skar¿yñskiego;3B
+5673;Dokerów 11;Gdañsk;80-812;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344229;18.633282;Dokerów;11
+5674;Skar¿yñskiego 3E;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388724;18.605604;Stanis³awa Skar¿yñskiego;3E
+5675;Skar¿yñskiego 4;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388484;18.604030;Stanis³awa Skar¿yñskiego;4
+5676;Zielonogórska 4 (teren MOSIR);Gdañsk;80-812;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343031;18.634879;Zielonogórska;4
+5677;SKar¿yñskiego 5;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388539;18.605002;Stanis³awa Skar¿yñskiego;5
+5678;SKar¿yñskiego 8;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387487;18.602592;Stanis³awa Skar¿yñskiego;8
+5679;Lotników Polskich 12;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339667;18.631196;Lotników Polskich;12
+5680;Skar¿yñskiego 10;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388498;18.602232;Stanis³awa Skar¿yñskiego;10
+5681;Cha³ubiñskiego 5;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342312;18.625800;Cha³ubiñskiego;5
+5682;Skar¿yñskiego 12;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387489;18.602599;Stanis³awa Skar¿yñskiego;12
+5683;Skar¿yñskiego 14;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387403;18.600512;Stanis³awa Skar¿yñskiego;14
+5685;Cha³ubiñskiego 11;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341770;18.622523;Cha³ubiñskiego;11
+5686;Dywizjonów 303 5;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389964;18.597903;Dywizjonu 303;5
+5687;Cha³ubiñskiego 13 (szko³a);Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340267;18.622276;Cha³ubiñskiego;13
+5688;Dywizjonu 303 13;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.390237;18.602706;Dywizjonu 303;13
+5689;Dywizjonu 303 33;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392431;18.601069;Dywizjonu 303;33
+5690;Cha³ubiñskiego 15 (Przedszkole 85);Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340923;18.622645;Cha³ubiñskiego;15
+5691;Cha³ubiñskiego 18;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342129;18.621377;Cha³ubiñskiego;18
+5692;Pilotów 3;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392258;18.596058;Pilotów;3
+5693;Cha³ubiñskiego 20;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342154;18.620549;Cha³ubiñskiego;20
+5694;Pilotów 5;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392028;18.595767;Pilotów;5
+5695;Cha³ubiñskiego 33-37;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339358;18.620351;Cha³ubiñskiego;33-37
+5696;Pilotów 7 XV LO;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393336; 18.593863;Pilotów;7
+5697;Dragana 20;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340229;18.615189;Dragana;20
+5698;Pilotów 8F;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.391547;18.592646;Pilotów;8F
+5699;Pilotów 8A;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.391650;18.594801;Pilotów;8A
+5700;Pilotów 10;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392288;18.590724;Pilotów;10
+5701;Dragana 23;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340706;18.614470;Dragana;23
+5702;Pilotów 12F;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393300;18.590903;Pilotów;12F
+5703;Dragana 12;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341521;18.613872;Dragana;12
+5704;Pilotów 13A;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393928;18.592305;Pilotów;13A
+5705;Dragana 16;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341543;18.616128;Dragana;16
+5706;Dragana 8-11;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341033;18.613252;Dragana;11-sie
+5707;Pilotów 15;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394613;18.591482;Pilotów;15
+5708;Dragana 6/7;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340472;18.612162;Dragana;07-cze
+5709;Pilotów 18A;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394419;18.587899;Pilotów;18A
+5710;Dragana 2;Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339422;18.607776;Dragana;2
+5711;Pilotów 18CD;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394806;18.587616;Pilotów;18CD
+5712;Dragana 4-3;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340447;18.610183;Dragana;03-kwi
+5713;Pilotów 17A;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394492;18.590153;Pilotów;17A
+5714;Dragana 5;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340166;18.611078;Dragana;5
+5715;Dragana 21;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340223;18.615196;Dragana;21
+5716;Pilotów 17G;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395284;18.590587;Pilotów;17G
+5717;Pilotów 19C;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395844;18.590241;Pilotów;19C
+5718;Dragana 9;Gdañsk;80-807;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340154;18.613760;Dragana;9
+5719;Pilotów 23;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396767;18.588616;Pilotów;23
+5720;Witosa 5;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338998;18.609969;Witosa;5
+5721;Pilotów 20C;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395606;18.587625;Pilotów;20C
+5722;Witosa 15;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339037;18.614443;Witosa;15
+5723;Starowa 3 ;Gdañsk;80-460;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393372;18.597270;Starowa ;3
+5724;Witosa 13;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338967;18.615858;Witosa;13
+5725;Startowa 5;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393790;18.599046;Startowa;5
+5726;Witosa 25;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339073;18.616969;Witosa;25
+5727;Startowa 9 (szko³a);Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394741;18.596660;Startowa;9
+5728;Cebertowicza 1;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337524;18.60694699999999;Cebertowicza;1
+5729;Cebertowicza 12A;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336388;18.604145000000017;Cebertowicza;12A
+5730;Startowa 11A;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394441;18.597963;Startowa;11A
+5731;Startowa 11C;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394793;18.598026;Startowa;11C
+5732;Cebertowicza 6-8;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337361;18.605038;Cebertowicza;08-cze
+5733;Startowa 13A;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395802;18.598498;Startowa;13A
+5734;Cebertowicza 17;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335518;18.607105;Cebertowicza;17
+5735;Startowa 13H;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396558;18.596735;Startowa;13H
+5736;Cebertowicza 18;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335744;18.606383;Cebertowicza;18
+5737;Startowa 15D;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396914;18.595886;Startowa;15D
+5738;Cebertowicza 14;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336511;18.606357;Cebertowicza;14
+5739;Pasa¿ Che³mski;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337070;18.612128;Pasa¿ Che³mski;
+5740;Startowa 17;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395440;18.592862;Startowa;17
+5741;Kopeckiego 2;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336679;18.611820;Kopeckiego;2
+5742;Kopeckiego 11;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335914;18.610337;Kopeckiego;11
+5743;Startowa 19D;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395706;18.594125;Startowa;19D
+5744;Szpora 1;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335143;18.609248;Szpora;1
+5745;Startowa 23;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397826;18.593624;Startowa;23
+5746;Szpora 5-7;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335723;18.610016;Szpora;07-maj
+5747;Startowa 25A;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397952;18.592409;Startowa ;25A
+5748;Cieszyñskiego 1 (Koœció³);Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337055;18.614570;Cieszyñskiego;1
+5749;Startowa 29E;Gdañsk;80-461;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397514;18.590849;Startowa ;29E
+5750;Cieszyñskiego 2-4;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338234;18.604623;Cieszyñskiego;04-lut
+5751;Nagórskiego 5A;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392336;18.602700;Jana Nagórskiego ;5A
+5752;Cieszyñskiego 17;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334052;18.616387;Cieszyñskiego;17
+5753;Nagórskiego 7;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392109;18.603826;Jana Nagórskiego ;7
+5754;Nagórskiego 9;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.390624;18.604418;Jana Nagórskiego ;9
+5755;Cieszyñskiego 22;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337607;18.608374;Cieszyñskiego;22
+5756;Bajana 3;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.390831;18.605692;Jerzego Bajana;3
+5757;Cieszyñskiego 30;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336580;18.610030;Cieszyñskiego;30
+5758;Bajana 9;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389654;18.606519;Jerzego Bajana;9
+5759;Cieszyñskiego 50;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336479;18.614449;Cieszyñskiego;50
+5760;Bajana 11;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389298;18.607511;Jerzego Bajana;11
+5761;Wiêckowskiego 2;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334394;18.615871;Wiêckowskiego;2
+5762;Jana Paw³a II 4;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.390740;18.598598;Jana Paw³a II;4
+5763;Wiêckowskiego 10;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334099;18.614023;Wiêckowskiego;10
+5764;Wiêckowskiego 1;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.333111;18.615706;Wiêckowskiego ;1
+5765;Wojska Polskiego 8;Gdañsk;80-277;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.386396;18.590439;Wojska Polskiego ;8
+5766;Wiêckowskiego 6;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334728;18.612542;Wiêckowskiego;6
+5767;Wiêckowskiego 4;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334607;18.614332;Wiêckowskiego;4
+5768;Wojska Polskiego 27-29;Gdañsk;80-277;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387127;18.584605;Wojska Polskiego;27-29
+5770;Wojska Polskiego 33;Gdañsk;80-268;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388365;18.582078;Wojska Polskiego ;33
+5771;Grunwaldzka 176;Gdañsk;80-266;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.384140;18.595245;Grunwaldzka ;176
+5773;Meissnera 6;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401194;18.605095;Meissnera;6
+5774;Grunwaldzka 238B;Gdañsk;80-266;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388743;18.583772;Grunwaldzka;238B
+5775;Meissnera 9 (Szko³a);Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401564;18.604509;Meissnera;9
+5776;Meissnera 11;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401620;18.605737;Meissnera;11
+5777;Grunwaldzka 244 (MOSIR);Gdañsk;80-266;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389372;18.582533;Grunwaldzka;244
+5778;Meissnera 13;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402138;18.606749;Meissnera;13
+5779;Meissnera 14;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402631;18.607543;Meissnera;14
+5780;Sychty 2-14;Gdañsk;80-276;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.386144;18.583505;Bernarda Sychty ;14-lut
+5781;Meissnera 16;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403258;18.607443;Meissnera;16
+5782;Meissnera 18;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403225;18.609853;Meissnera;18
+5783;Fitelberga 7;Gdañsk;80-271;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387470;18.580277;Grzegorza Fitelberga;7
+5784;Pla¿owa (Parking);Gdañsk;80-010;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.269205;18.580916;Pla¿owa;
+5785;Hubala 33;Gdañsk;80-289;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.383416;18.580623;Majora Hubala ;33
+5786;Jana Paw³a II 21;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403913;18.609913;Jana Paw³a II;21
+5787;S³onimskiego ;Gdañsk;80-280;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.384594;18.590790;Antoniego S³onimskiego ;3
+5788;Jana Paw³a II 23;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404656;18.611521;Jana Paw³a II;23
+5790;S³owackiego 36;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377693;18.573536;Juliusza S³owackiego ;36
+5791;Jana Paw³a II 29D;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404622;18.609781;Jana Paw³a II;29D
+5792;S³owackiego 47/51;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379857;18.584608;Juliusza S³owackiego ;47/51
+5793;Burzyñskiego 3;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394537;18.604019;Burzyñskiego ;3
+5794;S³owackiego 55;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379944;18.581472;Juliusza S³owackiego ;55
+5795;Burzyñskiego 6;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395563;18.603981;Burzyñskiego;6
+5796;S³owackiego 56;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378065;18.574802;Juliusza S³owackiego ;56
+5797;S³owackiego 59;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379944;18.581461;Juliusza S³owackiego ;59
+5798;Burzyñskiego 8;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395648;18.607393;Burzyñskiego;8
+5799;Burzyñskiego 10 (Szko³a);Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395346;18.608240;Burzyñskiego;10
+5800;S³owackiego 60;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379368;18.579221;Juliusza S³owackiego ;60
+5801;S³owackiego 61;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379327;18.579505;Juliusza S³owackiego ;61
+5802;Burzyñskiego 10a (Przedszkole);Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396431;18.607152;Burzyñskiego;10a
+5803;S³owackiego 64;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378457;18.580613;Juliusza S³owackiego ;64
+5804;Burzyñskiego 12A;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396251;18.606292;Burzyñskiego;12A
+5806;S³owackiego 69;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378773;18.580953;Juliusza S³owackiego ;69
+5807;Burzyñskiego 12P;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397786;18.606884;Burzyñskiego;12P
+5808;S³owackiego 101 Szko³a ;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.373657;18.565400;Juliusza S³owackiego ;101
+5809;Jana Paw³a 1G;Gdañsk;80-462;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396582;18.599452;Jana Paw³a;1G
+5810;Partyzantów 95/97;Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378455;18.583582;Partyzantów ;95/97
+5811;Olsztyñska 4;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404329;18.602089999999976;Olsztyñska ;4
+5812;Partyzantów 103;Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378815;18.583173;Partyzantów ;103
+5814;Olsztyñska 8C;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403654;18.602278;Olsztyñska ;8C
+5815;Partyzantów 74;Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351341667556966;18.64105224609375;Partyzantów ;74
+5816;Olsztyñska 8C;Gdañsk;80-395;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403931;18.603864;Olsztyñska ;8C
+5818;Ko³obrzeska 56;Gdañsk;80-394;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406369;18.605959;Ko³obrzeska;56
+5819;Leœna Góra 2 Szko³a;Gdañsk;80-281;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375792;18.561213;Leœna Góra ;2
+5820;Ko³obrzeska 54;Gdañsk;80-394;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406186;18.605064;Ko³obrzeska;54
+5821;Leœna Góra 7;Gdañsk;80-281;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375126;18.559554;Leœna Góra ;7
+5822;Leœna Góra 15;Gdañsk;80-281;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375447;18.560743;Leœna Góra ;15
+5823;Kombatantów 1;Gdañsk;80-464;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395643;18.611090;Kombatantów;1
+5824;Leœna Góra 21;Gdañsk;80-281;;;;;;54.375179;18.563179;Leœna Góra ;21
+5825;Kombatantów 4;Gdañsk;80-464;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.398221;18.609473;Kombatantów;4
+5826;Niedzwiednik 37;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.376875;18.564339;Niedzwiednik ;37
+5827;Drzewieckiego 2;Gdañsk;80-464;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394841;18.610935;Drzewieckiego;2
+5828;Leszczyñskich 1;Gdañsk;80-464;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394553;18.616834;Leszczyñskich;1
+5829;Góralska 15;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.376289;18.563831;Góralska;15
+5830;Góralska 43;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379359;18.561729;Góralska;43
+5831;Leszczyñskich 3;Gdañsk;80-464;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393852;18.614064;Leszczyñskich;3
+5832;Góralska 61;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378533;18.558637;Góralska ;61
+5833;Leszczyñskich 5;Gdañsk;80-464;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.394058;18.614080;Leszczyñskich;5
+5834;Cio³kowskiego 1-3-5;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.391610;18.614511;Cio³kowskiego;2001-03-05
+5835;Góralska 69;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.380527;18.558552;Góralska ;69
+5836;Góralska 57;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377849;18.558776;Góralska ;57
+5837;Cio³kowskiego 7;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392305;18.611170;Cio³kowskiego;7
+5838;Góralska 25;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378472;18.563482;Góralska ;25
+5839;¯wirki i Wigury 1;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.391141;18.609019;¯wirki i Wigury;1
+5840;Podkarpacka 4;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377481;18.567051;Podkarpacka ;4
+5841;¯wirki i Wigury 3;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392542;18.608455;¯wirki i Wigury;3
+5842;Podkarpacka 3;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.376039;18.568556;Podkarpacka ;3
+5843;¯wirki i Wigury 12;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392390;18.610617;¯wirki i Wigury;12
+5844;¯wirki i Wigury 14;Gdañsk;80-463;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392944;18.608460;¯wirki  i Wigury;14
+5845;Mazowiecka 5;Gdañsk;80-292;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375489; 18.566378;Mazowiecka;5
+5846;Damroki 1;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339204;18.565723;Damroki;1
+5847;Damroki 36;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342263;18.566708;Damroki;36
+5848;Trawki 17 Dzia³ki ;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379432;18.574037;Trawki ;17
+5849;Trawki 13;Gdañsk;80-257;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378751;18.574535;Trawki;13
+5850;Damroki 46;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343246;18.565760;Damroki;46
+5851;Jasieñska 86-88;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345135;18.554252;Jasieñska;86-88
+5852;Œwistaka 1;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346678;18.552038;Œwistaka;1
+5853;Rycerza Blizbora 31;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340417;18.561738;Rycerza Blizbora ;31
+5854;Rycerza Blizbora 12;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339954;18.563847;Rycerza Blizbora;12
+5855;Stolema 52;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341520;18.564867;Stolema;52
+5856;Myœliwska 80B;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350941;18.558671;Myœliwska ;80B
+5857;Pólnicy 32;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343014;18.564107;Pólnicy;32
+5858;Myœliwska 94;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351877;18.558291;Myœliwska ;94
+5859;Myœliwska 100;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351330;18.556791;Myœliwska ;100
+5860;Pólnicy 17;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342355;18.563270;Pólnicy;17
+5861;Gabrysiak 54;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335696;18.557417;Gabrysiak;54
+5862;Królewskie Wzgórze 11;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349270;18.569970;Królewskie Wzgórze;11
+5863;£abêdzia;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345053;18.575419;£abêdzia;
+5864;Królewskie Wzgórze 13;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349503;18.568961;Królewskie Wzgórze;13
+5865;Królewskie Wzgórze;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350194;18.570754;Królewskie Wzgórze;33
+5866;Stolema 64;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344174;18.562574;Stolema ;64
+5867;Stolema 60 (przy szkole);Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343202;18.562107;Stolema;60
+5868;Morenowe Wzgórze 10;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350327;18.564376;Morenowe Wzgórze;10
+5869;Kartuska 404;Gdañsk;80-125;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342173;18.551403;Kartuska;404
+5870;Morenowe Wzgórze 12;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349070;18.563821;Morenowe Wzgórze;12
+5871;Kartuska 345B (Gardenia);Gdañsk;80-138;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338705;18.566607;Kartuska;345B
+5872;Morenowe Wzgórze 26;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347864;18.565640;Morenowe Wzgórze;26
+5873;Goska 28;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340565;18.568568;Goska;28
+5874;Orzechowa 7;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339433;18.555773;Orzechowa;7
+5875;Wo³kowyska 9/19;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352330;18.565283;Wo³kowyska ;19-wrz
+5876;Myœliwska 43;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350482;18.561801;Myœliwska ;43
+5877;Kurpiñskiego 7-9;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353165;18.599578;Kurpiñskiego ;09-lip
+5878;Myœliwska 46;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351381;18.568198;Myœliwska ;46
+5879;Kurpiñskiego 12;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352014;18.601629;Kurpiñskiego ;12
+5880;Kurpiñskiego 14;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351552;18.601989;Kurpiñskiego ;14
+5881;Myœliwska 48-48F;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351812;18.566604;Myœliwska ;48-48F
+5882;Kurpiñskiego 18-20;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350612;18.601212;Kurpiñskiego ;18-20
+5883;Myœliwska 78;Gdañsk;80-283;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351455;18.559681;Myœliwska ;78
+5884;Jantarowa 21A Molo BrzeŸno ;Gdañsk;80-501;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413565;18.624254;Jantarowa;21A
+5885;Kurpiñskiego 15;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351275;18.601766;Kurpiñskiego ;15
+5886;Hallera 253;Gdañsk;80-502;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408693;18.629344;Józefa Hallera ;253
+5887;Hallera 241;Gdañsk;80-502;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407347;18.626910;Józefa Hallera ;241
+5888;Kurpiñskiego 7;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353157;18.600778;Kurpiñskiego ;7
+5889;Hallera 229;Gdañsk;80-502;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403609;18.624862;Józefa Hallera ;229
+5890;Czajkowskiego 1 (szko³a);Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353515;18.602676;Czajkowskiego;1
+5891;Dworska ;Gdañsk;80-506;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403654;18.628720;Dworska ;14
+5892;Czajkowskiego 2;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352532;18.603044;Czajkowskiego ;2
+5893;Dworska 22;Gdañsk;80-506;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405288;18.628591;Dworska ;22
+5894;Czajkowskiego 3-9;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353864;18.604949;Czajkowskiego;09-mar
+5895;Dworska 34 Szko³a ;Gdañsk;80-506;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402635;18.627470;Dworska ;34
+5896;Otwarta 3-2;Gdañsk;80-169;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354510;18.606935;Otwarta;02-mar
+5897;Liszta 2;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351528;18.607189;Liszta ;2
+5898;Hodkiewicza 15;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404198;18.627262;Karola Hodkiewicza;15
+5899;Paderewskiego 6;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352739;18.607670;Paderewskiego;6
+5900;Paderewskiego 4;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352305;18.608961;Paderewskiego;4
+5901;Hodkiewicza 14;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406494;18.627928;Karola Hodkiewicza;14
+5902;Wczasy 2;Gdañsk;80-509;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.409102;18.630083;Wczasy;2
+5903;Paderewskiego 1;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352036;18.609428;Paderewskiego;1
+5904;Walecznych 10;Gdañsk;80-513;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407550;18.633741;Walecznych;10
+5905;Walecznych 13;Gdañsk;80-513;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407634;18.632872;Walecznych ;13
+5906;Powstañców Warszawskich 70;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353240;18.612468;Powstañców Warszawskich;70
+5907;Korzeniowskiego 28;Gdañsk;80-509;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407075;18.632388;Konrada Korzeniowskiego ;28
+5908;Powstañców Warszawskich 66;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355214;18.614934;Powstañców Warszawskich;66
+5909;Noskowskiego 1 (Biedronka);Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355318;18.614326;Noskowskiego ;1
+5910;Plater 22;Gdañsk;80-522;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406698; 18.631860;Emilii Plater;22
+5911;Noskowskiego 3;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355004;18.614098;Noskowskiego;3
+5912;Gdañska 12;Gdañsk;80-518;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405355;18.634766;Gdañska ;12
+5913;Noskowskiego 5;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354505;18.613690;Noskowskiego;5
+5914;Gdañska 19;Gdañsk;80-518;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404548; 18.634805;Gdañska;19
+5915;Nosowskiego 7;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353899;18.612712;Nosowskiego;7
+5916;Zdrojowa Wejœcie nr 41;Gdañsk;80-515;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.408048;18.638322;Zdrojowa;
+5917;Dunikowskiego 17;Gdañsk;80-524;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404232;18.642318;Ksawerego Dunikowskiego;17
+5918;Kamieñskiego 9 (teren zielony);Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353510;18.610655;Kamieñskiego;9
+5919;Krasickiego 10 Szko³a ;Gdañsk;80-515;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405640;18.644158;Ignacego Krasickiego;10
+5920;Kamieñskiego 9;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354155;18.610106;Kamieñskiego;9
+5921;Dunikowskiego 15;Gdañsk;80-524;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403858;18.644027;Dunikowskiego ;15
+5922;Kamieñskiego 5;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354334;18.611290;Kamieñskiego;5
+5923;Dunikowskiego 5;Gdañsk;80-524;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403204;18.642894;Ksawerego Dunikowskiego;5
+5924;Kamieñskiego 1;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355251;18.613094;Kamieñskiego;1
+5925;£ozy 9;Gdañsk;80-516;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403825;18.639823;£ozy;9
+5926;£ozy 5;Gdañsk;80-516;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404019;18.638045;£ozy ;5
+5927;Paganiniego 13;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355382;18.609527;Paganiniego;13
+5928;Paganiniego 17;Gdañsk;80-170;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355135;18.608828;Paganiniego;17
+5929;Broniewskiego 5;Gdañsk;80-524;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405210;18.639958;W³adys³awa Broniewskiego;5
+5931;Wyzwolenia;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402034;18.653915;Wyzwolenia;5
+5932;Wyzwolenia 8;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401772;18.654149;Wyzwolenia ;8
+5933;Mozarta 33 (przedszkole);Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356800;18.609050;Mozarta;33
+5934;Wyzwolenia ;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401183;18.659090;Wyzwolenia;20
+5935;Ojcowska 54;Gdañsk;80-146;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353636;18.624199;Ojcowska;54
+5936;Wyzwolenia 22;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400983;18.659701;Wyzwolenia;22
+5937;Cygañska Góra 12;Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358980;18.618184;Cygañska Góra;12
+5938;Wyzwolenia 23;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400312;18.659995;Wyzwolenia;23
+5939;Cygañska Góra 18;Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358334;18.617477;Cygañska Góra;18
+5940;Wyzwolenia 51C;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401273;18.661278;Wyzwolenia;51C
+5941;Cygañska Góra 20-22;Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358213;18.616362;Cygañska Góra;20-22
+5942;Wyzwolenia 51E;Gdañsk;80-537;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401151;18.660693;Wyzwolenia;51E
+5943;Cygañska Góra 26;Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359317;18.616343;Cygañska Góra ;26
+5944;Na Zaspê 6;Gdañsk;80-546;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400435; 18.674111;Na Zaspê;6
+5945;Taborowa 4-6;Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357066;18.621031;Taborowa;06-kwi
+5946;Na Zaspê 25;Gdañsk;80-546;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401829;18.666742;Na Zaspê;25
+5947;Focha 9/11;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359006;18.626808;Focha;11-wrz
+5948;Na Zaspê 31A;Gdañsk;80-546;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401662;18.662261;Na Zaspê;31A
+5949;Na Zaspê 30;Gdañsk;80-546;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402142;18.664161;Na Zaspê ;30
+5950;Focha 22-26;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359106;18.626867;Focha;22-26
+5951;Wolnoœci 20;Gdañsk;80-541;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.401607;18.662964;Wolnoœci ;20
+5952;Focha 13-19/21-29;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358720;18.628721;Focha;13-19/21-29
+5953;Ksiêdza Góreckiego 9;Gdañsk;80-544;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.399780;18.669451;Ksiêdza Góreckiego;9
+5955;Mylna 2 Szko³a;Gdañsk;80-544;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.399044;18.672277;Mylna ;2
+5956;Kozietulskiego 16;Gdañsk;80-156;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356386;18.630523;Kozietulskiego;16
+5957;Poniatowskiego 15;Gdañsk;80-156;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357433;18.630120;Poniatowskiego;15
+5958;Œwidnicka 4/6/Jordana/Ochota;Gdañsk;80-156;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357740;18.631702;Œwidnicka;06-kwi
+5959;Beethovena (Gimnazjum);Gdañsk;80-171;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356998;18.614280000000008;Beethovena;18
+5961;Goplañska/Otomiñska;Gdañsk;80-178;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.338812;18.507550;Goplañska/Otomiñska;
+5962;Powstañców Warszawskich 23;Gdañsk;80-152;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354790;18.631400;Powstañców Warszawskich;23
+5963;Legnicka 21;Gdañsk;80-150;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353991;18.628011;Legnicka;21
+5964;S³abego 21;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.370853;18.524102;Mieczys³awa S³abego;21
+5966;S³abego 2;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.371010;18.522744;Mieczys³awa S³abego;2
+5967;Kartuska 17;Gdañsk;80-103;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351315;18.634256;Kartuska;17
+5968;S³abego 7;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.372786;18.524655;Mieczys³awa S³abego;7
+5969;Czêstochowska 33-35;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329650;18.579430;Czêstochowska;33-35
+5970;S³abego 3;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.372861;18.523145;Mieczys³awa S³abego;3
+5971;Wiolinowa 1;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.376956;18.522909;Wiolinowa;1
+5972;Ostro³êcka 2-10 ;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330606;18.58738500000004;Ostro³êcka ;10-lut
+5973;Ostro³êcka 19;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329774;18.588073;Ostro³êcka;19
+5974;Ostro³êcka 31-33;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329354;18.585722;Ostro³êcka;31-33
+5975;Z³ota Karczma (Policja);Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374002;18.522222;Z³ota Karczma;
+5976;Warszawska 96;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.333205;18.584866;Warszawska;96
+5977;Z³ota Karczma 15-17;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374678;18.523619;Z³ota Karczma ;15-19
+5978;Jeleniogórska 7;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327544;18.586372;Jeleniogórska;7
+5979;Z³ota Karczma (Stacja Shell);Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375384;18.521601;Z³ota Karczma ;
+5980;Jeleniogórska 11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326494;18.585006;Jeleniogórska;11
+5981;Z³ota Karczma (dzia³ki);Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.370570;18.521302;Z³ota Karczma ;
+5982;Jeleniogórska 24;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326952;18.584305;Jeleniogórska;24
+5983;Jeleniogórska 34;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327381;18.583193;Jeleniogórska;34
+5984;Podchor¹¿ych 12;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377950;18.504358;Podchor¹¿ych;12
+5987;Podchor¹¿ych 10;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377540;18.505225;Podchor¹¿ych;10
+5988;Piotrkowska 2;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330394;18.584539;Piotrkowska;2
+5989;Elewów 2;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378981;18.506907;Elewów;2
+5990;Piotrkowska 6;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330048;18.584200;Piotrkowska;6
+5991;Elewów 3;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379553;18.506759;Elewów;3
+5992;Elewów 10;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379507;18.504100;Elewów;10
+5994;Piotrkowska 11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330150;18.585771;Piotrkowska;11
+5995;Podchor¹¿ych 6;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377534;18.505230;Podchor¹¿ych;6
+5996;Kadetów 6;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378640;18.505434;Kadetów ;6
+5997;Nowos¹decka 3;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327418;18.580731;Nowos¹decka;3
+5998;Storczykowa 5;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354934;18.510443;Storczykowa;5
+5999;Nowos¹decka 11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327315;18.579753;Nowos¹decka;11
+6000;Nowos¹decka 15A;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326630;18.579977;Nowos¹decka;15A
+6001;Jaœminowy Stok 59;Gdañsk;80-177;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355625;18.510035;Jaœminowy Stok;59
+6002;Ko³odzieja 53;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.333092;18.582727;Ko³odzieja;53
+6003;Astronautów 50;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.382661;18.490361;Astronautów;50
+6004;Cz³uchowska 6 (szko³a);Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325271;18.584716;Cz³uchowska;6
+6005;Budowlanych 23;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.368785;18.466942;Budowlanych ;19
+6007;Bytowska 4 (Dwór Oliwski);Gdañsk;80-328;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405570;18.537600;Bytowska;4
+6008;Budowlanych 23;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.364656;18.472615;Budowlanych;23
+6009;Budowlanych 3;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374251;18.464487;Budowlanych;3
+6011;Budowlanych 49;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363617;18.473434;Budowlanych ;49
+6012;Opacka 7 (Szko³a Podstawowa nr 23);Gdañsk;80-330;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411884;18.556041;Opacka ;7
+6013;Fundamentowa 9 przedszkole;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355756;18.493835;Fundamentowa;9
+6014;Fundamentowa 6;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354386;18.494615;Fundamentowa ;6
+6015;Krawieñska 3 (ZOO) Aleja Jelenia;Gdañsk;80-328;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413337;18.533602;Krawieñska;3
+6016;Krawieñska 3 (ZOO) Bar Miœ;Gdañsk;80-328;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413464;18.533893;Krawieñska;3
+6017;Przyrodników 14 Schronisko dla Zwierz¹t;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374681;18.449059;Przyrodników ;14
+6018;Krawieñska 3 (ZOO) Bar Hipcio;Gdañsk;80-328;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.413603;18.534120;Krawieñska;3
+6019;Radarowa 26;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388495;18.483298;Radarowa ;26
+6020;Tatrzañska 2;Gdañsk;80-331;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.412685;18.556473;Tatrzañska;2
+6021;Taneczna 1;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351392;18.534031;Taneczna ;1
+6022;Tatrzañska 11 AB;Gdañsk;80-331;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.414013;18.553876;Tatrzañska;11AB
+6023;Taneczna 4;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352119;18.534461;Taneczna;4
+6024;Karpacka 2;Gdañsk;80-336;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415233;18.556951;Karpacka;2
+6025;Borska 2;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348217;18.478624;Borska ;2
+6026;Karpacka 8 AB;Gdañsk;80-336;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415684;18.554501;Karpacka;8AB
+6027;Kartuska 459;Gdañsk;80-298;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352576;18.499542;Kartuska;459
+6028;Polanki 131 (V LO);Gdañsk;80-322;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407319;18.558993;Polanki;131
+6029;Kwietna 28;Gdañsk;80-330;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.407971;18.549508;Kwietna;28
+6030;Przytulna 18;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352270;18.531184;Przytulna ;18
+6031;Polanki 125;Gdañsk;80-322;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405292;18.558038;Polanki;125
+6032;Przytulna 25-27;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352797;18.531307;Przytulna ;25-27
+6034;Przytulna 36;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348917;18.531561;Przytulna ;36
+6035;Czy¿ewskiego 25;Gdañsk;80-336;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418567;18.559028;Czy¿ewskiego;25
+6036;Czy¿ewskiego 31;Gdañsk;80-336;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421808;18.560781;Czy¿ewskiego;31
+6037;¯yczliwa 9-11;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345768;18.530381;¯yczliwa ;11-wrz
+6038;Czy¿ewskiego 12 B Przedszkole Leœny Domek;Gdañsk;80-336;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.415808;18.557530;Czy¿ewskiego ;12B
+6039;Szczêœliwa 40-42;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353686;18.527154;Szczêœliwa ;40-42
+6040;Witkiewicza 7;Gdañsk;80-319;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405512;18.560788;Witkiewicza;7
+6041;SYmpatyczna 6-8;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350493;18.529604;Sympatyczna ;08-cze
+6042;Grunwaldzka 262;Gdañsk;80-314;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396355;18.577673;Grunwaldzka;262
+6043;Odyseusza 2;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.432234;18.486308;Odyseusza ;2
+6044;Wita Stwosza 13;Gdañsk;80-312;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405693;18.564055;Wita Stwosza;13
+6045;Hermesa 32;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422750;18.483047;Hermesa;32
+6046;Wita Stwosza 31;Gdañsk;80-312;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403435;18.566408;Wita STwosza;31
+6047;Wita Stwosza 50/52;Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.398018;18.568148;Wita Stwosza;52
+6049;Wita Stwosza 58;Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396672;18.570093;Wita Stwosza;58
+6050;Orfeusza 24;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.419237;18.479166;Orfeusza ;24
+6051;Wita Stwosza 55 UG;Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397689;18.572169;Wita Stwosza;55
+6052;Wita Stwosza 57;Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395016;18.574083;Wita Stwosza;57
+6053;Orfeusza 46;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418394;18.479404;Orfeusza;46
+6054;Orfeusza 6;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421493;18.481080;Orfeusza ;6
+6055;Wita Stwosza 53 (biblioteka);Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397223;18.573772;Wita Stwosza;53
+6056;Kielnieñska 45;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.428568;18.480211;Kielnieñska;45
+6057;Wita Stwosza 59 Wydzia³ Bilogii;Gdañsk;80-312;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395106;18.576463;Wita Stwosza;59
+6058;Ba¿yñskiego 1 (rektorat UG);Gdañsk;80-309;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.400766;18.571227;Ba¿yñskiego;1
+6059;Komandorska 77 przedszkole;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.434755;18.469271;Komandorska;77
+6060;Ba¿yñskiego 4;Gdañsk;80-312;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.398943;18.573944;Ba¿yñskiego;4
+6061;Komandorska/Juraty;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.435305;18.468710;Komandorska/Juraty;
+6062;Ba¿yñskiego 6;Gdañsk;80-309;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.397935;18.571915;Ba¿yñskiego;6
+6063;Rabatki 9;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.433616;18.464740;Rabatki;9
+6064;Grottgera 2A;Gdañsk;80-319;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.405723;18.561893;Grottgera;2A
+6065;Grottgera 30;Gdañsk;80-319;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.404339;18.561997;Grottgera;30
+6066;Grottgera 25;Gdañsk;80-311;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.402442;18.563194;Grottgera;25
+6067;Barniewicka/Posejdona;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.425695;18.458625;Barniewicka/Posejdona;
+6068;Grottgera 32;Gdañsk;80-319;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.403381;18.562053;Grottgera;32
+6069;Husa 5;Gdañsk;80-315;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.406937;18.567769;Husa;5
+6070;Barniewicka 60A Dworzec PKP;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420966;18.452112;Barniewicka ;60A
+6071;Abrahama 56;Gdañsk;80-307;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393019;18.576868;Abrahama;56
+6072;Barniewicka 74;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.416159;18.450010;Barniewicka ;74
+6073;Polanki 40;Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.399371;18.563723;Polanki;40
+6074;Barniewicka/Nowy Œwiat;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.418086;18.449943;Barniewicka/Nowy Œwiat;
+6075;Polanki 63;Gdañsk;80-306;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395058;18.568022;Poalnki;63
+6076;Spacerowa 48 Real;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.425420;18.489675;Spacerowa;48
+6077;Macierzy Szkolnej 10;Gdañsk;80-308;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.395681;18.569723;Macierzy Szkolnej ;10
+6078;Antygony 23;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.420584;18.463750;Antygony;23
+6079;Norblina 28;Gdañsk;80-304;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389078;18.569589;Norblina;28
+6080;Borcharda 23;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421936;18.469275;Borcharda;23
+6081;Rodakowskiego 2;Gdañsk;80-304;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.386440;18.569274;Rodakowskiego;2
+6082;Daru Pomorza 9;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.422445;18.471242;Daru Pomorza;9
+6083;Galaktyczna 23;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.425936;18.486949;Galaktyczna ;23
+6084;Che³moñskiego 12;Gdañsk;80-303;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388827;18.571553;Che³moñskiego;12
+6085;Che³moñskiego 12;Gdañsk;80-303;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388827;18.571553;Che³moñskiego;12
+6086;Micha³owskiego 39;Gdañsk;80-300;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.385574;18.571077;Micha³owskiego;39
+6087;Kozioro¿ca 13-15;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.424450;18.472680;Kozioro¿ca ;13-15
+6088;Micha³owskiego 29;Gdañsk;80-300;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.386508;18.573573;Micha³owskiego ;29
+6089;VII Dwór 6;Gdañsk;80-301;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387425;18.574574;VII Dwór 6;
+6090;Paneckiego 19;Gdañsk;80-306;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.392592;18.570657;Paneckiego;19
+6091;Owczarnia 80 dzia³ki;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.411329;18.489427;Owczarnia;80
+6092;Homera 63;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.421779;18.484415;Homera ;63
+6093;Anny Jagiellonki 25-27;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329311;18.60227199999997;Anny Jagielonki;25-27
+6094;Nike 6;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423379;18.484488;Nike;6
+6095;Nike 10;Gdañsk;80-299;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.423442;18.483805;Nike ;10
+6096;Anny Jagiellonki 30;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329017;18.605237;Anny Jagielonki;30
+6097;Anny Jagiellonki 20-22;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329275;18.603530;Anny Jagiellonki;20-22
+6098;Anny Jagiellonki 40;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328553;18.605741;Anny Jagiellonki;40
+6099;Anny Jagiellonki 46;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327836;18.605186;Anny Jagiellonki;46
+6100;Wieniawskiego 15;Gdañsk;80-142;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.436058;18.433461;Wieniawskiego;15
+6101;Anny Jagiellonki 41-45;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328735;18.606593;Anny Jagiellonki;41-45
+6102;Królowej Bony 7-11;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327773;18.603466;Królowej Bony;11-lip
+6103;Grota-Roweckiego 6;Gdañsk;80-108;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348097;18.626215;Grota-Roweckiego;6
+6104;£añcucka 1;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.332395;18.602386;£añcucka;1
+6105;Kartuska 35;Gdañsk;80-141;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350672;18.629412;Kartuska ;35
+6106;Nieborowska 36;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331944;18.605471;Nieborowska;36
+6107;Kartuska 83;Gdañsk;80-136;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349257;18.621536;Kartuska;83
+6108;Nieborowska 42-44;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331038;18.603779;Nieborowska;42-44
+6109;Kartuska 126;Gdañsk;80-104;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348537;18.619319;Kartuska ;126
+6110;Nieborowska 44;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331510;18.603300;Nieborowska;44
+6111;Kartuska 128;Gdañsk;80-104;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348331;18.618155;Kartuska;128
+6112;Nieborowska 46;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331248;18.602388;Nieborowska;46
+6113;Kartuska 93;Gdañsk;80-136;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349275;18.619839;Kartuska;93
+6114;Nieborowska 48F;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330919;18.601164;Nieborowska ;48F
+6115;Nieborowska 48F;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330919;18.601164;Nieborowska ;48F
+6116;Nieborowska 48D;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331350;18.601270;Nieborowska ;48 D
+6117;Kartuska 54;Gdañsk;80-136;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349350;18.627729;Kartuska;54
+6118;Nieborowska 41;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330782;18.604705999999965;Nieborowska;41
+6119;Kartuska 120;Gdañsk;80-104;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348531;18.619327;Kartuska;120
+6120;Nieborowska 1;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330220;18.601243;Nieborowska;1
+6121;Kartuska 91;Gdañsk;80-136;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349272;18.619828;Kartuska ;91
+6122;Nieborowska 3;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330274;18.602571;Nieborowska ;3
+6123;Kartuska 75C;Gdañsk;80-136;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349915;18.623340;Kartuska;75C
+6124;Nieborowska 9;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330658;18.605541;Nieborowska;9
+6125;Kartuska 201 GIWK;Gdañsk;80-122;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348547;18.605772;Kartuska;201
+6126;Nieborowska 5;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330295;18.603772;Nieborowska;5
+6127;B¹dkowskiego 13;Gdañsk;80-137;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350883;18.611617;B¹dkowskiego;13
+6128;Wawelska 7;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329064;18.607644;Wawelska;7
+6129;Wawelska 20;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330062;18.609488;Wawelska;20
+6130;Kolonia Zrêby;Gdañsk;80-133;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349865;18.608054;Kolonia Zrêby;16
+6131;Wawelska 4;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328440;18.612025;Wawelska;4
+6132;Kolonia Zrêby 50-53;Gdañsk;80-133;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350009;18.606393;Kolonia Zrêby;50-53
+6133;Wawelska 8;Gdañsk;80-034;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328198;18.609226;Wawelska;8
+6134;Szara 7A;Gdañsk;80-116;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348773;18.610753;Szara;7A
+6135;Œwiêtokrzyska 1 (Stacja SHELL);Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326577;18.610125;Œwiêtokrzyska;1
+6136;Szara 7F;Gdañsk;80-116;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348716;18.609183;Szara;7F
+6137;Szara 30;Gdañsk;80-116;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348361;18.611378;Szara;30
+6138;Platynowa 19;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325698;18.624641;Platynowa;19
+6139;Platynowa 21;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326135;18.624903;Platynowa;21
+6140;Szara 32-33;Gdañsk;80-116;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348275;18.612253;Szara ;32-33
+6141;Platynowa 26;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325488;18.627957;Platynowa;26
+6142;Struga 16;Gdañsk;80-116;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346973;18.604575;Struga;16
+6143;Czirenberga 1;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325088;18.625248;Czirenberga;1
+6144;Pobiedzisko 18;Gdañsk;80-113;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346308;18.616608;Pobiedzisko;16
+6145;Hoene 1;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326382;18.623671999999942;Hoene;1
+6146;Malczewskiego 131;Gdañsk;80-107;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349241;18.629500;Malczewskiego;131
+6147;Hoene 5;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327521;18.623522;Hoene;5
+6148;Ogiñskiego 16;Gdañsk;80-114;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347947; 18.611515;Ogiñskiego;16
+6149;Krzemowa 21;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326654;18.623056;Krzemowa;21
+6150;Kartuska 26;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349562;18.632569;Kartuska;26
+6151;Rozra¿ewskiego 4;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325741;18.621805;Rozra¿ewskiego;4
+6152;Malczewskiego 139;Gdañsk;80-107;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348867;18.631529;Malczewskiego;139
+6153;Platynowa 16;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.324800;18.621295;Platynowa;16
+6154;£ostowicka 4 stacja Shell;Gdañsk;80-121;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347047;18.603792;£ostowicka;4
+6155;Krzemowa 4;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325592;18.618808;Krzemowa;4
+6156;Piekarnicza 2;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351978;18.590763;Piekarnicza;2
+6157;Uranowa 1;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325152;18.619485;Uranowa;1
+6158;Uranowa 3;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326421;18.620225;Uranowa;3
+6159;Piekarnicza 30-40 Miejsce postojowe nr 73;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349938;18.581972;Piekarnicza ;30-40
+6160;Uranowa 5;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327239;18.620209;Uranowa ;5
+6161;Piekarnicza 19-21;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349545;18.583277;Piekarnicza ;19-21
+6162;Uranowa 9;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328333;18.620871;Uranowa ;9
+6163;Dominika 3;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327238;18.621947;Dominika;3
+6164;Wiewiórcza 5;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349139;18.580480;Wiewiórcza;5
+6165;Mi³osza 41;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346583;18.590007;Mi³osza;41
+6166;Dominika 7;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327796;18.622016;Dominika;7
+6167;Mi³osza 45;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347390;18.588928;Mi³osza;45
+6168;Mi³osza 47;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348599;18.588383;Mi³osza;47
+6169;3 Brygady Szczerbca 6;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322061;18.620204;3 Brygady Szczerbca;6
+6170;Mi³osza 51;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348705;18.588179;Mi³osza ;51
+6171;Dywizji Wo³yñskiej 8;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323331;18.618271;Dywizji Wo³yñskiej;8
+6172;Myœliwska 15-17;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346656;18.581898;Myœliwska;15-17
+6173;Strzelców Karpackich 1;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323809;18.617353;Strzelców Karpackich;1
+6174;Myœliwska 22;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349219;18.582119;Myœliwska;22
+6175;Zygmunta Rumla 15;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322487;18.614216;Zygmunbta Rumla;15
+6176;Myœliwska 26AB;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350183;18.580407;Myœliwska ;26AB
+6177;Zygmunta Rumla 15 (za szlabanem);Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322780;18.613487;Zygmunbta Rumla;15
+6178;Wilanowska 2;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336068;18.599262;Wilanowska ;2
+6179;Zygmunta Rumla 18;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322002;18.612801;Zygmunta Rumla;18
+6180;Wilanowska 4;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335422;18.599841;Wilanowska;4
+6181;Wilanowska 7;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334672;18.602792;Wilanowska ;7
+6182;Dywizji Wo³yñskiej 30;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.320322;18.610818;Dywizji Wo³yñskiej;30
+6183;Wilanowska 12;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334106;18.600902;Wilanowska ;12
+6184;Dywizji Wo³yñskiej 22;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322458;18.615036;Dywizji Wo³yñskiej;22
+6185;Rogaliñskiego 3 Przychodnia;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329583;18.600098;Rogaliñskiego;3
+6186;Dywizji Wo³yñskiej 27;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321665;18.614271;Dywizji Wo³yñskiej;27
+6187;Platynowa 6;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325262;18.613314;Platynowa;6
+6188;Okulickiego 2;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325165;18.612174;Okulickiego;2
+6189;Antczaka 3;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323748;18.612165;Antczaka;3
+6190;Antczaka 7;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.324207;18.613773;Antczaka;7
+6191;Bruskiego 16;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321921;18.608663;Bruskiego;16
+6192;Bruskiego 10;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322129;18.609227;Bruskiego;10
+6193;Kurierów Armii Krajowej 7;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325853;18.609985;Kurierów Armi Krajowej;7
+6194;Dru¿yn Strzeleckich;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323153;18.594233;Dru¿yn Strzeleckich;
+6195;Sosnkowskiego 11;Gdañsk;80-041;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.32357;18.607375000000047;Sosnkowskiego;11
+6197;Diamentowa 13;Gdañsk;80-028;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326475;18.628731;Diamentowa;13
+6198;Diamentowa 3;Gdañsk;80-028;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327191;18.631706;Diamentowa;3
+6199;Diamentowa 7;Gdañsk;80-028;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326763;18.629656;Diamentowa;7
+6200;Raduñska 42;Gdañsk;80-021;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323295;18.629761;Raduñska;42
+6201;Raduñska 19;Gdañsk;80-027;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326559;18.631661;Raduñska ;19
+6202;Raduñska 9;Gdañsk;80-027;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328317;18.632257;Raduñœka;9
+6203;Rubinowa 1;Gdañsk;80-033;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325830;18.631200;Rubinowa;1
+6204;Szafirowa 2;Gdañsk;80-022;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.324771;18.630817;Szafirowa;2
+6205;Piaskowa 10;Gdañsk;80-025;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329170;18.629241;Piaskowa;10
+6206;Ma³omiejska 45;Gdañsk;80-037;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330125;18.625974;Ma³omiejska;45
+6207;Ma³omiejska 8A;Gdañsk;80-037;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330654;18.628584;Ma³omiejska;8A
+6208;Nakielska 1;Gdañsk;80-029;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329975;18.627680;Nakielska ;1
+6209;Rogaliñska 7-8;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76; 54.330163;18.599485;Rogaliñska;08-lip
+6210;Rogaliñska 4;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331271;18.600271;Rogaliñska;4
+6211;Rogaliñska 19-21;Gdañsk;80-809;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331725;18.597114;Rogaliñska;19-21
+6212;Radomska/Ciechanowska;Gdañsk;80-108;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327537;18.598925;Radomska/Ciechanowska;
+6213;P³ocka 5/Tarnowska 1e;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326953;18.596035;P³ocka/Tarnowska;5/1e
+6214;P³ocka 11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.326119;18.593081;P³ocka;11
+6215;Kaliska 8;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.324985;18.595035;Kaliska;8
+6216;Zamojska 15;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325607;18.592079;Zamojska;15
+6217;Przemyska 10;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327610;18.591950;Przemyska;10
+6218;Przemyska 12;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327567;18.593797;Przemyska;12
+6219;Przemyska 30-26;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328713;18.592883;Przemyska;26-30
+6220;Przemyska 41;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330577;18.592538;Przemyska;41
+6221;Przemyska 55;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330798;18.592178;Przemyska;55
+6222;Przemyska 47;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331247;18.591998;Przemyska;47
+6223;Przemyska 49;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331198;18.592598;Przemyska;49
+6224;P³ocka 6 (gara¿e);Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327574;18.595791;P³ocka;6
+6226;£ódzka 40;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.329106;18.597051;£ódzka;40
+6227;Ujeœcisko 5;Gdañsk;80-130;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344506;18.590136;Ujeœcisko;5
+6228;S³oneczna Dolina 12;Gdañsk;80-126;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343539;18.588916;S³oneczna Dolina;12
+6229;Ujeœcisko 18;Gdañsk;80-130;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343958;18.591950;Ujeœcisko;18
+6230;3 Maja 7 (Komenda Policji);Gdañsk;80-802;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354617;18.641564;3 Maja;7
+6231;3 Maja 9 (Urz¹d Miejski);Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354579;18.642226;3 Maja ;9
+6232;Nowe Ogrody 8/12;Gdañsk;80-803;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351461;18.640821;Nowe Ogrody;12-sie
+6234;Kurkowa 12;Gdañsk;80-803;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352478;18.640518;Kurkowa;12
+6235;Kurkowa 12 Areszt Œledczy;Gdañsk;80-803;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352953;18.638839;Kurkowa;12
+6236;Gradowa 6;Gdañsk;80-802;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358510;18.640353;Gradowa;6
+6237;3 Maja 24/25;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359137;18.643089;3 Maja;24/25
+6238;Sucha 29;Gdañsk;80-531;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.393703;18.645758;Sucha;29
+6239;Starowiejska 41;Gdañsk;80-534;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.391005;18.648831;Starowiejska;41
+6240;Za³ogowa 1 (MRKS);Gdañsk;80-557;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.382626;18.644204;Za³ogowa ;1
+6241;Szklana Huta 2;Gdañsk;80-529;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.390028;18.649712;Szklana Huta ;2
+6242;PGE Arena;Gdañsk;80-560;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388925;18.640517;¯aglowa;30-32
+6243;Zielony Trójk¹t 1 - Szko³a Podstawowa 69;Gdañsk;80-869;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378963;18.629382;Zielony Trójk¹t;1
+6244;Twarda 18;Gdañsk;80-871;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375297;18.632881;Twarda ;18
+6245;Twarda 17;Gdañsk;80-871;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375298;18.633006;Twarda;17
+6246;Miko³aja Reja 30;Gdañsk;80-870;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379525;18.630689;Miko³aja Reja;30
+6247;Miko³aja Reja 28;Gdañsk;80-870;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379618;18.629963;Miko³aja Reja;28
+6248;Miko³aja Reja 26;Gdañsk;80-870;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379688;18.629343;Miko³aja Reja;26
+6249;Bohomolca 2 ;Gdañsk;80-410;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388132;18.628768;Bohomolca;2
+6250;Klonowicza 1;Gdañsk;80-405;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.383572;18.626823;Klonowicza;1
+6251;Klonowicza 3;Gdañsk;80-405;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.384160;18.626537;Klonowicza;3
+6252;Okrzei 4 (parking);Gdañsk;80-404;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377417;18.624261;Okrzei;4
+6253;Baczyñskiego 6;Gdañsk;80-410;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389617;18.624440;Baczyñskiego;6
+6254;Baczyñskiego 12;Gdañsk;80-410;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.389698;18.627789;Baczyñskiego;12
+6255;Hallera 165;Gdañsk;80-416;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388227;18.623390;Hallera;165
+6256;Koœciuszki 109;Gdañsk;80-427;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387398;18.623737;Koœciuszki;109
+6257;Koœciuszki 118;Gdañsk;80-427;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387925;18.627180;Koœciuszki;118
+6258;Koœciuszki 111;Gdañsk;80-427;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387509;18.625698;Koœciuszki;111
+6259;Hallera 139;Gdañsk;80-416;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.385945;18.623287;Hallera;139
+6260;Hallera 115-127;Gdañsk;80-416;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.384564;18.622907;Hallera;115-127
+6261;Hallera 107;Gdañsk;80-416;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.382297;18.624141;Hallera;107
+6262;Hallera 201 Gedania;Gdañsk;80-416;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.396017;18.623099;Hallera;201
+6263;Kliniczna 1 Szpital;Gdañsk;80-402;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.376033;18.625667;Kliniczna;1
+6264;Kopernika 9-9A;Gdañsk;80-208;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363431;18.634285;Kopernika;9-9A
+6265;Orzeszkowej 21;Gdañsk;80-208;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363413;18.632338;Orzeszkowej ;21
+6266;Dêbowa 7;Gdañsk;80-204;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360976;18.629912;Dêbowa;7
+6267;Lili Wenedy 18;Gdañsk;80-419;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.385734;18.616871;Lili Wenedy;18
+6268;Dêbowa 9;Gdañsk;80-204;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361248;18.627517;Dêbowa;9
+6269;Orzeszkowej 18;Gdañsk;80-208;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.362763;18.630944;Orzeszkowej ;18
+6270;Chrobrego 9A;Gdañsk;80-423;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.384460;18.615532;Chrobrego;9A
+6271;Dêbowa 23;Gdañsk;80-208;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360397;18.623769;Dêbowa;23
+6272;Dêbinki 2;Gdañsk;80-211;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363524;18.629171;Dêbinki;2
+6273;Koœciuszki 61;Gdañsk;80-445;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387378;18.614911;Tadeusza Koœciuszki;61
+6274;Dêbinki 7 GUMed;Gdañsk;80-211;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.365823;18.621539;Dêbinki;7
+6275;Sk³odowskiej-Curie 3a;Gdañsk;80-210;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.366306;18.629432;Sk³odowskiej-Curie;3a
+6276;Hoene-Wroñskiego 1;Gdañsk;80-210;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.366050;18.628749;Hoene-Wroñskiego;1
+6277;Legionów 17;Gdañsk;80-444;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387814; 18.610646;Legionów;17
+6278;Wroñskiego 4;Gdañsk;80-210;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.365860;18.629806;Wroñskiego;4
+6279;Mickiewicza 6;Gdañsk;80-425;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.383536;18.616774;Adama Mickiewicza;6
+6280;Tuwima 15;Gdañsk;80-210;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.365861;18.631297;Tuwima;15
+6281;Aleja Zwyciêstwa 41-42;Gdañsk;80-210;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.366689;18.632614;Aleja Zwyciêstwa;41-42
+6282;Koœciuszki 8B ;Gdañsk;80-451;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.385776;18.603395;Tadeusza Koœciuszki;8B
+6283;Goszyñska 1 (sklep);Gdañsk;80-174;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328483;18.551547;Goszyñska;1
+6284;Koœciuszki 9;Gdañsk;80-451;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.385238;18.605238;Tadeusza Koœciuszki;9
+6285;Leszczynowa 54-56;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334271;18.559780;Leszczynowa;54-56
+6286;Koœciuszki 103-103A;Gdañsk;80-421;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387458;18.621703;Tadeusza Koœciuszki;103-103A
+6287;Leszczynowa 84-86;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331825;18.558005;Leszczynowa;84-86
+6288;Koœciuszki 102;Gdañsk;80-421;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388157;18.620424;Tadeusza Koœciuszki;102
+6289;Leszczynowa 90;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331360;18.557125;Leszczynowa;90
+6290;Koœciuszki 91-93;Gdañsk;80-421;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.387651;18.619828;Koœciuszki ;91-93
+6291;Jab³oniowa 13;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330581;18.556358;Jab³oniowa;13
+6292;Chrobrego 12;Gdañsk;80-423;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.384693;18.615219;Boles³awa Chrobrego ;12
+6293;Jab³oniowa 17;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330618;18.556336;Jab³oniowa;17
+6294;Jab³oniowa 21;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330594;18.556291;Jab³oniowa ;21
+6295;Koœciuszki 76;Gdañsk;80-446;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.388447; 18.615387;Tadeusza Koœciuszki;76
+6296;Jab³oniowa 23;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.331029;18.563647;Jab³oniowa;23
+6297;Jab³oniowa 23;Gdañsk;80-175;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330583;18.564344;Jab³oniowa;23
+6298;Chrobrego 80;Gdañsk;80-414;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.390781; 18.616955;Boles³awa Chrobrego ;80
+6299;Potêgowska 12;Gdañsk;80-174;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.330335;18.551279;Potêgowska;12
+6300;Rental Park;Gdañsk;80-244;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378039;18.606496;Grunwaldzka ;92/98
+6301;Leskiego 21;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323273;18.558320;Leskiego;21
+6302;Górnicza 2;Gdañsk;80-415;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.391456;18.621450;Górnicza;2
+6303;Guderskiego 51;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322061;18.560155;Guderskiego;51
+6304;Leczkowa 24-32;Gdañsk;80-432;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379390;18.617949;Leczkowa;24-32
+6305;Guderskiego 68-70;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.323535;18.556935;Guderskiego;68-70
+6306;Leczkowa 18;Gdañsk;80-432;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379049;18.617739;Leczkowa ;18
+6307;Wyspiañskiego 7;Gdañsk;80-434;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378313;18.618581;Stanis³awa Wyspiañskiego;7
+6308;Tamka 5 (Przystañ Wodna);Gdañsk;80-609;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357615;18.707416;Tamka ;5
+6309;Wyspiañskiego 5;Gdañsk;80-434;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377648;18.619704;Stanis³awa Wyspiañskiego ;5
+6310;Tamka 27;Gdañsk;80-627;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359246;18.716850;Tamka;27
+6311;Wyspiañskiego 38/40;Gdañsk;80-343;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.382302;18.614563;Stanis³awa Wyspiañskiego;38/40
+6312;Tamka 52 d;Gdañsk;80-627;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360636;18.718632;Tamka;52d
+6313;Wyspiañskiego 25;Gdañsk;80-434;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.382210;18.616030;Stanis³awa Wyspiañskiego;25
+6314;Stryjewskiego 46;Gdañsk;80-631;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361658;18.717639;Stryjewskiego;46
+6315;Wyspiañskiego 20;Gdañsk;80-434;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379798;18.616280;Stanis³awa Wyspiañskiego;20
+6316;Stogi-aleja na pla¿y;Gdañsk;80-656;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.373177;18.729052;Wydmy;1A
+6317;Leczkowa 1a;Gdañsk;80-432;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377782;18.621517;Leczkowa;1a
+6318;Stogi Pla¿a;Gdañsk;80-656;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374708;18.730945;Wydmy;1
+6319;Poprzeczna 2-4;Gdañsk;80-432;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377328; 18.620962;Poprzeczna;04-lut
+6320;Niska 11;Gdañsk;80-616;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363371;18.710474;Niska;11
+6321;Legionów 11;Gdañsk;80-432;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.385859;18.612935;Legionów ;11
+6322;Wrzosy 26;Gdañsk;80-618;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.362408;18.710440;Wrzosy;6
+6323;Zalesie 10;Gdañsk;80-665;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.364464;18.708306;Zalesie ;10
+6324;Miszewskiego 3;Gdañsk;80-239;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378394;18.612931;Leona Miszewskiego;3
+6325;Roz³ogi 16 (Przedszkole nr 16);Gdañsk;80-658;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.364218;18.715183;Roz³ogi;16
+6326;Waryñskiego 7;Gdañsk;80-242;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378802;18.612253;Waryñskiego;7
+6327;Dmowskiego 16 (UG);Gdañsk;80-264;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378979;18.607920;Romana Dmowskiego;16
+6328;Rybna 4;Gdañsk;80-626;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360831;18.716695;Rybna;4
+6329;Lendziona 6;Gdañsk;80-264;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.381321;18.602644;Lendziona ;6
+6330;Przetoczna 15;Gdañsk;80-702;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358541;18.676936;Przetoczna;15
+6331;Dmowskiego 9;Gdañsk;80-264;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379681;18.607883;Dmowskiego;9
+6332;Bajki 1;Gdañsk;80-706;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355920;18.681985;Bajki;1
+6333;Sienna 1;Gdañsk;80-705;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354838;18.683266;Sienna;1
+6334;Bia³a 7A;Gdañsk;80-435;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.381344;18.611650;Bia³a ;7A
+6335;Sienna 11c;Gdañsk;80-705;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354799;18.685972;Sienna;11c
+6336;Multikino;Gdañsk;80-219;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.372169;18.627187;Zwyciêstwa;14
+6337;Sienna 12;Gdañsk;80-705;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355911;18.687866;Sienna;12
+6338;Aleja Zwyciêstwa 16-17 (S¹d);Gdañsk;80-219;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.373159;18.624286;Zwyciêstwa;16-17
+6339;Brzechwy 7;Gdañsk;80-706;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356461;18.686851;Brzechwy ;7
+6340;Sienna 18;Gdañsk;80-705;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356713;18.688561;Sienna;18
+6341;Wa³y Jagielloñskie 1;Gdañsk;80-853;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352456;18.644915;Wa³y Jagielloñskie ;1
+6342;Sienna 26;Gdañsk;80-605;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358486;18.692091;Sienna;26
+6343;Pastoriusza 15-16;Gdañsk;80-707;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355177;18.682223;Pastoriusza;15-16
+6344;Wa³y Jagielloñskie 2/4;Gdañsk;80-887;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354241;18.644634;Wa³y Jagielloñskie;04-lut
+6345;Sennicka 10;Gdañsk;80-703;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356004;18.679955;Sennicka ;10
+6346;Aksamitna 8 (szko³a);Gdañsk;80-858;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358163;18.652883;Aksamitna;8
+6347;Siennicka 23 - Zak³ad Karny;Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360846;18.684324;Siennicka;23
+6348;Kêpna 33;Gdañsk;80-635;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360310;18.739046;Kêpna;33
+6349;Grobla I 13;Gdañsk;80-835;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350635;18.654463;Grobla I;13
+6350;Jod³owa 4;Gdañsk;80-633;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360120;18.720798;Jod³owa;4
+6351;Grobla IV 8 (szko³a);Gdañsk;80-837;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353112;18.655480;Grobla IV;8
+6352;£owicka 11F;Gdañsk;80-642;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.355390;18.771812;£owicka;11F
+6353;Klesza/Mariacka;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349794; 18.654332;Klesza/Mariacka;
+6354;Centralny Oœrodek Sportu Stogi 20;Gdañsk;80-642;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.366991;18.776108;Stogi;20
+6355;Tobiasza 3;Gdañsk;80-837;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353231;18.656125;Tobiasza ;3
+6356;Wydmy 9 Camping;Gdañsk;80-656;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.369254;18.729998;Wydmy;9
+6357;Straganiarska 3;Gdañsk;80-837;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352550;18.653753;Straganiarska;3
+6358;£owicka 10D Dzia³ki;Gdañsk;80-642;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354633;18.773423;£owicka;10D
+6359;Z³otników 30-31;Gdañsk;80-837;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351012;18.652847;Z³otników;30-31
+6360;£owicka 10D (drugi punkt - dzia³ki);Gdañsk;80-642;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354315;18.773742;£owicka;10D
+6361;Tandeta 1;Gdañsk;80-837;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351542;18.655585;Tandeta;1
+6363;Bielañska 5 (UG);Gdañsk;80-837;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353786;18.647108;Bielañska ;5
+6364;Szpaki 9-13;Gdañsk;80-642;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.362650;18.713899;Szpaki;13-wrz
+6365;Dickensa 3;Gdañsk;80-706;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357145;18.687868;Dickensa;3
+6366;M³yñska 9/11;Gdañsk;80-846;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353055;18.649543;M³yñska ;11-wrz
+6367;Podwale Staromiejskie 51/52;Gdañsk;80-846;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354419;18.657638;Podwale Staromiejskie;51/52
+6368;Lenartowicza 10;Gdañsk;80-704;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357340;18.687281;Lenartowicza;10
+6369;Sukiennicza 4a;Gdañsk;80-882;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354796;18.657919;Sukiennicza;4a
+6370;Lenartowicza 13;Gdañsk;80-704;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357963;18.687298;Lenartowicza;13
+6371;Ugory 7;Gdañsk;80-663;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363004;18.706826;Ugory;7
+6372;Pod Zamcze 6;Gdañsk;80-882;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354054; 18.655567;Pod Zamcze;6
+6373;Ugory 9 (ko³o œwietlicy, Dzia³ki);Gdañsk;80-663;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363149;18.705410;Ugory;9
+6374;Stare Domki;Gdañsk;80-882;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356146;18.656605;Stare Domki;6
+6375;Bajki 4;Gdañsk;80-706;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356133;18.682419;Bajki;4
+6376;Rybaki Dolne;Gdañsk;80-842;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357361;18.655103;Rybaki Dolne;3
+6377;Powalna 8;Gdañsk;80-723;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350611;18.671485;Powalna;8
+6378;Stêpkarska 5;Gdañsk;80-842;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357186;18.664748;Stêpkarska;5
+6379;Mostek 30-38;Gdañsk;80-759;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349664;18.673005;Mostek;30-38
+6380;Stêpkarska 2;Gdañsk;80-842;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.357087;18.663723;Stêpkarska;2
+6381;Siennicka 4;Gdañsk;80-758;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351561;18.671913;Siennicka;4
+6382;Podwale Staromiejskie 92;Gdañsk;80-844;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353468;18.652169;Podwale Staromiejskie;92
+6383;G³êboka 19;Gdañsk;80-759;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.352070;18.673050;G³êboka;19
+6384;Katarzynki 9;Gdañsk;80-884;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.353914;18.653170;Katarzynki;9
+6385;Œwibnieñska 198A;Gdañsk;80-690;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.314149;18.929627;Œwibnieñska;198A
+6386;Heweliusza 17;Gdañsk;80-884;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356549;18.650856;heweliusza ;17
+6387;Œwibnieñska 198H;Gdañsk;80-690;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.315112;18.930076;Œwibnieñska;198H
+6388;£agiewniki 64;Gdañsk;80-855;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359128;18.649290;£agiewniki;64
+6389;Przegaliñska 29;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334080;18.841525;Przegaliñska;29
+6390;Wa³owa 27;Gdañsk;80-855;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358756;18.654088;Wa³owa;27
+6391;Szko³a Podstawowa w Œwibnie;Gdañsk;80-690;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335802;18.925236;Boguckiego;70
+6392;Wa³owa 21;Gdañsk;80-855;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358859;18.651253;Wa³owa;21
+6393;Kwiatowa 6;Gdañsk;80-690;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337731;18.892954;Kwiatowa;6
+6394;Wa³owa 15;Gdañsk;80-855;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358352;18.649505;Wa³owa ;15
+6395;Kwiatowa 11;Gdañsk;80-690;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336515;18.895036;Kwiatowa;11
+6396;Falowa (wejœcie nr 16);Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354545;18.835773;Falowa;8
+6397;Osiek 11 Szko³a;Gdañsk;80-842;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.356604;18.654931;Osiek;11
+6398;Promienista 2;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343935;18.831197;Promienista ;2
+6399;Turystyczna 12;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343919;18.828930;Turystyczna;12
+6400;Smoluchowskiego 13 (szko³a);Gdañsk;80-214;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367378;18.625873;Smoluchowskiego;13
+6401;Têczowa 6 (szko³a);Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344900;18.829441;Têczowa;6
+6402;Têczowa 9;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345967;18.826232;Têczowa;9
+6403;Aleja Zwyciêstwa 33;Gdañsk;80-219;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.369574; 18.627636;Zwyciêstwa;33
+6404;Ornitologów 26;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348311;18.795829;Ornitologów;26
+6405;Ornitologów 4;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349848;18.792568;Ornitologów;4
+6406;Grunwaldzka 2;Gdañsk;80-236;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374620;18.619746;Grunwaldzka ;2
+6407;Nadwiœlañka 107;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349089;18.796584;Nadwiœlañska;107
+6408;Traugutta 29 (BKS Lechia);Gdañsk;80-221;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.368881;18.626634;Traugutta;29
+6409;Lazurowa 8 (Hotel Orle);Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345878;18.875090;Lazurowa;8
+6410;Lazurowa (wejœcie nr 11);Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347928;18.874793;Lazurowa;10
+6411;Traugutta 29 MOSIR;Gdañsk;80-221;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367487;18.624710;Traugutta;29
+6412;Nadwiœlañska 108;Gdañsk;80-680;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349373;18.801267;Nadwiœlañska;108
+6413;Matejki 8;Gdañsk;80-232;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375379;18.609982;Matejki;8
+6414;Lotos I;Gdañsk;80-718;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344608;18.723987;Elbl¹ska;135
+6415;Sobieskiego 7;Gdañsk;80-216;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.368107;18.612286;Sobieskiego;7
+6416;Lotos II;Gdañsk;80-718;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344144;18.724508;Elbl¹ska;135
+6417;Sitowie 41;Gdañsk;80-176;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345546;18.698871;Sitowie;41
+6418;Gdañskiego Kolejarza 83;Gdañsk;80-716;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347056;18.703461;Gdañskiego Kolejarza;83
+6419;Sobieskiego Wydzia³ Chemii UG;Gdañsk;80-216;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.366210;18.612892;Sobieskiego;
+6420;Rzêsna 3;Gdañsk;80-716;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349789;18.706400;Rzêsna;3
+6421;Traugutta 92;Gdañsk;80-226;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.370378;18.608494;Traugutta;92
+6422;Rzêsna 1A;Gdañsk;80-716;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.349741;18.704424;Rzêsna;1A
+6423;traugutta 115;Gdañsk;80-226;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.369300;18.607287;Traugutta;115
+6424;Mia³ki Szlak 176;Gdañsk;80-717;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351274;18.705789;Mia³ki Szlak;176
+6425;Mia³ki Szlak 74;Gdañsk;80-717;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348411;18.695699;Mia³ki Szlak;74
+6426;Fiszera 13B;Gdañsk;80-231;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.373662;18.613963;Fiszera;13B
+6427;Mia³ki Szlak 140;Gdañsk;80-717;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350500;18.702985;Mia³ki Szlak;140
+6428;Mia³ki Szlak 73;Gdañsk;80-717;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348966;18.695962;Mia³ki Szlak;73
+6429;Do Studzienki 32;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.369556;18.610780;Do Studzienki;32
+6430;Do Studzienki 34;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.368680;18.610767;Do Studzienki;34
+6431;Tarcice 2;Gdañsk;80-718;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351733;18.702320;Tarcice;2
+6432;Do Studzienki 36 (przedszkole nr 4);Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367566;18.610682;Do Studzienki;36
+6433;Tarcice 12;Gdañsk;80-718;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.354151;18.709639;Tarcice;12
+6434;Do Studzienki 67;Gdañsk;80-227;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367395;18.608876;Do Studzienki;67
+6435;Po³ê¿e 17B;Gdañsk;80-720;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344731;18.692278;Po³ê¿e;17B
+6436;Do Studzienki 31;Gdañsk;80-227;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.372914;18.611505;Do Studzienki;31
+6437;Elbl¹ska 54/60 Stra¿ Miejska;Gdañsk;80-724;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348442;18.674340;Elbl¹ska;54/60
+6438;Sobótki 4;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375908;18.609533;Sobótki;4
+6439;Zawodników 1 MOSiR;Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346920;18.671232;Zawodników;1
+6440;Jaœkowa Dolina 26-32;Gdañsk;80-252;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375267;18.606535;Jaœkowa Dolina;26-32
+6441;Niwki 8;Gdañsk;80-731;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336116;18.678013;Niwki;8
+6442;Jaœkowa Dolina 31;Gdañsk;80-252;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.372953;18.600494;Jaœkowa Dolina;31
+6443;Jaœkowa Dolina 69;Gdañsk;80-252;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.369988;18.594886;Jaœkowa Dolina;69
+6444;Trakt œw.Wojciecha 440 (cmentarz);Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.287041;18.637162;Trakt œw.Wojciecha;440
+6445;Migowska 15;Gdañsk;80-287;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.366536;18.601530;Migowska ;15
+6446;Trakt œw.Wojciecha 320 (Przedszkole nr 24);Gdañsk;80-020;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.302234;18.630411;Trakt œw.Wojciecha;320
+6447;Traugutta 29;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367637;18.624976;Traugutta;29
+6448;Stroma 19 (Szko³¹ Podstawowa nr 40);Gdañsk;80-012;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.283814;18.636519;Stroma;40
+6449;Narutowicza Politechnika Audytorium Novum;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.371979;18.619680;Narutowicza;
+6450;Po Schodkach 12;Gdañsk;80-008;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.282071;18.634868;Po Schodkach ;12
+6451;Narutowicza Politechnika Budynek ¯elbetu;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.370761;18.616321;Narutowicza;
+6452;Smoleñska 5/7 (szko³a);Gdañsk;80-058;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.320176;18.637732;Smoleñska;07-maj
+6453;Politechnika Budynek G³ówny (³¹cznik);Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.371355;18.619109;;
+6454;Smoleñska 6/8 (szko³a);Gdañsk;80-058;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.320127;18.635897;Smoleñska;08-cze
+6455;¯u³awska 5A;Gdañsk;80-059;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322642;18.637584;¯u³awska;5A
+6456;Politechnika Wydzia³ Chemiczny;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.371174;18.620879;;
+6457;Politechnika Aula;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.372741;18.616460;;
+6458;¯u³awska 4D;Gdañsk;80-062;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322628;18.636270;¯u³awska;4D
+6459;Sandomierska 35;Gdañsk;80-051;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.332446;18.642532;Sandomierska;35
+6460;Politechnika Wydzia³ Okrêtowy;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.371943;18.616724;;
+6461;Dworcowa 9;Gdañsk;80-026;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.325473;18.633990;Dworcowa;9
+6462;Falista/Bro¿ka;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.367494;18.594068;Falista/Bo¿ka;
+6463;Nowiny 28;Gdañsk;80-001;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.318249;18.628409;Nowiny ;28
+6464;Raciborskiego 4;Gdañsk;80-286;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363580; 18.596642;Raciborskiego;4
+6465;Ubocze 3 (szko³a);Gdañsk;80-052;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.328278;18.638514;Ubocze;3
+6466;Ubocze 24;Gdañsk;80-052;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.327654;18.637469;Ubocze;24
+6467;Myczkowskiego 8;Gdañsk;80-215;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363221;18.599058;Myczkowskiego;8
+6468;Trakt œw. Wojciecha 237;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.312805;18.630379;Trakt œw. Wojciecha ;237
+6469;Czubiñskiego 6-4;Gdañsk;80-215;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.364991;18.598679;Czubiñskiego;04-cze
+6470;Trakt Œw. Wojciecha 459;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.285524;18.638070;Trakt œw.Wojciecha ;459
+6471;Trakt Œw. Wojciecha 293 WIOŒ;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.305168;18.630514;Trakt œw.Wojciecha;293
+6472;Suwalska 46;Gdañsk;80-215;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.364121;18.605700;Suwalska ;46
+6473;Trakt œw. Wojciecha 223 SHELL;Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.314753;18.629689;Trakt œw.Wojciecha;223
+6474;Batorego 35;Gdañsk;80-251;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377956;18.598530;Batorego;35
+6475;Okopowa 21/27 (Urz¹d Wojewódzki);Gdañsk;80-819;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343604;18.646089;Okopowa;21/27
+6476;RzeŸnicka 44;Gdañsk;80-822;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343398;18.646664;RzeŸnicka;44
+6477;Pod Zrêbem 8;Gdañsk;80-821;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341310;18.648599;Pod Zrêbnem;8
+6478;Batorego 35;Gdañsk;80-251;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377973;18.598531;Stefana Batorego;35
+6479;Batorego 37;Gdañsk;80-251;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378053;18.597320;Stefana Batorego;37
+6480;Augustyñskiego 1 (CKU);Gdañsk;80-819;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342251;18.645800;Augustyñskiego;1
+6481;Batorego 38;Gdañsk;80-251;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378132;18.596734;Stefana Batorego;38
+6482;Okopowa 15;Gdañsk;80-819;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346821;18.646117;Okopowa;15
+6483;Partyzantów 26B;Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377961;18.602173;Partyzantów;26B
+6484;K³¹dki 24;Gdañsk;80-822;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346677;18.646905;K³adki;24
+6485;Partyzantów 35;Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.378821;18.599997;Partyzantów;35
+6486;Toruñska 6;Gdañsk;80-822;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344375;18.648453;Toruñska;6
+6487;Obywatelska 6;Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.379610;18.593660;Obywatelska ;6
+6488;Toruñska 15;Gdañsk;80-747;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342629;18.654997;Toruñska;15
+6489;Topolowa 7 (III LO);Gdañsk;80-254;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377151;18.595950;Topolowa ;7
+6490;Toruñska 24;Gdañsk;80-747;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.341024;18.655371;Toruñska;24
+6491;Podleœna Korty;Gdañsk;80-980;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.374220;18.590137;;
+6492;Toruñska 27;Gdañsk;80-747;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.340438;18.656794;Toruñska ;27
+6493;Podleœna 37;Gdañsk;80-255;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375404;18.592393;Podleœna;37
+6494;Szuwary 3;Gdañsk;80-764;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343867;18.661924;Szuwary ;3
+6495;Ko³¹taja 5-7;Gdañsk;80-262;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.380472;18.595744;Ko³¹taja;07-maj
+6496;Jesionowa 18A;Gdañsk;80-261;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.380324;18.600463;Jesionowa ;18A
+6497;O³owianka 9-13 (Muzeum Morskie);Gdañsk;80-751;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350843;18.658988;O³owainka;13-wrz
+6498;Zabytkowa 4;Gdañsk;80-253;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.377549;18.589171;Zabytkowa;4
+6499;Szafarnia (Przystañ Jachtowa);Gdañsk;80-755;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.350093;18.660006;Szafarnia;
+6500;Grunwaldzka 43-45;Gdañsk;80-241;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.375774;18.613162;Grunwaldzka ;43-45
+6501;Szafarnia 5-8;Gdañsk;80-755;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347679;18.660558;Szafarnia;08-maj
+6502;Grunwaldzka 136-138;Gdañsk;80-264;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.380834;18.599962;Grunwaldzka ;136/138
+6503;£¹kowa 61 (szko³a);Gdañsk;80-769;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346649;18.663806;£¹kowa;61
+6504;Stryjewskiego 13;Gdañsk;80-607;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360263;18.708184;Stryjewskiego;13
+6505;£¹kowa 1/2;Gdañsk;80-743;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345209;18.663169;£¹kowa;02-sty
+6506;Stryjewskiego 16-18-20;Gdañsk;80-611;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360958;18.709917;;
+6507;Œluza 6 (szko³a);Gdañsk;80-770;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342081;18.657309;Œluza;6
+6508;Stryjewskiego 37-39;Gdañsk;80-631;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.361216;18.718097;Stryjewskiego ;37-39
+6509;Kurza 9;Gdañsk;80-742;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339577;18.658080;Kurza;9
+6510;Zimna 2/Stryjewskiego 9;Gdañsk;80-607;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359099;18.708955;Zimna/Stryjewskiego;09-lut
+6511;D³ugie Ogrody 11;Gdañsk;80-754;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348050;18.662078;D³ugie Ogrody;11
+6512;Zimna 7;Gdañsk;80-606;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359158;18.708964;Zimna ;7
+6513;D³ugie Ogrody 26;Gdañsk;80-765;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347546;18.666623;D³ugie Ogrody;26
+6514;Skiby 1/3;Gdañsk;80-617;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360825;18.708777;Skiby;03-sty
+6515;Ho¿a 1-3-5;Gdañsk;80-628;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359566;18.712478;Ho¿a;2001-03-05
+6516;Dziewanowskiego 4-5;Gdañsk;80-752;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.351409;18.663647;Dziewanowskiego;05-kwi
+6517;Ho¿a 4;Gdañsk;80-628;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359570;18.711947;Ho¿a;4
+6518;Sienna Grobla (Przystañ Wodna);Gdañsk;80-760;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359978;18.666038;Sienna Grobla;
+6519;Ho¿a 6-10;Gdañsk;80-268;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360269;18.712526;Ho¿a ;10-cze
+6520;Na Stoku 43 (szko³a);Gdañsk;80-811;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346187;18.642213;Na stoku;43
+6521;Ho¿a 7;Gdañsk;80-628;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360034;18.712672;Ho¿a;7
+6522;Zaroœlak 14;Gdañsk;80-811;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343440;18.643045;Zaroœlak;14
+6523;Ho¿a 11ABC;Gdañsk;80-628;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.360876;18.714725;Ho¿a;11ABC
+6524;Fundacyjna 7;Gdañsk;80-746;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.339334;18.653823;Fundacyjna;7
+6525;Sempo³owskiej 17;Gdañsk;80-744;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343014;18.663559;Sempo³owskiej;17
+6526;Wrzosy 3;Gdañsk;80-618;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.363315;18.710772;Wrzosy;3
+6527;Niska 2;Gdañsk;80-616;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.362771;18.708345;NIska;2
+6528;Biskupia Góra (Komenda Policji);Gdañsk;;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343731;18.638189;Biskupia górka;
+6529;Polonusa 12;Gdañsk;80-609;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.359195; 18.707269;Polonusa;12
+6530;U³añska 11;Gdañsk;80-745;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344226;18.664764;U³añska;11
+6531;Polonusa 24;Gdañsk;80-609;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.358827;18.710017;Polonusa ;24
+6532;Sempo³owskiej 12;Gdañsk;80-744;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342709;18.665101;Sempo³owskiej;12
+6533;¯abi Kruk 15 (Przystañ Wodna);Gdañsk;80-822;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.342598;18.648597;Zabi Kruk;15
+6534;Tamka 2;Gdañsk;80-609;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;18.705670;18.705670;Tamka ;2
+6535;¯abi Kruk 5;Gdañsk;80-822;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.344751;18.649996;Zabi Kruk;5
+6536;Szopy 2;Gdañsk;80-762;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345859;18.661062;Szopy;2
+6537;¯abi Kruk 2/Kocurki 1;Gdañsk;80-822;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346023;18.650114;¯abi Kruk/Kocurki;01-lut
+6538;Szopy 1;Gdañsk;80-762;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346331;18.661201;Szopy ;1
+6539;Szopy 3;Gdañsk;80-762;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.345052;18.661655;Szopy;3
+6540;D³ugie Ogrody 4;Gdañsk;80-765;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.346803; 18.662516;D³ugie Ogrody;4
+6541;Porêbskiego 48;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.320670;18.577517;Porêbskiego;48
+6542;Za Murami 19a;Gdañsk;80-823;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.347634;18.650892;Za Murami;19a
+6543;Porêbskiego 49;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322354;18.573552;Porêbskiego;49
+6544;Pocztowa 1 Z³obek;Gdañsk;80-827;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.348722;18.649752;Pocztowa;1
+6545;Porêbskiego 41/43;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321639;18.572793;Porêbskiego;41/43
+6546;K³oczkowskiego 1,3,11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321413;18.573512;K³oczkowskiego;1,3,11
+6547;Zamiejska 29-31;Gdañsk;80-036;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334450;18.627995;Zamiejska;29-31
+6548;K³oczkowskiego 7;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321203;18.572439;K³oczkowskiego;7
+6549;Spadzista 7;Gdañsk;80-811;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.343045;18.641519;Spadzista ;7
+6550;Porêbskiego 66;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322518;18.574988;Porêbskiego ;66
+6551;Szopiñskiego 5;Gdañsk;80-772;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.337334;18.624211;Szopiñskiego;5
+6552;Porêbskiego 70;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322575;18.576309;Porêbskiego;70
+6553;Jab³oñskiego 10;Gdañsk;80-766;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335019;18.625799;Jab³oñskiego;10
+6554;Wielkopolska 20 (Szko³a Podstawowa);Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.316606;18.589798;Wielkopolska;20
+6555;Wielkopolska 63,65;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.309173;18.588696;Wielkopolska;63,65
+6556;Jab³oñskiego 4;Gdañsk;80-766;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336223;18.625684;Jab³oñskiego ;4
+6557;Jab³oñskiego 6;Gdañsk;80-766;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.336065;18.625814;Jab³oñskiego;6
+6558;Jab³oñskiego 7-9;Gdañsk;80-766;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335752;18.626774;Jab³oñskiego;09-lip
+6559;Guderskiego 1;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.316241;18.569449;Guderskiego;1
+6560;Jab³oñskiego 21;Gdañsk;80-766;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.334582;18.628310;Jab³oñskiego ;21
+6561;Guderskiego 4;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.314682;18.570639;Guderskiego;4
+6562;Jab³oñskiego 26;Gdañsk;80-766;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.333339;18.625013;Jab³oñskiego;26
+6563;Guderskiego 20-42;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317334;18.568655;Guderskiego;20-42
+6564;Guderskiego 24-42;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.319320;18.565974;Guderskiego;24-42
+6565;Suchanka 4;Gdañsk;80-772;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335091;18.624627;Suchanka;4
+6566;Œwiêtokrzyska 130;Gdañsk;80-130;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.315406;18.572012;Œwiêtokrzyska ;130
+6567;Suchanka 2;Gdañsk;80-772;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.335456;18.625738;Suchanka;2
+6568;Olimpijska 13-19;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.306502;18.584780;Olimpijska;13-19
+6569;Bergiela 2-4;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317138;18.583466;Bergiela;04-lut
+6570;Kielasa 1-3-5;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;4.305588;18.585127;Kielasa;2001-03-05
+6571;Bergiela 4-6;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317440;18.584264;Bergiela ;06-kwi
+6572;Kielasa 7-9-11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.304740;18.586628;Kielasa;2007-09-11
+6573;Bergiela 5;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317392;18.580970;Bergiela ;5
+6574;Kielasa 18-22;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.304864;18.586862;Kielasa;18-22
+6575;Bergiela 8A;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317783;18.583766;Bergiela;8A
+6576;Kielasa 12-14-16;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.304793;18.585423;Kielasa;12-14-16
+6577;Bergiela 9;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.318832;18.582350;Bergiela;9
+6578;Topazowa 1-3;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.311079;18.598833;Topazowa;03-sty
+6579;Srebrna 9;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.313743;18.60370599999999;Srebrna;9
+6580;Srebrna 14;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.314291;18.603653;Srebrna;14
+6581;Porêbskiego 4 (szko³a Olipijczyk);Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.318742;18.578925;Porêbskiego ;4
+6582;Srebrna 22;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.314710;18.602022;Srebrna;22
+6583;Porêbskiego 25-27-29;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.319604;18.577176;Porêbskiego;25-27-29
+6584;Srebrna 24;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.315323;18.601806;Srebrna;24
+6585;Srebrna 28;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.315837;18.600920;Srebrna;28
+6586;Porêbskiego 34;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.319339;18.579765;Porêbskiego ;34
+6587;Kampinowska 16;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.316255;18.600998;Kampinowska ;16
+6588;Porêbskiego 36-42;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.319921;18.579494;Porêbskiego;36-42
+6589;Kolorowa 9;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.312302;18.603571;Kolorowa;9
+6590;Porêbskiego 16;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.318701;18.578654;Porêbskiego;16
+6591;Kolorowa 11;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.312427;18.604222;Kolorowa;11
+6592;Porêbskiego 15;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.318764;18.582840;Porêbskiego;15
+6593;Kolorowa 25;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.311821;18.603381;Kolorowa;25
+6594;Porêbskiego 31;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.319602;18.577176;Porêbskiego;31
+6595;D¹bka 2;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321909;18.586061;D¹bka;2
+6596;Porêbskiego 50;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321090;18.575821;Porêbskiego;50
+6597;Podleckiego 3;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.308163;18.593313;Podleckiego;3
+6598;Porêbskiego 52;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321429;18.576198;Porêbskiego;52
+6599;Porêbskiego 58;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.322126;18.574939;Porêbskiego;58
+6600;Kazimierza Wielkiego 45;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.300587;18.609973;Kazimierza Wielkiego;45
+6601;Hokejowa 14;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.308638;18.593401;Hokejowa;14
+6602;Hokejowa 16;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.308620;18.594950;Hokejowa;16
+6603;Starogardzka 79;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.301227;18.607355;Starogardzka;79
+6604;£ucznicza 9;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.307309;18.592344;£ucznicza;9
+6605;Jagie³³y 3;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.303718;18.613805;Jagie³³y;3
+6606;Przemian 13;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.307170;18.607917;Przemian;13
+6607;Olimpijska 25;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.305949;18.585825;Olimpijska;25
+6608;Olimpijska 56;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.308859; 18.590192;Olimpijska;56
+6609;Olimpijska 52-54;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.308992;18.591171;Olimpijska;52-54
+6610;Dulina 2,4,6;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.321973;18.577389;Dulina;2,4,6
+6611;Tenisowa 4;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.304777; 18.581581;Tenisowa;4
+6612;Jaworzniaków 19;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317317;18.573163;Jaworzniaków;19
+6613;Podleckiego 1;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.308434;18.593021;Podleckiego;1
+6614;Jaworzniaków 18;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.317370;18.572767;Jaworzniaków ;18
+6615;Jaworzniaków 40-50;Gdañsk;80-180;www.zut.com;zut@zut.com.pl;326-01-00;326-01-11;322-15-76;54.316061;18.575085;Jaworzniaków;40-50
