@@ -5,7 +5,7 @@ Wyrzuc.to to aplikacja informująca mieszkańców Gdańska o tym gdzie, kiedy po
 
 ## Analiza
 
-[Analiza dla Miasta Gdańsk](ANALIZA-GDANSK.md)
+[Analiza dla Miasta Gdańsk](https://github.com/psielach/wyrzuc.to/wiki/Analiza%20Gda%C5%84sk)
 
 ## Funkcjonalności
 Podstawowe funkcje na których na początku się skupimy:
