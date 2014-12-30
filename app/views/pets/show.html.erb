@@ -1,0 +1,89 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ulicas:</strong>
+  <%= @pet.ulicas %>
+</p>
+
+<p>
+  <strong>Ulica:</strong>
+  <%= @pet.ulica %>
+</p>
+
+<p>
+  <strong>Nr domu:</strong>
+  <% if @pet.nr_domu.eql? "" %>
+  <%= "Cała Ulica" %>
+  <% end %>
+</p>
+
+<p>
+  <strong>Dzielnica:</strong>
+  <%= @pet.dzielnica %>
+</p>
+
+<p>
+<h3>Odbiór śmieci suchych</h3>
+<% if @pet.suche1.eql? "x" %>
+<%= "Poniedziałek" %>
+<% end %>
+<% if @pet.suche2.eql? "x" %>
+<%= "Wtorek" %>
+<% end %>
+<% if @pet.suche3.eql? "x" %>
+<%= "Środa" %>
+<% end %>
+<% if @pet.suche4.eql? "x" %>
+<%= "Czwartek" %>
+<% end %>
+<% if @pet.suche5.eql? "x" %>
+<%= "Piątek" %>
+<% end %>
+<% if @pet.suche6.eql? "x" %>
+<%= "Sobota" %>
+<% end %>
+<br>
+<%= link_to('Co wrzucac do suchych', '/suche') %>
+<h3>Odbiór śmieci mokrych</h3>
+<% if @pet.mokre1.eql? "x" %>
+<%= "Poniedziałek" %>
+<% end %>
+<% if @pet.mokre2.eql? "x" %>
+<%= "Wtorek" %>
+<% end %>
+<% if @pet.mokre3.eql? "x" %>
+<%= "Środa" %>
+<% end %>
+<% if @pet.mokre4.eql? "x" %>
+<%= "Czwartek" %>
+<% end %>
+<% if @pet.mokre5.eql? "x" %>
+<%= "Piątek" %>
+<% end %>
+<% if @pet.mokre6.eql? "x" %>
+<%= "Sobota" %>
+<% end %>
+<br>
+<%= link_to('Co wrzucac do mokrych', '/mokre') %>
+<h3>Odbiór śmieci zmieszanych</h3>
+<% if @pet.mieszane1.eql? "x" %>
+<%= "Poniedziałek" %>
+<% end %>
+<% if @pet.mieszane2.eql? "x" %>
+<%= "Wtorek" %>
+<% end %>
+<% if @pet.mieszane3.eql? "x" %>
+<%= "Środa" %>
+<% end %>
+<% if @pet.mieszane4.eql? "x" %>
+<%= "Czwartek" %>
+<% end %>
+<% if @pet.mieszane5.eql? "x" %>
+<%= "Piątek" %>
+<% end %>
+<% if @pet.mieszane6.eql? "x" %>
+<%= "Sobota" %>
+<% end %>
+<br>
+<%= link_to 'Edit', edit_pet_path(@pet) %> |
+<%= link_to 'Back', pets_path %>

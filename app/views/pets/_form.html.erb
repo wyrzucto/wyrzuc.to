@@ -1,0 +1,113 @@
+<%= form_for(@pet) do |f| %>
+  <% if @pet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@pet.errors.count, "error") %> prohibited this pet from being saved:</h2>
+
+      <ul>
+      <% @pet.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ulicas %><br>
+    <%= f.text_field :ulicas %>
+  </div>
+  <div class="field">
+    <%= f.label :ulica %><br>
+    <%= f.text_field :ulica %>
+  </div>
+  <div class="field">
+    <%= f.label :nr_domu %><br>
+    <%= f.text_field :nr_domu %>
+  </div>
+  <div class="field">
+    <%= f.label :dzielnica %><br>
+    <%= f.text_field :dzielnica %>
+  </div>
+  <div class="field">
+    <%= f.label :suche1 %><br>
+    <%= f.text_field :suche1 %>
+  </div>
+  <div class="field">
+    <%= f.label :suche2 %><br>
+    <%= f.text_field :suche2 %>
+  </div>
+  <div class="field">
+    <%= f.label :suche3 %><br>
+    <%= f.text_field :suche3 %>
+  </div>
+  <div class="field">
+    <%= f.label :suche4 %><br>
+    <%= f.text_field :suche4 %>
+  </div>
+  <div class="field">
+    <%= f.label :suche5 %><br>
+    <%= f.text_field :suche5 %>
+  </div>
+  <div class="field">
+    <%= f.label :suche6 %><br>
+    <%= f.text_field :suche6 %>
+  </div>
+  <div class="field">
+    <%= f.label :mokre1 %><br>
+    <%= f.text_field :mokre1 %>
+  </div>
+  <div class="field">
+    <%= f.label :mokre2 %><br>
+    <%= f.text_field :mokre2 %>
+  </div>
+  <div class="field">
+    <%= f.label :mokre3 %><br>
+    <%= f.text_field :mokre3 %>
+  </div>
+  <div class="field">
+    <%= f.label :mokre4 %><br>
+    <%= f.text_field :mokre4 %>
+  </div>
+  <div class="field">
+    <%= f.label :mokre5 %><br>
+    <%= f.text_field :mokre5 %>
+  </div>
+  <div class="field">
+    <%= f.label :mokre6 %><br>
+    <%= f.text_field :mokre6 %>
+  </div>
+  <div class="field">
+    <%= f.label :mieszane1 %><br>
+    <%= f.text_field :mieszane1 %>
+  </div>
+  <div class="field">
+    <%= f.label :mieszane2 %><br>
+    <%= f.text_field :mieszane2 %>
+  </div>
+  <div class="field">
+    <%= f.label :mieszane3 %><br>
+    <%= f.text_field :mieszane3 %>
+  </div>
+  <div class="field">
+    <%= f.label :mieszane4 %><br>
+    <%= f.text_field :mieszane4 %>
+  </div>
+  <div class="field">
+    <%= f.label :mieszane5 %><br>
+    <%= f.text_field :mieszane5 %>
+  </div>
+  <div class="field">
+    <%= f.label :mieszane6 %><br>
+    <%= f.text_field :mieszane6 %>
+  </div>
+  <div class="field">
+    <%= f.label :nie_odebrane %><br>
+    <%= f.text_field :nie_odebrane %>
+  </div>
+  <div class="field">
+    <%= f.label :typ %><br>
+    <%= f.text_field :typ %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="notice"><%= notice %></p>
+<form action="../">
+  Wpisz Ulice: <input type="text" name="ulica"><br>
+  <input type="submit" value="Sprawdz">
+</form>
+<% @ul.each do |d| %>
+<h3>Odbiór śmieci suchych</h3>
+<% if d.suche1.eql? "x" %>
+<%= "Poniedziałek" %>
+<% end %>
+<% if d.suche2.eql? "x" %>
+<%= "Wtorek" %>
+<% end %>
+<% if d.suche3.eql? "x" %>
+<%= "Środa" %>
+<% end %>
+<% if d.suche4.eql? "x" %>
+<%= "Czwartek" %>
+<% end %>
+<% if d.suche5.eql? "x" %>
+<%= "Piątek" %>
+<% end %>
+<% if d.suche6.eql? "x" %>
+<%= "Sobota" %>
+<% end %>
+<br>
+<%= link_to('Co wrzucac do suchych', '/suche') %>
+<h3>Odbiór śmieci mokrych</h3>
+<% if d.mokre1.eql? "x" %>
+<%= "Poniedziałek" %>
+<% end %>
+<% if d.mokre2.eql? "x" %>
+<%= "Wtorek" %>
+<% end %>
+<% if d.mokre3.eql? "x" %>
+<%= "Środa" %>
+<% end %>
+<% if d.mokre4.eql? "x" %>
+<%= "Czwartek" %>
+<% end %>
+<% if d.mokre5.eql? "x" %>
+<%= "Piątek" %>
+<% end %>
+<% if d.mokre6.eql? "x" %>
+<%= "Sobota" %>
+<% end %>
+<br>
+<%= link_to('Co wrzucac do mokrych', '/mokre') %>
+<h3>Odbiór śmieci zmieszanych</h3>
+<% if d.mieszane1.eql? "x" %>
+<%= "Poniedziałek" %>
+<% end %>
+<% if d.mieszane2.eql? "x" %>
+<%= "Wtorek" %>
+<% end %>
+<% if d.mieszane3.eql? "x" %>
+<%= "Środa" %>
+<% end %>
+<% if d.mieszane4.eql? "x" %>
+<%= "Czwartek" %>
+<% end %>
+<% if d.mieszane5.eql? "x" %>
+<%= "Piątek" %>
+<% end %>
+<% if d.mieszane6.eql? "x" %>
+<%= "Sobota" %>
+<% end %>
+<br>
+
+<% end %>
+<h1>Menager Danych wywozu</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ulicas</th>
+      <th>Ulica</th>
+      <th>Nr domu</th>
+      <th>Dzielnica</th>
+      <th>Suche1</th>
+      <th>Suche2</th>
+      <th>Suche3</th>
+      <th>Suche4</th>
+      <th>Suche5</th>
+      <th>Suche6</th>
+      <th>Mokre1</th>
+      <th>Mokre2</th>
+      <th>Mokre3</th>
+      <th>Mokre4</th>
+      <th>Mokre5</th>
+      <th>Mokre6</th>
+      <th>Mieszane1</th>
+      <th>Mieszane2</th>
+      <th>Mieszane3</th>
+      <th>Mieszane4</th>
+      <th>Mieszane5</th>
+      <th>Mieszane6</th>
+      <th>Nie odebrane</th>
+      <th>Typ</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @pets.each do |pet| %>
+      <tr>
+        <td><%= pet.ulicas %></td>
+        <td><%= pet.ulica %></td>
+        <td><%= pet.nr_domu %></td>
+        <td><%= pet.dzielnica %></td>
+        <td><%= pet.suche1 %></td>
+        <td><%= pet.suche2 %></td>
+        <td><%= pet.suche3 %></td>
+        <td><%= pet.suche4 %></td>
+        <td><%= pet.suche5 %></td>
+        <td><%= pet.suche6 %></td>
+        <td><%= pet.mokre1 %></td>
+        <td><%= pet.mokre2 %></td>
+        <td><%= pet.mokre3 %></td>
+        <td><%= pet.mokre4 %></td>
+        <td><%= pet.mokre5 %></td>
+        <td><%= pet.mokre6 %></td>
+        <td><%= pet.mieszane1 %></td>
+        <td><%= pet.mieszane2 %></td>
+        <td><%= pet.mieszane3 %></td>
+        <td><%= pet.mieszane4 %></td>
+        <td><%= pet.mieszane5 %></td>
+        <td><%= pet.mieszane6 %></td>
+        <td><%= pet.nie_odebrane %></td>
+        <td><%= pet.typ %></td>
+        <td><%= link_to 'Show', pet %></td>
+        <td><%= link_to 'Edit', edit_pet_path(pet) %></td>
+        <td><%= link_to 'Destroy', pet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Pet', new_pet_path %>
+</body>
+</html>
