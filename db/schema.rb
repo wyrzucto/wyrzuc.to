@@ -23,6 +23,13 @@ ActiveRecord::Schema.define(version: 20141230065122) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "odbiors", force: true do |t|
+    t.string   "ulica"
+    t.date     "data"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "pets", force: true do |t|
     t.string   "ulicas"
     t.string   "ulica"
@@ -50,6 +57,16 @@ ActiveRecord::Schema.define(version: 20141230065122) do
     t.string   "typ"
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
+  end
+
+  create_table "punkts", force: true do |t|
+    t.string   "nazwa"
+    t.integer  "telefon"
+    t.string   "co"
+    t.float    "c1"
+    t.float    "c2"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

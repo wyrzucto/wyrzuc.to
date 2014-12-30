@@ -7,12 +7,6 @@ class PetsController < ApplicationController
     @pets = Pet.all
     @kol = Kolorowe.all
     @ul = Pet.where(:ulica => params[:ulica])
-    CSV.foreach('app/assets/stylesheets/kolorowe_smietniki.csv') do |row|
-    a = row[2].to_s
-    b = row[3].to_s
-    c = row[4].to_s
-    Kolorowe.create(ulica: a,numer: b,opis: c)
-    end
 end
   # GET /pets/1
   # GET /pets/1.json
