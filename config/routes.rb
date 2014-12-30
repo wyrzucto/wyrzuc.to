@@ -1,11 +1,7 @@
 Rails.application.routes.draw do
-  get 'main/home'
-
-  get 'main/s1'
-
-  get 'main/s2'
-
-  root :to => "main#home"
+  resources :pets
+root "pets#index"
+match ':controller(/:action(/:id))', :via => :get
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

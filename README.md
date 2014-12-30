@@ -21,6 +21,6 @@ W Polsce:
 - Wywozik Orzesze - [Android](https://play.google.com/store/apps/developer?id=Goste&hl=pl)
 - Kiedy Wywóz (wiele miast, brak aktualizacji) - [Android](https://play.google.com/store/apps/details?id=pk.sophscope.odpady&hl=pl)
 
-Na świecie:
+Na świecie: 
 - [Gominashi JP](http://5374.jp/en/)
 - [Recollect](https://recollect.net/)
