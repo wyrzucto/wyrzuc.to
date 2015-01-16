@@ -1,13 +1,12 @@
 Rails.application.routes.draw do
-  resources :pets
-root "pets#index"
-match ':controller(/:action(/:id))', :via => :get
+  resources :bins
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
+   root 'bins#index'
+match ':controller(/:action(/:id))', :via => :get
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
