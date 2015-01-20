@@ -3,6 +3,9 @@ Wyrzuc.to
 
 Wyrzuc.to to aplikacja informująca mieszkańców Gdańska o tym gdzie, kiedy powinni wyrzucać śmieci. Aplikacja jest tworzona w porozumieniu z miastem Gdańsk w ramach stażu organizowanego przez Fundację ePaństwo. 
 
+## Serwer stage
+[ ![Codeship Status for wyrzucto/wyrzuc.to](https://codeship.com/projects/ac77bd70-82c9-0132-c330-4e1ff6946f22/status?branch=master)](https://codeship.com/projects/57950)
+
 ## Analiza
 
 [Analiza dla Miasta Gdańsk](https://github.com/psielach/wyrzuc.to/wiki/Analiza%20Gda%C5%84sk)
