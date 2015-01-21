@@ -7,7 +7,7 @@ gem 'rails', '4.1.8'
 group :development, :test do
   gem 'sqlite3'
 end
-group :test_codeship, :stage_heroku do
+group :test_codeship, :production, :stage_heroku do
    gem 'pg'
 end
 
