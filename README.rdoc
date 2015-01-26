@@ -1,28 +1,30 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+steps that are necessary to get the
+application up and running:
 
-Things you may want to cover:
+Windows:
 
-* Ruby version
+ 1. Visit railsinstaller.org and download Version 3.1.0
+ (with ruby 2.1.5p273)
 
-* System dependencies
+ 2. Run bundle install
+ 
+ 3. Type "rake db:setup" to insert all the data to your database
 
-* Configuration
+ 3. Type "rails s" in command line in order to start the server
 
-* Database creation
+Usefull information for other operating systems:
 
-* Database initialization
+Ruby version : 2.1.5p273
 
-* How to run the test suite
+Rails: 4.1.8
 
-* Services (job queues, cache servers, search engines, etc.)
+Additional gems ussed in app:
+- "roo"
+- "Geocoder"
+- "Gmaps4rails"
+- "bootstrap-sass"
+- "autoprefixer-rails"
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.

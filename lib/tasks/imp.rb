@@ -1,11 +1,5 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
+class Imp < ActiveRecord::Base
+def impo
 spreadsheet = Roo::Excelx.new("./public/s5.xlsx")
 header = spreadsheet.row(1)
 (2..spreadsheet.last_row).each do |i|
@@ -28,6 +22,6 @@ header = spreadsheet.row(1)
 (2..spreadsheet.last_row).each do |i|
 Select.create(ulica: spreadsheet.cell(i,3))
 end
-
-#require "lib/tasks/imp.rb"
-#Imp.Impo
+end
+end
+end
