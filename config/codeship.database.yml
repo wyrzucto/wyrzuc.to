@@ -9,7 +9,7 @@ development:
   database: development<%= ENV['TEST_ENV_NUMBER'] %>
   port: 5432
   sslmode: disable
-  
+
 test_codeship:
   adapter: postgresql
   host: localhost
