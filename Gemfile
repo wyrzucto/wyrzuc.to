@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.8'
 
 group :development, :test do
+  gem 'pry-rails'
   gem 'sqlite3'
 end
 
