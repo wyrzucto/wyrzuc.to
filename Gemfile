@@ -48,3 +48,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'roo'
 gem 'geocoder'
 gem 'gmaps4rails'
+
+gem 'rails_12factor', group: :production #only for heroku_app
