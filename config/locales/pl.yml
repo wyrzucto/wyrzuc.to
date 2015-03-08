@@ -1,0 +1,5 @@
+pl:
+  home:
+    show:
+      placeholders:
+        garbage_type: 'wpisz typ śmieci'

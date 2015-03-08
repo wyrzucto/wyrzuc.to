@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
 
-  root 'bins#index'
-  resources :bins
-  get ':controller(/:action(/:id))'
-
+  root 'home#show'
+  resource :home, only: [:show], controller: :home
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

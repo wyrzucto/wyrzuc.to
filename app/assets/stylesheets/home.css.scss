@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #FFFEFE;
+}
+
+#map-canvas {
+  height: 100%;
+}
+
+.top-navbar {
+  background-color: rgba(18, 120, 62, 0.91);
+  border-color: rgba(18, 120, 62, 0.91);
+}
+
+.right-sidebar {
+  width: 20%;
+  min-width: 250px;
+  z-index: 1040;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(38, 166, 91, 1);
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}

@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ap3</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <title><%= A9n.app_name %></title>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= yield %>
+  <div id="map-canvas" data-location-lat="<%= default_location[:lat] %>" data-location-lng="<%= default_location[:lng] %>"></div>
 
-<%= yield %>
-
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag '//maps.googleapis.com/maps/api/js' %>
 </body>
 </html>

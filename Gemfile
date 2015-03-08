@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.8'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+  gem 'mocha'
+  gem 'shoulda-matchers'
   gem 'pry-rails'
   gem 'sqlite3'
 end
@@ -48,5 +51,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'roo'
 gem 'geocoder'
 gem 'gmaps4rails'
+gem 'a9n'
+gem 'bootstrap-sass'
 
 gem 'rails_12factor', group: :production #only for heroku_app

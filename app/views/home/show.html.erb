@@ -1,0 +1,24 @@
+<nav class="navbar top-navbar navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="row">
+      <%= form_tag '#', remote: true, class: "form-horizontal" do %>
+        <div class="form-group margin-top-15">
+          <%= label_tag :garbage_type, "Gdzie mam wyrzucić", class: "control-label col-sm-3" %>
+          <div class="col-sm-5">
+            <%= text_field_tag :garbage_type, nil, class: "form-control", placeholder: t(".placeholders.garbage_type") %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</nav>
+
+<nav class="right-sidebar">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        menu
+      </div>
+    </div>
+  </div>
+</nav>

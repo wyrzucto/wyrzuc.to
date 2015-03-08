@@ -1,0 +1,4 @@
+defaults:
+  app_name: 'Wyrzuć.to'
+development:
+production:
