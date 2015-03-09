@@ -7,3 +7,6 @@ development:
 production:
   mailer:
     host: 'wyrzucto.herokuapp.com'
+test_codeship:
+  mailer:
+    host: 'wyrzucto.herokuapp.com'
