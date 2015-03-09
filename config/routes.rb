@@ -2,6 +2,15 @@ Rails.application.routes.draw do
 
   root 'home#show'
   resource :home, only: [:show], controller: :home
+
+  devise_for :admin
+  namespace :service do
+    root 'dashboard#show'
+
+    resource :dashboard, controller: 'dashboard'
+  end
+  #devise_for :admin, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout', password: 'secret', confirmation: 'verification', unlock: 'unblock', registration: 'register', sign_up: 'cmon_let_me_in' }
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

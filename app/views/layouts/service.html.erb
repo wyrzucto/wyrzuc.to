@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= A9n.app_name %></title>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+  <%= yield %>
+
+  <%= stylesheet_link_tag 'service', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'service', 'data-turbolinks-track' => true %>
+</body>
+</html>

@@ -1,6 +1,5 @@
 Geocoder.configure(
-  # geocoding options
-  :timeout        => 15,           # geocoding service timeout (secs)
+  :timeout      => 15,           # geocoding service timeout (secs)
   :lookup       => :bing,     # name of geocoding service (symbol)
   # :language     => :en,         # ISO-639 language code
   # :use_https    => false,       # use HTTPS for lookup requests? (if supported)

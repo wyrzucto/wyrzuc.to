@@ -11,7 +11,6 @@ A9n.load
 
 module Ap3
   class Application < Rails::Application
-
     # config.autoload_paths += %W(
     #   #{config.root}/app/services
     # )
@@ -27,5 +26,7 @@ module Ap3
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :pl
     I18n.config.enforce_available_locales = true
+
+    config.action_mailer.default_url_options = { host: A9n.mailer[:host] }
   end
 end

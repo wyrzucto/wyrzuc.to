@@ -2,4 +2,8 @@ defaults:
   app_name: 'Wyrzuć.to'
   bing_api_key: 'AkfJMcA28r3YTr2EmaiPMRHX1b0Yb8rYmPdcB427GdejdO2UwU-7k9KlOqKQzboM'
 development:
+  mailer:
+    host: 'localhost:3000'
 production:
+  mailer:
+    host: 'wyrzucto.herokuapp.com'
