@@ -1,4 +1,15 @@
 /*
  *= require bootstrap
- *= require controllers/home
+ *= require font-awesome
+ *= require application/home
 */
+
+@font-face {
+  font-family: 'AvenirNextLTPro-UltLt';
+  font-weight: bold;
+  src: font-url('AvenirNextLTPro-UltLt.eot');
+  src: font-url('AvenirNextLTPro-UltLt.eot?#iefix') format('embedded-opentype'),
+       font-url('AvenirNextLTPro-UltLt.woff') format('woff'),
+       font-url('AvenirNextLTPro-UltLt.ttf') format('truetype'),
+       font-url('AvenirNextLTPro-UltLt.svg') format('svg');
+}

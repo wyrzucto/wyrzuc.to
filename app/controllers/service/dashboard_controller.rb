@@ -1,6 +1,5 @@
 module Service
-  class DashboardController < ApplicationController
-    before_action :authenticate_admin!
+  class DashboardController < Service::ApplicationController
 
     def show; end
   end

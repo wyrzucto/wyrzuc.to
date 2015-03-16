@@ -9,7 +9,8 @@ $(function(){
     center: userLocation,
     mapTypeControl: false,
     panControl: false,
-    zoomControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
+    zoomControl: false,
+    // zoomControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
     zoom: 12,
   };
 
@@ -33,4 +34,14 @@ $(function(){
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
+
+  $(".x-left-button").hover(
+    function(){
+      $(this).animate({"width": "240px"}, 0);
+      $(this).find('span').removeClass('hidden');
+    }, function(){
+      $(this).animate({"width": "45px"}, 0);
+      $(this).find('span').addClass('hidden');
+    }
+  );
 });

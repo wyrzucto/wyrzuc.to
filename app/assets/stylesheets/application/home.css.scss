@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #FFFEFE;
+  font-family: 'AvenirNextLTPro-UltLt';
+  font-size: 15px;
+}
+
+#map-canvas {
+  height: 100%;
+}
+
+.top-navbar {
+  background-color: rgba(18, 120, 62, 0.91);
+  border-color: rgba(18, 120, 62, 0.91);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);//box-shadow: 0 0.5px 10px rgba(0,0,0,1);
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.right-button {
+  position: fixed;
+  top:50%;
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  z-index: 99999;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);//box-shadow: 0 0.5px 10px rgba(0,0,0,1);
+  background-color: rgba(0, 166, 90, 1);
+}
+
+.right-content {
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: -300px;
+  border: 0px solid #ddd;
+  width: 300px;
+  z-index: 99999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);//box-shadow: 0 0.5px 10px rgba(0,0,0,1);
+  background-color: rgba(0, 166, 90, 1);
+}
+
+.left-buttons {
+  float: left;
+  position: fixed;
+  top:30%;
+  z-index: 99999;
+  left: 0;
+  width: 45px;
+  margin-left: 5px;
+}
+
+.left-button {
+  margin-bottom: 5px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
+}
+
+.left-button span {
+  margin-left: 20px;
+}
+
+.left-button#pharmacies {
+  background-color: #1f90ca;
+}
+
+.left-button#selective {
+  background-color: #00a65a;
+}
+
+.left-button#dangerous {
+  background-color: #cf4a49;
+}
+
+.left-button#multisize {
+  background-color: #F59617;
+}

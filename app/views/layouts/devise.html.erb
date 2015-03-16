@@ -14,20 +14,26 @@
 </head>
 <body class="skin-green">
   <div class="wrapper">
-
-    <%= render 'layouts/service/navbar' %>
-
-    <%= render 'layouts/service/sidebar' %>
-
-    <div class="content-wrapper">
-
-      <%= render 'layouts/service/content_header' %>
-
+    <div>
       <section class="content">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-offset-2 col-md-8">
             <div class="box box-danger">
-              <%= yield %>
+              <div class="box-header with-border">
+                <h3 class="box-title"></h3>
+              </div>
+              <div class="box-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-center">
+                      <%= yield %>
+                    </p>
+                    <div class="chart-responsive">
+                      <canvas id="salesChart" height="180"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

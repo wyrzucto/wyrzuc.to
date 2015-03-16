@@ -1,5 +1,4 @@
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require lib/markerclusterer
-//= require controllers/home
+//= require application/home
+//= require application/right_menu

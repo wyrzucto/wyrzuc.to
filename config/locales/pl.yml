@@ -1,4 +1,6 @@
 pl:
+  buttons:
+    submit: 'Zapisz'
   home:
     show:
       placeholders:

@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   devise_for :admin
   namespace :service do
     root 'dashboard#show'
-
+    resource :admin, controller: 'admin'
     resource :dashboard, controller: 'dashboard'
   end
   #devise_for :admin, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout', password: 'secret', confirmation: 'verification', unlock: 'unblock', registration: 'register', sign_up: 'cmon_let_me_in' }

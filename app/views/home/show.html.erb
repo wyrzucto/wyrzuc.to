@@ -1,24 +1,39 @@
 <nav class="navbar top-navbar navbar-fixed-top">
   <div class="container-fluid">
-    <div class="row">
-      <%= form_tag '#', remote: true, class: "form-horizontal" do %>
-        <div class="form-group margin-top-15">
-          <%= label_tag :garbage_type, "Gdzie mam wyrzucić", class: "control-label col-sm-3" %>
-          <div class="col-sm-5">
-            <%= text_field_tag :garbage_type, nil, class: "form-control", placeholder: t(".placeholders.garbage_type") %>
-          </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <%= form_tag '#', remote: true, class: "navbar-form" do %>
+        <div class="form-group">
+          <%= label_tag :garbage_type, "Gdzie mam wyrzucić", class: "control-label" %>
+          <%= text_field_tag :garbage_type, nil, class: "form-control input-sm", placeholder: t(".placeholders.garbage_type") %>
         </div>
       <% end %>
     </div>
   </div>
 </nav>
 
-<nav class="right-sidebar">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4">
-        menu
-      </div>
-    </div>
+<div id="map-canvas" data-location-lat="<%= default_location[:lat] %>" data-location-lng="<%= default_location[:lng] %>"></div>
+
+<div class='left-buttons'>
+  <div id='pharmacies' class='left-button x-left-button'>
+    <%= fa_icon('medkit') %>
+    <span class='hidden'>Apteki</span>
   </div>
-</nav>
+
+  <div id='dangerous' class='left-button x-left-button'>
+    <%= fa_icon('exclamation-circle') %>
+    <span class='hidden'>Odpady niebezpieczne</span>
+  </div>
+
+  <div id='selective' class='left-button x-left-button'>
+    <%= fa_icon('tree') %>
+    <span class='hidden'>Odpady selektywne</span>
+  </div>
+
+  <div id='multisize' class='left-button x-left-button'>
+    <%= fa_icon('archive') %>
+    <span class='hidden'>Odpady gabarytowe</span>
+  </div>
+</div>
+
+<div class='right-button'><%= fa_icon('calendar') %></div>
+<div class='right-content'></div>

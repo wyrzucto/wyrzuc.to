@@ -1,3 +1,5 @@
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require service/main
+//= require service/dashboard
+//= require bootstrap/dropdown
