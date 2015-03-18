@@ -3,8 +3,8 @@ module Service
 
     protect_from_forgery with: :exception
 
-    layout 'service'
-
     before_action :authenticate_admin!
+
+    layout 'service'
   end
 end

@@ -1,6 +1,6 @@
 <header class="main-header">
   <!-- Logo -->
-  <a href="#" class="logo"><b>Panel</b>Admina</a>
+  <a href="/service" class="logo"><b>Panel</b>Admina</a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top" role="navigation">
     <!-- Sidebar toggle button-->
@@ -201,15 +201,15 @@
 
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            <%= image_tag('avatar.png', class: 'user-image') %>
+            <%= image_tag(avatar_path, class: 'user-image') %>
             <span class="hidden-xs"><%= current_admin.full_name %></span>
           </a>
           <ul class="dropdown-menu">
             <li class="user-header">
-              <%= image_tag('avatar.png', class: 'img-circle') %>
+              <%= image_tag(avatar_path, class: 'img-circle') %>
               <p>
                 <%= current_admin.full_name %>
-                <small>Data rejestracji: <%= I18n.l(current_admin.created_at, format: :registration) %></small>
+                <small>Data rejestracji: <%= l(current_admin.created_at, format: :registration) %></small>
               </p>
             </li>
             <li class="user-footer">

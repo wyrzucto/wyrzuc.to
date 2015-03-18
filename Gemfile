@@ -54,5 +54,7 @@ gem 'a9n'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'font-awesome-rails'
+gem 'carrierwave'
+gem 'sidekiq'
 
 gem 'rails_12factor', group: :production #only for heroku_app

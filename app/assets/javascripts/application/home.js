@@ -1,12 +1,12 @@
 $(function(){
 
-  var userLocation = {
-    lat: parseFloat($("#map-canvas").data('locationLat')),
-    lng: parseFloat($("#map-canvas").data('locationLng'))
+  var defaultLocation = {
+    lat: 54.349783,
+    lng: 18.645224
   }
 
   var mapOptions = {
-    center: userLocation,
+    center: defaultLocation,
     mapTypeControl: false,
     panControl: false,
     zoomControl: false,
@@ -37,7 +37,7 @@ $(function(){
 
   $(".x-left-button").hover(
     function(){
-      $(this).animate({"width": "240px"}, 0);
+      $(this).animate({"width": "315px"}, 0);
       $(this).find('span').removeClass('hidden');
     }, function(){
       $(this).animate({"width": "45px"}, 0);

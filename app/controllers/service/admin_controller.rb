@@ -1,14 +1,11 @@
 module Service
   class AdminController < Service::ApplicationController
 
-    before_action :find_admin
-
     def edit; end
 
     def update
-      if @admin.update_attributes(admin_params)
-        flash[:message] = 'Dane zostały zapisane'
-        redirect_to service_root_path
+      if current_admin.update_attributes(admin_params)
+        redirect_to service_root_path, notice: 'Dane zostały zapisane'
       else
         flash[:error] = "Błąd zapisu, spróbuj ponownie..."
         render :edit
@@ -17,12 +14,8 @@ module Service
 
     private
 
-    def find_admin
-      @admin = Admin.find(current_admin)
-    end
-
     def admin_params
-      params.require(:admin).permit(:name, :surname)
+      params.require(:admin).permit(:name, :surname, :avatar, :remove_avatar)
     end
   end
 end

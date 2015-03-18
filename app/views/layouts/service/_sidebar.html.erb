@@ -2,44 +2,38 @@
   <section class="sidebar">
     <ul class="sidebar-menu">
       <li class="treeview">
-        <a href="#"><%= fa_icon('medkit') %>
-        <span>Apteki</span></a>
+        <%= link_to new_service_pharmacy_path do %>
+          <%= fa_icon('medkit') %>
+          <span>Apteki</span>
+        <% end %>
       </li>
 
       <li class="treeview">
-        <a href="#">
-          <%= fa_icon('tree') %>
-          <span>Zbiórka selektywna</span></i>
-        </a>
+        <%= link_to new_service_packaging_waste_path do %>
+          <%= fa_icon('glass') %>
+          <span>Odpady opakowaniowe</span>
+        <% end %>
       </li>
 
       <li class="treeview">
-        <a href="#">
+        <%= link_to new_service_hazardous_waste_path do %>
           <%= fa_icon('exclamation-circle') %>
           <span>Odpady niebezpieczne</span>
-        </a>
+        <% end %>
       </li>
 
       <li class="treeview">
-        <a href="#">
+        <%= link_to new_service_wet_and_dry_waste_path do %>
           <%= fa_icon('tint') %>
-          <span>Odpady suche, mokre i zmieszane</span><i class="fa fa-angle-left pull-right"></i>
-        </a>
-        <ul class="treeview-menu">
-          <li><a href="index.html"><i class="fa fa-circle-o"></i>Sektor 1-6</a></li>
-          <li><a href="index2.html"><i class="fa fa-circle-o"></i>Sektor 5</a></li>
-        </ul>
+          <span>Odpady mokre, suche, ...</span>
+        <% end %>
       </li>
 
       <li class="treeview">
-        <a href="#">
+        <%= link_to new_service_bulky_waste_path do %>
           <%= fa_icon('archive') %>
-          <span>Odpady wielogabarytowe</span> <i class="fa fa-angle-left pull-right"></i>
-        </a>
-        <ul class="treeview-menu">
-          <li><a href="index.html"><i class="fa fa-circle-o"></i>Sektor 1-6</a></li>
-          <li><a href="index2.html"><i class="fa fa-circle-o"></i>Sektor 5</a></li>
-        </ul>
+          <span>Odpady wielkogabarytowe</span>
+        <% end %>
       </li>
     </ul>
   </section>

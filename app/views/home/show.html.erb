@@ -11,7 +11,7 @@
   </div>
 </nav>
 
-<div id="map-canvas" data-location-lat="<%= default_location[:lat] %>" data-location-lng="<%= default_location[:lng] %>"></div>
+<div id="map-canvas"></div>
 
 <div class='left-buttons'>
   <div id='pharmacies' class='left-button x-left-button'>
@@ -19,19 +19,24 @@
     <span class='hidden'>Apteki</span>
   </div>
 
-  <div id='dangerous' class='left-button x-left-button'>
+  <div id='packaging-wastes' class='left-button x-left-button'>
+    <%= fa_icon('glass') %>
+    <span class='hidden'>Odpady opakowaniowe</span>
+  </div>
+
+  <div id='hazardous-wastes' class='left-button x-left-button'>
     <%= fa_icon('exclamation-circle') %>
     <span class='hidden'>Odpady niebezpieczne</span>
   </div>
 
-  <div id='selective' class='left-button x-left-button'>
-    <%= fa_icon('tree') %>
-    <span class='hidden'>Odpady selektywne</span>
+  <div id='wet-and-dry-wastes' class='left-button x-left-button'>
+    <%= fa_icon('tint') %>
+    <span class='hidden'>Odpady mokre, suche i zmieszane</span>
   </div>
 
-  <div id='multisize' class='left-button x-left-button'>
+  <div id='bulky-wastes' class='left-button x-left-button'>
     <%= fa_icon('archive') %>
-    <span class='hidden'>Odpady gabarytowe</span>
+    <span class='hidden'>Odpady wielkogabarytowe</span>
   </div>
 </div>
 
