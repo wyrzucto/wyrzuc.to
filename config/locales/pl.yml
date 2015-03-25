@@ -1,7 +1,34 @@
 pl:
   buttons:
     submit: 'Zapisz'
-  home:
-    show:
-      placeholders:
-        garbage_type: 'wpisz typ śmieci'
+    search: 'Szukaj'
+  placeholders:
+        waste_type: 'wpisz typ śmieci...'
+        user_location: 'Wpisz nazwe ulicy (np. ul.Brzozowa)'
+  messages:
+    data_in_progress: 'Dane są w trakcie przetwarzania...'
+    data_saved: 'Dane zostały zapisane'
+    data_not_saved: 'Błąd zapisu, spróbuj ponownie'
+  sidebar:
+    data:
+      info: "Informacje dodatkowe:"
+      hour: "Godzina:"
+      weekday: "Dzień tygodnia:"
+      area: "Dzielnica:"
+      number: "Numer/y:"
+      name: 'Nazwa:'
+      post_code: 'Kod pocztowy:'
+      phone_numner: 'Numer telefomu:'
+      date: 'Daty:'
+    titles:
+      pharmacy: 'Punkt utylizacji przeterminowanych leków'
+      hazardous_wastes: "Zbiórka odpadów niebezpiecznych"
+      packaging_wastes:
+        clear_glass: "Zbiórka odpadów opakowaniowych (szkło bezbarwne)"
+        colorful_glass: "Zbiórka odpadów opakowaniowych (szkło kolorowe)"
+        maculature: "Zbiórka odpadów opakowaniowych (makulatura)"
+        plastic: "Zbiórka odpadów opakowaniowych (plastiki)"
+      wet_and_dry_wastes:
+        dry: "Zbiórka odpadów suchych"
+        wet: "Zbiórka odpadów mokrych"
+        mixed: "Zbiórka odpadów mieszanych"

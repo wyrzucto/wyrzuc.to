@@ -5,9 +5,9 @@ module Service
 
     def update
       if current_admin.update_attributes(admin_params)
-        redirect_to service_root_path, notice: 'Dane zostały zapisane'
+        redirect_to service_root_path, notice: t('messages.data_saved')
       else
-        flash[:error] = "Błąd zapisu, spróbuj ponownie..."
+        flash[:error] = t('messages.data_not_saved')
         render :edit
       end
     end

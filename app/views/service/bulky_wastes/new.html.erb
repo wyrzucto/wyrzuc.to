@@ -8,10 +8,10 @@
       <p class="text-center">
         <%= form_tag service_bulky_wastes_path, multipart: true, class: "form-horizontal" do %>
           <div class="form-group">
-            <%= label_tag :file, t('.sector_1_2_3_4_6'), class: "col-sm-2 control-label" %>
+            <%= label_tag :file, t('.area_1_2_3_4_6'), class: "col-sm-2 control-label" %>
             <div class="col-sm-10">
               <%= file_field_tag :file, class: "form-control" %>
-              <%= hidden_field_tag :sector, :sector_1_2_3_4_6 %>
+              <%= hidden_field_tag :area, :area_1_2_3_4_6 %>
             </div>
           </div>
 
@@ -24,10 +24,10 @@
         <hr>
         <%= form_tag service_bulky_wastes_path, multipart: true, class: "form-horizontal" do %>
           <div class="form-group">
-            <%= label_tag :file, t('.sector_5'), class: "col-sm-2 control-label" %>
+            <%= label_tag :file, t('.area_5'), class: "col-sm-2 control-label" %>
             <div class="col-sm-10">
               <%= file_field_tag :file, class: "form-control" %>
-              <%= hidden_field_tag :sector, :sector_5 %>
+              <%= hidden_field_tag :area, :area_5 %>
             </div>
           </div>
 

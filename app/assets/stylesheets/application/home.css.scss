@@ -39,7 +39,6 @@ body {
 }
 
 .right-content {
-  padding: 10px;
   position: fixed;
   top: 0px;
   bottom: 0px;
@@ -54,7 +53,7 @@ body {
 .left-buttons {
   float: left;
   position: fixed;
-  top:30%;
+  top:35%;
   z-index: 99999;
   left: 0;
   width: 45px;
@@ -94,3 +93,63 @@ body {
   background-color: #535456;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.close {
+  font-size: 23px;
+  color: white;
+  opacity: 1;
+}
+
+.close:hover, .close:focus {
+  color: white;
+}
+
+.news {
+  height: 250px;
+  background: #2f5940;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+}
+
+.news h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.right-content .location {
+  padding: 15px;
+  background: #237343;
+}
+
+.right-content .header {
+  padding: 15px;
+}
+
+.right-content .date-set {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.right-content .date {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.right-content .date b {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.right-content .date + hr {
+  margin: 0 15px 0 15px;
+  border-width: 1px;
+}
+
+.slider-form {
+  padding: 15px;
+}

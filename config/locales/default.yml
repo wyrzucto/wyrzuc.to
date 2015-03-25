@@ -23,31 +23,18 @@ pl:
     - lis
     - gru
     day_names:
-    - niedziela
     - poniedziałek
     - wtorek
     - środa
     - czwartek
     - piątek
     - sobota
+    - niedziela
     formats:
       default: "%d-%m-%Y"
       long: "%B %d, %Y"
       short: "%d %b"
-    month_names:
-    -
-    - styczeń
-    - luty
-    - marzec
-    - kwiecień
-    - maj
-    - czerwiec
-    - lipiec
-    - sierpień
-    - wrzesień
-    - październik
-    - listopad
-    - grudzień
+      place_info: "%d %B %Y"
     order:
     - :day
     - :month
@@ -234,4 +221,5 @@ pl:
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
       registration:  "%A, %d %b %Y"
+      hour: "%H:%M"
     pm: po południu

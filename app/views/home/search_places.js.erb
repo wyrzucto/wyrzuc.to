@@ -1,0 +1,33 @@
+var userLocation = new google.maps.LatLng('<%= @presenter.coordinates[0] %>', '<%= @presenter.coordinates[1] %>');
+
+var marker = new google.maps.Marker({
+    position:  userLocation,
+    map:       map,
+    animation: google.maps.Animation.BOUNCE
+});
+
+centerTo(userLocation, 16);
+
+$(".x-content").html("<%= j(render partial: 'places_info', locals: { presenter: @presenter }) %>");
+$(".x-form").addClass('hidden');
+$(".x-content").removeClass('hidden');
+$('.x-user-location').val('');
+$('.x-scroll').TrackpadScrollEmulator({wrapContent: false});
+
+$(window).resize(function(){
+    var scrollable = $('.tse-scrollable');
+    var news = $('.news');
+    scrollable.css('height', $(window).height() - scrollable.offset().top - news.outerHeight());
+    $('.x-scroll').TrackpadScrollEmulator('recalculate');
+});
+
+$('body').delegate('.x-close-content', 'click', function(){
+  $('.x-content').addClass('hidden');
+  $('.x-form').removeClass('hidden');
+  marker.setMap(null);
+  centerTo(defaultLocation, 11);
+});
+
+$('body').delegate('.x-place', 'click', function(){
+  alert('TODO: feature in progres');
+});
