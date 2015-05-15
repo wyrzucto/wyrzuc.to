@@ -2,19 +2,24 @@ module ImportData
   class WetAndDryWastes < Base
 
     def import
-      WetAndDryWaste.delete_all if WetAndDryWaste.any?
+      wet_and_dry_wastes.delete_all if wet_and_dry_wastes.any?
       sheets_names.each do |sheet_name|
         excel.sheet(sheet_name)
         (4..excel.last_row).each do |row|
-          WetAndDryWaste.create(data(row)) if excel.row(row)[4..21].compact.any?
+          Waste.create(data(row)) if excel.row(row)[4..21].compact.any?
         end
       end
     end
 
     private
 
+    def wet_and_dry_wastes
+      @wet_and_dry_wastes ||= Waste.wet_and_dry_wastes
+    end
+
     def data(row)
       {
+        kind: 4,
         street: clean_street(excel.cell(row, 2)),
         kind: kind_id,
         data: {

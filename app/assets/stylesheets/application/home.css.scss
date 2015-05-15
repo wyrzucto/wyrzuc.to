@@ -18,7 +18,7 @@ body {
 .top-navbar {
   background-color: rgba(18, 120, 62, 0.91);
   border-color: rgba(18, 120, 62, 0.91);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);//box-shadow: 0 0.5px 10px rgba(0,0,0,1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
 }
 
 .margin-top-15 {
@@ -34,7 +34,7 @@ body {
   font-size: 16px;
   z-index: 99999;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);//box-shadow: 0 0.5px 10px rgba(0,0,0,1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
   background-color: rgba(0, 166, 90, 1);
 }
 
@@ -46,7 +46,7 @@ body {
   border: 0px solid #ddd;
   width: 300px;
   z-index: 99999;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);//box-shadow: 0 0.5px 10px rgba(0,0,0,1);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
   background-color: rgba(0, 166, 90, 1);
 }
 
@@ -138,6 +138,11 @@ body {
 .right-content .date {
   padding: 15px;
   cursor: pointer;
+}
+
+.right-content .date a {
+  color: white;
+  text-decoration: none;
 }
 
 .right-content .date b {

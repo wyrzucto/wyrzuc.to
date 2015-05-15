@@ -23,6 +23,6 @@ class GeolocationsController < ApplicationController
   private
 
   def render_json
-    render json: "Geolocations::#{action_name.camelcase}Presenter".constantize.to_json
+    render json: Waste.send(action_name).pluck(:street, :latitude, :longitude)
   end
 end

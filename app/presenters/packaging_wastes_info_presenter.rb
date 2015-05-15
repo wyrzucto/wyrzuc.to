@@ -14,13 +14,13 @@ class PackagingWastesInfoPresenter < BasePresenter
   private
 
   def packaging_wastes
-    PackagingWaste.near(street).first(count)
+    Waste.packaging_wastes.near(street).first(count)
   end
 
   def parse_data(item, weekday, key)
     {
       title:   I18n.t("sidebar.titles.packaging_wastes.#{key}"),
-      street:  item.street,
+      id:      item.id,
       weekday: weekday
     }
   end

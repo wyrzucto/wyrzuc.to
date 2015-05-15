@@ -6,6 +6,8 @@ Rails.application.routes.draw do
     post :search_places, on: :collection
   end
 
+  resources :place_info, controller: :place_info, only: [:show]
+
   scope :geolocations, controller: :geolocations, as: :geolocations do
     get :pharmacies
     get :wet_and_dry_wastes

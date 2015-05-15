@@ -8,8 +8,13 @@
     <div class="tse-content date-set">
       <% presenter.data.each do |item| %>
         <div class="date x-place">
-          <b><%= item[:date] ? l(item[:date], format: :place_info) : "Co #{t("date.day_names")[item[:weekday]]}" %></b><br>
-          <%= item[:title] %>
+          <%= link_to place_info_path(item[:id]), remote: true do %>
+            <b>
+              <%= item[:date] ? l(item[:date], format: :place_info) : "Co #{t("date.day_names")[item[:weekday]]}" %>
+            </b>
+            <br>
+            <%= item[:title] %>
+          <% end %>
         </div>
         <hr>
       <% end %>

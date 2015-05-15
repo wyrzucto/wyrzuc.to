@@ -2,17 +2,22 @@ module ImportData
   class Pharmacies < Base
 
     def import
-      Pharmacy.delete_all if Pharmacy.any?
+      pharmacies.delete_all if pharmacies.any?
       (excel.first_row..excel.last_row).each do |row|
         next if excel.font(row, 1).bold? || excel.cell(row, 1).nil?
-        Pharmacy.create(data(row))
+        Waste.create(data(row))
       end
     end
 
     private
 
+    def pharmacies
+      @pharmacies ||= Waste.pharmacies
+    end
+
     def data(row)
       {
+        kind: 1,
         street: clean_street(excel.cell(row, 2)),
         data: {
           info: excel.cell(row, 2),

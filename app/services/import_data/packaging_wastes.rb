@@ -2,16 +2,21 @@ module ImportData
   class PackagingWastes < Base
 
     def import
-      PackagingWaste.delete_all if PackagingWaste.any?
+      packaging_wastes.delete_all if packaging_wastes.any?
       (4..excel.sheet(0).last_row).each do |row|
-        PackagingWaste.create(data(row))
+        Waste.create(data(row))
       end
     end
 
     private
 
+    def packaging_wastes
+      @packaging_wastes ||= Waste.packaging_wastes
+    end
+
     def data(row)
       {
+        kind: 3,
         street: clean_street(excel.sheet(0).cell(row, 3)),
         data: {
           info: excel.sheet(0).cell(row, 3),

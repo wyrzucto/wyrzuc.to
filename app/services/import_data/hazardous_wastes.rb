@@ -2,17 +2,22 @@ module ImportData
   class HazardousWastes < Base
 
     def import
-      HazardousWaste.delete_all if HazardousWaste.any?
+      hazardous_wastes.delete_all if hazardous_wastes.any?
       excel.sheet(1)
       (2..excel.last_row).each do |row|
-        HazardousWaste.create(data(row))
+        Waste.create(data(row))
       end
     end
 
     private
 
+    def hazardous_wastes
+      @hazardous_wastes ||= Waste.hazardous_wastes
+    end
+
     def data(row)
       {
+        kind: 2,
         street: clean_street(excel.cell(row, 2)),
         data: {
           info: excel.cell(row, 2),

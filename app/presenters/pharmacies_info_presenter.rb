@@ -12,7 +12,7 @@ class PharmaciesInfoPresenter < BasePresenter
   private
 
   def pharmacies
-    Pharmacy.near(street).first(count)
+    Waste.pharmacies.near(street).first(count)
   end
 
   def parse_date(item)
@@ -21,9 +21,9 @@ class PharmaciesInfoPresenter < BasePresenter
 
   def parse_data(item, date)
     {
-      title:  I18n.t('sidebar.titles.pharmacy'),
-      street: item.street,
-      date:   date
+      title: I18n.t('sidebar.titles.pharmacy'),
+      id:    item.id,
+      date:  date
     }
   end
 end

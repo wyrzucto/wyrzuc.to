@@ -6,6 +6,6 @@ class Admin < ActiveRecord::Base
   mount_uploader :avatar, AvatarUploader
 
   def full_name
-    [name, surname].compact.join(" ").presence || email
+    [name, surname].compact.join(' ').presence || email
   end
 end

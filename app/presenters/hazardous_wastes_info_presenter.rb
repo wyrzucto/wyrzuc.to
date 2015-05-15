@@ -12,7 +12,7 @@ class HazardousWastesInfoPresenter < BasePresenter
   private
 
   def hazardous_wastes
-    HazardousWaste.near(street).first(count)
+    Waste.hazardous_wastes.near(street).first(count)
   end
 
   def parse_date(item)
@@ -22,7 +22,7 @@ class HazardousWastesInfoPresenter < BasePresenter
   def parse_data(item, date)
     {
       title:  I18n.t('sidebar.titles.hazardous_wastes'),
-      street: item.street,
+      id:     item.id,
       date:   date
     }
   end
