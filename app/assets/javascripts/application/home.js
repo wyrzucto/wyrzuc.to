@@ -1,10 +1,16 @@
 $(function(){
 
-  var markers      = [];
-  var markersCache = {};
-  var infowindow   = new google.maps.InfoWindow();
+  $.each(wastes_urls, function(i, url) {
+    $.ajax({
+      url: '/geolocations/' + url,
+      dataType: 'json'
+    }).done(function(data){
+      addToMrkersCache(url, data)
+      markerClusterer.addMarkers(markersCache[url], false);
+    });
+  });
 
-  function addMrkersToCache(key, items){
+  function addToMrkersCache(key, items){
     markersCache[key] = items.map(function(item){
       var marker =  new google.maps.Marker({
         title: item[0],
@@ -19,26 +25,14 @@ $(function(){
   }
 
   $(".x-left-button").on('click', function() {
-    var url       = $(this).data('url');
     var click     = $(this).data('click');
     var object_id = $(this).attr('id');
 
     if(click){
-      markerClusterer.removeMarkers(markersCache[object_id], false);
+      markerClusterer.addMarkers(markersCache[object_id], false);
     }
     else {
-      if(markersCache[object_id]){
-        markerClusterer.addMarkers(markersCache[object_id], false);
-      }
-      else{
-        $.ajax({
-          url: url,
-          dataType: 'json'
-        }).done(function(data){
-          addMrkersToCache(object_id, data)
-          markerClusterer.addMarkers(markersCache[object_id], false);
-        });
-      }
+      markerClusterer.removeMarkers(markersCache[object_id], false);
     }
     $(this).data("click", !click);
   });
