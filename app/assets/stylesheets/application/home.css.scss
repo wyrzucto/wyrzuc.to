@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   color: #FFFEFE;
-  font-family: 'AvenirNextLTPro-UltLt';
+  font-family: 'Lato';//'AvenirNextLTPro-UltLt';
   font-size: 15px;
 }
 
@@ -109,7 +109,7 @@ input[type=text] {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     font-size: 16px;
-    // font-family: 'Lato';
+    font-family: 'Lato';
 }
 
 input[type=submit] {
@@ -143,9 +143,9 @@ input[type=submit] {
     height: 45px;
     overflow: hidden;
 
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
+    // transition: 0.5s all;
+    // -webkit-transition: 0.5s all;
+    // -moz-transition: 0.5s all;
 }
 
 .types a:before {
@@ -179,11 +179,11 @@ input[type=submit] {
 }
 
 
-
-.types a.electro, .types a.electro:before { background: #1f9ace }
-.types a.bio, .types a.bio:before { background: #e00035 }
-.types a.leki, .types a.leki:before { background: #ed7b00 }
-.types a.ubrania, .types a.ubrania:before { background: #102a76 }
+.types a.packaging_wastes, .types a.packaging_wastes:before { background: #4F281A }
+.types a.bulky_wastes, .types a.bulky_wastes:before { background: #964000 }
+.types a.hazardous_wastes, .types a.hazardous_wastes:before { background: #e00035 }
+.types a.pharmacies, .types a.pharmacies:before { background: #ed7b00 }
+.types a.wet_and_dry_wastes, .types a.wet_and_dry_wastes:before { background: #239600 }
 
 .sidebar {
     position: absolute;

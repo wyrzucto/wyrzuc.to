@@ -25,6 +25,11 @@ $(function(){
     });
   }
 
+  $.each($('.types a'), function(it, a) {
+    a = $(a);
+    a.data('width', a.width() + 32);
+  });
+
   $(".x-left-button").on('click', function(a) {
     a.preventDefault();
     var click     = $(this).data('click');
@@ -38,9 +43,11 @@ $(function(){
       });
     } else {
       if(click){
+        $(this).css('width', $(this).data('width'));
         markerClusterer.addMarkers(markersCache[object_id], false);
       }
       else {
+        $(this).css('width', '45px');
         markerClusterer.removeMarkers(markersCache[object_id], false);
       }
       $(this).data("click", !click);
@@ -48,21 +55,7 @@ $(function(){
   });
 
   $(document).delegate('.sidebar .handle', 'click', function(e) {
-      e.preventDefault();
-      $('body').toggleClass('sidebarOpen');
+    e.preventDefault();
+    $('body').toggleClass('sidebarOpen');
   });
-
-  $.each($('.types a'), function(it, a) {
-    a = $(a);
-    a.data('width', a.width() + 32);
-    a.css('width', '45px');
-    a.hover(
-      function(){
-        $(this).css('width', $(this).data('width'));
-      },
-      function(){
-        $(this).css('width', '45px');
-      }
-    )
-  })
 });
