@@ -32,3 +32,4 @@ pl:
         dry: "Zbiórka odpadów suchych"
         wet: "Zbiórka odpadów mokrych"
         mixed: "Zbiórka odpadów mieszanych"
+      bulky_wastes: "Zbiórka odpadów wielkogabarytowych"
