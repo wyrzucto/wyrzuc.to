@@ -12,9 +12,8 @@ $(function(){
 
   var addToMrkersCache = function(key, items){
     markersCache[key] = items.map(function(item){
-      var image = "markers/" + key + ".png"
       var marker =  new google.maps.Marker({
-        icon: "<%= asset_path('"+image+"') %>",
+        icon: "/markers/" + key + ".png",
         title: item[0],
         position: new google.maps.LatLng(item[1], item[2])
       });
