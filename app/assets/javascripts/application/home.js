@@ -47,7 +47,7 @@ $(function(){
     }
   });
 
-  $('.sidebar .handle').on('click', function(e) {
+  $(document).delegate('.sidebar .handle', 'click', function(e) {
       e.preventDefault();
       $('body').toggleClass('sidebarOpen');
   });
