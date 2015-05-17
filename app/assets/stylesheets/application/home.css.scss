@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext);
+
 html {
   height: 100%;
 }
@@ -14,163 +16,6 @@ body {
 #map-canvas {
   height: 100%;
 }
-
-// .top-navbar {
-//   background-color: rgba(18, 120, 62, 0.91);
-//   border-color: rgba(18, 120, 62, 0.91);
-//   box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
-// }
-
-// .margin-top-15 {
-//   margin-top: 15px;
-// }
-
-// .right-button {
-//   position: fixed;
-//   top:50%;
-//   right: 0;
-//   border-radius: 5px 0px 0px 5px;
-//   padding: 10px 15px;
-//   font-size: 16px;
-//   z-index: 99999;
-//   cursor: pointer;
-//   box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
-//   background-color: rgba(0, 166, 90, 1);
-// }
-
-// .right-content {
-//   position: fixed;
-//   top: 0px;
-//   bottom: 0px;
-//   right: -300px;
-//   border: 0px solid #ddd;
-//   width: 300px;
-//   z-index: 99999;
-//   box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
-//   background-color: rgba(0, 166, 90, 1);
-// }
-
-// .left-buttons {
-//   float: left;
-//   position: fixed;
-//   top:35%;
-//   z-index: 99999;
-//   left: 0;
-//   width: 45px;
-//   margin-left: 5px;
-// }
-
-// .left-button {
-//   margin-bottom: 5px;
-//   border-radius: 5px 5px 5px 5px;
-//   padding: 10px 15px;
-//   font-size: 16px;
-//   cursor: pointer;
-//   box-shadow: 0 2px 6px rgba(0,0,0,0.3),0 -3px 8px rgba(0,0,0,0.2);
-// }
-
-// .left-button span {
-//   margin-left: 20px;
-// }
-
-// .left-button#pharmacies {
-//   background-color: #1f90ca;
-// }
-
-// .left-button#wet_and_dry_wastes {
-//   background-color: #00a65a;
-// }
-
-// .left-button#hazardous_wastes {
-//   background-color: #cf4a49;
-// }
-
-// .left-button#bulky_wastes {
-//   background-color: #F59617;
-// }
-
-// .left-button#packaging_wastes {
-//   background-color: #535456;
-// }
-
-// .text-center {
-//   text-align: center;
-// }
-
-// .close {
-//   font-size: 23px;
-//   color: white;
-//   opacity: 1;
-// }
-
-// .close:hover, .close:focus {
-//   color: white;
-// }
-
-// .news {
-//   height: 250px;
-//   background: #2f5940;
-//   padding: 15px;
-//   position: absolute;
-//   bottom: 0;
-// }
-
-// .news h2 {
-//   font-size: 24px;
-//   margin: 0;
-//   padding: 0;
-// }
-
-// .right-content .location {
-//   padding: 15px;
-//   background: #237343;
-// }
-
-// .right-content .header {
-//   padding: 15px;
-// }
-
-// .right-content .date-set {
-//   position: relative;
-//   padding-bottom: 15px;
-// }
-
-// .right-content .date {
-//   padding: 15px;
-//   cursor: pointer;
-// }
-
-// .right-content .date a {
-//   color: white;
-//   text-decoration: none;
-// }
-
-// .right-content .date b {
-//   font-size: 24px;
-//   font-weight: 700;
-// }
-
-// .right-content .date + hr {
-//   margin: 0 15px 0 15px;
-//   border-width: 1px;
-// }
-
-// .slider-form {
-//   padding: 15px;
-// }
-
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext);
-@import "vendor/tse/css/trackpad-scroll-emulator.css";
-
-// html, body {
-//     margin: 0;
-//     padding: 0;
-//     font-family: 'Lato';
-//     font-size: 14px;
-//     line-height: 20px;
-//     color: white;
-//     overflow: hidden;
-// }
 
 * {
     box-sizing: border-box;
@@ -220,7 +65,6 @@ body > .header {
 }
 
 .header form {
-    width: 60%;
     margin: 0 auto;
     position: relative;
 }
@@ -435,8 +279,6 @@ hr.short {
     padding: 10px 15px 10px 15px;
 }
 
-
-
 .sidebar .date-set {
     position: relative;
     padding-bottom: 15px;
@@ -444,6 +286,11 @@ hr.short {
 
 .sidebar .date {
     padding: 15px 0;
+}
+
+.sidebar .date a {
+    color: white;
+    text-decoration: none;
 }
 
 .sidebar .date b {
@@ -575,6 +422,29 @@ hr.short {
         min-height: 50px;
         background: #014c20;
         width: 100%;
+
+        }
+
+        .back.show-for-mobile {
+        -webkit-box-ordinal-group: 4;
+        -moz-box-ordinal-group: 4;
+        -webkit-order: 3;
+        -ms-flex-order: 3;
+        order: 3;
+        -webkit-box-flex: 0;
+        -moz-box-flex: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        min-height: 50px;
+        background: #014c20;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        height: 30px;
         }
 
     /*

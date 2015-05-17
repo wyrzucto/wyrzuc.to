@@ -1,5 +1,7 @@
 //= require jquery
+//= require jquery.ui.autocomplete
 //= require jquery_ujs
+//= require autocomplete-rails
 //= require application/scroll
 //= require application/home
 

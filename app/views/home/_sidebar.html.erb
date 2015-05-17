@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div class='sidebar x-sidebar'>
   <a href="#" class="handle">Pokaż dodatkowe informacje</a>
 
   <div class="closed">
@@ -14,7 +14,7 @@
         <hr class="short" />
 
         <%= form_tag search_places_home_path, remote: true do %>
-          <%= text_field_tag :user_location, nil, required: true,  class: "x-user-location", placeholder: t("placeholders.user_location") %>
+          <%= autocomplete_field_tag :user_location, nil, autocomplete_waste_street_home_path, required: true,  class: "x-user-location", placeholder: t("placeholders.user_location") %>
           <%= hidden_field_tag :count, 1 %>
           <%= submit_tag t('buttons.search') %>
         <% end %>

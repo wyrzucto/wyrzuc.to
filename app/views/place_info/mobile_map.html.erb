@@ -1,0 +1,23 @@
+<%= render 'home/navbar' %>
+
+<%= render 'home/buttons' %>
+
+<%= render 'home/sidebar' %>
+
+<div class="back show-for-mobile">
+  <a href="/" class="back">
+    <%= image_tag "icon_back.png" %> Wróć
+  </a>
+</div>
+
+<script>
+  var userLocation = new google.maps.LatLng('<%= @place.latitude %>', '<%= @place.longitude %>');
+
+  var marker = new google.maps.Marker({
+    position:  userLocation,
+    map:       map,
+    animation: google.maps.Animation.BOUNCE
+  });
+
+  centerTo(userLocation, 16);
+</script>

@@ -3,10 +3,16 @@ Rails.application.routes.draw do
   root 'home#show'
 
   resource :home, controller: :home, only: [:show] do
-    post :search_places, on: :collection
+    collection do
+      post :search_places
+      get :autocomplete_waste_street
+    end
   end
 
-  resources :place_info, controller: :place_info, only: [:show]
+  resources :place_info, controller: :place_info, only: [:show] do
+    get :all_places, on: :collection
+    get :mobile_map, on: :member
+  end
 
   scope :geolocations, controller: :geolocations, as: :geolocations do
     get :pharmacies
@@ -28,5 +34,4 @@ Rails.application.routes.draw do
     resources :bulky_wastes,       only: [:new, :create]
     resources :packaging_wastes,   only: [:new, :create]
   end
-  #devise_for :admin, path: "auth", path_names: { sign_in: 'login', sign_out: 'logout', password: 'secret', confirmation: 'verification', unlock: 'unblock', registration: 'register', sign_up: 'cmon_let_me_in' }
 end

@@ -29,13 +29,21 @@ $(function(){
     var click     = $(this).data('click');
     var object_id = $(this).attr('id');
 
-    if(click){
-      markerClusterer.addMarkers(markersCache[object_id], false);
+    if($(window).width() <= 640){
+      $.ajax({
+        url: '/place_info/all_places',
+        data: { kind: object_id},
+        dataType: 'script'
+      });
+    } else {
+      if(click){
+        markerClusterer.addMarkers(markersCache[object_id], false);
+      }
+      else {
+        markerClusterer.removeMarkers(markersCache[object_id], false);
+      }
+      $(this).data("click", !click);
     }
-    else {
-      markerClusterer.removeMarkers(markersCache[object_id], false);
-    }
-    $(this).data("click", !click);
   });
 
   $('.sidebar .handle').on('click', function(e) {
