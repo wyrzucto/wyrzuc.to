@@ -18,3 +18,5 @@ $('.x-place-content').html(
   '<%= "<p><strong>Kod pocztowy:</strong> #{@place_info.data[:post_code]}</p>".html_safe if @place_info.data[:post_code] %>' +
   '<%= "<p><strong>Telefon:</strong> #{@place_info.data[:phone_number]}</p>".html_safe if @place_info.data[:phone_number] %>'
 );
+
+relocateTrackpadScroll();

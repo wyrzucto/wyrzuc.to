@@ -3,8 +3,8 @@ pl:
     submit: 'Zapisz'
     search: 'Szukaj'
   placeholders:
-        waste_type: 'wpisz typ śmieci...'
-        user_location: 'Wpisz nazwe ulicy (np. ul.Brzozowa)'
+        waste_type: 'wpisz typ śmieci'
+        user_location: 'wpisz nazwe ulicy'
   messages:
     data_in_progress: 'Dane są w trakcie przetwarzania...'
     data_saved: 'Dane zostały zapisane'

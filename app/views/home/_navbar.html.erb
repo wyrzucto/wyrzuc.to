@@ -1,0 +1,10 @@
+<div class="header">
+  <a href="./" class="home"></a>
+  <%= form_tag '#', remote: true, class: "navbar-form" do %>
+    <%= label_tag :waste_type, "Gdzie mam wyrzucić" %>
+    <div>
+      <%= text_field_tag :waste_type, nil, required: true, placeholder: t("placeholders.waste_type") %>
+      <%= submit_tag 'Szukaj' %>
+    </div>
+  <% end %>
+</div>

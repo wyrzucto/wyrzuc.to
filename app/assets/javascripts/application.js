@@ -19,7 +19,7 @@ var clustererOptions = {
   maxZoom: 15
 };
 
-var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 var markerClusterer = new MarkerClusterer(map, [], clustererOptions);
 

@@ -10,7 +10,7 @@ $(function(){
     });
   });
 
-  function addToMrkersCache(key, items){
+  var addToMrkersCache = function(key, items){
     markersCache[key] = items.map(function(item){
       var marker =  new google.maps.Marker({
         title: item[0],
@@ -24,7 +24,8 @@ $(function(){
     });
   }
 
-  $(".x-left-button").on('click', function() {
+  $(".x-left-button").on('click', function(a) {
+    a.preventDefault();
     var click     = $(this).data('click');
     var object_id = $(this).attr('id');
 
@@ -37,26 +38,22 @@ $(function(){
     $(this).data("click", !click);
   });
 
-  $(".x-left-button").hover(
-    function(){
-      $(this).animate({"width": "315px"}, 0);
-      $(this).find('span').removeClass('hidden');
-    }, function(){
-      $(this).animate({"width": "45px"}, 0);
-      $(this).find('span').addClass('hidden');
-    }
-  );
-
-  $(".right-button").on("click", function(){
-    if($(this).hasClass("open")) {
-      $(this).animate({"right": "0"});
-      $(".right-content").animate({"right": "-300px"});
-      $(this).removeClass("open");
-    }
-    else {
-      $(this).animate({"right": "300px"});
-      $(".right-content").animate({"right": "0"});
-      $(this).addClass("open");
-    }
+  $('.sidebar .handle').on('click', function(e) {
+      e.preventDefault();
+      $('body').toggleClass('sidebarOpen');
   });
+
+  $.each($('.types a'), function(it, a) {
+    a = $(a);
+    a.data('width', a.width() + 32);
+    a.css('width', '45px');
+    a.hover(
+      function(){
+        $(this).css('width', $(this).data('width'));
+      },
+      function(){
+        $(this).css('width', '45px');
+      }
+    )
+  })
 });
