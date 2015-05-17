@@ -24,7 +24,7 @@ module ImportData
           data: {
             info: excel.cell(row, 1),
             group_name: 'Jednorodzinne',
-            date: parse_date(row)
+            date: date(row)
           }
         }
       else
@@ -35,18 +35,18 @@ module ImportData
           data: {
             info: excel.cell(row, 4),
             group_name: 'Wielolokalowe',
-            weekday: parse_weekday(row)
+            weekday: weekday(row)
           }
         }
       end
     end
 
-    def parse_weekday(row)
-      excel.cell(row, 5).split(',')
+    def weekday(row)
+      excel.cell(row, 5).split(',').map { |item| I18n.t('date.day_names').index(item.downcase) }
     end
 
-    def parse_date(row)
-      excel.cell(row, 2).split(';').map { |i| i << ".#{year}" }
+    def date(row)
+      excel.cell(row, 2).split(';').map { |i| parse_date(i + ".#{year}") }
     end
 
     def year

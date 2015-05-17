@@ -21,6 +21,7 @@ module ImportData
     def data(row)
       {
         kind: 4,
+        group_id: group_id,
         street: clean_street(excel.cell(row, 2)),
         data: {
           info: excel.cell(row, 2),
@@ -45,6 +46,10 @@ module ImportData
 
     def group_name
       excel.default_sheet.downcase.include?('jedno') ? 'Jednorodzinne' : 'Wielolokalowe'
+    end
+
+    def group_id
+      group_name == 'Jednorodzinne' ? 1 : 2
     end
 
     def sheets_names
