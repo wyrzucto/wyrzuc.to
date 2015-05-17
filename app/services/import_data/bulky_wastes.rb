@@ -19,6 +19,7 @@ module ImportData
       if group_id == 1
         {
           kind: 5,
+          group_id: 1,
           street: clean_street(excel.cell(row, 1)),
           data: {
             info: excel.cell(row, 1),
@@ -29,6 +30,7 @@ module ImportData
       else
         {
           kind: 5,
+          group_id: 2,
           street: clean_street(excel.cell(row, 4)),
           data: {
             info: excel.cell(row, 4),

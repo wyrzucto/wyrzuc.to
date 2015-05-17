@@ -1,10 +1,10 @@
 class BulkyWastesInfoPresenter < BasePresenter
 
   def data
-    all = []
+    all_data = []
 
     if kind == :weekday
-      all + bulky_wastes(2).inject([]) do |result, item|
+      all_data += bulky_wastes(2).inject([]) do |result, item|
         parse_weekday(item).each do |weekday|
           result << {
             title:   I18n.t("sidebar.titles.bulky_wastes"),
@@ -17,9 +17,9 @@ class BulkyWastesInfoPresenter < BasePresenter
     end
 
     if kind == :date
-      all + bulky_wastes(1).inject([]) do |result, item|
+      all_data += bulky_wastes(1).inject([]) do |result, item|
         parse_date(item).each do |date|
-          result << result << {
+          result << {
             title: I18n.t("sidebar.titles.bulky_wastes"),
             id:    item.id,
             date:  date
@@ -29,7 +29,7 @@ class BulkyWastesInfoPresenter < BasePresenter
       end
     end
 
-    all
+    all_data
   end
 
   private
