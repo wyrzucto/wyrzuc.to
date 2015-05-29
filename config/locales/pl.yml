@@ -35,3 +35,16 @@ pl:
       bulky_wastes: "Zbiórka odpadów wielkogabarytowych"
   description:
     default_description: "Jeszcze nie wiemy gdzie wyrzucać tego typu śmieci, ale to ustalimy i dodamy informację do serwisu. Dziękujemy za zgłoszenie."
+  service:
+    phrases:
+      form:
+        name: "Nazwa"
+        fraction: "Frakcja"
+    fractions:
+      form:
+        name: "Nazwa"
+        description: Opis
+        waste_data: "Kategoria"
+    descriptions:
+      form:
+        description: "Opis"
