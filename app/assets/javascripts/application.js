@@ -49,7 +49,7 @@ var fractionsPlaces = function(wastes_url) {
   $('.x-left-button').css('width', '45px');
   $('.x-left-button').data("click", true);
   $.each(wastes_urls, function(i, url) {
-    markerClusterer.removeMarkers(markersCache[wastes_url], false);
+    markerClusterer.removeMarkers(markersCache[url], false);
   });
 
   $('.x-left-button#' + wastes_url).click();
