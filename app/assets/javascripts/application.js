@@ -2,6 +2,7 @@
 //= require jquery.ui.autocomplete
 //= require jquery_ujs
 //= require autocomplete-rails
+//= require bootstrap/modal
 //= require application/scroll
 //= require application/home
 
@@ -43,3 +44,13 @@ var markersCache = {};
 var clickedPlaceCache = null;
 
 var infowindow = new google.maps.InfoWindow();
+
+var fractionsPlaces = function(wastes_url) {
+  $('.x-left-button').css('width', '45px');
+  $('.x-left-button').data("click", true);
+  $.each(wastes_urls, function(i, url) {
+    markerClusterer.removeMarkers(markersCache[wastes_url], false);
+  });
+
+  $('.x-left-button#' + wastes_url).click();
+}

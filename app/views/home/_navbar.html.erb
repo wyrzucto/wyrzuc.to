@@ -1,9 +1,9 @@
 <div class="header">
-  <a href="./" class="home"></a>
-  <%= form_tag '#', remote: true do %>
-    <%= label_tag :waste_type, "Gdzie mam wyrzucić" %>
+  <a href="/" class="home"></a>
+  <%= form_tag fraction_description_home_path, remote: true do %>
+    <%= label_tag :phrase, "Gdzie mam wyrzucić" %>
     <div>
-      <%= text_field_tag :waste_type, nil, required: true, placeholder: t("placeholders.waste_type") %>
+      <%= autocomplete_field_tag :phrase, nil, autocomplete_phrase_name_home_path, required: true, placeholder: t("placeholders.waste_type") %>
       <%= submit_tag 'Szukaj' %>
     </div>
   <% end %>

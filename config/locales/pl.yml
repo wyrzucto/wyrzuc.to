@@ -3,8 +3,8 @@ pl:
     submit: 'Zapisz'
     search: 'Szukaj'
   placeholders:
-        waste_type: 'wpisz typ śmieci'
-        user_location: 'wpisz nazwe ulicy'
+    waste_type: 'wpisz typ śmieci'
+    user_location: 'wpisz nazwe ulicy'
   messages:
     data_in_progress: 'Dane są w trakcie przetwarzania...'
     data_saved: 'Dane zostały zapisane'
@@ -33,3 +33,5 @@ pl:
         wet: "Zbiórka odpadów mokrych"
         mixed: "Zbiórka odpadów mieszanych"
       bulky_wastes: "Zbiórka odpadów wielkogabarytowych"
+  description:
+    default_description: "Jeszcze nie wiemy gdzie wyrzucać tego typu śmieci, ale to ustalimy i dodamy informację do serwisu. Dziękujemy za zgłoszenie."

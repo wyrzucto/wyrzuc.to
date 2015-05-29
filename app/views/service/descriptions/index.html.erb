@@ -1,0 +1,21 @@
+<div class="box-header with-border">
+  <h3 class="box-title">Opisy</h3>
+  <%= link_to 'Nowy opis', new_service_description_path, class: 'btn btn-primary' %>
+</div>
+
+<div class="box-body table-responsive no-padding">
+  <table class="table table-hover">
+    <tbody><tr>
+      <th>Opis</th>
+      <th>Edycja</th>
+      <th>Usuń</th>
+    </tr>
+    <% @descriptions.each do |description| %>
+      <tr>
+        <td><%= description.description %></td>
+        <td><%= link_to 'edit', edit_service_description_path(description), class: 'btn btn-info' %></td>
+        <td><%= link_to 'usuń', service_description_path(description), method: :delete, class: 'btn btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody></table>
+</div>

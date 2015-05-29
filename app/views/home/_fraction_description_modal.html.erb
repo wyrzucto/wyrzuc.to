@@ -1,0 +1,20 @@
+<div id='fraction_description_modal' class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Gdzie mam wyrzucić "<%= phrase.name %>" ?</h4>
+      </div>
+
+      <div class="modal-body">
+        <p>
+          <%= phrase.parsed_description %>
+
+          <% if phrase.fraction.present? %>
+            Kliknij <strong><%= link_to "<TU>", fractions_places_home_path(waste_name: phrase.fraction.waste_data.kind), remote: true %></strong>, aby wyświetlić punkty odbioru, lub wpisz swój adres po prawej stronie.
+          <% end %>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

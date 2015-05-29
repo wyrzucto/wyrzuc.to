@@ -4,10 +4,20 @@ class HomeController < ApplicationController
 
   autocomplete :waste, :street
 
+  autocomplete :phrase, :name
+
   def show; end
 
   def search_places
     @presenter = PlacesNearLocationPresenter.new(form_params)
+  end
+
+  def fraction_description
+    @phrase = Phrase.find_or_create_by(name: params[:phrase])
+  end
+
+  def fractions_places
+    @waste_name = params[:waste_name]
   end
 
   private

@@ -1,7 +1,7 @@
 Wyrzuc.to
 =========
 
-Wyrzuc.to to aplikacja informująca mieszkańców Gdańska o tym gdzie, kiedy powinni wyrzucać śmieci. Aplikacja jest tworzona w porozumieniu z miastem Gdańsk w ramach stażu organizowanego przez Fundację ePaństwo. 
+Wyrzuc.to to aplikacja informująca mieszkańców Gdańska o tym gdzie, kiedy powinni wyrzucać śmieci. Aplikacja jest tworzona w porozumieniu z miastem Gdańsk w ramach stażu organizowanego przez Fundację ePaństwo.
 
 ## Serwer stage
 [ ![Codeship Status for wyrzucto/wyrzuc.to](https://codeship.com/projects/ac77bd70-82c9-0132-c330-4e1ff6946f22/status?branch=master)](https://codeship.com/projects/57950)
@@ -24,6 +24,24 @@ W Polsce:
 - Wywozik Orzesze - [Android](https://play.google.com/store/apps/developer?id=Goste&hl=pl)
 - Kiedy Wywóz (wiele miast, brak aktualizacji) - [Android](https://play.google.com/store/apps/details?id=pk.sophscope.odpady&hl=pl)
 
-Na świecie: 
+Na świecie:
 - [Gominashi JP](http://5374.jp/en/)
 - [Recollect](https://recollect.net/)
+
+
+
+
+
+
+
+
+
+z punktu widzenia użytkownika: wpisuje śmieci, które chce wyrzucić, podpowiadane są frazy z bazy. Może tam wpisać cokolwiek.
+
+Jeżeli wpisze coś co istnieje już w bazie to wyświetla się opis informujący gdzie dane śmieci wyrzucić. Np. Styropian możesz wyrzucać do pojemników na odpady segregowane. Kliknij <tu>, aby wyświetlić punkty odbioru, lub wpisz swój adres po prawej stronie.
+
+Ponieważ użytkownicy mogą wpisywać wiele rzeczy to w bazie powinno być mapowanie:
+wpisana fraza -> frakcja
+oraz frakcja -> opis. Tak żeby można było mapować wiele frakcji na jeden opis. W opisie powinna być placeholder na wklejenie wpisanej frazy podczas wyszukiwania. Np. "Smieci plastikowe (takie jak '<fraza'>) wyrzucisz tu.
+
+Gdy nie ma frazy w bazie, to powina się dodac z pustym mapowaniem i wyseitlic opis "Jeszcze nie wiemy gdzie wyrzucać tego typu śmieci, ale to ustalimy i dodamy informację do serwisu. Dziękujemy za zgłoszenie".

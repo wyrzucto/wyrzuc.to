@@ -1,0 +1,16 @@
+---
+- id: 1
+  kind: 'pharmacies'
+  name: 'Apteki'
+- id: 2
+  kind: 'wet_and_dry_wastes'
+  name: 'Odpady mokre, suche, zmieszane'
+- id: 3
+  kind: 'hazardous_wastes'
+  name: 'Odpady niebezpieczne'
+- id: 4
+  kind: 'bulky_wastes'
+  name: 'Odpady wielkogabarytowe'
+- id: 5
+  kind: 'packaging_waste'
+  name: 'Odpady opakowaniowe'

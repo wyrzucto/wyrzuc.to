@@ -4,8 +4,11 @@ Rails.application.routes.draw do
 
   resource :home, controller: :home, only: [:show] do
     collection do
+      post :fraction_description
       post :search_places
       get :autocomplete_waste_street
+      get :autocomplete_phrase_name
+      get :fractions_places
     end
   end
 
@@ -33,5 +36,8 @@ Rails.application.routes.draw do
     resources :hazardous_wastes,   only: [:new, :create]
     resources :bulky_wastes,       only: [:new, :create]
     resources :packaging_wastes,   only: [:new, :create]
+    resources :phrases
+    resources :descriptions
+    resources :fractions
   end
 end

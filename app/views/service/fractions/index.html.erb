@@ -1,0 +1,25 @@
+<div class="box-header with-border">
+  <h3 class="box-title">Frakcje</h3>
+  <%= link_to 'Nowa frakcja', new_service_fraction_path, class: 'btn btn-primary' %>
+</div>
+
+<div class="box-body table-responsive no-padding">
+  <table class="table table-hover">
+    <tbody><tr>
+      <th>Nazwa</th>
+      <th>Opis</th>
+      <th>Kategoria</th>
+      <th>Edycja</th>
+      <th>Usuń</th>
+    </tr>
+    <% @fractions.each do |fraction| %>
+      <tr>
+        <td><%= fraction.name %></td>
+        <td><%= fraction.description.nil? ? "BRAK" : truncate(fraction.description.description, length: 30) %></td>
+        <td><%= fraction.waste_data.nil? ? "BRAK" : fraction.waste_data.name %></td>
+        <td><%= link_to 'edit', edit_service_fraction_path(fraction), class: 'btn btn-info' %></td>
+        <td><%= link_to 'usuń', service_fraction_path(fraction), method: :delete, class: 'btn btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody></table>
+</div>
