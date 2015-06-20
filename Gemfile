@@ -59,5 +59,5 @@ gem 'sidekiq'
 gem 'jquery-ui-rails'
 gem 'rails4-autocomplete'
 gem 'active_hash'
-
+gem 'sinatra', :require => nil
 gem 'rails_12factor', group: :production #only for heroku_app

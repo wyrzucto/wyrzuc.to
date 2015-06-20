@@ -59,6 +59,15 @@
           <span>Opisy frakcji</span>
         <% end %>
       </li>
+
+      <li class="header">Monitoring</li>
+
+      <li class="treeview">
+        <%= link_to sidekiq_web_path do %>
+          <%= fa_icon('tachometer') %>
+          <span>Sidekiq (procesy w tle)</span>
+        <% end %>
+      </li>
     </ul>
   </section>
 </aside>
