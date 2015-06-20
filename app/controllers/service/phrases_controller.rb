@@ -42,6 +42,17 @@ module Service
       end
     end
 
+    def new_import_data; end
+
+    def import_data
+      ImportData::Phrases.new(file.path, file.original_filename, {}).import
+      redirect_to service_phrases_path, notice: t('messages.data_in_progress')
+    end
+
+    def file
+      params.permit(:file)[:file]
+    end
+
     private
 
     def phrase_params

@@ -12,5 +12,5 @@
   kind: 'bulky_wastes'
   name: 'Odpady wielkogabarytowe'
 - id: 5
-  kind: 'packaging_waste'
+  kind: 'packaging_wastes'
   name: 'Odpady opakowaniowe'

@@ -36,7 +36,12 @@ Rails.application.routes.draw do
     resources :hazardous_wastes,   only: [:new, :create]
     resources :bulky_wastes,       only: [:new, :create]
     resources :packaging_wastes,   only: [:new, :create]
-    resources :phrases
+    resources :phrases do
+      collection do
+        get :new_import_data
+        post :import_data
+      end
+    end
     resources :descriptions
     resources :fractions
   end
