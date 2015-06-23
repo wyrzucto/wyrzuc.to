@@ -45,12 +45,8 @@ module Service
     def new_import_data; end
 
     def import_data
-      ImportData::Phrases.new(file.path, file.original_filename, {}).import
+      ImportDataWorker.perform_async(:phrases, tempfile_path)
       redirect_to service_phrases_path, notice: t('messages.data_in_progress')
-    end
-
-    def file
-      params.permit(:file)[:file]
     end
 
     private

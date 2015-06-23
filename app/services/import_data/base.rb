@@ -2,14 +2,13 @@ module ImportData
   class InvalidFileExtension < StandardError; end
   class Base
 
-    def initialize(file_path, file_name, params)
+    def initialize(file_path, params)
       @file_path = file_path
-      @file_name = file_name
       @params    = params
     end
 
     private
-    attr_reader :file_path, :file_name, :params
+    attr_reader :file_path, :params
 
     def clean_street(street)
       street.sub(/[\(|\"|\'].*/, '').strip
@@ -28,7 +27,7 @@ module ImportData
     end
 
     def file_extension
-      File.extname(file_name)
+      File.extname(file_path)
     end
   end
 end
