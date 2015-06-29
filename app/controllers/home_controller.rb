@@ -2,7 +2,7 @@ class HomeController < ApplicationController
 
   before_action :save_user_location, only: :search_places
 
-  autocomplete :waste, :street, scopes: [:uniq]
+  autocomplete :waste, :street, scopes: [:uniq_streets]
 
   autocomplete :phrase, :name
 
