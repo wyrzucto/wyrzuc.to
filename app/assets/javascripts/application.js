@@ -12,8 +12,10 @@ var mapOptions = {
   center: defaultLocation,
   mapTypeControl: false,
   panControl: false,
-  zoomControl: false,
-  zoomControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
+  zoomControl: true,
+  streetViewControl: false,
+  zoomControlOptions: { 
+    position: google.maps.ControlPosition.LEFT_BOTTOM },
   zoom: 11,
 };
 
