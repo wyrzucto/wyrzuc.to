@@ -255,11 +255,19 @@ hr.short {
 }
 
 .sprawdzTermin {
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    width: 232px;
-    margin-top: -85px;
+    padding: 100px 15px 0;
+}
+
+.sprawdzTermin h2 {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.sprawdzTermin h3 {
+    font-size: 18px;
 }
 
 .sidebar .location {

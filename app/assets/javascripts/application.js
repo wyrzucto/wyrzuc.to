@@ -12,7 +12,6 @@ var mapOptions = {
   center: defaultLocation,
   mapTypeControl: false,
   panControl: false,
-  zoomControl: false,
   zoomControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
   zoom: 11,
 };
@@ -33,7 +32,6 @@ var centerTo = function(location, zoom) {
 
 var wastes_urls = [
   'pharmacies',
-  'wet_and_dry_wastes',
   'hazardous_wastes',
   'bulky_wastes',
   'packaging_wastes'
