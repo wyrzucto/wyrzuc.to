@@ -26,6 +26,13 @@ module ImportData
       end
     end
 
+    def json
+      @file_extension ||= case file_extension
+      when '.json', '.geojson'  then JSON::load(File.open(file_path, 'r') {|f| f.read }).with_indifferent_access
+      else raise ImportData::InvalidFileExtension
+      end
+    end
+
     def file_extension
       File.extname(file_path)
     end

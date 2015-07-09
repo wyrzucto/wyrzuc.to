@@ -6,6 +6,8 @@ class HomeController < ApplicationController
 
   autocomplete :phrase, :name
 
+  autocomplete :location, :full_address
+
   def show; end
 
   def search_places

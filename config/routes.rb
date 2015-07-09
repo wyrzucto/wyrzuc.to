@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       post :search_places
       get :autocomplete_waste_street
       get :autocomplete_phrase_name
+      get :autocomplete_location_full_address
       get :fractions_places
     end
   end
@@ -38,6 +39,8 @@ Rails.application.routes.draw do
     resources :hazardous_wastes,   only: [:new, :create]
     resources :bulky_wastes,       only: [:new, :create]
     resources :packaging_wastes,   only: [:new, :create]
+
+    resources :locations,   only: [:new, :create]
     resources :phrases do
       collection do
         get :new_import_data
