@@ -1,0 +1,24 @@
+default:
+  selector: "textarea.tinymce"
+  plugins: [
+    "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+    "searchreplace wordcount visualblocks visualchars code fullscreen",
+    "insertdatetime media nonbreaking save table contextmenu directionality",
+    "emoticons template paste textcolor"
+  ]
+  theme: 'modern'
+
+  height: 300
+
+  toolbar1: "newdocument fullpage | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | styleselect formatselect fontselect fontsizeselect | print fullscreen"
+  toolbar2: "cut copy paste | searchreplace | bullist numlist | outdent indent blockquote | undo redo | link unlink anchor image media code | inserttime preview | forecolor backcolor"
+
+  menubar: false
+  toolbar_items_size: 'small'
+
+  entities: ''
+  relative_urls: false
+  entity_encoding: raw
+  gecko_spellcheck: true
+
+  language: pl

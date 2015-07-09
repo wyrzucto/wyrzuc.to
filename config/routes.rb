@@ -40,6 +40,7 @@ Rails.application.routes.draw do
     resources :bulky_wastes,       only: [:new, :create]
     resources :packaging_wastes,   only: [:new, :create]
 
+
     resources :locations,   only: [:new, :create]
     resources :phrases do
       collection do
@@ -49,5 +50,6 @@ Rails.application.routes.draw do
     end
     resources :fractions
     resources :logs, only: [:index]
+    resources :static_pages,   except: [ :show ]
   end
 end

@@ -10,7 +10,7 @@ module Service
     end
 
     def create
-      @fraction = Fraction.new(fracrion_params)
+      @fraction = Fraction.new(fraction_params)
       if @fraction.save
         redirect_to service_fractions_path, notice: t('messages.data_saved')
       else
@@ -25,7 +25,7 @@ module Service
 
     def update
       @fraction = Fraction.find(params[:id])
-      if @fraction.update_attributes(fracrion_params)
+      if @fraction.update_attributes(fraction_params)
         redirect_to service_fractions_path, notice: t('messages.data_saved')
       else
         flash[:error] = t('messages.data_not_saved')
@@ -44,7 +44,7 @@ module Service
 
     private
 
-    def fracrion_params
+    def fraction_params
       params.require(:fraction).permit(:name, :description, :waste_data_id)
     end
   end

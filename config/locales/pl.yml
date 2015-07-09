@@ -48,3 +48,7 @@ pl:
     descriptions:
       form:
         description: "Opis"
+    static_pages:
+      form:
+        title: Tytuł podstrony
+        content: Treść podstrony

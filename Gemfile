@@ -61,3 +61,8 @@ gem 'rails4-autocomplete'
 gem 'active_hash'
 gem 'sinatra', :require => nil
 gem 'rails_12factor', group: :production #only for heroku_app
+
+
+gem 'tinymce-rails'
+gem 'tinymce-rails-langs'
+gem 'friendly_id'
