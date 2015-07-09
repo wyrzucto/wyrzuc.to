@@ -5,7 +5,8 @@ module ImportData
       hazardous_wastes.delete_all if hazardous_wastes.any?
       excel.sheet(1)
       (2..excel.last_row).each do |row|
-        Waste.create(data(row))
+        waste = Waste.new(data(row))
+        LogActivity.save(waste) unless waste.save
       end
     end
 

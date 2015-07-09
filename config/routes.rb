@@ -8,9 +8,9 @@ Rails.application.routes.draw do
     collection do
       post :fraction_description
       post :search_places
-      get :autocomplete_waste_street
-      get :autocomplete_phrase_name
-      get :autocomplete_location_full_address
+      get :autocomplete_wastes
+      get :autocomplete_phrases
+      get :autocomplete_locations
       get :fractions_places
     end
   end
@@ -47,7 +47,7 @@ Rails.application.routes.draw do
         post :import_data
       end
     end
-    resources :descriptions
     resources :fractions
+    resources :logs, only: [:index]
   end
 end

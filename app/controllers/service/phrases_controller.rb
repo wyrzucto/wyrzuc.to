@@ -2,7 +2,7 @@ module Service
   class PhrasesController < Service::ApplicationController
 
     def index
-      @phrases = Phrase.all
+      @phrases = Phrase.includes(:fraction).all
     end
 
     def new

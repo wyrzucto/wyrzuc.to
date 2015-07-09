@@ -1,9 +1,9 @@
 <div class="header">
   <a href="/" class="home"></a>
-  <%= form_tag fraction_description_home_path, remote: true do %>
+  <%= form_tag fraction_description_home_path, remote: true, class: 'x-search-fraction-form' do %>
     <%= label_tag :phrase, "Gdzie mam wyrzucić" %>
     <div>
-      <%= autocomplete_field_tag :phrase, nil, autocomplete_phrase_name_home_path, required: true, placeholder: t("placeholders.waste_type") %>
+      <%= text_field_tag :phrase, nil, required: true, placeholder: t("placeholders.waste_type"), class: 'x-autocomplete-phrases' %>
       <%= submit_tag 'Szukaj' %>
     </div>
   <% end %>

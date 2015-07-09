@@ -7,7 +7,11 @@ module ImportData
         excel.sheet(sheet_name)
         (4..excel.last_row).each do |row|
           next if excel.cell(row, 2).nil?
-          Waste.create(data(row)) if excel.row(row)[4..21].compact.any?
+
+          if excel.row(row)[4..21].compact.any?
+            waste = Waste.new(data(row))
+            LogActivity.save(waste) unless waste.save
+          end
         end
       end
     end

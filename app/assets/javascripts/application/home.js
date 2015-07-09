@@ -58,4 +58,34 @@ $(function(){
     e.preventDefault();
     $('body').toggleClass('sidebarOpen');
   });
+
+  var autocompleteData = function(path, request, response){
+    $.ajax({
+      url: '/home/' + path,
+      data: { term: request.term },
+      success: function(result){
+        response(result['data']);
+      }
+    });
+  }
+
+  $('.x-autocomplete-phrases').autocomplete({
+    source: function(request, response){
+      autocompleteData('autocomplete_phrases', request, response)
+    },
+    select: function(event, ui) {
+      $('.x-autocomplete-phrases').val(ui.item.value);
+      $('.x-search-fraction-form').submit();
+    }
+  });
+
+  $('.x-autocomplete-locations').autocomplete({
+    source: function(request, response){
+      autocompleteData('autocomplete_locations', request, response)
+    },
+    select: function(event, ui) {
+      $('.x-autocomplete-locations').val(ui.item.value);
+      $('.x-search-locations-form').submit();
+    }
+  });
 });

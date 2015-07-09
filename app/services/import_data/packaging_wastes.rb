@@ -4,7 +4,8 @@ module ImportData
     def import
       packaging_wastes.delete_all if packaging_wastes.any?
       (4..excel.sheet(0).last_row).each do |row|
-        Waste.create(data(row))
+        waste = Waste.new(data(row))
+        LogActivity.save(waste) unless waste.save
       end
     end
 

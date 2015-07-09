@@ -12,7 +12,7 @@ group :development, :test do
 end
 
 group :test_codeship, :production, :stage_heroku do
-   gem 'pg'
+  gem 'pg'
 end
 
 # Use SCSS for stylesheets

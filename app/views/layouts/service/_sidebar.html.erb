@@ -48,26 +48,26 @@
 
       <li class="treeview">
         <%= link_to service_phrases_path do %>
-          <%= fa_icon('archive') %>
+          <%= fa_icon('list') %>
           <span>Frazy</span>
         <% end %>
       </li>
 
       <li class="treeview">
         <%= link_to service_fractions_path do %>
-          <%= fa_icon('archive') %>
+          <%= fa_icon('list') %>
           <span>Frakcje</span>
         <% end %>
       </li>
 
+      <li class="header">Monitoring</li>
+
       <li class="treeview">
-        <%= link_to service_descriptions_path do %>
-          <%= fa_icon('archive') %>
-          <span>Opisy frakcji</span>
+        <%= link_to service_logs_path do %>
+          <%= fa_icon('info') %>
+          <span>Logi</span>
         <% end %>
       </li>
-
-      <li class="header">Monitoring</li>
 
       <li class="treeview">
         <%= link_to sidekiq_web_path do %>

@@ -10,11 +10,11 @@
       <th>Edycja</th>
       <th>Usuń</th>
     </tr>
-    <% @descriptions.each do |description| %>
+    <% @descriptions.each do |item| %>
       <tr>
-        <td><%= description.description %></td>
-        <td><%= link_to 'edit', edit_service_description_path(description), class: 'btn btn-info' %></td>
-        <td><%= link_to 'usuń', service_description_path(description), method: :delete, class: 'btn btn-danger' %></td>
+        <td><%= item.description %></td>
+        <td><%= link_to 'edit', edit_service_description_path(item), class: 'btn btn-info' %></td>
+        <td><%= link_to 'usuń', service_description_path(item), method: :delete, class: 'btn btn-danger' %></td>
       </tr>
     <% end %>
   </tbody></table>
