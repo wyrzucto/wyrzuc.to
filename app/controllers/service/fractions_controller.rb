@@ -45,7 +45,7 @@ module Service
     private
 
     def fracrion_params
-      params.require(:fraction).permit(:name, :description_id, :waste_data_id)
+      params.require(:fraction).permit(:name, :description, :waste_data_id)
     end
   end
 end

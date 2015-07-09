@@ -15,7 +15,7 @@
     <% @fractions.each do |fraction| %>
       <tr>
         <td><%= fraction.name %></td>
-        <td><%= fraction.description.nil? ? "BRAK" : truncate(fraction.description.description, length: 30) %></td>
+        <td><%= fraction.description.nil? ? "BRAK" : truncate(fraction.description, length: 30) %></td>
         <td><%= fraction.waste_data.nil? ? "BRAK" : fraction.waste_data.name %></td>
         <td><%= link_to 'edit', edit_service_fraction_path(fraction), class: 'btn btn-info' %></td>
         <td><%= link_to 'usuń', service_fraction_path(fraction), method: :delete, class: 'btn btn-danger' %></td>

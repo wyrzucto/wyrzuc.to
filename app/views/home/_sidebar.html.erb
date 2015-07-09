@@ -13,8 +13,8 @@
 
         <hr class="short" />
 
-        <%= form_tag search_places_home_path, remote: true do %>
-          <%= autocomplete_field_tag :user_location, nil, autocomplete_waste_street_home_path, required: true,  class: "x-user-location", placeholder: t("placeholders.user_location") %>
+        <%= form_tag search_places_home_path, remote: true, class: 'x-search-wastes-form' do %>
+          <%= text_field_tag :user_location, nil, required: true,  class: "x-user-location x-autocomplete-wastes", placeholder: t("placeholders.user_location") %>
           <%= hidden_field_tag :count, 1 %>
           <%= submit_tag t('buttons.search') %>
         <% end %>

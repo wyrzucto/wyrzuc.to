@@ -2,10 +2,6 @@ class HomeController < ApplicationController
 
   before_action :save_user_location, only: :search_places
 
-  autocomplete :waste, :street, scopes: [:uniq_streets]
-
-  autocomplete :phrase, :name
-
   def show; end
 
   def search_places
@@ -18,6 +14,14 @@ class HomeController < ApplicationController
 
   def fractions_places
     @waste_name = params[:waste_name]
+  end
+
+  def autocomplete_wastes
+    render json: { data: Waste.where('street LIKE ?', "#{params[:term]}%").pluck(:street) }
+  end
+
+  def autocomplete_phrases
+    render json: { data: Phrase.where('name LIKE ?', "#{params[:term]}%").pluck(:name) }
   end
 
   private

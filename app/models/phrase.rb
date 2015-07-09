@@ -6,7 +6,7 @@ class Phrase < ActiveRecord::Base
     if fraction.try(:description).nil?
       I18n.t('description.default_description')
     else
-      fraction.description.description.gsub(/\{\{.*\}\}/, name)
+      fraction.description.gsub(/\{\{.*\}\}/, name)
     end
   end
 end

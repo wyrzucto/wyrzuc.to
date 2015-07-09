@@ -1,7 +1,6 @@
 //= require jquery
 //= require jquery.ui.autocomplete
 //= require jquery_ujs
-//= require autocomplete-rails
 //= require bootstrap/modal
 //= require application/scroll
 //= require application/home
@@ -12,7 +11,7 @@ var mapOptions = {
   center: defaultLocation,
   mapTypeControl: false,
   panControl: false,
-  zoomControl: false,
+  zoomControl: true,
   zoomControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
   zoom: 11,
 };

@@ -5,17 +5,20 @@ module ImportData
       excel.sheet('Arkusz1')
       (1..5).each do |col|
         (2..excel.last_row).each do |row|
-          next if excel.cell(row, col).nil? || phrase_exist?(row, col)
-          Phrase.create(data(row, col))
+          next if excel.cell(row, col).nil?
+
+          phrase = all_phrases.find_by_name(excel.cell(row, col))
+
+          if phrase.nil?
+            Phrase.create(data(row, col))
+          else
+            phrase.update_attributes(data(row, col))
+          end
         end
       end
     end
 
     private
-
-    def phrase_exist?(row, col)
-      all_phrases.where(name: excel.cell(row, col)).any?
-    end
 
     def all_phrases
       @all_phrases ||= Phrase.all
