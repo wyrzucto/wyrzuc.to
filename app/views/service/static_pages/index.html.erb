@@ -1,0 +1,21 @@
+<div class="box-header with-border">
+  <h3 class="box-title">Podstrony tekstowe</h3>
+  <%= link_to 'Nowa podstrona', new_service_static_page_path, class: 'btn btn-primary' %>
+</div>
+
+<div class="box-body table-responsive no-padding">
+  <table class="table table-hover">
+    <tbody><tr>
+      <th>Tytuł</th>
+      <th>Edycja</th>
+      <th>Usuń</th>
+    </tr>
+    <% @static_pages.each do |static_page| %>
+      <tr>
+        <td><%= static_page.title %></td>
+        <td><%= link_to 'edit', edit_service_static_page_path(static_page), class: 'btn btn-info' %></td>
+        <td><%= link_to 'usuń', service_static_page_path(static_page), method: :delete, class: 'btn btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody></table>
+</div>
