@@ -25,7 +25,7 @@ class HomeController < ApplicationController
   end
 
   def autocomplete_locations
-    results = Location.where('street LIKE ?', "#{params[:term]}%").limit(10).uniq.pluck(:street)
+    results = Location.where('street LIKE ?', "#{params[:term]}%").limit(10).reorder(:street).uniq.pluck(:street)
     if results.count == 1
       results = Location.where('full_address LIKE ?', "#{params[:term]}%").pluck(:full_address)
     end
