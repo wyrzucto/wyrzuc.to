@@ -45,5 +45,6 @@ Rails.application.routes.draw do
       end
     end
     resources :fractions
+    resources :logs, only: [:index]
   end
 end

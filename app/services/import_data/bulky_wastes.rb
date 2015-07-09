@@ -4,8 +4,15 @@ module ImportData
     def import
       bulky_wastes.delete_all if bulky_wastes.any?
       (4..excel.last_row).each do |row|
-        Waste.create(data(row, 1)) if excel.cell(row, 1).present?
-        Waste.create(data(row, 2)) if excel.cell(row, 4).present?
+        if excel.cell(row, 1).present?
+          waste = Waste.new(data(row, 1))
+          LogActivity.save(waste) unless waste.save
+        end
+
+        if excel.cell(row, 4).present?
+          waste = Waste.new(data(row, 2))
+          LogActivity.save(waste) unless waste.save
+        end
       end
     end
 

@@ -5,7 +5,8 @@ module ImportData
       pharmacies.delete_all if pharmacies.any?
       (excel.first_row..excel.last_row).each do |row|
         next if excel.font(row, 1).bold? || excel.cell(row, 1).nil?
-        Waste.create(data(row))
+        waste = Waste.new(data(row))
+        LogActivity.save(waste) unless waste.save
       end
     end
 

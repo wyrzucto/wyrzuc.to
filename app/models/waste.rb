@@ -2,8 +2,10 @@ class Waste < ActiveRecord::Base
 
   include Addressable
 
+  validates :street, :kind, :latitude, :longitude, presence: true
+
   geocoded_by :full_address
-  after_validation :geocode
+  before_validation :geocode
 
   serialize :data
 
