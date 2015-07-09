@@ -79,13 +79,13 @@ $(function(){
     }
   });
 
-  $('.x-autocomplete-wastes').autocomplete({
+  $('.x-autocomplete-locations').autocomplete({
     source: function(request, response){
-      autocompleteData('autocomplete_wastes', request, response)
+      autocompleteData('autocomplete_locations', request, response)
     },
     select: function(event, ui) {
-      $('.x-autocomplete-wastes').val(ui.item.value);
-      $('.x-search-wastes-form').submit();
+      $('.x-autocomplete-locations').val(ui.item.value);
+      $('.x-search-locations-form').submit();
     }
   });
 });

@@ -8,13 +8,14 @@
   <div class="open">
     <div class="text-center">
       <div class="sprawdzTermin x-form">
+        <h2>Chcesz aby Gdańsk był bardziej czystym miastem? Tu znajdziesz informacje o zbiórce różnych typów odpadów!</h2>
         <%= image_tag "icon_kalendarz.png", style: "width: 44px; height: 42px" %>
-        <h2>Sprawdź terminy<br />odbioru odpadów</h2>
+        <h3>Sprawdź terminy<br />odbioru odpadów</h3>
 
         <hr class="short" />
 
-        <%= form_tag search_places_home_path, remote: true, class: 'x-search-wastes-form' do %>
-          <%= text_field_tag :user_location, nil, required: true,  class: "x-user-location x-autocomplete-wastes", placeholder: t("placeholders.user_location") %>
+        <%= form_tag search_places_home_path, remote: true, class: 'x-search-locations-form' do %>
+          <%= text_field_tag :user_location, nil, required: true,  class: "x-user-location x-autocomplete-locations", placeholder: t("placeholders.user_location") %>
           <%= hidden_field_tag :count, 1 %>
           <%= submit_tag t('buttons.search') %>
         <% end %>
