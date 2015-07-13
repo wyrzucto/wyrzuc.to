@@ -52,7 +52,7 @@ module ImportData
         date: date,
         street: address(row),
         data: {
-          info: excel.cell(row, description_col_inx).sub(/^\((.*)\)$/, "\\1"),
+          info: excel.cell(row, description_col_inx).try(:sub, /^\((.*)\)$/, "\\1"),
           date: date ? [ date ] : dates(row),
           hour: [
             I18n.l(Time.at(excel.cell(row, arr_time_col_inx)).utc, format: :hour),
