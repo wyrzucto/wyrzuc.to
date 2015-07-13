@@ -19,8 +19,8 @@ module ImportData
       {
         street: row[:properties][:NAZWA_ULIC].mb_chars.downcase.capitalize,
         number: row[:properties][:NUMER_DOMU],
-        lat: row[:geometry][:coordinates][0],
-        lng: row[:geometry][:coordinates][1],
+        lng: row[:geometry][:coordinates][0],
+        lat: row[:geometry][:coordinates][1],
       }
     end
   end

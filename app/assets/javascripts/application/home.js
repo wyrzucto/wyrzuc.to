@@ -5,12 +5,12 @@ $(function(){
       url: '/geolocations/' + url,
       dataType: 'json'
     }).done(function(data){
-      addToMrkersCache(url, data)
+      addToMarkersCache(url, data)
       markerClusterer.addMarkers(markersCache[url], false);
     });
   });
 
-  var addToMrkersCache = function(key, items){
+  var addToMarkersCache = function(key, items){
     markersCache[key] = items.map(function(item){
       var marker =  new google.maps.Marker({
         icon: "/markers/" + key + ".png",
@@ -18,7 +18,7 @@ $(function(){
         position: new google.maps.LatLng(item[1], item[2])
       });
       google.maps.event.addListener(marker, 'click', function() {
-        infowindow.setContent("<span style='color: black;'>"+this.title+"</span>");
+        infowindow.setContent("<span style='color: black;'>" + this.title.replace(/\n/g, '<br>') + "</span>");
         infowindow.open(map, this);
       });
       return marker;
