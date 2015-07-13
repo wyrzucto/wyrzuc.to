@@ -9,7 +9,7 @@ class GeolocationsController < ApplicationController
   end
 
   def hazardous_wastes
-    data = Waste.hazardous_wastes.where(date: Time.now..Setting[:hazardous_days_home].days.from_now) do |waste|
+    data = Waste.hazardous_wastes.where(date: Time.now..Setting[:hazardous_days_home].days.from_now).map do |waste|
       [ [ waste.street, waste.data[:info], waste.pretty_date ].compact.join("\n"), waste.latitude, waste.longitude ]
     end
     render json: data
