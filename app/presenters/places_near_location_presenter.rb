@@ -20,7 +20,7 @@ class PlacesNearLocationPresenter
   end
 
   def places_for_monthdays
-    (get_data(:pharmacies) + get_data(:hazardous_wastes) + get_data(:bulky_wastes, :date)).sort_by { |item| item[:date] }
+    (get_data(:hazardous_wastes) + get_data(:bulky_wastes, :date)).sort_by { |item| item[:date] }
   end
 
   private
