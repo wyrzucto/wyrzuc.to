@@ -28,6 +28,8 @@ Rails.application.routes.draw do
     get :packaging_wastes
   end
 
+  get 's/:slug', to: 'static_pages#show', as: :static_page
+
   devise_for :admin
 
   namespace :service do

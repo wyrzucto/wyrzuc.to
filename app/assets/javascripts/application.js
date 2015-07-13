@@ -2,6 +2,7 @@
 //= require jquery.ui.autocomplete
 //= require jquery_ujs
 //= require bootstrap/modal
+//= require fancybox
 //= require application/scroll
 //= require application/home
 
@@ -53,3 +54,9 @@ var fractionsPlaces = function(wastes_url) {
 
   $('.x-left-button#' + wastes_url).click();
 }
+
+$(document).on('ready', function() {
+  $('.fancybox').fancybox({
+    parent: 'body',
+  });
+})

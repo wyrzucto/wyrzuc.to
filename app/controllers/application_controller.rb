@@ -9,7 +9,11 @@ class ApplicationController < ActionController::Base
   private
 
   def layout_by_resource
-    devise_controller? ? 'devise' : 'application'
+    if request.headers['HTTP_X_FANCYBOX'].present? || request.xhr?
+      false
+    else
+      devise_controller? ? 'devise' : 'application'
+    end
   end
 
   def load_settings

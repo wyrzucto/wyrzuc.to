@@ -1,0 +1,21 @@
+.static-page {
+  min-width: 100%;
+  h2 {
+    color: rgb(1,76,32);
+    font-size: 24px;
+    margin: 0 0 20px;
+  }
+  .static-page-content {
+    color: #333;
+    font-size: 13px;
+    p {
+        margin: 0 0 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .static-page {
+    min-width: 500px;
+  }
+}

@@ -68,4 +68,5 @@ gem 'polish'
 
 gem 'tinymce-rails'
 gem 'tinymce-rails-langs'
+gem 'fancybox2-rails'
 gem 'friendly_id'
