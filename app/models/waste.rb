@@ -5,7 +5,7 @@ class Waste < ActiveRecord::Base
   validates :street, :kind, :latitude, :longitude, presence: true
 
   geocoded_by :full_address
-  before_validation :geocode
+  before_validation :set_location
 
   serialize :data
 
@@ -14,4 +14,11 @@ class Waste < ActiveRecord::Base
   scope :packaging_wastes,   -> { where(kind: 3) }
   scope :wet_and_dry_wastes, -> { where(kind: 4) }
   scope :bulky_wastes,       -> { where(kind: 5) }
+
+  def pretty_date
+    if self.date
+      d = I18n.l(self.date, format: "%A, %d %B %Y")
+      d += "\nw godzinach #{self.data[:hour]}" if self.data[:hour].present?
+    end
+  end
 end

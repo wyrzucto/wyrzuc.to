@@ -17,6 +17,8 @@ end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+gem 'haml-rails'
+
 gem 'leaflet-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -61,6 +63,7 @@ gem 'rails4-autocomplete'
 gem 'active_hash'
 gem 'sinatra', :require => nil
 gem 'rails_12factor', group: :production #only for heroku_app
+gem 'polish'
 
 
 gem 'tinymce-rails'

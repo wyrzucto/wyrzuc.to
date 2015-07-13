@@ -51,5 +51,8 @@ Rails.application.routes.draw do
     resources :fractions
     resources :logs, only: [:index]
     resources :static_pages,   except: [ :show ]
+
+    get 'settings', to: 'settings#edit', as: :settings
+    post 'settings', to: 'settings#update'
   end
 end
