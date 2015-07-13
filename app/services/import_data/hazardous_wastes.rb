@@ -17,10 +17,8 @@ module ImportData
       @description_col_inx = row.index('Opis') + 1
 
       (2..excel.last_row).each do |row|
-        dates(row).each do |date|
-          waste = Waste.new(data(row, date))
-          LogActivity.save(waste) unless waste.save
-        end
+        waste = Waste.new(data(row))
+        LogActivity.save(waste) unless waste.save
       end
     end
 
@@ -31,7 +29,7 @@ module ImportData
     end
 
     def dates(row)
-      excel.cell(row, date_col_inx).split(' ').map { |date| parse_date(date) }
+      excel.cell(row, date_col_inx).split(' ').map { |date| parse_date(date).to_date }.select { |date| date > Time.now }
     end
 
     def street(row)
@@ -46,14 +44,15 @@ module ImportData
       "#{street(row)} #{street_number(row)}"
     end
 
-    def data(row, date = nil)
+    def data(row)
+      future_dates = dates(row) 
       {
         kind: 2,
-        date: date,
+        date: future_dates.first,
         street: address(row),
         data: {
           info: excel.cell(row, description_col_inx).try(:sub, /^\((.*)\)$/, "\\1"),
-          date: date ? [ date ] : dates(row),
+          date: future_dates,
           hour: [
             I18n.l(Time.at(excel.cell(row, arr_time_col_inx)).utc, format: :hour),
             I18n.l(Time.at(excel.cell(row, dep_time_col_inx)).utc, format: :hour)

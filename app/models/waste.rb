@@ -5,7 +5,7 @@ class Waste < ActiveRecord::Base
   validates :street, :kind, :latitude, :longitude, presence: true
 
   geocoded_by :full_address
-  before_validation :set_location
+  before_validation :set_location, on: :create
 
   serialize :data
 

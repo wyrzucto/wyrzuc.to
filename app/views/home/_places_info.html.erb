@@ -19,7 +19,21 @@
     <div class="tse-scrollable wrapper x-scroll">
       <div class="tse-scroll-content">
       <div class="tse-content date-set">
-        <% presenter.data.each do |item| %>
+        <% presenter.data_by_weekday.each do |weekday, group| %>
+
+          <div class="date x-place">
+            <b>Co <%= t("date.day_names")[weekday] %></b>
+            <% group.each do |item| %>
+              <br>
+              <%= link_to place_info_path(item[:id]), remote: true do %>
+                <%= item[:title] %>
+              <% end %>
+            <% end %>
+          </div>
+          <hr>
+        <% end %>
+
+        <% presenter.places_for_monthdays.each do |item| %>
           <div class="date x-place">
             <%= link_to place_info_path(item[:id]), remote: true do %>
               <b>

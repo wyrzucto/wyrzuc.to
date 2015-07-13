@@ -1,12 +1,24 @@
 module ImportData
   class Pharmacies < Base
 
+    attr_reader :date_cols_inx, :street_col_inx, :name_col_inx, :phone_col_inx, :postcode_col_inx
+
     def import
       pharmacies.delete_all if pharmacies.any?
-      (excel.first_row..excel.last_row).each do |row|
-        next if excel.font(row, 1).bold? || excel.cell(row, 1).nil?
-        waste = Waste.new(data(row))
-        LogActivity.save(waste) unless waste.save
+
+      if header_row = (1..excel.last_row).find { |x| excel.cell(x, 1) == 'Nazwa apteki' }
+        row = excel.row(header_row)
+        @street_col_inx = row.index('Ulica') + 1
+        @name_col_inx = row.index('Nazwa apteki') + 1
+        @postcode_col_inx = row.index('Telefon')
+        @phone_col_inx = row.index('Telefon') + 1
+        @date_cols_inx = (1...row.size).find_all { |x| row[x] == 'Data Odb.' }.map(&:succ)
+
+        (excel.first_row..excel.last_row).each do |row|
+          next if excel.font(row, 1).bold? || excel.cell(row, 1).nil?
+          waste = Waste.new(data(row))
+          LogActivity.save(waste) unless waste.save
+        end
       end
     end
 
@@ -16,23 +28,22 @@ module ImportData
       @pharmacies ||= Waste.pharmacies
     end
 
+    def dates(row)
+      date_cols_inx.map { |inx| excel.cell(row, inx).to_date }.select { |date| date > Time.now }
+    end
+
     def data(row)
+      future_dates = dates(row)
       {
         kind: 1,
-        street: clean_street(excel.cell(row, 2)),
+        street: clean_street(excel.cell(row, street_col_inx)),
+        date: future_dates.first,
         data: {
-          info: excel.cell(row, 2),
-          name: excel.cell(row, 1),
-          post_code: excel.cell(row, 10),
-          phone_number: excel.cell(row, 11),
-          date: [
-            parse_date(excel.cell(row, 3)),
-            parse_date(excel.cell(row, 4)),
-            parse_date(excel.cell(row, 5)),
-            parse_date(excel.cell(row, 6)),
-            parse_date(excel.cell(row, 7)),
-            parse_date(excel.cell(row, 8))
-          ]
+          info: excel.cell(row, name_col_inx),
+          name: excel.cell(row, name_col_inx),
+          post_code: excel.cell(row, postcode_col_inx),
+          phone_number: excel.cell(row, phone_col_inx),
+          date: future_dates,
         }
       }
     end

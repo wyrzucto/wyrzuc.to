@@ -16,7 +16,7 @@ class HazardousWastesInfoPresenter < BasePresenter
   end
 
   def parse_date(item)
-    item.data[:date].map! { |date| Date.parse(date) }.select { |date| date >= Date.today }
+    item.data[:date].map! { |date| date.to_date }.select { |date| date >= Date.today }
   end
 
   def parse_data(item, date)
