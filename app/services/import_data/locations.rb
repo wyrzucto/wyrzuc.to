@@ -2,7 +2,7 @@ module ImportData
   class Locations < Base
 
     def import
-      locations.delete_all if locations.any?
+      Location.delete_all
       
       json[:features].each do |row|
         Location.create(data(row))
@@ -10,10 +10,6 @@ module ImportData
     end
 
     private
-
-    def locations
-      @locations ||= Location.all
-    end
 
     def data(row)
       {

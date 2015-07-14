@@ -2,12 +2,14 @@ module ImportData
   class Phrases < Base
 
     def import
+      Phrase.delete_all
+
       excel.sheet('Arkusz1')
       (1..5).each do |col|
         (2..excel.last_row).each do |row|
           next if excel.cell(row, col).nil?
 
-          phrase = all_phrases.find_by_name(excel.cell(row, col))
+          phrase = Phrase.find_by_name(excel.cell(row, col))
 
           if phrase.nil?
             Phrase.create(data(row, col))
@@ -19,10 +21,6 @@ module ImportData
     end
 
     private
-
-    def all_phrases
-      @all_phrases ||= Phrase.all
-    end
 
     def data(row, col)
       {
