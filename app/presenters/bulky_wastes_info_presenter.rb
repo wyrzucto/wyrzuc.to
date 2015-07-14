@@ -12,7 +12,7 @@ class BulkyWastesInfoPresenter < BasePresenter
             weekday: weekday
           }
         end
-        result
+        result.reject { |item| item[:weekday].nil? }
       end
     end
 
@@ -25,7 +25,7 @@ class BulkyWastesInfoPresenter < BasePresenter
             date:  date
           }
         end
-        result
+        result.reject { |item| item[:date].nil? }
       end
     end
 
