@@ -24,10 +24,15 @@
           <div class="date x-place">
             <b>Co <%= t("date.day_names")[weekday] %></b>
             <% group.each do |item| %>
-              <br>
+              <p>
               <%= link_to place_info_path(item[:id]), remote: true do %>
                 <%= item[:title] %>
+                <% if item[:group_name] %>
+                  <br>
+                  <span class="item-label"><%= item[:group_name] %></span>
+                <% end %>
               <% end %>
+              </p>
             <% end %>
           </div>
           <hr>

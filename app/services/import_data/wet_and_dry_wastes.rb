@@ -2,7 +2,7 @@ module ImportData
   class WetAndDryWastes < Base
 
     def import
-      wet_and_dry_wastes.delete_all if wet_and_dry_wastes.any?
+      Waste.wet_and_dry_wastes.delete_all
       sheets_names.each do |sheet_name|
         excel.sheet(sheet_name)
         (4..excel.last_row).each do |row|
@@ -17,10 +17,6 @@ module ImportData
     end
 
     private
-
-    def wet_and_dry_wastes
-      @wet_and_dry_wastes ||= Waste.wet_and_dry_wastes
-    end
 
     def data(row)
       {
