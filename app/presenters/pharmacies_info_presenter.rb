@@ -12,7 +12,7 @@ class PharmaciesInfoPresenter < BasePresenter
   private
 
   def pharmacies
-    Waste.pharmacies.near(street).first(count)
+    Waste.pharmacies.near(coordinates).first(count)
   end
 
   def parse_date(item)

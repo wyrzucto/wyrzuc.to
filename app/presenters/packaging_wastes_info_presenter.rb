@@ -14,7 +14,7 @@ class PackagingWastesInfoPresenter < BasePresenter
   private
 
   def packaging_wastes
-    Waste.packaging_wastes.near(street).first(count)
+    Waste.packaging_wastes.near(coordinates).first(count)
   end
 
   def parse_data(item, weekday, key)

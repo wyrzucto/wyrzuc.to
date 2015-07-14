@@ -35,7 +35,7 @@ class BulkyWastesInfoPresenter < BasePresenter
   private
 
   def bulky_wastes(group_id)
-    Waste.bulky_wastes.where(group_id: group_id).near(street).first(count)
+    Waste.bulky_wastes.where(group_id: group_id).near(coordinates).first(count)
   end
 
   def parse_date(item)

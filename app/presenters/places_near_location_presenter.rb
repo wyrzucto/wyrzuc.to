@@ -8,7 +8,11 @@ class PlacesNearLocationPresenter
   end
 
   def coordinates
-    Geocoder.coordinates(parsed_street)
+    if location = Location.get_by_address(street)
+      [ location.lat, location.lng ]
+    else
+      []
+    end
   end
 
   def data
@@ -35,6 +39,7 @@ class PlacesNearLocationPresenter
   end
 
   def parsed_street
-    "#{street}, Gdańsk, Poland"
+    street
+    # "#{street}, Gdańsk, Poland"
   end
 end

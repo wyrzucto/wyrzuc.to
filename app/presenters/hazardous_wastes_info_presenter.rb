@@ -12,7 +12,7 @@ class HazardousWastesInfoPresenter < BasePresenter
   private
 
   def hazardous_wastes
-    Waste.hazardous_wastes.near(street).first(count)
+    Waste.hazardous_wastes.near(coordinates).first(count)
   end
 
   def parse_date(item)
