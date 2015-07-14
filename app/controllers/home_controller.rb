@@ -21,7 +21,7 @@ class HomeController < ApplicationController
   end
 
   def autocomplete_phrases
-    render json: { data: Phrase.where('name LIKE ?', "#{params[:term]}%").pluck(:name) }
+    render json: { data: Phrase.where.not(fraction_id: nil).where('name LIKE ?', "#{params[:term]}%").pluck(:name) }
   end
 
   def autocomplete_locations

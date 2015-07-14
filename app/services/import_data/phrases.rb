@@ -2,8 +2,6 @@ module ImportData
   class Phrases < Base
 
     def import
-      Phrase.delete_all
-
       excel.sheet('Arkusz1')
       (1..5).each do |col|
         (2..excel.last_row).each do |row|
