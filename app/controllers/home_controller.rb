@@ -25,9 +25,10 @@ class HomeController < ApplicationController
   end
 
   def autocomplete_locations
-    results = Location.where('LOWER(street) LIKE ?', "#{params[:term]}%").limit(10).reorder(:street).uniq.pluck(:street)
+    term = params[:term].to_s.downcase
+    results = Location.where('LOWER(street) LIKE ?', "#{term}%").limit(10).reorder(:street).uniq.pluck(:street)
     if results.count <= 1
-      results = Location.where('LOWER(full_address) LIKE ?', "#{params[:term]}%").pluck(:full_address)
+      results = Location.where('LOWER(full_address) LIKE ?', "#{term}%").pluck(:full_address)
     end
     render json: { data: results }
   end
