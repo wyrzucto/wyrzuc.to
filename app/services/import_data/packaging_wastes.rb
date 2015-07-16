@@ -4,9 +4,9 @@ module ImportData
     attr_reader :street_col_inx, :street_no_col_inx, :description_col_inx, :clear_glass_col_inx, :colorful_glass_col_inx, :plastic_col_inx, :maculature_col_inx
 
     def import
-      # Waste.packaging_wastes.delete_all
+      Waste.packaging_wastes.delete_all
+      
       row = address_sheet.row(3)
-
       @street_col_inx = row.index('Ulica') + 1
       @street_no_col_inx = row.index('Numer(y)') + 1
       @description_col_inx = row.index('Opis') + 1

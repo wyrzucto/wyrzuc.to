@@ -6,13 +6,17 @@ module ImportData
 
       (4..excel.last_row).each do |row|
         if excel.cell(row, 1).present?
-          waste = Waste.new(data(row, 1))
-          LogActivity.save(waste) unless waste.save
+          locations(row).each do |location|
+            waste = Waste.new(data(row, 1, location))
+            LogActivity.save(waste) unless waste.save
+          end
         end
 
         if excel.cell(row, 4).present?
-          waste = Waste.new(data(row, 2))
-          LogActivity.save(waste) unless waste.save
+          locations(row).each do |location|
+            waste = Waste.new(data(row, 2, location))
+            LogActivity.save(waste) unless waste.save
+          end
         end
       end
     end
@@ -23,12 +27,17 @@ module ImportData
       @bulky_wastes ||= Waste.bulky_wastes
     end
 
-    def data(row, group_id)
+    def locations(row)
+      street = clean_street(excel.cell(row, 1))
+      Location.parse_numbers(street, '')
+    end
+
+    def data(row, group_id, location = nil)
       if group_id == 1
         {
           kind: 5,
           group_id: 1,
-          street: clean_street(excel.cell(row, 1)),
+          street: location.full_address,
           data: {
             info: excel.cell(row, 1),
             group_name: 'Jednorodzinne',
@@ -39,7 +48,7 @@ module ImportData
         {
           kind: 5,
           group_id: 2,
-          street: clean_street(excel.cell(row, 4)),
+          street: location.full_address,
           data: {
             info: excel.cell(row, 4),
             group_name: 'Wielolokalowe',
@@ -50,11 +59,11 @@ module ImportData
     end
 
     def weekday(row)
-      excel.cell(row, 5).split(',').map { |item| I18n.t('date.day_names').index(item.downcase) }
+      excel.cell(row, 6).split(',').map { |item| I18n.t('date.day_names').index(item.downcase) }
     end
 
     def date(row)
-      excel.cell(row, 2).split(';').map { |i| parse_date(i + ".#{year}") }
+      excel.cell(row, 2).split(';').map { |i| parse_date(i + ".#{year}").to_date }
     end
 
     def year

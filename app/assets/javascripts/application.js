@@ -35,7 +35,7 @@ var wastes_urls = [
   'pharmacies',
   // 'wet_and_dry_wastes',
   'hazardous_wastes',
-  'bulky_wastes',
+  // 'bulky_wastes',
   'packaging_wastes'
 ]
 

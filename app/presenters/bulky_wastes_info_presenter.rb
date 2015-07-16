@@ -39,7 +39,7 @@ class BulkyWastesInfoPresenter < BasePresenter
   end
 
   def parse_date(item)
-    item.data[:date].map! { |date| Date.parse(date) }.select { |date| date >= Date.today }
+    item.data[:date].select { |date| date >= Date.today }
   end
 
   def parse_weekday(item)

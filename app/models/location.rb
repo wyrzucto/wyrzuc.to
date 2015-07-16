@@ -6,8 +6,8 @@ class Location < ActiveRecord::Base
   extend AddressRecognizer
 
   def self.get_by_address(address)
-    address = address.downcase
-    Location.find_by('LOWER(full_address) = ?', address) || Location.find_by('LOWER(full_address) = ?', address)
+    address = address.mb_chars.downcase
+    Location.find_by('LOWER(full_address) = ?', address)
   end
 
   private
