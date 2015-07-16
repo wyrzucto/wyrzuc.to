@@ -3,6 +3,7 @@ module ImportData
 
     def import
       Waste.wet_and_dry_wastes.delete_all
+      
       sheets_names.each do |sheet_name|
         excel.sheet(sheet_name)
         (4..excel.last_row).each do |row|

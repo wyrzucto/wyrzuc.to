@@ -1,6 +1,8 @@
 <div class="footer clearfix">
   <div class="pull-right">
-    <%= image_tag('gdansk-logo.png') %>
+    <%= link_to('http://gdansk.pl', target: :_blank, rel: :nofollow) do %>
+      <%= image_tag('gdansk-logo.png') %>
+    <% end %>
   </div>
   <ul>
     <li><%= link_to('O aplikacji', static_page_path('o-aplikacji'), class: 'fancybox fancybox.ajax') %></li>

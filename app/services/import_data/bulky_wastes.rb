@@ -2,7 +2,8 @@ module ImportData
   class BulkyWastes < Base
 
     def import
-      bulky_wastes.delete_all if bulky_wastes.any?
+      # bulky_wastes.delete_all if bulky_wastes.any?
+
       (4..excel.last_row).each do |row|
         if excel.cell(row, 1).present?
           waste = Waste.new(data(row, 1))

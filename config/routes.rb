@@ -30,7 +30,7 @@ Rails.application.routes.draw do
 
   get 's/:slug', to: 'static_pages#show', as: :static_page
 
-  devise_for :admin
+  devise_for :admin, skip: [:registrations] 
 
   namespace :service do
     root 'dashboard#show'
