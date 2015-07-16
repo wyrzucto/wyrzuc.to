@@ -11,7 +11,7 @@ module ImportData
     attr_reader :file_path, :params
 
     def clean_street(street)
-      street.sub(/[\(|\"|\'].*/, '').sub(/ul\.\s+/i, '').strip
+      street.to_s.sub(/[\(|\"|\'].*/, '').sub(/ul\.\s+/i, '').strip
     end
 
     def parse_date(date)
