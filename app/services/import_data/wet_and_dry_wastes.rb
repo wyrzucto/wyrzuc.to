@@ -2,7 +2,7 @@ module ImportData
   class WetAndDryWastes < Base
 
     def import
-      Waste.wet_and_dry_wastes.delete_all
+      # Waste.wet_and_dry_wastes.delete_all
       
       sheets_names.each do |sheet_name|
         excel.sheet(sheet_name)
@@ -10,8 +10,10 @@ module ImportData
           next if excel.cell(row, 2).nil?
 
           if excel.row(row)[4..21].compact.any?
-            waste = Waste.new(data(row))
-            LogActivity.save(waste) unless waste.save
+            locations(row).each do |location|
+              waste = Waste.new(data(row, location))
+              LogActivity.save(waste) unless waste.save
+            end
           end
         end
       end
@@ -19,11 +21,11 @@ module ImportData
 
     private
 
-    def data(row)
+    def data(row, location)
       {
         kind: 4,
         group_id: group_id,
-        street: clean_street(excel.cell(row, 2)),
+        street: location.full_address,
         data: {
           info: excel.cell(row, 2),
           number: excel.cell(row, 3),
@@ -36,6 +38,11 @@ module ImportData
           }
         }
       }
+    end
+
+    def locations(row)
+      Location.parse_numbers(excel.cell(row, 2), excel.cell(row, 3).to_s)
+
     end
 
     def weekday(row, waste_col)
