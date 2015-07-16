@@ -3,7 +3,8 @@ class PackagingWastesInfoPresenter < BasePresenter
   def data
     packaging_wastes.inject([]) do |result, item|
       item.data[:weekday].keys.each do |key|
-        item.data[:weekday][key].each do |weekday|
+        weekdays = item.data[:weekday][key] - [ nil ]
+        weekdays.each do |weekday|
           result << parse_data(item, weekday, key)
         end
       end

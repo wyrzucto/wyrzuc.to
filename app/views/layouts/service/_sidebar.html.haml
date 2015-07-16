@@ -1,0 +1,54 @@
+%aside.main-sidebar
+  %section.sidebar
+    %ul.sidebar-menu
+      %li.header Import danych
+      %li.treeview
+        = link_to new_service_pharmacy_path do
+          = fa_icon('medkit')
+          %span Apteki
+      %li.treeview
+        = link_to new_service_packaging_waste_path do
+          = fa_icon('glass')
+          %span Odpady opakowaniowe
+      %li.treeview
+        = link_to new_service_hazardous_waste_path do
+          = fa_icon('exclamation-circle')
+          %span Odpady niebezpieczne
+      %li.treeview
+        = link_to new_service_wet_and_dry_waste_path do
+          = fa_icon('tint')
+          %span Odpady mokre, suche, ...
+      %li.treeview
+        = link_to new_service_bulky_waste_path do
+          = fa_icon('archive')
+          %span Odpady wielkogabarytowe
+      %li.treeview
+        = link_to new_service_location_path do
+          = fa_icon('map-marker')
+          %span Baza adresowa
+      %li.header Inne
+      %li.treeview
+        = link_to service_phrases_path do
+          = fa_icon('list')
+          %span Frazy
+      %li.treeview
+        = link_to service_fractions_path do
+          = fa_icon('list')
+          %span Frakcje
+      %li.treeview
+        = link_to service_static_pages_path do
+          = fa_icon('list')
+          %span Podstrony tekstowe
+      %li.treeview
+        = link_to service_settings_path do
+          = fa_icon('cogs')
+          %span Ustawienia
+      %li.header Monitoring
+      %li.treeview
+        = link_to service_logs_path do
+          = fa_icon('info')
+          %span Logi
+      %li.treeview
+        = link_to sidekiq_web_path do
+          = fa_icon('tachometer')
+          %span Sidekiq (procesy w tle)

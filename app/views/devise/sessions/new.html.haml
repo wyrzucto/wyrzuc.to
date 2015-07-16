@@ -1,0 +1,22 @@
+.login-box
+  .login-logo
+    %a{:href => "#"}
+      Panel
+      %b Admina
+  .login-box-body
+    %p.login-box-msg Sign in to start your session
+    = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+      .form-group.has-feedback
+        = f.email_field :email, autofocus: true, class: "form-control", placeholder: "Email"
+      .form-group.has-feedback
+        = f.password_field :password, autocomplete: "off", class: "form-control", placeholder: "Password"
+      .row
+        .col-xs-8
+          .checkbox.icheck
+            - if devise_mapping.rememberable?
+              %label
+                = f.check_box :remember_me
+                Remember Me
+        .col-xs-4
+          = f.submit "Sign in", class: "btn btn-primary btn-block btn-flat"
+    / <haml_loud> render &quot;devise/shared/links&quot; </haml_loud>

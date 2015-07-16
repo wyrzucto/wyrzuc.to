@@ -1,0 +1,7 @@
+.footer.clearfix
+  .pull-right
+    = link_to('http://gdansk.pl', target: :_blank, rel: :nofollow) do
+      = image_tag('gdansk-logo.png')
+  %ul
+    %li= link_to('O aplikacji', static_page_path('o-aplikacji'), class: 'fancybox fancybox.ajax')
+    %li= link_to('Kontakt', static_page_path('kontakt'), class: 'fancybox fancybox.ajax')

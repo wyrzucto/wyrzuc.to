@@ -1,0 +1,25 @@
+.box-header.with-border
+  %h3.box-title Import odpadów wielkogabarytowych
+.box-body
+  .row
+    .col-md-12
+      %p.text-center
+        = form_tag service_bulky_wastes_path, multipart: true, class: "form-horizontal" do
+          .form-group
+            = label_tag :file, t('.area_1_2_3_4_6'), class: "col-sm-2 control-label"
+            .col-sm-10
+              = file_field_tag :file, class: "form-control"
+              = hidden_field_tag :area, :area_1_2_3_4_6
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              = submit_tag t("buttons.submit"), class: "btn btn-success"
+      %hr/
+      = form_tag service_bulky_wastes_path, multipart: true, class: "form-horizontal" do
+        .form-group
+          = label_tag :file, t('.area_5'), class: "col-sm-2 control-label"
+          .col-sm-10
+            = file_field_tag :file, class: "form-control"
+            = hidden_field_tag :area, :area_5
+        .form-group
+          .col-sm-offset-2.col-sm-10
+            = submit_tag t("buttons.submit"), class: "btn btn-success"

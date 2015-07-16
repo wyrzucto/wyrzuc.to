@@ -1,0 +1,18 @@
+.box-header.with-border
+  %h3.box-title Frazy
+  = link_to 'nowa fraza', new_service_phrase_path, class: 'btn btn-primary'
+  = link_to 'import słownika', new_import_data_service_phrases_path, class: 'btn btn-primary'
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Opis
+        %th Frakcja
+        %th Edytuj
+        %th Usuń
+      - @phrases.each do |phrase|
+        %tr
+          %td= phrase.name
+          %td= phrase.fraction.nil? ? "BRAK" : phrase.fraction.name
+          %td= link_to 'edit', edit_service_phrase_path(phrase), class: 'btn btn-info'
+          %td= link_to 'usuń', service_phrase_path(phrase), method: :delete, class: 'btn btn-danger'

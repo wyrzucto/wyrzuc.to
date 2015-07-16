@@ -1,0 +1,7 @@
+.header
+  %a.home{:href => "/"}
+  = form_tag fraction_description_home_path, remote: true, class: 'x-search-fraction-form' do
+    = label_tag :phrase, "Gdzie mam wyrzucić"
+    %div
+      = text_field_tag :phrase, nil, required: true, placeholder: t("placeholders.waste_type"), class: 'x-autocomplete-phrases'
+      = submit_tag 'Szukaj'

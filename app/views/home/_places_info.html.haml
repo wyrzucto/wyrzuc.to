@@ -1,0 +1,34 @@
+.text-center.header
+  = image_tag "icon_kalendarz.png", style: "width: 44px; height: 42px"
+.location
+  = presenter.street
+  %a.close.x-close-content{:href => "#"}
+    = image_tag("icon_close.png")
+.tse-scrollable.wrapper.x-scroll
+  .tse-scroll-content
+    .tse-content.date-set
+      - presenter.data_by_weekday.each do |weekday, group|
+        .date.x-place
+          %b
+            Co #{t("date.day_names")[weekday]}
+          - group.each do |item|
+            %p
+              = link_to place_info_path(item[:id]), remote: true do
+                = item[:title]
+                - if item[:group_name]
+                  %br/
+                  %span.item-label= item[:group_name]
+        %hr/
+      - presenter.places_for_monthdays.each do |item|
+        .date.x-place
+          = link_to place_info_path(item[:id]), remote: true do
+            %b
+              = item[:date] ? l(item[:date], format: :place_info) : "Co #{t("date.day_names")[item[:weekday]]}"
+            %br/
+            = item[:title]
+        %hr/
+.news
+  %h2 Informacje
+  %br/
+  .x-place-content
+    %p Proszę kliknęć w wybrany element na liscie, aby wyświetlić szczegółowe dane.

@@ -1,0 +1,15 @@
+#fraction_description_modal.modal.fade
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+          %span{"aria-hidden" => "true"} ×
+        %h4.modal-title
+          Gdzie mam wyrzucić "#{phrase.name}" ?
+      .modal-body
+        %p
+          = phrase.parsed_description
+          - if phrase.fraction.try(:description).present?
+            Kliknij
+            = succeed "," do
+              %strong= link_to "<TU>", fractions_places_home_path(waste_name: phrase.fraction.waste_data.kind), remote: true

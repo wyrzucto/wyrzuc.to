@@ -58,6 +58,8 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    erb2haml (0.1.5)
+      html2haml
     erubis (2.7.0)
     execjs (2.3.0)
     fancybox2-rails (0.2.8)
@@ -243,6 +245,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 4.0.0)
   devise
+  erb2haml
   fancybox2-rails
   font-awesome-rails
   friendly_id

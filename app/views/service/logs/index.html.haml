@@ -1,0 +1,14 @@
+.box-header.with-border
+  %h3.box-title Logi importu
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Opis
+        %th User
+        %th Data
+      - @logs.each do |log|
+        %tr
+          %td= log.info
+          %td= log.user
+          %td= log.created_at

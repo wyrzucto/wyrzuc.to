@@ -1,0 +1,15 @@
+.box-header.with-border
+  %h3.box-title Podstrony tekstowe
+  = link_to 'Nowa podstrona', new_service_static_page_path, class: 'btn btn-primary'
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Tytuł
+        %th Edycja
+        %th Usuń
+      - @static_pages.each do |static_page|
+        %tr
+          %td= static_page.title
+          %td= link_to 'edit', edit_service_static_page_path(static_page), class: 'btn btn-info'
+          %td= link_to 'usuń', service_static_page_path(static_page), method: :delete, class: 'btn btn-danger'

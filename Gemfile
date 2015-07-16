@@ -9,6 +9,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'pry-rails'
   gem 'sqlite3'
+  gem 'erb2haml'
 end
 
 group :test_codeship, :production, :stage_heroku do

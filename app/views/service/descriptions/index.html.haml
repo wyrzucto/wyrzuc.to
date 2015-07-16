@@ -1,0 +1,15 @@
+.box-header.with-border
+  %h3.box-title Opisy
+  = link_to 'Nowy opis', new_service_description_path, class: 'btn btn-primary'
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Opis
+        %th Edycja
+        %th Usuń
+      - @descriptions.each do |item|
+        %tr
+          %td= item.description
+          %td= link_to 'edit', edit_service_description_path(item), class: 'btn btn-info'
+          %td= link_to 'usuń', service_description_path(item), method: :delete, class: 'btn btn-danger'
