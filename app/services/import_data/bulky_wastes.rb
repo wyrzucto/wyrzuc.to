@@ -59,7 +59,7 @@ module ImportData
     end
 
     def weekday(row)
-      excel.cell(row, 6).split(',').map { |item| I18n.t('date.day_names').index(item.downcase) }
+      excel.cell(row, 5).split(',').map { |item| I18n.t('date.day_names').index(item.downcase) }
     end
 
     def date(row)
