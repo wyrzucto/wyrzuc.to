@@ -16,10 +16,19 @@ var mapOptions = {
   zoomControlOptions: { position: google.maps.ControlPosition.LEFT_BOTTOM },
   zoom: 11,
 };
+var clusterStyles = [
+  { 
+    textColor: 'white',
+    url: '/markers/cluster.png',
+    height: 57,
+    width: 69
+  },
+];
 
 var clustererOptions = {
   gridSize: 50,
-  maxZoom: 15
+  maxZoom: 15,
+  styles: clusterStyles,
 };
 
 var map = new google.maps.Map(document.getElementById('map'), mapOptions);
