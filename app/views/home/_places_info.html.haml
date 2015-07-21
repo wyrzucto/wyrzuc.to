@@ -15,9 +15,9 @@
             %p
               = link_to place_info_path(item[:id]), remote: true do
                 = item[:title]
-                - if item[:group_name]
+                - if item[:label]
                   %br/
-                  %span.item-label= item[:group_name]
+                  %span.item-label= item[:label]
         %hr/
       - presenter.places_for_monthdays.each do |item|
         .date.x-place

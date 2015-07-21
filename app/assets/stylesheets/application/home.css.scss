@@ -320,6 +320,13 @@ hr.short {
     color: white;
     text-decoration: none;
 }
+.sidebar .date .item-label {
+    display: inline-block;
+    background: #f00;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 80%
+}
 
 .sidebar .date b {
     font-size: 24px;
