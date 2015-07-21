@@ -6,14 +6,14 @@ module ImportData
 
       (4..excel.last_row).each do |row|
         if excel.cell(row, 1).present?
-          locations(row).each do |location|
+          locations(row, 1).each do |location|
             waste = Waste.new(data(row, 1, location))
             LogActivity.save(waste) unless waste.save
           end
         end
 
         if excel.cell(row, 4).present?
-          locations(row).each do |location|
+          locations(row, 4).each do |location|
             waste = Waste.new(data(row, 2, location))
             LogActivity.save(waste) unless waste.save
           end
@@ -27,8 +27,8 @@ module ImportData
       @bulky_wastes ||= Waste.bulky_wastes
     end
 
-    def locations(row)
-      street = clean_street(excel.cell(row, 1))
+    def locations(row, col = 1)
+      street = clean_street(excel.cell(row, col))
       Location.parse_numbers(street, '')
     end
 
