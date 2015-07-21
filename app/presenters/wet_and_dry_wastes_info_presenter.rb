@@ -14,7 +14,7 @@ class WetAndDryWastesInfoPresenter < BasePresenter
   private
 
   def wet_and_dry_wastes
-    Waste.wet_and_dry_wastes.near(coordinates).first(count)
+    Waste.wet_and_dry_wastes.where(street: @street)
   end
 
   def parse_data(item, weekday, key)

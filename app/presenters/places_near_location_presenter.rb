@@ -5,14 +5,18 @@ class PlacesNearLocationPresenter
   def initialize(params)
     @street = params[:user_location]
     @count  = params[:count] || 1
+
+    address = @street.mb_chars.downcase
+    @location = Location.find_by('LOWER(full_address) = ?', address) || Location.find_by('LOWER(street) = ?', address)
   end
 
   def coordinates
-    if location = Location.get_by_address(street)
-      [ location.lat, location.lng ]
-    else
-      []
-    end
+    [ @location.try(:lat), @location.try(:lng) ]
+    # if location = Location.get_by_address(street)
+    #   [ location.lat, location.lng ]
+    # else
+    #   []
+    # end
   end
 
   def data
@@ -39,7 +43,7 @@ class PlacesNearLocationPresenter
   end
 
   def parsed_street
-    street
+    @location.full_address
     # "#{street}, Gdańsk, Poland"
   end
 end
