@@ -21,4 +21,14 @@ class Waste < ActiveRecord::Base
       d += "\nw godzinach #{self.data[:hour]}" if self.data[:hour].present?
     end
   end
+
+  def packaging_types
+    containers = self.data[:containers] || {}
+    types = []
+    types << 'Szkło bezbarwne' if containers[:clear_glass]
+    types << 'Szkło kolorowe' if containers[:colorful_glass]
+    types << 'Tworzywa sztuczne' if containers[:plastic]
+    types << 'Makulatura' if containers[:maculature]
+    types
+  end
 end

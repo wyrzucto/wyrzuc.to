@@ -20,7 +20,10 @@ class GeolocationsController < ApplicationController
   end
 
   def packaging_wastes
-    render_json
+    data = Waste.packaging_wastes.map do |waste|
+      [ ([ waste.street ] + waste.packaging_types).compact.join("\n"), waste.latitude, waste.longitude ]
+    end
+    render json: data
   end
 
   private
