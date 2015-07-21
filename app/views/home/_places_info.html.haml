@@ -10,7 +10,7 @@
       - presenter.data_by_weekday.each do |weekday, group|
         .date.x-place
           %b
-            Co #{t("date.day_names")[weekday]}
+            Co #{t("date.day_names")[weekday-1]}
           - group.each do |item|
             %p
               = link_to place_info_path(item[:id]), remote: true do
