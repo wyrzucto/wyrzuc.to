@@ -9,7 +9,8 @@ class BulkyWastesInfoPresenter < BasePresenter
           result << {
             title:   I18n.t("sidebar.titles.bulky_wastes"),
             id:      item.id,
-            weekday: weekday
+            weekday: weekday,
+            label: item.data[:group_name],
           }
         end
         result.reject { |item| item[:weekday].nil? }
@@ -22,7 +23,8 @@ class BulkyWastesInfoPresenter < BasePresenter
           result << {
             title: I18n.t("sidebar.titles.bulky_wastes"),
             id:    item.id,
-            date:  date
+            date:  date,
+            label: item.data[:group_name]
           }
         end
         result.reject { |item| item[:date].nil? }

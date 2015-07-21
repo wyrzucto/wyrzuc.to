@@ -22,7 +22,7 @@ class WetAndDryWastesInfoPresenter < BasePresenter
       title:   I18n.t("sidebar.titles.wet_and_dry_wastes.#{key}"),
       id:      item.id,
       weekday: weekday,
-      label: item.data[:group_name]
+      label: item.data[:group_name],
     }
   end
 end
