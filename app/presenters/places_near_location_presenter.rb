@@ -30,7 +30,7 @@ class PlacesNearLocationPresenter
   private
 
   def places_for_weekdays
-    (get_data(:packaging_wastes) + get_data(:wet_and_dry_wastes) + get_data(:bulky_wastes, :weekday)).sort_by { |item| item[:weekday] }
+    (get_data(:wet_and_dry_wastes) + get_data(:bulky_wastes, :weekday)).sort_by { |item| item[:weekday] }
   end
 
 

@@ -28,11 +28,6 @@ module ImportData
       excel.sheet(@sheet_addreses)
     end
 
-    def weekdays_sheet
-      @sheet_weekdays ||= excel.sheets.index {|sheet| sheet == 'harmonogram - selektywna' }
-      excel.sheet(@sheet_weekdays)
-    end
-
     def street_cell(row)
       clean_street(address_sheet.cell(row, 3))
     end
@@ -51,25 +46,15 @@ module ImportData
         street: address_cell(row),
         data: {
           info: excel.cell(row, description_col_inx),
-          weekday: {
-            clear_glass:    [weekday(3, row)],
-            colorful_glass: [weekday(4, row)],
-            maculature:     [weekday(5, row)],
-            plastic:        [weekday(6, row)]
+          containers: {
+            clear_glass: excel.cell(row, clear_glass_col_inx).to_i > 0,
+            colorful_glass: excel.cell(row, colorful_glass_col_inx).to_i > 0,
+            maculature: excel.cell(row, maculature_col_inx).to_i > 0,
+            plastic: excel.cell(row, plastic_col_inx).to_i > 0,
           }
         }
       }
     end
 
-    def weekday(waste_row, row)
-      area = address_sheet.cell(row, 2).to_i
-      (2..weekdays_sheet.last_column).each do |col|
-        areas = weekdays_sheet.cell(waste_row, col)
-        next if areas == '-'
-        first, last = areas.split('-')
-        return col - 1 if first.to_i >= area && area <= last.to_i
-      end
-      nil
-    end
   end
 end
