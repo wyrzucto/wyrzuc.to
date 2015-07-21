@@ -17,7 +17,7 @@
                 = item[:title]
                 - if item[:label]
                   %br/
-                  %span.item-label= item[:label]
+                  %span.item-label{class: "item-label-#{item[:label].downcase.parameterize}"}= item[:label]
         %hr/
       - presenter.places_for_monthdays.each do |item|
         .date.x-place
