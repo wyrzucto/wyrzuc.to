@@ -7,7 +7,7 @@ module ImportData
       sheets_names.each do |sheet_name|
         excel.sheet(sheet_name)
         (4..excel.last_row).each do |row|
-          next if excel.cell(row, 2).nil?
+          next if excel.cell(row, 1).nil?
 
           if excel.row(row)[4..21].compact.any?
             locations(row).each do |location|
@@ -41,7 +41,7 @@ module ImportData
     end
 
     def locations(row)
-      Location.parse_numbers(excel.cell(row, 2), excel.cell(row, 3).to_s)
+      Location.parse_numbers(excel.cell(row, 1), excel.cell(row, 3).to_s)
 
     end
 
