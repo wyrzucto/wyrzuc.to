@@ -1,6 +1,6 @@
 module AddressRecognizer
   def parse_numbers(street, numbers)
-    street = street.mb_chars.downcase.sub(/ul.\s+/i, '')
+    street = street.mb_chars.downcase.sub(/ul.\s+/i, '').strip
     parts = numbers.split(/[,;]/).map(&:strip).compact.uniq
     parts = [ '' ] if parts == []
     parts.map! { |part| parse_single_number(street, part) }
