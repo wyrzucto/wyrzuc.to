@@ -4,3 +4,9 @@
  *= require service/admin_lte
  *= require service/template_skins
 */
+span.import.start {
+	background-color: cornflowerblue;
+}
+span.import.end {
+	background-color: coral;
+}
