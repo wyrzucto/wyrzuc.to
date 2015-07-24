@@ -13,7 +13,7 @@
       - @fractions.each do |fraction|
         %tr
           %td= fraction.name
-          %td= fraction.description.nil? ? "BRAK" : truncate(fraction.description, length: 30)
-          %td= fraction.waste_data.nil? ? "BRAK" : fraction.waste_data.name
+          %td= fraction.description.nil? ? "UZUPEŁNIJ" : truncate(fraction.description, length: 30)
+          %td= fraction.waste_data.nil? ? "Brak powiązania z mapą" : fraction.waste_data.name
           %td= link_to 'edit', edit_service_fraction_path(fraction), class: 'btn btn-info'
           %td= link_to 'usuń', service_fraction_path(fraction), method: :delete, class: 'btn btn-danger'

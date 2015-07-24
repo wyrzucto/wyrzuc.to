@@ -14,7 +14,7 @@
           .form-group
             = f.label :waste_data_id, t('.waste_data'), class: "col-sm-2 control-label"
             .col-sm-10
-              = f.collection_select :waste_data_id, WasteData.all, :id, :name, class: "form-control"
+              = f.collection_select :waste_data_id, WasteData.all, :id, :name, class: "form-control", include_blank: 'Brak powiązania z mapą'
           .form-group
             .col-sm-offset-2.col-sm-10
               = f.submit t("buttons.submit"), class: "btn btn-success"
