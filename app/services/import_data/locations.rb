@@ -13,7 +13,7 @@ module ImportData
 
     def data(row)
       {
-        street: row[:properties][:NAZWA_ULIC].mb_chars.downcase.capitalize,
+        street: row[:properties][:NAZWA_ULIC].mb_chars.titleize,
         number: row[:properties][:NUMER_DOMU],
         lng: row[:geometry][:coordinates][0],
         lat: row[:geometry][:coordinates][1],
