@@ -44,6 +44,7 @@ module ImportData
           kind: 5,
           group_id: 1,
           street: location.full_address,
+          location: location,
           data: {
             info: excel.cell(row, 1),
             group_name: 'Jednorodzinne',

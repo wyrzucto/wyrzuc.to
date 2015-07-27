@@ -31,6 +31,7 @@ module ImportData
         kind: 4,
         group_id: group_id,
         street: location.full_address,
+        location: location,
         data: {
           info: excel.cell(row, 2),
           number: excel.cell(row, 3),
