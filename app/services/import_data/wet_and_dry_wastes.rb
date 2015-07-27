@@ -10,7 +10,12 @@ module ImportData
           next if excel.cell(row, 1).nil?
 
           if excel.row(row)[4..21].compact.any?
-            locations(row).each do |location|
+            locations_by_street = locations(row)
+	    if locations_by_street.empty?
+	      LogActivity.save("Nie odnaleziono lokalizacji dla rekordu '#{excel.cell(row, 1)} #{excel.cell(row, 3).to_s}'")
+	    end
+
+            locations_by_street.each do |location|
               waste = Waste.new(data(row, location))
               LogActivity.save(waste) unless waste.save
             end
@@ -61,11 +66,7 @@ module ImportData
     end
 
     def sheets_names
-      if params[:area] == 'area_5'
-        ['Jednorodzinne', 'Wielolokalowe']
-      else
         ['jedno', 'wielolok']
-      end
     end
   end
 end

@@ -29,7 +29,13 @@ module ImportData
 
     def locations(row, col = 1)
       street = clean_street(excel.cell(row, col))
-      Location.parse_numbers(street, '')
+            locations_by_street = Location.parse_numbers(street, '')
+
+            if locations_by_street.empty?
+              LogActivity.save("Nie odnaleziono lokalizacji dla ulicy '#{street}'")
+            end
+
+      return locations_by_street
     end
 
     def data(row, group_id, location = nil)

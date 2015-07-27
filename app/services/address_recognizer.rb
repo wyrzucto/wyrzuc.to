@@ -36,7 +36,7 @@ module AddressRecognizer
         last = m[1].to_i
       end
       p last
-      locations = Location.where('LOWER(street) = ?', street).where(number_int: first..last)
+      locations = Location.where('LOWER(street) IN (?)', [street, 'aleja ' + street]).where(number_int: first..last)
       if odd
         locations = locations.where('number_int % 2 = 1')
       elsif even
