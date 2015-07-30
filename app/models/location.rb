@@ -7,7 +7,7 @@ class Location < ActiveRecord::Base
 
   def self.get_by_address(address)
     address = address.mb_chars.downcase.strip
-    Location.find_by('LOWER(full_address) = ?', address)
+    Location.find_by('LOWER(full_address) IN (?)', [address, address + 'a', 'aleja ' + address, 'aleja ' + address + 'a'])  
   end
 
   def self.areas_combo

@@ -9,6 +9,12 @@ module ImportData
       excel.sheet(sheet_inx)
 
       row = excel.row(1)
+      for colname in ['Data', 'Ulica', 'Numer', 'Godzina przyjazdu', 'Godzina odjazdu', 'Opis']
+        unless row.index(colname)
+          raise KeyError, 'Nie znaleziono kolumny "' + colname + '" w pierwszym rzędzie danych'
+        end
+      end
+
       @date_col_inx = row.index('Data') + 1
       @street_col_inx = row.index('Ulica') + 1
       @street_no_col_inx = row.index('Numer') + 1

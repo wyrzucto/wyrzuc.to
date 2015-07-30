@@ -4,8 +4,8 @@ module Service
     def new; end
 
     def create
-       ImportDataWorker.perform_async(:bulky_wastes, tempfile_path, extra_params)
-      redirect_to new_service_bulky_waste_path, notice: t('messages.data_in_progress')
+      ImportDataWorker.perform_async(:bulky_wastes, tempfile_path, {filename: file.original_filename})
+      redirect_to service_logs_path, notice: t('messages.data_in_progress')
     end
 
     private

@@ -9,6 +9,6 @@
         %th Data
       - @logs.each do |log|
         %tr
-          %td= log.info
+          %td= raw log.info
           %td= log.user
           %td= log.created_at

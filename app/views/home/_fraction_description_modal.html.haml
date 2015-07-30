@@ -9,7 +9,9 @@
       .modal-body
         %p
           = phrase.parsed_description
-          - if phrase.fraction.try(:description).present?
+        - if phrase.fraction.try(:waste_data_id).present?
+          %p
             Kliknij
             = succeed "," do
               %strong= link_to "<TU>", fractions_places_home_path(waste_name: phrase.fraction.waste_data.kind), remote: true
+            aby pokazać punkty na mapie.
