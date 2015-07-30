@@ -73,6 +73,7 @@ module ImportData
         ['Jednorodzinne', 'Wielolokalowe']
       else
         ['jedno', 'wielolok']
+      end
     end
   end
 end
