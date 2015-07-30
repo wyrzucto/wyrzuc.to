@@ -6,20 +6,13 @@
       %p.text-center
         = form_tag service_wet_and_dry_wastes_path, multipart: true, class: "form-horizontal" do
           .form-group
-            = label_tag :file, t('.sector_1_2_3_4_6'), class: "col-sm-2 control-label"
+            = label_tag :file, t('.file'), class: "col-sm-2 control-label"
             .col-sm-10
               = file_field_tag :file, class: "form-control"
-              = hidden_field_tag :area, :area_1_2_3_4_6
+          .form-group
+            = label_tag :file, t('.area'), class: "col-sm-2 control-label"
+            .col-sm-10
+              = select_tag :area, options_from_collection_for_select(Location.areas_combo, :to_s, :to_s), class: "form-control"
           .form-group
             .col-sm-offset-2.col-sm-10
               = submit_tag t("buttons.submit"), class: "btn btn-success"
-      %hr/
-      = form_tag service_wet_and_dry_wastes_path, multipart: true, class: "form-horizontal" do
-        .form-group
-          = label_tag :file, t('.sector_5'), class: "col-sm-2 control-label"
-          .col-sm-10
-            = file_field_tag :file, class: "form-control"
-            = hidden_field_tag :area, :area_5
-        .form-group
-          .col-sm-offset-2.col-sm-10
-            = submit_tag t("buttons.submit"), class: "btn btn-success"

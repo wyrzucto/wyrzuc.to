@@ -10,6 +10,10 @@ class Location < ActiveRecord::Base
     Location.find_by('LOWER(full_address) = ?', address)
   end
 
+  def self.areas_combo
+    [ 'area1', 'area2', 'area3', 'area4', 'area5', 'area6' ]
+  end
+
   private
     def update_full_address
       if self.street_changed? || self.number_changed?

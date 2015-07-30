@@ -2,7 +2,9 @@ module ImportData
   class WetAndDryWastes < Base
 
     def import
-      # Waste.wet_and_dry_wastes.delete_all
+      if params[:area].present?
+        Waste.wet_and_dry_wastes.where(area: params[:area]).delete_all
+      end
       
       sheets_names.each do |sheet_name|
         excel.sheet(sheet_name)
@@ -61,7 +63,7 @@ module ImportData
     end
 
     def sheets_names
-      if params[:area] == 'area_5'
+      if params[:area] == 'area5'
         ['Jednorodzinne', 'Wielolokalowe']
       else
         ['jedno', 'wielolok']
