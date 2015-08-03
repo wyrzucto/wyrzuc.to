@@ -35,6 +35,10 @@ module ImportData
     end
 
     def dates(row)
+      unless excel.cell(row, date_col_inx)
+        LogActivity.save("Brak podanej daty w rzędzie #{row}")
+        return nil
+      end
       excel.cell(row, date_col_inx).split(' ').map { |date| parse_date(date).to_date }.select { |date| date > Time.now }
     end
 
