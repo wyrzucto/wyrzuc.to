@@ -1,0 +1,24 @@
+.box-body
+  .row
+    .col-md-12
+      %p.text-center
+        = form_for([:service, @employee], html: { multipart: true, class: "form-horizontal" }) do |f|
+          .form-group
+            = f.label :email, t('.email'), class: "col-sm-2 control-label"
+            .col-sm-10
+              = f.email_field :email, class: "form-control"
+          .form-group
+            = f.label :first_name, t('.first_name'), class: "col-sm-2 control-label"
+            .col-sm-10
+              = f.text_field :first_name, class: "form-control"
+          .form-group
+            = f.label :last_name, t('.last_name'), class: "col-sm-2 control-label"
+            .col-sm-10
+              = f.text_field :last_name, class: "form-control"
+          .form-group
+            = f.label :password, t('.password'), class: "col-sm-2 control-label"
+            .col-sm-10
+              = f.password_field :password, class: "form-control"
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              = f.submit t("buttons.submit"), class: "btn btn-success"

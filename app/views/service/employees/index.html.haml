@@ -1,0 +1,22 @@
+.box-header.with-border
+  .row
+    .col-sm-6
+      %h3.box-title Pracownicy
+    .col-sm-6.text-right
+      = link_to 'Nowy pracownik', new_service_employee_path, class: 'btn btn-primary'
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Email
+        %th Imie
+        %th Nazwisko
+        %th Edycja
+        %th Usuń
+      - @employees.each do |employee|
+        %tr
+          %td= employee.email
+          %td= employee.first_name
+          %td= employee.last_name
+          %td= link_to 'edit', edit_service_employee_path(employee), class: 'btn btn-info'
+          %td= link_to 'usuń', service_employee_path(employee), method: :delete, class: 'btn btn-danger'

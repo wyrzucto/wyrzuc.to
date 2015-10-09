@@ -61,4 +61,8 @@ Rails.application.routes.draw do
     get 'settings', to: 'settings#edit', as: :settings
     post 'settings', to: 'settings#update'
   end
+
+  namespace :zut do
+    resources :containers
+  end
 end
