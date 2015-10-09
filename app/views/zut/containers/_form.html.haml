@@ -3,14 +3,17 @@
     .col-md-12
       %p.text-center
         = semantic_form_for([:zut, @container], url: (@container.persisted? ? zut_container_path(@container) : zut_containers_path), html: { class: "form-horizontal" }) do |f|
-          = f.input(:street, collection: Location.street_list)
+          = f.input(:street_name, collection: Location.street_list)
+          = f.input(:street_number)
 
-          / = f.input(:clear_glass_containers)
-          / = f.input(:colorful_glass_containers)
-          / = f.input(:plastic_containers)
-          / = f.input(:maculature_containers)
+          = f.input(:clear_glass_containers, as: :number)
+          = f.input(:colorful_glass_containers, as: :number)
+          = f.input(:plastic_containers, as: :number)
+          = f.input(:maculature_containers, as: :number)
 
           = f.input(:latitude)
           = f.input(:longitude)
+
+          #container-map
 
           = f.action :submit

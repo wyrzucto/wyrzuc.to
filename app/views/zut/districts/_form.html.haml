@@ -1,0 +1,8 @@
+.box-body
+  .row
+    .col-md-12
+      %p.text-center
+        = semantic_form_for([:zut, @district], html: { class: "form-horizontal" }) do |f|
+          = f.input(:name)
+
+          = f.action :submit

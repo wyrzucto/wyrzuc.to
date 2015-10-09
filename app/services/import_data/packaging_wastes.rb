@@ -4,7 +4,7 @@ module ImportData
     attr_reader :street_col_inx, :street_no_col_inx, :description_col_inx, :clear_glass_col_inx, :colorful_glass_col_inx, :plastic_col_inx, :maculature_col_inx
 
     def import
-      Waste.packaging_wastes.delete_all
+      Wastes::PackagingWaste.delete_all
       
       row = address_sheet.row(3)
       @street_col_inx = row.index('Ulica') + 1
@@ -16,7 +16,7 @@ module ImportData
       @plastic_col_inx = row.index('tworzywo sztuczne') + 1
 
       (4..address_sheet.last_row).each do |row|
-        waste = Waste.new(data(row))
+        waste = Wastes::PackagingWaste.new(data(row))
         LogActivity.save(waste) unless waste.save
       end
     end
@@ -47,10 +47,10 @@ module ImportData
         data: {
           info: excel.cell(row, description_col_inx),
           containers: {
-            clear_glass: excel.cell(row, clear_glass_col_inx).to_i > 0,
-            colorful_glass: excel.cell(row, colorful_glass_col_inx).to_i > 0,
-            maculature: excel.cell(row, maculature_col_inx).to_i > 0,
-            plastic: excel.cell(row, plastic_col_inx).to_i > 0,
+            clear_glass: excel.cell(row, clear_glass_col_inx).to_i,
+            colorful_glass: excel.cell(row, colorful_glass_col_inx).to_i,
+            maculature: excel.cell(row, maculature_col_inx).to_i,
+            plastic: excel.cell(row, plastic_col_inx).to_i,
           }
         }
       }

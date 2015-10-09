@@ -11,7 +11,7 @@ module ImportData
       @number_col_inx = 4
 
       (excel.first_row..excel.last_row).each do |row|
-        waste = Waste.new(data(row))
+        waste = Wastes::BatteryCollectionPoint.new(data(row))
         LogActivity.save(waste) unless waste.save
       end
     end
@@ -19,7 +19,7 @@ module ImportData
     private
 
     def battery_points
-      @battery_points ||= Waste.battery_points
+      @battery_points ||= Wastes::BatteryCollectionPoint.all
     end
 
     def street_cell(row)

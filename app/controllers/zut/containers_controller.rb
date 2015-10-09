@@ -1,17 +1,20 @@
 module Zut
   class ContainersController < ApplicationController
     def index
-      @containers = Waste.packaging_wastes.page(params[:page])
+      @containers = Wastes::PackagingWaste.all.page(params[:page])
+      if params[:s].present?
+        @containers = @containers.where('LOWER(street) LIKE ?', "%#{params[:s].downcase}%")
+      end
     end
 
     def new
-      @container = Waste.packaging_wastes.new
+      @container = Wastes::PackagingWaste.new
     end
 
     def create
-      @container = Waste.packaging_wastes.new(container_params)
+      @container = Wastes::PackagingWaste.new(container_params)
       if @container.save
-        redirect_to service_containers_path, notice: t('messages.data_saved')
+        redirect_to zut_containers_path, notice: t('messages.data_saved')
       else
         flash[:error] = t('messages.data_not_saved')
         render :new
@@ -19,13 +22,13 @@ module Zut
     end
 
     def edit
-      @container = Waste.packaging_wastes.find(params[:id])
+      @container = Wastes::PackagingWaste.find(params[:id])
     end
 
     def update
-      @container = Waste.packaging_wastes.find(params[:id])
+      @container = Wastes::PackagingWaste.find(params[:id])
       if @container.update_attributes(container_params)
-        redirect_to service_containers_path, notice: t('messages.data_saved')
+        redirect_to zut_containers_path, notice: t('messages.data_saved')
       else
         flash[:error] = t('messages.data_not_saved')
         render :edit
@@ -33,11 +36,11 @@ module Zut
     end
 
     def destroy
-      @container = Waste.packaging_wastes.find(params[:id])
+      @container = Wastes::PackagingWaste.find(params[:id])
       if @container.destroy
-        redirect_to service_containers_path, notice: t('messages.data_saved')
+        redirect_to zut_containers_path, notice: t('messages.data_saved')
       else
-        redirect_to service_containers_path, notice: t('messages.data_not_saved')
+        redirect_to zut_containers_path, notice: t('messages.data_not_saved')
       end
     end
 

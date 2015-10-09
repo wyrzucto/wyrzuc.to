@@ -20,14 +20,14 @@ class GeolocationsController < ApplicationController
   end
 
   def battery_points
-    data = Waste.battery_points.map do |waste|
+    data = Wastes::BatteryCollectionPoint.map do |waste|
       [ [ waste.street, waste.data[:info] ].compact.join("\n"), waste.latitude, waste.longitude ]
     end
     render json: data
   end
 
   def packaging_wastes
-    data = Waste.packaging_wastes.map do |waste|
+    data = Wastes::PackagingWaste.map do |waste|
       [ ([ waste.street ] + waste.packaging_types).compact.join("\n"), waste.latitude, waste.longitude ]
     end
     render json: data

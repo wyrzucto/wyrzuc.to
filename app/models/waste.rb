@@ -1,4 +1,5 @@
 class Waste < ActiveRecord::Base
+  has_many :route_containers, dependent: :destroy
 
   include Addressable
 
@@ -14,7 +15,7 @@ class Waste < ActiveRecord::Base
   scope :packaging_wastes,   -> { where(kind: 3) }
   scope :wet_and_dry_wastes, -> { where(kind: 4) }
   scope :bulky_wastes,       -> { where(kind: 5) }
-  scope :battery_points,          -> { where(kind: 6) }
+  scope :battery_points,          -> { where(type: 'Wastes::BatteryCollectionPoint') }
 
   def pretty_date
     if self.date

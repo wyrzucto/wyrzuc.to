@@ -1,0 +1,21 @@
+.box-header.with-border
+  .row
+    .col-sm-6
+      %h3.box-title Dzielnice
+    .col-sm-6.text-right
+      = link_to 'dodaj', new_zut_district_path, class: 'btn btn-primary'
+
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Nazwa
+        %th.action Edytuj
+        %th.action Usuń
+      - @districts.each do |district|
+        %tr
+          %td= district.name
+          %td.action= link_to 'edit', edit_zut_district_path(district), class: 'btn btn-info'
+          %td.action= link_to 'usuń', zut_district_path(district), method: :delete, class: 'btn btn-danger'
+
+  = will_paginate(@districts)

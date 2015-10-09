@@ -65,5 +65,7 @@ Rails.application.routes.draw do
   namespace :zut do
     # resource :employee, controller: :admin, only: [:edit, :update]
     resources :containers
+    resources :districts
+    resources :routes
   end
 end

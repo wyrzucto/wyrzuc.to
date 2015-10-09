@@ -1,0 +1,23 @@
+.box-header.with-border
+  .row
+    .col-sm-6
+      %h3.box-title Trasy
+    .col-sm-6.text-right
+      = link_to 'dodaj', new_zut_route_path, class: 'btn btn-primary'
+
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Nazwa
+        %th.action Punkty
+        %th.action Edytuj
+        %th.action Usuń
+      - @routes.each do |route|
+        %tr
+          %td= route.name
+          %td.action= route.route_containers.count
+          %td.action= link_to 'edit', edit_zut_route_path(route), class: 'btn btn-info'
+          %td.action= link_to 'usuń', zut_route_path(route), method: :delete, class: 'btn btn-danger'
+
+  = will_paginate(@routes)

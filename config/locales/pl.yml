@@ -52,3 +52,12 @@ pl:
       form:
         title: Tytuł podstrony
         content: Treść podstrony
+
+  formtastic:
+    labels:
+      wastes_packaging_waste:
+        street: Ulica
+        clear_glass_containers: 'Pojemniki - szkło bezbarwne'
+        colorful_glass_containers: 'Pojemniki - szkło kolorowe'
+        plastic_containers: 'Pojemniki - plastiki'
+        maculature_container: 'Pojemniki - makulatura'
