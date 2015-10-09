@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :employees
   require 'sidekiq/web'
   mount Sidekiq::Web => '/sidekiq'
 
@@ -33,6 +32,7 @@ Rails.application.routes.draw do
   get 's/:slug', to: 'static_pages#show', as: :static_page
 
   devise_for :admin, skip: [:registrations] 
+  devise_for :employees, skip: [:registrations] 
 
   namespace :service do
     root 'dashboard#show'
@@ -63,6 +63,7 @@ Rails.application.routes.draw do
   end
 
   namespace :zut do
+    # resource :employee, controller: :admin, only: [:edit, :update]
     resources :containers
   end
 end

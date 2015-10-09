@@ -1,0 +1,24 @@
+%body
+  %header.main-header
+    %a.logo{:href => "/zut"}
+      %b> Panel
+      Admina
+    %nav.navbar.navbar-static-top{:role => "navigation"}
+      %a.sidebar-toggle{"data-toggle" => "offcanvas", :href => "#", :role => "button"}
+        %span.sr-only Toggle navigation
+      .navbar-custom-menu
+        %ul.nav.navbar-nav
+          %li.dropdown.user.user-menu
+            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+              = image_tag(avatar_path, class: 'user-image')
+              %span.hidden-xs= current_employee.full_name
+            %ul.dropdown-menu
+              %li.user-header
+                = image_tag(avatar_path, class: 'img-circle')
+                %p
+                  = current_employee.full_name
+                  %small
+                    Data rejestracji: #{l(current_employee.created_at, format: :registration)}
+              %li.user-footer
+                .pull-right
+                  = link_to t("buttons.sing_out"), destroy_employee_session_path, method: :delete, class: "btn btn-default btn-flat"

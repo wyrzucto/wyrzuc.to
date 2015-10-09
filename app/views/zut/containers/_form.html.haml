@@ -1,0 +1,16 @@
+.box-body
+  .row
+    .col-md-12
+      %p.text-center
+        = semantic_form_for([:zut, @container], url: (@container.persisted? ? zut_container_path(@container) : zut_containers_path), html: { class: "form-horizontal" }) do |f|
+          = f.input(:street, collection: Location.street_list)
+
+          / = f.input(:clear_glass_containers)
+          / = f.input(:colorful_glass_containers)
+          / = f.input(:plastic_containers)
+          / = f.input(:maculature_containers)
+
+          = f.input(:latitude)
+          = f.input(:longitude)
+
+          = f.action :submit

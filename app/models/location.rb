@@ -23,4 +23,8 @@ class Location < ActiveRecord::Base
       self.number_int = self.number.to_i
     end
   end
+
+  def self.street_list
+    Location.distinct.order(:street).pluck(:street)
+  end
 end

@@ -1,16 +1,16 @@
 module Zut
   class ContainersController < ApplicationController
     def index
-      @containers = Fraction.all
+      @containers = Waste.packaging_wastes.page(params[:page])
     end
 
     def new
-      @fraction = Fraction.new
+      @container = Waste.packaging_wastes.new
     end
 
     def create
-      @fraction = Fraction.new(fraction_params)
-      if @fraction.save
+      @container = Waste.packaging_wastes.new(container_params)
+      if @container.save
         redirect_to service_containers_path, notice: t('messages.data_saved')
       else
         flash[:error] = t('messages.data_not_saved')
@@ -19,12 +19,12 @@ module Zut
     end
 
     def edit
-      @fraction = Fraction.find(params[:id])
+      @container = Waste.packaging_wastes.find(params[:id])
     end
 
     def update
-      @fraction = Fraction.find(params[:id])
-      if @fraction.update_attributes(fraction_params)
+      @container = Waste.packaging_wastes.find(params[:id])
+      if @container.update_attributes(container_params)
         redirect_to service_containers_path, notice: t('messages.data_saved')
       else
         flash[:error] = t('messages.data_not_saved')
@@ -33,8 +33,8 @@ module Zut
     end
 
     def destroy
-      @fraction = Fraction.find(params[:id])
-      if @fraction.destroy
+      @container = Waste.packaging_wastes.find(params[:id])
+      if @container.destroy
         redirect_to service_containers_path, notice: t('messages.data_saved')
       else
         redirect_to service_containers_path, notice: t('messages.data_not_saved')
@@ -43,8 +43,8 @@ module Zut
 
     private
 
-    def fraction_params
-      params.require(:fraction).permit(:name, :description, :waste_data_id)
+    def container_params
+      params.require(:waste).permit(:name, :description, :waste_data_id)
     end
   end
 end

@@ -71,3 +71,8 @@ gem 'tinymce-rails'
 gem 'tinymce-rails-langs'
 gem 'fancybox2-rails'
 gem 'friendly_id'
+
+gem 'will_paginate'
+
+gem 'formtastic'
+gem 'formtastic-bootstrap'

@@ -1,0 +1,21 @@
+.box-header.with-border
+  .row
+    .col-sm-6
+      %h3.box-title Pojemniki
+    .col-sm-6.text-right
+      = link_to 'dodaj', new_zut_container_path, class: 'btn btn-primary'
+
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %tbody
+      %tr
+        %th Lokalizacja
+        %th Edytuj
+        %th Usuń
+      - @containers.each do |container|
+        %tr
+          %td= container.street
+          %td= link_to 'edit', edit_zut_container_path(container), class: 'btn btn-info'
+          %td= link_to 'usuń', zut_container_path(container), method: :delete, class: 'btn btn-danger'
+
+  = will_paginate(@containers)
