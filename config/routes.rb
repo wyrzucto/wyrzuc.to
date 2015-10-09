@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :employees
   require 'sidekiq/web'
   mount Sidekiq::Web => '/sidekiq'
 
@@ -26,6 +27,7 @@ Rails.application.routes.draw do
     get :hazardous_wastes
     get :bulky_wastes
     get :packaging_wastes
+    get :battery_points
   end
 
   get 's/:slug', to: 'static_pages#show', as: :static_page
@@ -41,6 +43,7 @@ Rails.application.routes.draw do
     resources :hazardous_wastes,   only: [:new, :create]
     resources :bulky_wastes,       only: [:new, :create]
     resources :packaging_wastes,   only: [:new, :create]
+    resources :battery_points,   only: [:new, :create]
 
 
     resources :locations,   only: [:new, :create]
@@ -50,7 +53,8 @@ Rails.application.routes.draw do
         post :import_data
       end
     end
-    resources :fractions
+    resources :fractions, except: :show
+    resources :employees, except: :show
     resources :logs, only: [:index]
     resources :static_pages,   except: [ :show ]
 

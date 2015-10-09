@@ -45,7 +45,8 @@ var wastes_urls = [
   // 'wet_and_dry_wastes',
   'hazardous_wastes',
   // 'bulky_wastes',
-  'packaging_wastes'
+  'packaging_wastes',
+  'battery_points',
 ]
 
 var markersCache = {};

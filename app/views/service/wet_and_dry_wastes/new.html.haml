@@ -10,7 +10,7 @@
             .col-sm-10
               = file_field_tag :file, class: "form-control"
           .form-group
-            = label_tag :file, t('.area'), class: "col-sm-2 control-label"
+            = label_tag :area, t('.area'), class: "col-sm-2 control-label"
             .col-sm-10
               = select_tag :area, options_from_collection_for_select(Location.areas_combo, :to_s, :to_s), class: "form-control"
           .form-group

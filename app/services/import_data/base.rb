@@ -22,6 +22,7 @@ module ImportData
       @file_extension ||= case file_extension
       when '.xls'  then Roo::Excel.new(file_path, nil, :ignore)
       when '.xlsx' then Roo::Excelx.new(file_path, nil, :ignore)
+      when '.ods' then Roo::OpenOffice.new(file_path, nil, :ignore)
       else raise ImportData::InvalidFileExtension
       end
     end

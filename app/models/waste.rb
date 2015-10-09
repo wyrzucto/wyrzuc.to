@@ -14,6 +14,7 @@ class Waste < ActiveRecord::Base
   scope :packaging_wastes,   -> { where(kind: 3) }
   scope :wet_and_dry_wastes, -> { where(kind: 4) }
   scope :bulky_wastes,       -> { where(kind: 5) }
+  scope :battery_points,          -> { where(kind: 6) }
 
   def pretty_date
     if self.date
