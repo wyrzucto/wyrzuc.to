@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  devise_for :employees
   require 'sidekiq/web'
   mount Sidekiq::Web => '/sidekiq'
 
