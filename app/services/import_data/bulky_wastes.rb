@@ -2,8 +2,8 @@ module ImportData
   class BulkyWastes < Base
 
     def import
-      if params[:area].present?
-        Waste.bulky_wastes.where(area: params[:area]).delete_all
+      if params["area"].present?
+        Waste.bulky_wastes.where(area: params["area"]).delete_all
       end
 
       (4..excel.last_row).each do |row|
@@ -45,7 +45,7 @@ module ImportData
         {
           kind: 5,
           group_id: 1,
-          area: params[:area],
+          area: params["area"],
           street: location.full_address,
           location: location,
           data: {
