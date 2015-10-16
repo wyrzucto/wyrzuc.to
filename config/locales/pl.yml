@@ -55,6 +55,11 @@ pl:
 
   formtastic:
     labels:
+      employee:
+        first_name: Imię
+        last_name: Nazwisko
+        email: Adres  email
+        password: Hasło
       wastes_packaging_waste:
         street: Ulica
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
