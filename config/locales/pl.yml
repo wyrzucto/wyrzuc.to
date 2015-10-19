@@ -62,7 +62,8 @@ pl:
         password: Hasło
       wastes_packaging_waste:
         street: Ulica
+        street_number: Numer budynku
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
         plastic_containers: 'Pojemniki - plastiki'
-        maculature_container: 'Pojemniki - makulatura'
+        maculature_containers: 'Pojemniki - makulatura'
