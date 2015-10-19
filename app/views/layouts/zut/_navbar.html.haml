@@ -10,11 +10,11 @@
         %ul.nav.navbar-nav
           %li.dropdown.user.user-menu
             %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-              = image_tag(avatar_path, class: 'user-image')
+              = image_tag(avatar_path(current_employee), class: 'user-image')
               %span.hidden-xs= current_employee.full_name
             %ul.dropdown-menu
               %li.user-header
-                = image_tag(avatar_path, class: 'img-circle')
+                = image_tag(avatar_path(current_employee), class: 'img-circle')
                 %p
                   = current_employee.full_name
                   %small
