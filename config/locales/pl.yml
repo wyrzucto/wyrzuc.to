@@ -70,3 +70,7 @@ pl:
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
         plastic_containers: 'Pojemniki - plastiki'
         maculature_containers: 'Pojemniki - makulatura'
+    actions:
+      district:
+        create: Utwórz dzielnicę
+        update: Zapisz dzielnicę
