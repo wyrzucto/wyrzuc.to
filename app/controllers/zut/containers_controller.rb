@@ -47,7 +47,7 @@ module Zut
     private
 
     def container_params
-      params.require(:waste).permit(:name, :description, :waste_data_id)
+      params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorfull_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id)
     end
   end
 end

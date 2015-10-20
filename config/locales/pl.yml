@@ -55,6 +55,8 @@ pl:
 
   formtastic:
     labels:
+      district: 
+        name: Nazwa dzielnicy
       employee:
         first_name: Imię
         last_name: Nazwisko
@@ -63,6 +65,7 @@ pl:
       wastes_packaging_waste:
         street: Ulica
         street_number: Numer budynku
+        district: Dzielnica
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
         plastic_containers: 'Pojemniki - plastiki'
