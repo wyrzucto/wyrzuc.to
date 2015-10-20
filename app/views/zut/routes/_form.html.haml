@@ -4,5 +4,7 @@
       %p.text-center
         = semantic_form_for([:zut, @route], html: { class: "form-horizontal" }) do |f|
           = f.input(:name)
+          = f.input(:area_id, as: :select, collection: Route.area_list)
 
-          = f.action :submit
+          = f.actions do
+            = f.action :submit

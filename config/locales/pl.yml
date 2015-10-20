@@ -62,6 +62,9 @@ pl:
         last_name: Nazwisko
         email: Adres  email
         password: Hasło
+      route:
+        name: Nazwa
+        area_id: Rejon
       wastes_packaging_waste:
         street: Ulica
         street_number: Numer budynku
@@ -74,3 +77,6 @@ pl:
       district:
         create: Utwórz dzielnicę
         update: Zapisz dzielnicę
+      route:
+        create: Utwórz trasę
+        update: Zapisz trasę

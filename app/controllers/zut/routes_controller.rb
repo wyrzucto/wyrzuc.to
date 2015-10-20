@@ -44,7 +44,7 @@ module Zut
     private
 
     def route_params
-      params.require(:route).permit(:name)
+      params.require(:route).permit(:name, :area_id)
     end
   end
 end
