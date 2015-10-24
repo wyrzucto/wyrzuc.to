@@ -2,7 +2,7 @@ class Route < ActiveRecord::Base
   has_many :route_containers, dependent: :destroy
   
   validates :name, presence: true, uniqueness: true
-  validates :area_id, presence: true, numericality: {in: :area_list}
+  validates :area_id, presence: true, inclusion: {in: (1..22)}
 
   def self.area_list
     (1..22).map {|inx| ["Rejon #{inx}", inx] }

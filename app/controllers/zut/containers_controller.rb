@@ -2,8 +2,46 @@ module Zut
   class ContainersController < ApplicationController
     def index
       @containers = Wastes::PackagingWaste.all.page(params[:page])
+
+      @districts = District.order(:name)
+      @routes = Route.order(:id)
+      @container_types = {
+        clear_glass: 'Szkło bezbarwne',
+        colorfull_glass: 'Szkło kolorowe',
+        plastic: 'Tworzywa sztuczne',
+        maculature: 'Makulatura',
+      }
+
       if params[:s].present?
         @containers = @containers.where('LOWER(street) LIKE ?', "%#{params[:s].downcase}%")
+      end
+
+      if params[:district]
+        @selected_districts = District.where(id: params[:district])
+        @containers = @containers.where(district: @district)
+      end
+
+      if params[:route]
+        @selected_routes = Route.where(id: params[:route])
+        @containers = @containers.where(route: @route)
+      end
+
+      if params[:area]
+        @containers = @containers.where(area: params[:area])
+      end
+
+      if params[:format_type] == 'Eksportuj'
+        @csv = CSV.generate do |csv|
+          inx = 0
+          @containers.each do |container|
+            csv << [
+              inx += 1,
+              container.street,
+              container.district,
+            ]
+          end
+        end
+        render json: @csv
       end
     end
 
@@ -43,6 +81,7 @@ module Zut
         redirect_to zut_containers_path, notice: t('messages.data_not_saved')
       end
     end
+
 
     private
 

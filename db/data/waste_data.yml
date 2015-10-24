@@ -14,3 +14,6 @@
 - id: 5
   kind: 'packaging_wastes'
   name: 'Odpady opakowaniowe'
+- id: 6
+  kind: 'batteries'
+  name: 'Punkty odbioru baterii'

@@ -29,7 +29,8 @@ class Wastes::PackagingWaste < Waste
   def clear_glass_containers=(number)
     self.data ||= {}
     self.data[:containers] ||= {}
-    self.data[:containers][:clear_glass_containers] = number
+    @containers = nil
+    self.data[:containers][:clear_glass] = number
   end
   
   def colorful_glass_containers
@@ -39,7 +40,8 @@ class Wastes::PackagingWaste < Waste
   def colorful_glass_containers=(number)
     self.data ||= {}
     self.data[:containers] ||= {}
-    self.data[:containers][:colorful_glass_containers] = number
+    @containers = nil
+    self.data[:containers][:colorful_glass] = number
   end
 
   def plastic_containers
@@ -49,7 +51,8 @@ class Wastes::PackagingWaste < Waste
   def plastic_containers=(number)
     self.data ||= {}
     self.data[:containers] ||= {}
-    self.data[:containers][:plastic_containers] = number
+    @containers = nil
+    self.data[:containers][:plastic] = number
   end
   
   def maculature_containers
@@ -59,7 +62,8 @@ class Wastes::PackagingWaste < Waste
   def maculature_containers=(number)
     self.data ||= {}
     self.data[:containers] ||= {}
-    self.data[:containers][:maculature_containers] = number
+    @containers = nil
+    self.data[:containers][:maculature] = number
   end
   
   private
