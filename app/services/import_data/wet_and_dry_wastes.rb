@@ -2,8 +2,8 @@ module ImportData
   class WetAndDryWastes < Base
 
     def import
-      if params[:area].present?
-        Waste.wet_and_dry_wastes.where(area: params[:area]).delete_all
+      if params["area"].present?
+        Waste.wet_and_dry_wastes.where(area: params["area"]).delete_all
       end
       
       sheets_names.each do |sheet_name|
@@ -33,6 +33,7 @@ module ImportData
         kind: 4,
         group_id: group_id,
         street: location.full_address,
+        area: params["area"],
         location: location,
         data: {
           info: excel.cell(row, 2),
