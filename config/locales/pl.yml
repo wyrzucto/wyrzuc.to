@@ -64,15 +64,17 @@ pl:
         password: Hasło
       route:
         name: Nazwa
-        area_id: Rejon
+        area_id: Sektor
       wastes_packaging_waste:
         street: Ulica
         street_number: Numer budynku
         district: Dzielnica
+        area: Sektor
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
         plastic_containers: 'Pojemniki - plastiki'
         maculature_containers: 'Pojemniki - makulatura'
+        details: Szczegóły
     actions:
       district:
         create: Utwórz dzielnicę

@@ -12,6 +12,9 @@
           = f.input(:maculature_containers, as: :number, label: t('formtastic.labels.wastes_packaging_waste.maculature_containers'))
 
           = f.input(:district, label: t('formtastic.labels.wastes_packaging_waste.district'))
+          = f.input(:area, collection: Route.area_list, label: t('formtastic.labels.wastes_packaging_waste.area'))
+
+          = f.input(:details, label: t('formtastic.labels.wastes_packaging_waste.details'), input_html: { rows: 5 })
 
           = f.input(:latitude)
           = f.input(:longitude)

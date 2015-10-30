@@ -7,7 +7,7 @@ module Zut
       @routes = Route.order(:id)
       @container_types = {
         clear_glass: 'Szkło bezbarwne',
-        colorfull_glass: 'Szkło kolorowe',
+        colorful_glass: 'Szkło kolorowe',
         plastic: 'Tworzywa sztuczne',
         maculature: 'Makulatura',
       }
@@ -38,6 +38,12 @@ module Zut
               inx += 1,
               container.street,
               container.district,
+              container.area,
+              container.clear_glass_containers,
+              container.colorful_glass_containers,
+              container.plastic_containers,
+              container.maculature_containers,
+              container.details
             ]
           end
         end
@@ -86,7 +92,7 @@ module Zut
     private
 
     def container_params
-      params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorfull_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id)
+      params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :area, :details)
     end
   end
 end

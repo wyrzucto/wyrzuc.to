@@ -5,11 +5,11 @@ class Route < ActiveRecord::Base
   validates :area_id, presence: true, inclusion: {in: (1..22)}
 
   def self.area_list
-    (1..22).map {|inx| ["Rejon #{inx}", inx] }
+    (1..22).map {|inx| ["Sektor #{inx}", inx] }
   end
 
   def area
-    "Rejon #{self.area_id}" if self.area_id
+    "Sektor #{self.area_id}" if self.area_id
   end
 
   def to_s

@@ -1,5 +1,6 @@
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap/dropdown
 //= require_self
 
 
@@ -26,7 +27,6 @@ function initialize() {
 
   var addMarker = function(location, map) {
     if (marker) {
-      console.log(marker)
       marker.setMap(null);
       marker = null;
     }
@@ -46,7 +46,7 @@ function initialize() {
 
   if ($('#wastes_packaging_waste_latitude').size() && $('#wastes_packaging_waste_longitude').size()) {
     var markerPos = {lat: parseFloat($('#wastes_packaging_waste_latitude').val(), 10), lng: parseFloat($('#wastes_packaging_waste_longitude').val(), 10)};
-    if (markerPos['lat'] != 0 && markerPos['lng'] != 0) {
+    if (!isNaN(markerPos['lat']) && !isNaN(markerPos['lng'])) {
       addMarker(markerPos, map);
       map.setCenter(markerPos);
     }

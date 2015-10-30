@@ -8,22 +8,22 @@
 .box-body
   %form{action: '', method: :get}
     .row
-      .col-sm-2
+      .col-sm-3
         Dzielnica:
         = select_tag('district[]', options_from_collection_for_select(@districts, 'id', 'name', params[:district]), multiple: true, size: 8, class: 'form-control')
 
-      .col-sm-2
-        Trasa:
-        = select_tag('route[]', options_from_collection_for_select(@routes, 'id', 'name', params[:route]), multiple: true, size: 8, class: 'form-control')
-
-      .col-sm-2
-        Rejon:
+      .col-sm-3
+        Sektor:
         = select_tag('area[]', options_from_collection_for_select(Route.area_list, 'last', 'first', params[:area]), multiple: true, size: 8, class: 'form-control')
 
-      .col-sm-2
+      .col-sm-3
         Typ kontenera:
         = select_tag('type[]', options_from_collection_for_select(@container_types, 'first', 'last', params[:type]), multiple: true, size: 8, class: 'form-control')
-      .col-sm-2
+
+      .col-sm-3
+        Trasa:
+        = select_tag('route[]', options_from_collection_for_select(@routes, 'id', 'name', params[:route]), multiple: true, size: 8, class: 'form-control')
+      .col-sm-12.text-right
         = submit_tag('Filtruj', name: 'format', class: 'btn btn-primary')
         = submit_tag('Eksportuj', name: 'format', class: 'btn btn-primary')
 
