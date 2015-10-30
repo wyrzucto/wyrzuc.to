@@ -65,17 +65,22 @@ pl:
       route:
         name: Nazwa
         area_id: Sektor
-      wastes_packaging_waste:
+      container:
         street: Ulica
         street_number: Numer budynku
+        description: Opis lokalizacji
         district: Dzielnica
         area: Sektor
+        uploaded_picture: Zdjęcie
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
         plastic_containers: 'Pojemniki - plastiki'
         maculature_containers: 'Pojemniki - makulatura'
-        details: Szczegóły
+        details: Uwagi dla kierowcy
         visible: Widoczny?
+        container_type: Typ pojemnika
+      route_container:
+        address: Adres kontenera
     actions:
       district:
         create: Utwórz dzielnicę

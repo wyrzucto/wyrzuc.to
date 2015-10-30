@@ -1,13 +1,21 @@
 class Wastes::PackagingWaste < Waste
 
   belongs_to :district
+  belongs_to :route
+
+  acts_as_list scope: :route_id
+  mount_uploader :picture, PlaceUploader
+
+  def uploaded_picture=(file)
+    self.picture = file.read
+  end
 
   def packaging_types
     types = []
-    types << 'Szkło bezbarwne' if containers?(:clear_glass)
-    types << 'Szkło kolorowe' if containers?(:colorful_glass)
-    types << 'Tworzywa sztuczne' if containers?(:plastic)
-    types << 'Makulatura' if containers?(:maculature)
+    types << 'Szkło bezbarwne' if self.clear_glass_containers > 0
+    types << 'Szkło kolorowe' if self.colorful_glass_containers > 0
+    types << 'Tworzywa sztuczne' if self.plastic_containers > 0
+    types << 'Makulatura' if self.maculature_containers > 0
     types
   end
 
@@ -22,57 +30,5 @@ class Wastes::PackagingWaste < Waste
     street.to_s.split(/\s+/).last
   end
 
-  def clear_glass_containers
-    containers[:clear_glass] == true ? 1 : (containers[:clear_glass].try(:to_i) || 0)
-  end
-
-  def clear_glass_containers=(number)
-    self.data ||= {}
-    self.data[:containers] ||= {}
-    @containers = nil
-    self.data[:containers][:clear_glass] = number
-  end
-  
-  def colorful_glass_containers
-    containers[:colorful_glass] == true ? 1 : (containers[:colorful_glass].try(:to_i) || 0)
-  end
-  
-  def colorful_glass_containers=(number)
-    self.data ||= {}
-    self.data[:containers] ||= {}
-    @containers = nil
-    self.data[:containers][:colorful_glass] = number
-  end
-
-  def plastic_containers
-    containers[:plastic] == true ? 1 : (containers[:plastic].try(:to_i) || 0)
-  end
-  
-  def plastic_containers=(number)
-    self.data ||= {}
-    self.data[:containers] ||= {}
-    @containers = nil
-    self.data[:containers][:plastic] = number
-  end
-  
-  def maculature_containers
-    containers[:maculature] == true ? 1 : (containers[:maculature].try(:to_i) || 0)
-  end
-
-  def maculature_containers=(number)
-    self.data ||= {}
-    self.data[:containers] ||= {}
-    @containers = nil
-    self.data[:containers][:maculature] = number
-  end
-  
-  private
-    def containers
-      @containers ||= (self.data.try(:[], :containers) || {})
-    end
-
-    def containers?(type)
-      containers[type] && (containers[type] == true || containers[type].to_i > 0)
-    end
 end
 

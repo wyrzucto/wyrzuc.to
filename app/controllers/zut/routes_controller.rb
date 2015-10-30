@@ -4,6 +4,12 @@ module Zut
       @routes = Route.all.page(params[:page])
     end
 
+    def show
+      @route = Route.find(params[:id])
+
+      @route_containers = @route.containers
+    end
+
     def new
       @route = Route.new
     end

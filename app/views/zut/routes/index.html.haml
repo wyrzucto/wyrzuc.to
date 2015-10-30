@@ -7,19 +7,22 @@
 
 .box-body.table-responsive.no-padding
   %table.table.table-hover
-    %tbody
+    %thead
       %tr
         %th Nazwa
         %th.action Sektor
         %th.action Punkty
+        %th.action Wyświetl
         %th.action Edytuj
         %th.action Usuń
+    %tbody
       - @routes.each do |route|
-        %trf
+        %tr
           %td= route.name
           %td.action= route.area
           %td.action= route.route_containers.count
-          %td.action= link_to 'edit', edit_zut_route_path(route), class: 'btn btn-info'
+          %td.action= link_to 'wyświetl', zut_route_path(route), class: 'btn btn-info'
+          %td.action= link_to 'edytuj', edit_zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'usuń', zut_route_path(route), method: :delete, class: 'btn btn-danger'
 
   = will_paginate(@routes)

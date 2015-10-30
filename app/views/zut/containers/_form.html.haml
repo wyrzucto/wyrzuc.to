@@ -3,23 +3,32 @@
     .col-md-12
       %p.text-center
         = semantic_form_for([:zut, @container], url: (@container.persisted? ? zut_container_path(@container) : zut_containers_path), html: { class: "form-horizontal" }) do |f|
-          = f.input(:street_name, collection: Location.street_list, label: t('formtastic.labels.wastes_packaging_waste.street'))
-          = f.input(:street_number, label: t('formtastic.labels.wastes_packaging_waste.street_number'))
+          = f.input(:street_name, collection: Location.street_list, label: t('formtastic.labels.container.street'))
+          = f.input(:street_number, label: t('formtastic.labels.container.street_number'))
 
-          = f.input(:clear_glass_containers, as: :number, label: t('formtastic.labels.wastes_packaging_waste.clear_glass_containers'))
-          = f.input(:colorful_glass_containers, as: :number, label: t('formtastic.labels.wastes_packaging_waste.colorful_glass_containers'))
-          = f.input(:plastic_containers, as: :number, label: t('formtastic.labels.wastes_packaging_waste.plastic_containers'))
-          = f.input(:maculature_containers, as: :number, label: t('formtastic.labels.wastes_packaging_waste.maculature_containers'))
-
-          = f.input(:district, label: t('formtastic.labels.wastes_packaging_waste.district'))
-          = f.input(:area, collection: Route.area_list, label: t('formtastic.labels.wastes_packaging_waste.area'))
-
-          = f.input(:details, label: t('formtastic.labels.wastes_packaging_waste.details'), input_html: { rows: 5 })
-          = f.input(:visible, label: t('formtastic.labels.wastes_packaging_waste.visible'))
-
+          = f.input(:description, as: :string, label: t('formtastic.labels.container.description'))
+          
+          %h5 Położenie:
           = f.input(:latitude)
           = f.input(:longitude)
-
           #container-map
+
+          %h5 Pojemniki:
+          = f.input(:clear_glass_containers, as: :number, label: t('formtastic.labels.container.clear_glass_containers'))
+          = f.input(:colorful_glass_containers, as: :number, label: t('formtastic.labels.container.colorful_glass_containers'))
+          = f.input(:plastic_containers, as: :number, label: t('formtastic.labels.container.plastic_containers'))
+          = f.input(:maculature_containers, as: :number, label: t('formtastic.labels.container.maculature_containers'))
+
+
+          = f.input(:uploaded_picture, as: :string, label: t('formtastic.labels.container.picture'), as: :file)
+
+          = f.input(:area, collection: Route.area_list, label: t('formtastic.labels.container.area'))
+          = f.input(:container_type, label: t('formtastic.labels.container.container_type'))
+
+          = f.input(:district, label: t('formtastic.labels.container.district'))
+
+          = f.input(:details, label: t('formtastic.labels.container.details'), input_html: { rows: 5 })
+          = f.input(:visible, label: t('formtastic.labels.container.visible'))
+
 
           = f.action :submit

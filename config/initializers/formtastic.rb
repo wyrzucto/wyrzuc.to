@@ -8,24 +8,7 @@ module FormtasticBootstrap
     configure :default_block_error_class,  'help-block'
   end
 
-  module Inputs
-    class BooleanInput
-      include Base
 
-      def to_html
-        bootstrap_wrapping do
-          builder.check_box(input_name, form_control_input_html_options)
-        end
-      end
-
-      def wrapper_html_options
-        super.tap do |options|
-          options[:class] = (options[:class].split + ["checkbox"]).join(" ")
-        end
-      end
-
-    end
-  end
 end
 
 

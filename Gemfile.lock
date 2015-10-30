@@ -37,6 +37,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    acts_as_list (0.7.2)
+      activerecord (>= 3.0)
     arel (5.0.1.20140414130214)
     bcrypt (3.1.10)
     bootstrap-sass (3.1.1.1)
@@ -257,6 +259,7 @@ PLATFORMS
 DEPENDENCIES
   a9n
   active_hash
+  acts_as_list
   bootstrap-sass
   carrierwave
   coffee-rails (~> 4.0.0)

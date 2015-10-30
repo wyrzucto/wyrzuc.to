@@ -63,10 +63,14 @@ Rails.application.routes.draw do
   end
 
   namespace :zut do
-    # resource :employee, controller: :admin, only: [:edit, :update]
     root 'routes#index'
-    resources :containers
-    resources :districts
-    resources :routes
+    resources :containers, except: :show
+    resources :districts, except: :show
+    resources :routes do
+      resources :route_containers, except: [:show, :index] do
+        get 'move_up'
+        get 'move_down'
+      end
+    end
   end
 end

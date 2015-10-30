@@ -24,8 +24,8 @@
         Trasa:
         = select_tag('route[]', options_from_collection_for_select(@routes, 'id', 'name', params[:route]), multiple: true, size: 8, class: 'form-control')
       .col-sm-12.text-right
-        = submit_tag('Filtruj', name: 'format', class: 'btn btn-primary')
-        = submit_tag('Eksportuj', name: 'format', class: 'btn btn-primary')
+        = submit_tag('Filtruj', name: 'format_type', class: 'btn btn-primary')
+        = submit_tag('Eksportuj', name: 'format_type', class: 'btn btn-primary')
 
 
 .box-body.table-responsive.no-padding

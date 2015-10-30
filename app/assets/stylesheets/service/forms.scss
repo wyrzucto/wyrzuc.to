@@ -38,6 +38,19 @@
         width: (100%/6*5);
       }
   	}
+    h5 {
+      width: (100%/6);
+      font-size: 16px;
+      text-align: right;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: bold;
+    }
+    .form-group.boolean {
+      margin-left: (100%/6);
+      margin-bottom: 10px;
+      padding-left: 0;
+    }
     .form-actions {
       margin-left: (100%/6);
       padding-left: 15px;
