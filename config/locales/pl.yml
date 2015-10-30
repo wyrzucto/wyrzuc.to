@@ -75,6 +75,7 @@ pl:
         plastic_containers: 'Pojemniki - plastiki'
         maculature_containers: 'Pojemniki - makulatura'
         details: Szczegóły
+        visible: Widoczny?
     actions:
       district:
         create: Utwórz dzielnicę

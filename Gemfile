@@ -76,3 +76,5 @@ gem 'will_paginate'
 
 gem 'formtastic'
 gem 'formtastic-bootstrap'
+
+gem 'unicorn'

@@ -32,6 +32,17 @@ module Zut
 
       if params[:format_type] == 'Eksportuj'
         @csv = CSV.generate do |csv|
+          csv << [
+            'Numer',
+            'Adres',
+            'Dzielnica',
+            'Sektor',
+            'Szkło bezbarwne',
+            'Szkło kolorowe',
+            'Tworzywa sztuczne',
+            'Makulatura',
+            'Uwagi',
+          ]
           inx = 0
           @containers.each do |container|
             csv << [
@@ -92,7 +103,7 @@ module Zut
     private
 
     def container_params
-      params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :area, :details)
+      params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :area, :details, :visible)
     end
   end
 end
