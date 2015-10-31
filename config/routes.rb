@@ -68,8 +68,7 @@ Rails.application.routes.draw do
     resources :districts, except: :show
     resources :routes do
       resources :route_containers, except: [:show, :index] do
-        get 'move_up'
-        get 'move_down'
+        post 'move'
       end
     end
   end

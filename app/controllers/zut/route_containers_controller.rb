@@ -22,20 +22,16 @@ module Zut
       end
     end
 
-    def move_up
+    def move
       @route = Route.find(params[:route_id])
       @route_container = @route.containers.find(params[:route_container_id])
 
-      @route_container.move_higher
-      redirect_to back_path, notice: t('messages.data_saved')
-    end
+      @route_container.insert_at(params[:position].to_i+1)
 
-    def move_down
-      @route = Route.find(params[:route_id])
-      @route_container = @route.containers.find(params[:route_container_id])
-
-      @route_container.move_lower
-      redirect_to back_path, notice: t('messages.data_saved')
+      respond_to do |format|
+        format.json { render json: {status: :success} }
+        format.html { redirect_to back_path, notice: t('messages.data_saved') }
+      end
     end
 
     def destroy
