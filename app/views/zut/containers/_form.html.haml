@@ -22,13 +22,13 @@
 
           = f.input(:uploaded_picture, as: :string, label: t('formtastic.labels.container.picture'), as: :file)
 
-          = f.input(:area, collection: Route.area_list, label: t('formtastic.labels.container.area'))
           = f.input(:container_type, label: t('formtastic.labels.container.container_type'))
 
           = f.input(:district, label: t('formtastic.labels.container.district'))
+          = f.input(:route, label: t('formtastic.labels.container.route'))
 
           = f.input(:details, label: t('formtastic.labels.container.details'), input_html: { rows: 5 })
           = f.input(:visible, label: t('formtastic.labels.container.visible'))
 
-
-          = f.action :submit
+          .form-actions
+            = f.action :submit, label: 'Zapisz zmiany'

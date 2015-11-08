@@ -6,6 +6,12 @@ class Wastes::PackagingWaste < Waste
   acts_as_list scope: :route_id
   mount_uploader :picture, PlaceUploader
 
+  before_validation :set_kind
+
+  def set_kind
+    self.kind = 3
+  end
+  
   def uploaded_picture=(file)
     self.picture = file.read
   end

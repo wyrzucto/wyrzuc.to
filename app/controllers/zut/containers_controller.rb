@@ -26,10 +26,6 @@ module Zut
         @containers = @containers.where(route: @selected_routes)
       end
 
-      if params[:area]
-        @containers = @containers.where(area: params[:area])
-      end
-
       @selected_types = (params[:type] || []) & [ 'colorful_glass', 'clear_glass', 'plastic', 'maculature' ]
       if @selected_types.any?
         types = @selected_types.map {|type| "(#{type}_containers > 0)" }
@@ -43,7 +39,7 @@ module Zut
             'Adres',
             'Opis uszczegóławiający',
             'Dzielnica',
-            'Rejon',
+            'Trasa',
           ]
 
           rec << 'Szkło bezbarwne' if @selected_types.blank? || @selected_types.member?('clear_glass')
@@ -61,7 +57,7 @@ module Zut
               container.street,
               container.description || '-',
               container.district || '-',
-              container.area || '-',
+              container.route || '-',
             ]
 
             rec << container.clear_glass_containers if @selected_types.blank? || @selected_types.member?('clear_glass')
@@ -119,7 +115,9 @@ module Zut
     private
 
     def container_params
-      params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :area, :details, :visible, :description, :uploaded_picture, :container_type)
+      params2 = params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :route_id, :details, :visible, :description, :uploaded_picture, :container_type)
+      params2[:street] = [ params2[:street_name], params2[:street_number] ].compact.join(' ')
+      params2
     end
   end
 end

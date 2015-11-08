@@ -70,7 +70,7 @@ pl:
         street_number: Numer budynku
         description: Opis lokalizacji
         district: Dzielnica
-        area: Sektor
+        route: Trasa
         uploaded_picture: Zdjęcie
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
