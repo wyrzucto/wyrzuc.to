@@ -25,6 +25,6 @@ class Location < ActiveRecord::Base
   end
 
   def self.street_list
-    Location.distinct.order(:street).pluck(:street)
+    Location.distinct.reorder(:street).pluck(:street)
   end
 end
