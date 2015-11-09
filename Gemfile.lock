@@ -291,6 +291,7 @@ DEPENDENCIES
   shoulda-matchers
   sidekiq
   sinatra
+  spreadsheet
   sqlite3
   therubyracer
   tinymce-rails

@@ -33,7 +33,8 @@ class Wastes::PackagingWaste < Waste
   def street_name
     return @street_name if @street_name
     parts = street.to_s.split(/\s+/)
-    parts[0, parts.size-1].join(' ')
+    parts = parts[0, parts.size-1]
+    parts.present? ? parts.join(' ') : nil
   end
 
   def street_number

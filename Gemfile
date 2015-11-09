@@ -51,6 +51,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'roo'
+gem 'spreadsheet'
 gem 'geocoder', '~> 1.2.9'
 gem 'gmaps4rails'
 gem 'a9n'
