@@ -6,12 +6,15 @@ class Wastes::PackagingWaste < Waste
   acts_as_list scope: :route_id
   mount_uploader :picture, PlaceUploader
 
+  validates :street_name, presence: true, if: "street.blank?"
+  validates :street_number, presence: true, if: "street.blank?"
+
   before_validation :set_kind
 
   def set_kind
     self.kind = 3
   end
-  
+
   def uploaded_picture=(file)
     self.picture = file.read
   end
@@ -28,12 +31,13 @@ class Wastes::PackagingWaste < Waste
   attr_accessor :street_name, :street_number
 
   def street_name
+    return @street_name if @street_name
     parts = street.to_s.split(/\s+/)
-    parts[0, parts.size-1]
+    parts[0, parts.size-1].join(' ')
   end
 
   def street_number
-    street.to_s.split(/\s+/).last
+    @street_number || street.to_s.split(/\s+/).last
   end
 
 end

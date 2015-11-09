@@ -1,7 +1,7 @@
 module Zut
   class ContainersController < ApplicationController
     def index
-      @containers = Wastes::PackagingWaste.all.page(params[:page])
+      @containers = Wastes::PackagingWaste.order(:street).page(params[:page])
 
       @districts = District.order(:name)
       @routes = Route.order(:id)

@@ -79,6 +79,7 @@ pl:
         details: Uwagi dla kierowcy
         visible: Widoczny?
         container_type: Typ pojemnika
+        picture: Zdjęcie
       route_container:
         address: Adres kontenera
     actions:
