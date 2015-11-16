@@ -13,6 +13,7 @@
         %th.action Sektor
         %th.action Punkty
         %th.action Wyświetl
+        %th.action Export
         %th.action Edytuj
         %th.action Usuń
     %tbody
@@ -22,6 +23,7 @@
           %td.action= route.area
           %td.action= route.route_containers.count
           %td.action= link_to 'wyświetl', zut_route_path(route), class: 'btn btn-info'
+          %td.action= link_to 'eksportuj', export_zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'edytuj', edit_zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'usuń', zut_route_path(route), method: :delete, class: 'btn btn-danger'
 

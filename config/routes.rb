@@ -67,6 +67,7 @@ Rails.application.routes.draw do
     resources :containers, except: :show
     resources :districts, except: :show
     resources :routes do
+      get 'export', on: :member
       resources :route_containers, except: [:show, :index] do
         post 'move'
       end
