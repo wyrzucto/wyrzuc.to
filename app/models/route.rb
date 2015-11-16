@@ -1,5 +1,4 @@
 class Route < ActiveRecord::Base
-  has_many :route_containers, dependent: :destroy
   has_many :containers, -> { order(position: :asc) }, dependent: :nullify, class: Wastes::PackagingWaste
   
   validates :name, presence: true, uniqueness: true

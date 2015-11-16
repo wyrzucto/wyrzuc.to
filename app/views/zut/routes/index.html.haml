@@ -21,7 +21,7 @@
         %tr
           %td= route.name
           %td.action= route.area
-          %td.action= route.route_containers.count
+          %td.action= route.containers.count
           %td.action= link_to 'wyświetl', zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'eksportuj', export_zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'edytuj', edit_zut_route_path(route), class: 'btn btn-info'
