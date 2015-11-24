@@ -1,5 +1,6 @@
 class Route < ActiveRecord::Base
   has_many :containers, -> { order(position: :asc) }, dependent: :nullify, class: Wastes::PackagingWaste
+  has_many :route_versions, dependent: :destroy
   
   validates :name, presence: true, uniqueness: true
   validates :area_id, presence: true, inclusion: {in: (1..22)}
@@ -14,6 +15,10 @@ class Route < ActiveRecord::Base
 
   def to_s
     self.name
+  end
+
+  def has_new_version?
+    self.route_versions.none? || self.route_versions.last.container_ids != self.containers.map(&:id)
   end
 
 

@@ -1,0 +1,22 @@
+.box-header.with-border
+  .row
+    .col-sm-6
+      %h3.box-title Historia trasy #{@route.name}
+
+.box-body.table-responsive.no-padding
+  %table.table.table-hover
+    %thead
+      %tr
+        %th Data
+        %th.action Liczba punktów
+        %th Trasa
+    %tbody
+      - @route_versions.each do |version|
+        %tr
+          %td= version.created_at.strftime("%d.%m.%Y")
+          %td.action.text-center= version.data.count
+          %td
+            - version.data.each do |row|
+              = row[:address]
+              %br
+

@@ -12,6 +12,7 @@
         %th Nazwa
         %th.action Sektor
         %th.action Punkty
+        %th.action Historia trasy
         %th.action Wyświetl
         %th.action Export
         %th.action Edytuj
@@ -22,6 +23,10 @@
           %td= route.name
           %td.action= route.area
           %td.action= route.containers.count
+          %td.action
+            = link_to(zut_route_route_versions_path(route), class: 'btn btn-info') do
+              = route.route_versions.count
+              %i.fa.fa-list
           %td.action= link_to 'wyświetl', zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'eksportuj', export_zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'edytuj', edit_zut_route_path(route), class: 'btn btn-info'
