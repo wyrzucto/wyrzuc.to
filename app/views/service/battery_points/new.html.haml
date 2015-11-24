@@ -1,10 +1,10 @@
 .box-header.with-border
-  %h3.box-title Import odpadów mokrych, suchych oraz zmieszanych
+  %h3.box-title Import punktów odbioru baterii
 .box-body
   .row
     .col-md-12
       %p.text-center
-        = form_tag service_wet_and_dry_wastes_path, multipart: true, class: "form-horizontal" do
+        = form_tag service_battery_points_path, multipart: true, class: "form-horizontal" do
           .form-group
             = label_tag :file, 'Plik excel (ODS)', class: "col-sm-2 control-label"
             .col-sm-10

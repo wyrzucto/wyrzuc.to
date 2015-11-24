@@ -20,4 +20,7 @@ class ApplicationController < ActionController::Base
     Setting.load!
   end
 
+  def back_path(default = '/')
+    request.headers["X-XHR-Referer"] || request.referer || default
+  end
 end

@@ -3,6 +3,7 @@
  *= require font-awesome
  *= require service/admin_lte
  *= require service/template_skins
+ *= require service/forms
 */
 span.import.start {
 	background-color: cornflowerblue;
@@ -14,4 +15,15 @@ span.import.end {
 table.table td.action, table.table th.action {
   width: 150px;
   text-align: center;
+}
+table.table td.sort {
+  width: 70px;
+  text-align: center;
+}
+#container-map {
+  margin-left: (100%/6);
+  margin-right: 15px;
+}
+.box-body form.filters select {
+  margin-bottom: 10px;
 }

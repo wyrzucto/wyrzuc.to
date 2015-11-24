@@ -43,18 +43,14 @@ module ImportData
     def data(row)
       {
         kind: 3,
+        type: 'Wastes::PackagingWaste',
         street: address_cell(row),
-        data: {
-          info: excel.cell(row, description_col_inx),
-          containers: {
-            clear_glass: excel.cell(row, clear_glass_col_inx).to_i,
-            colorful_glass: excel.cell(row, colorful_glass_col_inx).to_i,
-            maculature: excel.cell(row, maculature_col_inx).to_i,
-            plastic: excel.cell(row, plastic_col_inx).to_i,
-          }
-        }
+        clear_glass_containers: excel.cell(row, clear_glass_col_inx).to_i,
+        colorful_glass_containers: excel.cell(row, colorful_glass_col_inx).to_i,
+        plastic_containers: excel.cell(row, plastic_col_inx).to_i,
+        maculature_containers: excel.cell(row, maculature_col_inx).to_i,
+        description: excel.cell(row, description_col_inx),
       }
     end
-
   end
 end

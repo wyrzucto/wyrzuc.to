@@ -63,9 +63,16 @@ Rails.application.routes.draw do
   end
 
   namespace :zut do
-    # resource :employee, controller: :admin, only: [:edit, :update]
-    resources :containers
-    resources :districts
-    resources :routes
+    root 'routes#index'
+    resources :containers, except: :show
+    resources :districts, except: :show
+    resources :routes do
+      get 'export', on: :member
+      resources :route_versions, only: [ :index ]
+
+      resources :route_containers, except: [:show, :index] do
+        post 'move'
+      end
+    end
   end
 end

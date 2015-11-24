@@ -4,17 +4,15 @@
       %b> Panel
       Admina
     %nav.navbar.navbar-static-top{:role => "navigation"}
-      %a.sidebar-toggle{"data-toggle" => "offcanvas", :href => "#", :role => "button"}
-        %span.sr-only Toggle navigation
       .navbar-custom-menu
         %ul.nav.navbar-nav
           %li.dropdown.user.user-menu
             %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-              = image_tag(avatar_path, class: 'user-image')
+              = image_tag('avatar.png', class: 'user-image')
               %span.hidden-xs= current_employee.full_name
             %ul.dropdown-menu
               %li.user-header
-                = image_tag(avatar_path, class: 'img-circle')
+                = image_tag('avatar.png', class: 'img-circle')
                 %p
                   = current_employee.full_name
                   %small

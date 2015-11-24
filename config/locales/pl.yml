@@ -55,9 +55,37 @@ pl:
 
   formtastic:
     labels:
-      wastes_packaging_waste:
+      district: 
+        name: Nazwa dzielnicy
+      employee:
+        first_name: Imię
+        last_name: Nazwisko
+        email: Adres  email
+        password: Hasło
+      route:
+        name: Nazwa
+        area_id: Sektor
+      container:
         street: Ulica
+        street_number: Numer budynku
+        description: Opis lokalizacji
+        district: Dzielnica
+        route: Trasa
+        uploaded_picture: Zdjęcie
         clear_glass_containers: 'Pojemniki - szkło bezbarwne'
         colorful_glass_containers: 'Pojemniki - szkło kolorowe'
         plastic_containers: 'Pojemniki - plastiki'
-        maculature_container: 'Pojemniki - makulatura'
+        maculature_containers: 'Pojemniki - makulatura'
+        details: Uwagi dla kierowcy
+        visible: Widoczny?
+        container_type: Typ pojemnika
+        picture: Zdjęcie
+      route_container:
+        address: Adres kontenera
+    actions:
+      district:
+        create: Utwórz dzielnicę
+        update: Zapisz dzielnicę
+      route:
+        create: Utwórz trasę
+        update: Zapisz trasę

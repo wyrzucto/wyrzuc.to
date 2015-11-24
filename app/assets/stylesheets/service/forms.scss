@@ -1,0 +1,59 @@
+.formtastic {
+  .form-group {
+  	&::after {
+  		clear: both;
+
+  		.form-label {
+
+  		}
+  	}
+  }
+}
+
+@media (min-width: 768px) {
+  .formtastic {
+    abbr {
+      border: 0;
+      color: #dd4b39;
+      margin-left: 3px;
+    }
+  	.form-group {
+      padding-left: 15px;
+      padding-right: 15px;
+  		.form-label {
+  			float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: right;
+        width: (100%/6);
+        label {
+          display: inline-block;
+          width: 100%;
+        }
+  		}
+      .form-wrapper {
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: (100%/6*5);
+      }
+  	}
+    h5 {
+      width: (100%/6);
+      font-size: 16px;
+      text-align: right;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: bold;
+    }
+    .form-group.boolean {
+      margin-left: (100%/6);
+      margin-bottom: 10px;
+      padding-left: 0;
+    }
+    .form-actions {
+      margin-left: (100%/6);
+      padding-left: 15px;
+    }
+  }
+}

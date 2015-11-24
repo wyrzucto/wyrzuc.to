@@ -1,0 +1,27 @@
+.box-header.with-border
+  .row
+    .col-sm-6
+      %h3.box-title 
+        Trasy
+        &raquo;
+        = @route
+    .col-sm-6.text-right
+      = link_to 'Dodaj nowy punkt na trasie', new_zut_route_route_container_path(@route), class: 'btn btn-primary'
+
+.box-body.table-responsive.no-padding
+  %table.table.table-hover.table-sortable
+    %thead
+      %tr
+        %th Kolejność
+        %th Adres
+        %th.action Usuń
+    %tbody
+      - @route_containers.each_with_index do |container, inx|
+        %tr.sortable{data: {item_id: container.id}}
+          %td.sort
+            %i.fa.fa-arrows.btn.btn-primary
+          %td= container.street
+          %td.action= link_to 'usuń', zut_route_route_container_path(@route, container), method: :delete, class: 'btn btn-danger'
+
+  
+
