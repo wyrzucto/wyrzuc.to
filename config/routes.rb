@@ -66,7 +66,7 @@ Rails.application.routes.draw do
     root 'routes#index'
     resources :containers, except: :show
     resources :districts, except: :show
-    resources :routes do
+    resources :routes, only: [ :index, :show ] do
       get 'export', on: :member
       resources :route_versions, only: [ :index ]
 

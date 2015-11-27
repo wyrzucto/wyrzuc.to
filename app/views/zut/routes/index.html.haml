@@ -2,7 +2,7 @@
   .row
     .col-sm-6
       %h3.box-title Trasy
-    .col-sm-6.text-right
+    -# .col-sm-6.text-right
       = link_to 'Dodaj nową trasę', new_zut_route_path, class: 'btn btn-primary'
 
 .box-body.table-responsive.no-padding
@@ -14,9 +14,9 @@
         %th.action Punkty
         %th.action Historia trasy
         %th.action Wyświetl
-        %th.action Export
-        %th.action Edytuj
-        %th.action Usuń
+        %th.action Eksport
+        -# %th.action Edytuj
+        -# %th.action Usuń
     %tbody
       - @routes.each do |route|
         %tr
@@ -29,7 +29,7 @@
               %i.fa.fa-list
           %td.action= link_to 'wyświetl', zut_route_path(route), class: 'btn btn-info'
           %td.action= link_to 'eksportuj', export_zut_route_path(route), class: 'btn btn-info'
-          %td.action= link_to 'edytuj', edit_zut_route_path(route), class: 'btn btn-info'
-          %td.action= link_to 'usuń', zut_route_path(route), method: :delete, class: 'btn btn-danger'
+          -# %td.action= link_to 'edytuj', edit_zut_route_path(route), class: 'btn btn-info'
+          -# %td.action= link_to 'usuń', zut_route_path(route), method: :delete, class: 'btn btn-danger'
 
   = will_paginate(@routes)
