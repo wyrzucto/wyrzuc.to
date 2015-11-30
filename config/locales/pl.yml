@@ -72,10 +72,10 @@ pl:
         district: Dzielnica
         route: Trasa
         uploaded_picture: Zdjęcie
-        clear_glass_containers: 'Pojemniki - szkło bezbarwne'
-        colorful_glass_containers: 'Pojemniki - szkło kolorowe'
-        plastic_containers: 'Pojemniki - plastiki'
-        maculature_containers: 'Pojemniki - makulatura'
+        clear_glass_containers: 'Szkło bezbarwne'
+        colorful_glass_containers: 'Szkło kolorowe'
+        plastic_containers: 'Tworzywa sztuczne'
+        maculature_containers: 'Makulatura'
         details: Uwagi dla kierowcy
         visible: Widoczny?
         container_type: Typ pojemnika
