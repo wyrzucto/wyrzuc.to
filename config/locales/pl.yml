@@ -81,7 +81,7 @@ pl:
         container_type: Typ pojemnika
         picture: Zdjęcie
       route_container:
-        address: Adres kontenera
+        address: Adres pojemnika
     actions:
       district:
         create: Utwórz dzielnicę
