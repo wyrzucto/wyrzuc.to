@@ -4,17 +4,16 @@ module Zut
       @route = Route.find(params[:route_id])
       @route_container = @route.containers.new
 
-      @containers_list = Wastes::PackagingWaste.where(area: @route.area_id).where.not(id: Wastes::PackagingWaste.where(route: @route))
+      @containers_list = Wastes::PackagingWaste.where.not(id: Wastes::PackagingWaste.where(route: @route))
     end
 
     def create
       @route = Route.find(params[:route_id])
-      @route_container = @route.containers.new
+      @route_container = Wastes::PackagingWaste.find(route_container_param)
 
-      render json: params
-      return
-      @route = Route.new(route_params)
-      if @route.save
+
+
+      if @route_container.update_attribute(:route_id, @route.id)
         redirect_to zut_route_path(@route), notice: t('messages.data_saved')
       else
         flash[:error] = t('messages.data_not_saved')
@@ -47,8 +46,8 @@ module Zut
 
     private
 
-    def route_params
-      params.require(:route).permit(:name, :area_id)
+    def route_container_param
+      params.require(:wastes_packaging_waste).permit(:id)[:id]
     end
   end
 end

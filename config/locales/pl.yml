@@ -64,7 +64,6 @@ pl:
         password: Hasło
       route:
         name: Nazwa
-        area_id: Sektor
       container:
         street: Ulica
         street_number: Numer budynku
