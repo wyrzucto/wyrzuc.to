@@ -11,6 +11,10 @@ class Wastes::PackagingWaste < Waste
 
   before_validation :set_kind
 
+  def to_s
+    self.street
+  end
+
   def set_kind
     self.kind = 3
   end
