@@ -10,6 +10,20 @@ module Zut
       @route_containers = @route.containers
     end
 
+    def new
+      @route = Route.new
+    end
+
+    def create
+      @route = Route.new(route_params)
+      if @route.save
+        redirect_to zut_routes_path, notice: t('messages.data_saved')
+      else
+        flash[:error] = t('messages.data_not_saved')
+        render :new
+      end
+    end
+
     def export
       @route = Route.find(params[:id])
 
