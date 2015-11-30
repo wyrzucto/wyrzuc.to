@@ -12,5 +12,5 @@
           = f.input(:id, as: :select, collection: @containers_list, label: t('formtastic.labels.route_container.address'))
 
           = f.actions do
-            = f.action :submit
+            = f.action :submit, label: t(:'formtastic.actions.route_container.create')
 

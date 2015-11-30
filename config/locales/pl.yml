@@ -89,3 +89,5 @@ pl:
       route:
         create: Utwórz rejon
         update: Zapisz rejon
+      route_container:
+        create: Utwórz
