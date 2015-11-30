@@ -1,7 +1,7 @@
 .box-header.with-border
   .row
     .col-sm-6
-      %h3.box-title Historia trasy #{@route.name}
+      %h3.box-title Historia rejonu #{@route.name}
 
 .box-body.table-responsive.no-padding
   %table.table.table-hover
@@ -9,7 +9,7 @@
       %tr
         %th Data
         %th.action Liczba punktów
-        %th Trasa
+        %th Rejon
     %tbody
       - @route_versions.each do |version|
         %tr

@@ -70,7 +70,7 @@ pl:
         street_number: Numer budynku
         description: Opis lokalizacji
         district: Dzielnica
-        route: Trasa
+        route: Rejon
         uploaded_picture: Zdjęcie
         clear_glass_containers: 'Szkło bezbarwne'
         colorful_glass_containers: 'Szkło kolorowe'
@@ -87,5 +87,5 @@ pl:
         create: Utwórz dzielnicę
         update: Zapisz dzielnicę
       route:
-        create: Utwórz trasę
-        update: Zapisz trasę
+        create: Utwórz rejon
+        update: Zapisz rejon

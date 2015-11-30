@@ -39,7 +39,7 @@ module Zut
             'Adres',
             'Opis uszczegóławiający',
             'Dzielnica',
-            'Trasa',
+            'Rejon',
           ]
 
           rec << 'Szkło bezbarwne' if @selected_types.blank? || @selected_types.member?('clear_glass')

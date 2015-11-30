@@ -17,7 +17,7 @@
         = select_tag('type[]', options_from_collection_for_select(@container_types, 'first', 'last', params[:type]), multiple: true, size: 8, class: 'form-control')
 
       .col-sm-3
-        Trasa:
+        Rejon:
         = select_tag('route[]', options_from_collection_for_select(@routes, 'id', 'name', params[:route]), multiple: true, size: 8, class: 'form-control')
       .col-sm-12
         = submit_tag('Filtruj', name: 'format_type', class: 'btn btn-primary')
