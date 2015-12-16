@@ -24,6 +24,15 @@ module Zut
       end
     end
 
+    def destroy
+      @route = Route.find(params[:id])
+      if @route.destroy
+        redirect_to zut_routes_path, notice: t('messages.data_saved')
+      else
+        redirect_to zut_routes_path, notice: t('messages.data_not_saved')
+      end
+    end
+
     def export
       @route = Route.find(params[:id])
 

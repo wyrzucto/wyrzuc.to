@@ -2,11 +2,12 @@
   .row
     .col-sm-6
       %h3.box-title 
-        Rejony
+        Trasy
         &raquo;
         = @route
     .col-sm-6.text-right
-      = link_to 'Dodaj nowy punkt w rejonie', new_zut_route_route_container_path(@route), class: 'btn btn-primary'
+      = link_to('Usuń trasę', zut_route_path(@route), method: :delete, confirm: "Czy na pewno usunąć trasę #{@route.name}", class: 'btn btn-danger')
+      = link_to 'Dodaj nowy punkt na trasie', new_zut_route_route_container_path(@route), class: 'btn btn-primary'
 
 .box-body.table-responsive.no-padding
   %table.table.table-hover.table-sortable
@@ -14,15 +15,16 @@
       %tr
         %th Kolejność
         %th Adres
-        %th.action Usuń
+        %th.action Edycja
+        %th.action Usuwanie
     %tbody
       - @route_containers.each_with_index do |container, inx|
         %tr.sortable{data: {item_id: container.id}}
           %td.sort
             %i.fa.fa-arrows.btn.btn-primary
           %td= container.street
-          %td.action= link_to 'edycja', edit_zut_container_path(container), class: 'btn btn-info'
-          %td.action= link_to 'usunięcie', zut_route_route_container_path(@route, container), method: :delete, class: 'btn btn-danger'
+          %td.action= link_to 'edytuj', edit_zut_container_path(container), class: 'btn btn-info'
+          %td.action= link_to 'usuń', zut_route_route_container_path(@route, container), method: :delete, class: 'btn btn-danger', confirm: "Czy na pewno usunąć punkt #{container.street} z trasy #{@route}" 
 
   
 

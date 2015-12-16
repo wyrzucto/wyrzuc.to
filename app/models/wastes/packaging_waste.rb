@@ -11,6 +11,10 @@ class Wastes::PackagingWaste < Waste
 
   before_validation :set_kind
 
+  CONTAINER_TYPES = [
+    'Janko', 'Dzwon', 'Titan', 'Piłka', 'JFC'
+  ]
+
   def to_s
     self.street
   end

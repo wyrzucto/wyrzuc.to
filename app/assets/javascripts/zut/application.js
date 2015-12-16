@@ -16,6 +16,10 @@ $(document).on('ready', function() {
     $('#wastes_packaging_waste_latitude').parents('.form-group').hide();
     $('#wastes_packaging_waste_longitude').parents('.form-group').hide();
   }
+
+  $('[confirm]').on('click', function() {
+    return confirm($(this).attr('confirm'));
+  })
 })
 
 function initialize() {

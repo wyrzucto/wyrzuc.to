@@ -69,12 +69,16 @@ pl:
         street_number: Numer budynku
         description: Opis lokalizacji
         district: Dzielnica
-        route: Rejon
+        route: Trasa
         uploaded_picture: Zdjęcie
         clear_glass_containers: 'Szkło bezbarwne'
         colorful_glass_containers: 'Szkło kolorowe'
         plastic_containers: 'Tworzywa sztuczne'
         maculature_containers: 'Makulatura'
+        clear_glass_container_type: Szkło bezbarwne - typ
+        colorful_glass_container_type: Szkło kolorowe - typ
+        plastic_container_type: Tworzywa sztuczne - typ
+        maculature_container_type: Makulatura - typ
         details: Uwagi dla kierowcy
         visible: Widoczny?
         container_type: Typ pojemnika
@@ -86,7 +90,7 @@ pl:
         create: Utwórz dzielnicę
         update: Zapisz dzielnicę
       route:
-        create: Utwórz rejon
-        update: Zapisz rejon
+        create: Utwórz trasę
+        update: Zapisz trasę
       route_container:
         create: Utwórz
