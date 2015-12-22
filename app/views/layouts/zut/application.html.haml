@@ -20,4 +20,4 @@
               = render 'layouts/service/flash_message'
               .box.box-danger
                 = yield
-    = javascript_include_tag '//maps.googleapis.com/maps/api/js', 'zut/application'
+    = javascript_include_tag 'zut/application', '//maps.googleapis.com/maps/api/js?v=3&callback=initializeMap'

@@ -15,22 +15,20 @@
 
           %h5 Pojemniki:
           .row
-            .col-sm-6= f.input(:clear_glass_containers, as: :number, label: t('formtastic.labels.container.clear_glass_containers'))
+            .col-sm-6= f.input(:clear_glass_containers, as: :number, label: t('formtastic.labels.container.clear_glass_containers'), min: 0 )
             .col-sm-6= f.input(:clear_glass_container_type, as: :select, label: t('formtastic.labels.container.clear_glass_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
           .row
-            .col-sm-6= f.input(:colorful_glass_containers, as: :number, label: t('formtastic.labels.container.colorful_glass_containers'))
+            .col-sm-6= f.input(:colorful_glass_containers, as: :number, label: t('formtastic.labels.container.colorful_glass_containers'), min: 0 )
             .col-sm-6= f.input(:colorful_glass_container_type, as: :select, label: t('formtastic.labels.container.colorful_glass_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
           .row
-            .col-sm-6= f.input(:plastic_containers, as: :number, label: t('formtastic.labels.container.plastic_containers'))
+            .col-sm-6= f.input(:plastic_containers, as: :number, label: t('formtastic.labels.container.plastic_containers'), min: 0 )
             .col-sm-6= f.input(:plastic_container_type, as: :select, label: t('formtastic.labels.container.plastic_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
           .row
-            .col-sm-6= f.input(:maculature_containers, as: :number, label: t('formtastic.labels.container.maculature_containers'))
+            .col-sm-6= f.input(:maculature_containers, as: :number, label: t('formtastic.labels.container.maculature_containers'), min: 0 )
             .col-sm-6= f.input(:maculature_container_type, as: :select, label: t('formtastic.labels.container.maculature_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
 
 
           = f.input(:uploaded_picture, as: :string, label: t('formtastic.labels.container.picture'), as: :file)
-
-          = f.input(:container_type, label: t('formtastic.labels.container.container_type'))
 
           = f.input(:district, label: t('formtastic.labels.container.district'))
           = f.input(:route, label: t('formtastic.labels.container.route'))

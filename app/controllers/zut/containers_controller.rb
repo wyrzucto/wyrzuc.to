@@ -115,7 +115,7 @@ module Zut
     private
 
     def container_params
-      params2 = params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :route_id, :details, :visible, :description, :uploaded_picture, :container_type, :clear_glass_container_type, :colorful_glass_container_type, :plastic_container_type, :maculature_container_type)
+      params2 = params.require(:wastes_packaging_waste).permit(:street_number, :street_name, :clear_glass_containers, :colorful_glass_containers, :maculature_containers, :plastic_containers, :latitude, :longitude, :district_id, :route_id, :details, :visible, :description, :uploaded_picture, :clear_glass_container_type, :colorful_glass_container_type, :plastic_container_type, :maculature_container_type)
       params2[:street] = [ params2[:street_name], params2[:street_number] ].compact.join(' ')
       params2
     end
