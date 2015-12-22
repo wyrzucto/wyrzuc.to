@@ -1,3 +1,6 @@
 .box-header.with-border
-  %h3.box-title Nowy adres pojemników
+  %h3.box-title
+    = link_to('Pojemniki', zut_containers_path)
+    &raquo;
+    Nowy adres pojemników
 = render partial: 'form'

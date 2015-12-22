@@ -1,3 +1,6 @@
 .box-header.with-border
-  %h3.box-title Nowa dzielnica
+  %h3.box-title
+    = link_to('Dzielnice', zut_districts_path)
+    &raquo;
+    Nowa dzielnica
 = render partial: 'form'
