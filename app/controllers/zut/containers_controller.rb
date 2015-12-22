@@ -70,7 +70,7 @@ module Zut
           end
         end
 
-        send_data @csv, filename: "kontenery-#{Date.current}.csv", type:  "text/csv"
+        send_data @csv.encode('WINDOWS-1250'), filename: "kontenery-#{Date.current}.csv", type:  "text/csv"
       end
     end
 

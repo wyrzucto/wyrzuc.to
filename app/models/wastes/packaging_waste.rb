@@ -25,7 +25,7 @@ class Wastes::PackagingWaste < Waste
   end
 
   def uploaded_picture=(file)
-    self.picture = file.read
+    self.picture = file
   end
 
   def packaging_types

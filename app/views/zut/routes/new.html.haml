@@ -1,3 +1,6 @@
 .box-header.with-border
-  %h3.box-title Nowy rejon
+  %h3.box-title
+    = link_to('Trasy', zut_routes_path)
+    &raquo;
+    Nowy rejon
 = render partial: 'form'

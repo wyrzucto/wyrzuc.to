@@ -1,6 +1,8 @@
 .box-header.with-border
   %h3.box-title
-    = @route
+    = link_to('Trasy', zut_routes_path)
+    &raquo;
+    = link_to(@route, zut_route_path(@route))
     &raquo;
     Nowy punkt w rejonie
 

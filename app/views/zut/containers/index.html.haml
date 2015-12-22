@@ -1,7 +1,8 @@
 .box-header.with-border
   .row
     .col-sm-6
-      %h3.box-title Pojemniki
+      %h3.box-title 
+        Pojemniki
     .col-sm-6.text-right
       = link_to 'Nowy adres kontenerów', new_zut_container_path, class: 'btn btn-primary'
 
@@ -13,7 +14,7 @@
         = select_tag('district[]', options_from_collection_for_select(@districts, 'id', 'name', params[:district]), multiple: true, size: 8, class: 'form-control')
 
       .col-sm-3
-        Typ kontenera:
+        Rodzaj asortymentu:
         = select_tag('type[]', options_from_collection_for_select(@container_types, 'first', 'last', params[:type]), multiple: true, size: 8, class: 'form-control')
 
       .col-sm-3
