@@ -25,6 +25,3 @@
           %td= container.street
           %td.action= link_to 'edytuj', edit_zut_container_path(container), class: 'btn btn-info'
           %td.action= link_to 'usuń', zut_route_route_container_path(@route, container), method: :delete, class: 'btn btn-danger', confirm: "Czy na pewno usunąć punkt #{container.street} z trasy #{@route}" 
-
-  
-

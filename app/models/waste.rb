@@ -1,6 +1,4 @@
 class Waste < ActiveRecord::Base
-  has_many :route_containers, dependent: :destroy
-
   include Addressable
 
   validates :street, :kind, :latitude, :longitude, presence: true

@@ -4,7 +4,7 @@ module Zut
       @route = Route.find(params[:route_id])
       @route_container = @route.containers.new
 
-      @containers_list = Wastes::PackagingWaste.where.not(id: Wastes::PackagingWaste.where(route: @route))
+      @containers_list = Wastes::PackagingWaste.where.not(id: Wastes::PackagingWaste.where(route: @route)).order(:street)
     end
 
     def create
