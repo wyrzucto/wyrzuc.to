@@ -6,9 +6,9 @@ $(document).on('ready', function() {
       cursor: 'move',
       update: function(e, ui) {
         var itemId = ui.item.data('item-id');
-        var position = ui.item.data('position');
-        
+        var position = ui.item.index();
         $.post(location.pathname + '/route_containers/' + itemId + '/move', { position: position }, 'json')
+        
       }
     });
   }

@@ -25,6 +25,8 @@ module Zut
       @route = Route.find(params[:route_id])
       @route_container = @route.containers.find(params[:route_container_id])
 
+      @dst_container = @route.containers.offset(params[:position]).first
+
       @route_container.insert_at(params[:position].to_i+1)
 
       respond_to do |format|
