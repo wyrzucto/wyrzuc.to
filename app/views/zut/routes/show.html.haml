@@ -19,7 +19,7 @@
         %th.action Usuwanie
     %tbody
       - @route_containers.each_with_index do |container, inx|
-        %tr.sortable{data: {item_id: container.id}}
+        %tr.sortable{data: {item_id: container.id, position: container.position}}
           %td.sort
             %i.fa.fa-arrows.btn.btn-primary
           %td= container.street
