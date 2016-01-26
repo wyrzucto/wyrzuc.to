@@ -74,7 +74,11 @@ class Route < ActiveRecord::Base
     row_inx = 4
     self.containers.each do |container|
       route_sheet[row_inx, 0] = cont_inx
-      route_sheet[row_inx, 1] = container.street
+      street = container.street
+      if container.description.present?
+        street += " (#{container.description})"
+      end
+      route_sheet[row_inx, 1] = street
       route_sheet[row_inx, 2] = container.clear_glass_containers
       route_sheet[row_inx, 3] = container.colorful_glass_containers
       route_sheet[row_inx, 4] = container.plastic_containers

@@ -12,7 +12,7 @@ class Wastes::PackagingWaste < Waste
   before_validation :set_kind
 
   CONTAINER_TYPES = [
-    'Janko', 'Dzwon', 'Titan', 'Piłka', 'JFC'
+    'Janko', 'Dzwon', 'Titan', 'Piłka', 'JFC', 'podziemny'
   ]
 
 
