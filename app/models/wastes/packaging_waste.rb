@@ -7,7 +7,7 @@ class Wastes::PackagingWaste < Waste
   mount_uploader :picture, PlaceUploader
 
   validates :street_name, presence: true, if: "street.blank?"
-  validates :street_number, presence: true, if: "street.blank?"
+  # validates :street_number, presence: true, if: "street.blank?"
 
   before_validation :set_kind
 
