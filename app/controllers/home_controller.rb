@@ -17,7 +17,7 @@ class HomeController < ApplicationController
   end
 
   def autocomplete_wastes
-    render json: { data: Waste.where('street LIKE ?', "#{params[:term]}%").pluck(:street) }
+    render json: { data: Waste.where(visible: true).where('street LIKE ?', "#{params[:term]}%").pluck(:street) }
   end
 
   def autocomplete_phrases
