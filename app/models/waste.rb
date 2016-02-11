@@ -31,4 +31,12 @@ class Waste < ActiveRecord::Base
     types << 'Makulatura' if containers[:maculature]
     types
   end
+
+  def image_preview
+    if self.picture?
+      "<img src='#{self.picture.url}' alt=''>"
+    else
+      nil
+    end
+  end
 end
