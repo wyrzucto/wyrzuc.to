@@ -34,7 +34,7 @@ class Waste < ActiveRecord::Base
 
   def image_preview
     if self.picture?
-      "<img src='#{self.picture.url}' alt=''>"
+      "<img src='#{self.picture.url}' alt='' style='max-width: 200px; max-height:150px'>"
     else
       nil
     end
