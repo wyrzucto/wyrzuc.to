@@ -94,3 +94,13 @@ pl:
         update: Zapisz trasę
       route_container:
         create: Utwórz
+
+  will_paginate:
+    next_label: "Następna &#8594;"
+    page_entries_info:
+      multi_page: "Wyświetlam rekordy %{from} - %{to} z %{count}"
+      multi_page_html: "Wyświetlam rekordy <b>%{from}&nbsp;-&nbsp;%{to}</b> z <b>%{count}</b>"
+      single_page: "Wyświetlam wszystkie %{count} rekordy"
+      single_page_html: "Wyświetlam <b>wszystkie</b> rekordy"
+    page_gap: ! '&hellip;'
+    previous_label: ! '&#8592; Poprzednia'
