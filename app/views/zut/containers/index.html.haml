@@ -30,11 +30,15 @@
     %tbody
       %tr
         %th Lokalizacja
+        %th.picture Zdjęcie
         %th.action Edytuj
         %th.action Usuń
       - @containers.each do |container|
         %tr
           %td= container.street
+          %td.picture
+            - if container.picture?
+              = image_tag(container.picture.url)
           %td.action= link_to 'edit', edit_zut_container_path(container), class: 'btn btn-info'
           %td.action= link_to 'usuń', zut_container_path(container), method: :delete, class: 'btn btn-danger', confirm: "Czy na pewno usunąć pojeminiki #{container.street}" 
 

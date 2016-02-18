@@ -20,6 +20,13 @@ table.table td.sort {
   width: 70px;
   text-align: center;
 }
+table.table td.picture, table.table th.picture {
+  text-align: center;
+  width: 200px;
+  img {
+    max-width: 200px;
+  }
+}
 #container-map {
   margin-left: (100%/6);
   margin-right: 15px;
