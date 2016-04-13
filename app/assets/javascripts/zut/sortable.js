@@ -8,7 +8,7 @@ $(document).on('ready', function() {
         var itemId = ui.item.data('item-id');
         var position = ui.item.index();
         $.post(location.pathname + '/route_containers/' + itemId + '/move', { position: position }, 'json')
-        
+
       }
     });
   }

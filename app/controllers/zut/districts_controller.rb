@@ -1,4 +1,5 @@
 module Zut
+  # This class provides actions for handling zut districts logic
   class DistrictsController < ApplicationController
     def index
       @districts = District.all.page(params[:page])

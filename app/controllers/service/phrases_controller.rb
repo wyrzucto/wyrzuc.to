@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling phrases logic
   class PhrasesController < Service::ApplicationController
-
     def index
       @phrases = Phrase.includes(:fraction).all
     end
@@ -45,7 +45,11 @@ module Service
     def new_import_data; end
 
     def import_data
-      ImportDataWorker.perform_async(:phrases, tempfile_path, {filename: file.original_filename})
+      ImportDataWorker.perform_async(
+        :phrases,
+        tempfile_path,
+        filename: file.original_filename
+      )
       redirect_to service_logs_path, notice: t('messages.data_in_progress')
     end
 

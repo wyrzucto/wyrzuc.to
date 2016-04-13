@@ -1,11 +1,18 @@
 module ImportData
+  # This class provides methods that allow you to import information about packaging wastes
   class PackagingWastes < Base
+    attr_reader :street_col_inx,
+      :street_no_col_inx,
+      :description_col_inx,
+      :clear_glass_col_inx,
+      :colorful_glass_col_inx,
+      :plastic_col_inx,
+      :maculature_col_inx
 
-    attr_reader :street_col_inx, :street_no_col_inx, :description_col_inx, :clear_glass_col_inx, :colorful_glass_col_inx, :plastic_col_inx, :maculature_col_inx
-
+    # rubocop:disable all
     def import
       Wastes::PackagingWaste.delete_all
-      
+
       row = address_sheet.row(3)
       @street_col_inx = row.index('Ulica') + 1
       @street_no_col_inx = row.index('Numer(y)') + 1
@@ -20,11 +27,12 @@ module ImportData
         LogActivity.save(waste) unless waste.save
       end
     end
+    # rubocop:enable all
 
     private
 
     def address_sheet
-      @sheet_addreses ||= excel.sheets.index {|sheet| sheet == 'spis lokalizacji - selektywna' }
+      @sheet_addreses ||= excel.sheets.index { |sheet| sheet == 'spis lokalizacji - selektywna' }
       excel.sheet(@sheet_addreses)
     end
 
@@ -37,7 +45,7 @@ module ImportData
     end
 
     def address_cell(row)
-      [ street_cell(row), numbers_cell(row) ].compact.join(' ')
+      [street_cell(row), numbers_cell(row)].compact.join(' ')
     end
 
     def data(row)
@@ -49,7 +57,7 @@ module ImportData
         colorful_glass_containers: excel.cell(row, colorful_glass_col_inx).to_i,
         plastic_containers: excel.cell(row, plastic_col_inx).to_i,
         maculature_containers: excel.cell(row, maculature_col_inx).to_i,
-        description: excel.cell(row, description_col_inx),
+        description: excel.cell(row, description_col_inx)
       }
     end
   end

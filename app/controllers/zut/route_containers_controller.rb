@@ -1,17 +1,19 @@
 module Zut
+  # This class provides actions for handling zut route containers logic
   class RouteContainersController < ApplicationController
     def new
       @route = Route.find(params[:route_id])
       @route_container = @route.containers.new
 
-      @containers_list = Wastes::PackagingWaste.where.not(id: Wastes::PackagingWaste.where(route: @route)).order(:street)
+      @containers_list =
+        Wastes::PackagingWaste
+        .where.not(id: Wastes::PackagingWaste.where(route: @route))
+        .order(:street)
     end
 
     def create
       @route = Route.find(params[:route_id])
       @route_container = Wastes::PackagingWaste.find(route_container_param)
-
-
 
       if @route_container.update_attribute(:route_id, @route.id)
         redirect_to zut_route_path(@route), notice: t('messages.data_saved')
@@ -25,12 +27,12 @@ module Zut
       @route = Route.find(params[:route_id])
       @route_container = @route.containers.find(params[:route_container_id])
 
-      if @dst_container = @route.containers.offset(params[:position]).first
+      if @dst_container == @route.containers.offset(params[:position]).first
         @route_container.insert_at(@dst_container.position)
       end
 
       respond_to do |format|
-        format.json { render json: {status: :success} }
+        format.json { render json: { status: :success } }
         format.html { redirect_to back_path, notice: t('messages.data_saved') }
       end
     end

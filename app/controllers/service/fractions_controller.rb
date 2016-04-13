@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling fractions logic
   class FractionsController < Service::ApplicationController
-
     def index
       @fractions = Fraction.all
     end

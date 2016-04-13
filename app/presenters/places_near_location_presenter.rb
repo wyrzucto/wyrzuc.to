@@ -1,5 +1,5 @@
+# Presenter used to present PlacesNearLocation objects
 class PlacesNearLocationPresenter
-
   attr_reader :street, :count
 
   def initialize(params)
@@ -7,16 +7,13 @@ class PlacesNearLocationPresenter
     @count  = params[:count] || 1
 
     address = @street.mb_chars.downcase
-    @location = Location.find_by('LOWER(full_address) = ?', address) || Location.find_by('LOWER(street) = ?', address)
+    @location =
+      Location.find_by('LOWER(full_address) = ?', address) ||
+      Location.find_by('LOWER(street) = ?', address)
   end
 
   def coordinates
-    [ @location.try(:lat), @location.try(:lng) ]
-    # if location = Location.get_by_address(street)
-    #   [ location.lat, location.lng ]
-    # else
-    #   []
-    # end
+    [@location.try(:lat), @location.try(:lng)]
   end
 
   def data
@@ -34,16 +31,18 @@ class PlacesNearLocationPresenter
   private
 
   def places_for_weekdays
-    (get_data(:wet_and_dry_wastes) + get_data(:bulky_wastes, :weekday)).sort_by { |item| item[:weekday] }
+    (get_data(:wet_and_dry_wastes) + get_data(:bulky_wastes, :weekday))
+      .sort_by { |item| item[:weekday] }
   end
 
-
-  def get_data(name, kind=nil)
-    "#{name.to_s.camelcase}InfoPresenter".constantize.new(parsed_street, count, kind).data
+  def get_data(name, kind = nil)
+    "#{name.to_s.camelcase}InfoPresenter"
+      .constantize
+      .new(parsed_street, count, kind)
+      .data
   end
 
   def parsed_street
     @location.full_address
-    # "#{street}, Gdańsk, Poland"
   end
 end

@@ -1,5 +1,5 @@
+# This is base for all controllers
 class ApplicationController < ActionController::Base
-
   protect_from_forgery with: :exception
 
   layout :layout_by_resource
@@ -21,6 +21,6 @@ class ApplicationController < ActionController::Base
   end
 
   def back_path(default = '/')
-    request.headers["X-XHR-Referer"] || request.referer || default
+    request.headers['X-XHR-Referer'] || request.referer || default
   end
 end

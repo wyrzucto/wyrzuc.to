@@ -1,6 +1,6 @@
 module ImportData
+  # This class provides methods that allow you to import information about battery points
   class BatteryPoints < Base
-
     attr_reader :number_col_inx, :street_col_inx, :desc_col_inx
 
     def import
@@ -36,7 +36,7 @@ module ImportData
     end
 
     def address_cell(row)
-      [ street_cell(row), number_cell(row) ].compact.join(' ')
+      [street_cell(row), number_cell(row)].compact.join(' ')
     end
 
     def data(row)
@@ -45,7 +45,7 @@ module ImportData
         street: address_cell(row),
         data: {
           info: excel.cell(row, desc_col_inx),
-          name: excel.cell(row, desc_col_inx),
+          name: excel.cell(row, desc_col_inx)
         }
       }
     end
