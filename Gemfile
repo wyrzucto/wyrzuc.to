@@ -10,13 +10,13 @@ group :development, :test do
   gem 'pry-rails'
   gem 'sqlite3'
   gem 'erb2haml'
-  gem 'polishgeeks-dev-tools'
 end
 
 group :test_codeship, :production do
   gem 'pg'
 end
 
+gem 'polishgeeks-dev-tools', git: 'https://github.com/polishgeeks/polishgeeks-dev-tools.git'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 gem 'haml-rails'

@@ -1,4 +1,4 @@
-if %w( test development ).include?(Rails.env)
+if %w( test test_codeship development ).include?(Rails.env)
   PolishGeeks::DevTools.setup do |config|
     # We are going to enable those options step by step
     config.brakeman = false
