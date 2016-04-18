@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling employees logic
   class EmployeesController < Service::ApplicationController
-
     def index
       @employees = Employee.all
     end

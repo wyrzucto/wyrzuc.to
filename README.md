@@ -27,3 +27,15 @@ W Polsce:
 Na świecie:
 - [Gominashi JP](http://5374.jp/en/)
 - [Recollect](https://recollect.net/)
+
+## Jakość kodu
+
+Żeby sprawdzić czy wszystko jest w porządku podczas pracy nad projektem korzystamy z [PolishGeeks Dev Tools](https://github.com/polishgeeks/polishgeeks-dev-tools) gema który łączy wiele statycznych analizerów kodu
+
+uruchamiamy go z konsoli:
+
+```bash
+bundle exec rake polishgeeks:dev-tools:check
+```
+
+Dopiero po sprawdzeniu możemy wysłać commit.

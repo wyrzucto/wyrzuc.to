@@ -5,7 +5,6 @@
 //= require zut/sortable
 //= require_self
 
-
 $(document).on('ready', function() {
 
   if ($('#container-map').size()) {

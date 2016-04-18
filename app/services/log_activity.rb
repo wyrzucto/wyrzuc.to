@@ -1,7 +1,8 @@
+# This module is used to encapsulate all methods that are used to log activities
 module LogActivity
   module_function
 
-  def save(data, user=nil)
+  def save(data, user = nil)
     Log.create(
       info: info(data),
       user: user.presence || 'Admin'

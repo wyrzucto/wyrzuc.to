@@ -1,3 +1,4 @@
+# This class describe single waste object
 class Waste < ActiveRecord::Base
   include Addressable
 
@@ -16,14 +17,14 @@ class Waste < ActiveRecord::Base
   scope :battery_points,          -> { where(type: 'Wastes::BatteryCollectionPoint') }
 
   def pretty_date
-    if self.date
-      d = I18n.l(self.date, format: "%A, %d %B %Y")
-      d += "\nw godzinach #{self.data[:hour]}" if self.data[:hour].present?
-    end
+    return unless date
+    d = I18n.l(date, format: '%A, %d %B %Y')
+    d += "\nw godzinach #{data[:hour]}" if data[:hour].present?
+    d
   end
 
   def packaging_types
-    containers = self.data[:containers] || {}
+    containers = data[:containers] || {}
     types = []
     types << 'Szkło bezbarwne' if containers[:clear_glass]
     types << 'Szkło kolorowe' if containers[:colorful_glass]
@@ -33,10 +34,6 @@ class Waste < ActiveRecord::Base
   end
 
   def image_preview
-    if self.picture?
-      "<img src='#{self.picture.url}' alt='' style='max-width: 200px; max-height:150px'>"
-    else
-      nil
-    end
+    "<img src='#{picture.url}' alt='' style='max-width: 200px; max-height:150px'>" if picture?
   end
 end

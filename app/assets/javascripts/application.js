@@ -1,5 +1,5 @@
 //= require jquery
-//= require jquery.ui.autocomplete
+//= require jquery-ui
 //= require jquery_ujs
 //= require bootstrap/modal
 //= require fancybox
@@ -17,7 +17,7 @@ var mapOptions = {
   zoom: 11,
 };
 var clusterStyles = [
-  { 
+  {
     textColor: 'white',
     url: '/markers/cluster.png',
     height: 57,

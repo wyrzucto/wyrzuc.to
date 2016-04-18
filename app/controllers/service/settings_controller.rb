@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling settings logic
   class SettingsController < Service::ApplicationController
-
     def edit
       @edited_settings = Setting.names
     end

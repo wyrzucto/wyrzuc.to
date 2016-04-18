@@ -12,10 +12,11 @@ group :development, :test do
   gem 'erb2haml'
 end
 
-group :test_codeship, :production, :stage_heroku do
+group :test_codeship, :production do
   gem 'pg'
 end
 
+gem 'polishgeeks-dev-tools', git: 'https://github.com/polishgeeks/polishgeeks-dev-tools.git'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 gem 'haml-rails'
@@ -30,6 +31,7 @@ gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
@@ -60,11 +62,9 @@ gem 'devise'
 gem 'font-awesome-rails', github: 'bokmann/font-awesome-rails'
 gem 'carrierwave'
 gem 'sidekiq'
-gem 'jquery-ui-rails'
 gem 'rails4-autocomplete'
 gem 'active_hash'
 gem 'sinatra', :require => nil
-gem 'rails_12factor', group: :production #only for heroku_app
 gem 'polish'
 
 

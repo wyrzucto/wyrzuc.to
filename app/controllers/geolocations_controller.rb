@@ -1,5 +1,5 @@
+# This class provides actions for handling geolocation
 class GeolocationsController < ApplicationController
-
   def pharmacies
     render_json
   end
@@ -9,9 +9,18 @@ class GeolocationsController < ApplicationController
   end
 
   def hazardous_wastes
-    data = Waste.hazardous_wastes.order(:date).where(date: Time.now..Setting[:hazardous_days_home].days.from_now).map do |waste|
-      [ [ waste.street, waste.data[:info], waste.pretty_date ].compact.join("\n"), waste.latitude, waste.longitude ]
-    end
+    data =
+      Waste
+      .hazardous_wastes
+      .order(:date)
+      .where(date: Time.now..Setting[:hazardous_days_home].days.from_now)
+      .map do |waste|
+        [
+          [waste.street, waste.data[:info], waste.pretty_date].compact.join('\n'),
+          waste.latitude,
+          waste.longitude
+        ]
+      end
     render json: data
   end
 
@@ -21,14 +30,23 @@ class GeolocationsController < ApplicationController
 
   def battery_points
     data = Wastes::BatteryCollectionPoint.all.map do |waste|
-      [ [ waste.street, waste.data[:info] ].compact.join("\n"), waste.latitude, waste.longitude ]
+      [
+        [waste.street, waste.data[:info]].compact.join('\n'),
+        waste.latitude,
+        waste.longitude
+      ]
     end
     render json: data
   end
 
   def packaging_wastes
     data = Wastes::PackagingWaste.where(visible: true).all.map do |waste|
-      [ ([ waste.street, waste.description, waste.image_preview ] + waste.packaging_types).compact.join("\n"), waste.latitude, waste.longitude ]
+      [
+        ([waste.street, waste.description, waste.image_preview] + waste.packaging_types)
+          .compact.join('\n'),
+        waste.latitude,
+        waste.longitude
+      ]
     end
     render json: data
   end

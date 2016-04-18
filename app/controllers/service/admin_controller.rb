@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling admin view
   class AdminController < Service::ApplicationController
-
     def edit; end
 
     def update

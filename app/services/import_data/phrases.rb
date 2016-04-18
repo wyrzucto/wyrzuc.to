@@ -1,6 +1,6 @@
 module ImportData
+  # This class provides methods that allow you to import information about phrases
   class Phrases < Base
-
     def import
       excel.sheet(0)
       (1..excel.last_column).each do |col|
@@ -8,7 +8,6 @@ module ImportData
           next if excel.cell(row, col).nil?
 
           phrase = Phrase.find_by_name(excel.cell(row, col))
-	  puts phrase
 
           if phrase.nil?
             Phrase.create(data(row, col))
@@ -24,12 +23,12 @@ module ImportData
     def data(row, col)
       {
         name: excel.cell(row, col),
-        fraction_id: fraction(col).id,
+        fraction_id: fraction(col).id
       }
     end
 
     def fraction(col)
-      fraction_name = excel.cell(1,col)
+      fraction_name = excel.cell(1, col)
 
       Fraction.find_or_create_by(name: fraction_name)
     end

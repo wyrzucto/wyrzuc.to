@@ -1,5 +1,5 @@
+# This class describe single phrase object
 class Phrase < ActiveRecord::Base
-
   belongs_to :fraction
 
   validates :name, presence: true, uniqueness: true

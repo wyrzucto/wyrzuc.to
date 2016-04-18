@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling static pages logic
   class StaticPagesController < Service::ApplicationController
-
     def index
       @static_pages = StaticPage.all
     end

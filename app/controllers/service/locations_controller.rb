@@ -1,6 +1,6 @@
 module Service
+  # This class provides actions for handling locations logic
   class LocationsController < Service::ApplicationController
-
     def new; end
 
     def create

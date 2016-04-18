@@ -1,13 +1,12 @@
+# Presenter used to present WetAndDryWastesInfo objects
 class WetAndDryWastesInfoPresenter < BasePresenter
-
   def data
-    wet_and_dry_wastes.inject([]) do |result, item|
+    wet_and_dry_wastes.each_with_object([]) do |item, result|
       item.data[:weekday].keys.each do |key|
         item.data[:weekday][key].each do |weekday|
           result << parse_data(item, weekday, key)
         end
       end
-      result
     end
   end
 
@@ -22,7 +21,7 @@ class WetAndDryWastesInfoPresenter < BasePresenter
       title:   I18n.t("sidebar.titles.wet_and_dry_wastes.#{key}"),
       id:      item.id,
       weekday: weekday,
-      label: item.data[:group_name],
+      label: item.data[:group_name]
     }
   end
 end

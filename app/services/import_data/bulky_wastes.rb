@@ -1,9 +1,10 @@
 module ImportData
+  # This class provides methods that allow you to import information about bulky wastes
   class BulkyWastes < Base
-
+    # rubocop:disable all
     def import
-      if params["area"].present?
-        Waste.bulky_wastes.where(area: params["area"]).delete_all
+      if params['area'].present?
+        Waste.bulky_wastes.where(area: params['area']).delete_all
       end
 
       (4..excel.last_row).each do |row|
@@ -14,14 +15,15 @@ module ImportData
           end
         end
 
-        if excel.cell(row, 4).present?
-          locations(row, 4).each do |location|
-            waste = Waste.new(data(row, 2, location))
-            LogActivity.save(waste) unless waste.save
-          end
+        next if excel.cell(row, 4).empty?
+
+        locations(row, 4).each do |location|
+          waste = Waste.new(data(row, 2, location))
+          LogActivity.save(waste) unless waste.save
         end
       end
     end
+    # rubocop:enable all
 
     private
 
@@ -31,21 +33,22 @@ module ImportData
 
     def locations(row, col = 1)
       street = clean_street(excel.cell(row, col))
-            locations_by_street = Location.parse_numbers(street, '')
+      locations_by_street = Location.parse_numbers(street, '')
 
-            if locations_by_street.empty?
-              LogActivity.save("Nie odnaleziono lokalizacji dla ulicy '#{street}'")
-            end
+      if locations_by_street.empty?
+        LogActivity.save("Nie odnaleziono lokalizacji dla ulicy '#{street}'")
+      end
 
-      return locations_by_street
+      locations_by_street
     end
 
+    # rubocop:disable Metrics/MethodLength
     def data(row, group_id, location = nil)
       if group_id == 1
         {
           kind: 5,
           group_id: 1,
-          area: params["area"],
+          area: params['area'],
           street: location.full_address,
           location: location,
           data: {
@@ -68,6 +71,7 @@ module ImportData
         }
       end
     end
+    # rubocop:enable Metrics/MethodLength
 
     def weekday(row)
       excel.cell(row, 5).split(',').map { |item| I18n.t('date.day_names').index(item.downcase) }
@@ -78,7 +82,7 @@ module ImportData
     end
 
     def year
-      @year ||= excel.cell(1,1).match(/\d{4}/).to_s
+      @year ||= excel.cell(1, 1).match(/\d{4}/).to_s
     end
   end
 end

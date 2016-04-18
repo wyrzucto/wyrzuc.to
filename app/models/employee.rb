@@ -1,3 +1,4 @@
+# This class describe single employee object
 class Employee < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
@@ -8,6 +9,6 @@ class Employee < ActiveRecord::Base
   validates :last_name, presence: true
 
   def full_name
-    [ self.first_name, self.last_name ].compact.join(' ')
+    [first_name, last_name].compact.join(' ')
   end
 end

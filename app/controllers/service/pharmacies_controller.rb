@@ -1,10 +1,14 @@
 module Service
+  # This class provides actions for handling pharmacies logic
   class PharmaciesController < Service::ApplicationController
-
     def new; end
 
     def create
-      ImportDataWorker.perform_async(:pharmacies, tempfile_path, {filename: file.original_filename})
+      ImportDataWorker.perform_async(
+        :pharmacies,
+        tempfile_path,
+        filename: file.original_filename
+      )
       redirect_to service_logs_path, notice: t('messages.data_in_progress')
     end
   end

@@ -1,14 +1,13 @@
+# Presenter used to present PackagingWastesInfo objects
 class PackagingWastesInfoPresenter < BasePresenter
-
   def data
-    packaging_wastes.inject([]) do |result, item|
+    packaging_wastes.each_with_object([]) do |item, result|
       item.data[:weekday].keys.each do |key|
-        weekdays = item.data[:weekday][key] - [ nil ]
+        weekdays = item.data[:weekday][key] - [nil]
         weekdays.each do |weekday|
           result << parse_data(item, weekday, key)
         end
       end
-      result
     end
   end
 

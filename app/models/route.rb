@@ -1,24 +1,34 @@
+# This class describe single route object
 class Route < ActiveRecord::Base
-  has_many :containers, -> { order(position: :asc) }, dependent: :nullify, class: Wastes::PackagingWaste
+  has_many :containers, -> { order(position: :asc) },
+    dependent: :nullify,
+    class: Wastes::PackagingWaste
+
   has_many :route_versions, dependent: :destroy
-  
-  validates :name, presence: true, uniqueness: true
+
+  validates :name,
+    presence: true,
+    uniqueness: true
 
   def to_s
-    self.name
+    name
   end
 
-  def has_new_version?
-    self.route_versions.none? || self.route_versions.last.container_ids != self.containers.map(&:id)
+  def new_version?
+    route_versions.none? || route_versions.last.container_ids != containers.map(&:id)
   end
 
-
+  # This method definitely needs to be refactored
+  # rubocop:disable all
   def export_sheet
     bold = Spreadsheet::Format.new weight: :bold, vertical_align: :middle
     center = Spreadsheet::Format.new horizontal_align: :centre, vertical_align: :middle
-    center_bold = Spreadsheet::Format.new horizontal_align: :centre, vertical_align: :centre, weight: :bold, vertical_align: :middle
+    center_bold = Spreadsheet::Format.new horizontal_align: :centre,
+      vertical_align: :centre,
+      weight: :bold,
+      vertical_align: :middle
     border = Spreadsheet::Format.new border: :thin, vertical_align: :middle
-    
+
     route_book = Spreadsheet::Workbook.new
     route_sheet = route_book.create_worksheet name: self.name
 
@@ -33,7 +43,7 @@ class Route < ActiveRecord::Base
 
 
     8.times { |inx| route_sheet.row(0).update_format(inx, weight: :bold) }
-    
+
     route_sheet[0, 0] = self.name
     route_sheet[0, 2] = 'Numer rejestracyjny pojazdu'
     route_sheet[0, 6] = 'Data'
@@ -47,19 +57,19 @@ class Route < ActiveRecord::Base
     route_sheet.merge_cells(1, 0, 1, 1)
 
 
-    route_sheet[2, 0] = "Lp."
-    route_sheet[2, 1] = "Lokalizacja"
-    route_sheet[2, 2] = "Rodzaj asortymentu"
+    route_sheet[2, 0] = 'Lp.'
+    route_sheet[2, 1] = 'Lokalizacja'
+    route_sheet[2, 2] = 'Rodzaj asortymentu'
     #route_sheet[2, 6] = "Typ pojemnika"
-    route_sheet[2, 6] = "Uwagi"
+    route_sheet[2, 6] = 'Uwagi'
     route_sheet.merge_cells(2, 2, 2, 5)
     8.times { |inx| route_sheet.row(2).update_format(inx, weight: :bold, horizontal_align: :centre) }
 
 
-    route_sheet[3, 2] = "SzB."
-    route_sheet[3, 3] = "SzK."
-    route_sheet[3, 4] = "Tw."
-    route_sheet[3, 5] = "Mak."
+    route_sheet[3, 2] = 'SzB.'
+    route_sheet[3, 3] = 'SzK.'
+    route_sheet[3, 4] = 'Tw.'
+    route_sheet[3, 5] = 'Mak.'
 
     (2..5).each { |inx| route_sheet.row(3).update_format(inx, weight: :bold, horizontal_align: :centre)  }
     route_sheet.merge_cells(2, 0, 3, 0)
@@ -101,11 +111,12 @@ class Route < ActiveRecord::Base
     route_sheet.row(row_inx).height = 20
     row_inx += 1
 
-    0.upto(row_inx).each do |row_inx| 
+    0.upto(row_inx).each do |row_inx|
       (0..6).each do |col_inx|
         route_sheet.row(row_inx).update_format(col_inx, border: :thin)
       end
     end
     route_book
   end
+  # rubocop:enable all
 end

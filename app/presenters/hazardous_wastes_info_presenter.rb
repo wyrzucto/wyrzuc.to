@@ -1,11 +1,10 @@
+# Presenter used to present HazardousWastesInfo objects
 class HazardousWastesInfoPresenter < BasePresenter
-
   def data
-    hazardous_wastes.inject([]) do |result, item|
+    hazardous_wastes.each_with_object([]) do |item, result|
       parse_date(item).each do |date|
         result << parse_data(item, date)
       end
-      result
     end
   end
 
@@ -16,7 +15,7 @@ class HazardousWastesInfoPresenter < BasePresenter
   end
 
   def parse_date(item)
-    item.data[:date].map! { |date| date.to_date }.select { |date| date >= Date.today }
+    item.data[:date].map!(&:to_date).select { |date| date >= Date.today }
   end
 
   def parse_data(item, date)

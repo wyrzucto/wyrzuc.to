@@ -1,3 +1,4 @@
+# This module is used to encapsulate all methods that are used with settings
 module Settingable
   def [](name)
     if @values.member?(name)
@@ -14,19 +15,15 @@ module Settingable
   end
 
   def get_type(name)
-    if @defaults.member?(name.to_s)
-      @defaults[name.to_s][:type]
-    else
-      nil
-    end
+    @defaults[name.to_s][:type] if @defaults.member?(name.to_s)
   end
 
   def input_type(name)
     case get_type(name)
-      when :integer then :number
-      when :boolean then :boolean
-      when :text then :text
-      else :string
+    when :integer then :number
+    when :boolean then :boolean
+    when :text then :text
+    else :string
     end
   end
 
@@ -38,11 +35,12 @@ module Settingable
     @values = HashWithIndifferentAccess.new
     all.each do |config_value|
       value = config_value.value
-      value = case get_type(config_value.name)
-        when :integer then value.to_i 
+      value =
+        case get_type(config_value.name)
+        when :integer then value.to_i
         when :boolean then value == 'true' || value == '1' || value == 't'
         else value
-      end
+        end
       @values[config_value.name] = value
     end
   end
