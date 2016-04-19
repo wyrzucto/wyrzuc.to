@@ -3,7 +3,7 @@ pl:
     submit: 'Zapisz'
     search: 'Szukaj'
   placeholders:
-    waste_type: 'wpisz typ śmieci'
+    waste_type: 'wpisz typ odpadów'
     user_location: 'wpisz nazwe ulicy'
   messages:
     data_in_progress: 'Dane są w trakcie przetwarzania...'
@@ -55,7 +55,7 @@ pl:
 
   formtastic:
     labels:
-      district: 
+      district:
         name: Nazwa dzielnicy
       employee:
         first_name: Imię
