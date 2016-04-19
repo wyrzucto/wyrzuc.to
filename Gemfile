@@ -18,6 +18,7 @@ end
 
 gem 'polishgeeks-dev-tools', git: 'https://github.com/polishgeeks/polishgeeks-dev-tools.git'
 # Use SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.3.4'
 gem 'sass-rails', '~> 4.0.3'
 gem 'haml-rails'
 
@@ -37,7 +38,6 @@ gem 'jquery-ui-rails'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -57,7 +57,6 @@ gem 'spreadsheet'
 gem 'geocoder', '~> 1.2.9'
 gem 'gmaps4rails'
 gem 'a9n'
-gem 'bootstrap-sass'
 gem 'devise'
 gem 'font-awesome-rails', github: 'bokmann/font-awesome-rails'
 gem 'carrierwave'

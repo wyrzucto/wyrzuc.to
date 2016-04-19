@@ -374,7 +374,7 @@ DEPENDENCIES
   a9n
   active_hash
   acts_as_list
-  bootstrap-sass
+  bootstrap-sass (~> 3.3.4)
   carrierwave
   coffee-rails (~> 4.0.0)
   devise

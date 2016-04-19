@@ -2,6 +2,7 @@
 //= require jquery-ui
 //= require jquery_ujs
 //= require bootstrap/modal
+//= require bootstrap-sprockets
 //= require fancybox
 //= require application/scroll
 //= require application/home

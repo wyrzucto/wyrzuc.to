@@ -6,6 +6,8 @@
  *= require application/home
  *= require application/static_pages
 */
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 @font-face {
   font-family: 'AvenirNextLTPro-UltLt';
