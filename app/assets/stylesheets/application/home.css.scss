@@ -147,12 +147,11 @@ input[type=submit] {
 }
 
 .types {
-    position: absolute;
-    left: 0;
-    top: 80px;
-}
+  position: absolute;
+  left: 0;
+  top: 80px;
 
-.types a {
+  a {
     display: inline-block;
     padding: 13px;
     margin-bottom: 5px;
@@ -163,41 +162,41 @@ input[type=submit] {
     height: 45px;
     overflow: hidden;
 
-    // transition: 0.5s all;
-    // -webkit-transition: 0.5s all;
-    // -moz-transition: 0.5s all;
+    img {
+      vertical-align: middle;
+      position: absolute;
+      z-index: 3;
+    }
+
+    span {
+      display: inline-block;
+      font-weight: 700;
+      position: relative;
+      z-index: 1;
+      top: 1px;
+      margin-left: 32px;
+      white-space: nowrap;
+    }
+
+    &.battery_points {
+      img {
+        margin-left: 5px;
+      }
+    }
+
+    &:before {
+      content: ' ';
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 40px;
+      background: #239600;
+      z-index: 2;
+    }
+  }
 }
-
-.types a:before {
-    content: ' ';
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 40px;
-    background: #239600;
-    z-index: 2;
-
-
-}
-
-.types a img {
-    vertical-align: middle;
-    position: absolute;
-    z-index: 3;
-}
-
-.types a span {
-    display: inline-block;
-    font-weight: 700;
-    position: relative;
-    z-index: 1;
-    top: 1px;
-    margin-left: 32px;
-    white-space: nowrap;
-}
-
 
 .types a.packaging_wastes, .types a.packaging_wastes:before { background: #239600 }
 .types a.bulky_wastes, .types a.bulky_wastes:before { background: #964000 }
