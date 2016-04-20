@@ -15,9 +15,9 @@ $('.x-scroll').TrackpadScrollEmulator('recalculate');
 
 centerTo(userLocation, 16);
 
-$(".x-content").html("#{j(render partial: 'places_info', locals: { presenter: @presenter })}");
-$(".x-form").addClass('hidden');
-$(".x-content").removeClass('hidden');
+$('.x-content').html("#{j(render(partial: 'places_info', locals: { presenter: @presenter }))}");
+$('.x-form').addClass('hidden');
+$('.x-content').removeClass('hidden');
 $('.x-user-location').val('');
 $('.x-scroll').TrackpadScrollEmulator({wrapContent: false});
 

@@ -1,13 +1,13 @@
 %body
   %header.main-header
-    %a.logo{:href => "/zut"}
+    %a.logo{ href: '/zut' }
       %b> Panel
       Admina
-    %nav.navbar.navbar-static-top{:role => "navigation"}
+    %nav.navbar.navbar-static-top{ role: 'navigation' }
       .navbar-custom-menu
         %ul.nav.navbar-nav
           %li.dropdown.user.user-menu
-            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+            %a.dropdown-toggle{ href: '#', data: { toggle: 'dropdown' } }
               = image_tag('avatar2.png', class: 'user-image')
               %span.hidden-xs= current_employee.full_name
             %ul.dropdown-menu
@@ -19,4 +19,4 @@
                     Data rejestracji: #{l(current_employee.created_at, format: :registration)}
               %li.user-footer
                 .pull-right
-                  = link_to t("buttons.sing_out"), destroy_employee_session_path, method: :delete, class: "btn btn-default btn-flat"
+                  = link_to t('buttons.sing_out'), destroy_employee_session_path, method: :delete, class: 'btn btn-default btn-flat'

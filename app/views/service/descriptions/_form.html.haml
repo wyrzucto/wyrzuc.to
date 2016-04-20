@@ -2,11 +2,11 @@
   .row
     .col-md-12
       %p.text-center
-        = form_for([:service, @description], html: { multipart: true, class: "form-horizontal" }) do |f|
+        = form_for([:service, @description], html: { multipart: true, class: 'form-horizontal' }) do |f|
           .form-group
-            = f.label :description, t('.description'), class: "col-sm-2 control-label"
+            = f.label :description, t('.description'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_field :description, class: "form-control"
+              = f.text_field :description, class: 'form-control'
           .form-group
             .col-sm-offset-2.col-sm-10
-              = f.submit t("buttons.submit"), class: "btn btn-success"
+              = f.submit t('buttons.submit'), class: 'btn btn-success'

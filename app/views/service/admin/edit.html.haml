@@ -4,19 +4,19 @@
   .row
     .col-md-12
       %p.text-center
-        = form_for([:service, current_admin], html: { multipart: true, class: "form-horizontal" }) do |f|
+        = form_for([:service, current_admin], html: { multipart: true, class: 'form-horizontal' }) do |f|
           .form-group
-            = f.label :name, t('.name'), class: "col-sm-2 control-label"
+            = f.label :name, t('.name'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_field :name, class: "form-control"
+              = f.text_field :name, class: 'form-control'
           .form-group
-            = f.label :surname, t('.surname'), class: "col-sm-2 control-label"
+            = f.label :surname, t('.surname'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_field :surname, class: "form-control"
+              = f.text_field :surname, class: 'form-control'
           .form-group
-            = f.label :avatar, t('.avatar'), class: "col-sm-2 control-label"
+            = f.label :avatar, t('.avatar'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.file_field :avatar, class: "form-control"
+              = f.file_field :avatar, class: 'form-control'
               = f.hidden_field :avatar_cache
           - if current_admin.avatar?
             .form-group
@@ -26,9 +26,9 @@
                     = f.check_box :remove_avatar
                     Remove avatar
             .form-group
-              = f.label :actual_avatar, t('.actual_avatar'), class: "col-sm-2 control-label"
+              = f.label :actual_avatar, t('.actual_avatar'), class: 'col-sm-2 control-label'
               .col-sm-10
-                = image_tag(current_admin.avatar_url, class: "avatar-preview img-thumbnail")
+                = image_tag(current_admin.avatar_url, class: 'avatar-preview img-thumbnail')
           .form-group
             .col-sm-offset-2.col-sm-10
-              = f.submit t("buttons.submit"), class: "btn btn-success"
+              = f.submit t('buttons.submit'), class: 'btn btn-success'

@@ -2,8 +2,8 @@
   .modal-dialog
     .modal-content
       .modal-header
-        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
-          %span{"aria-hidden" => "true"} ×
+        %button.close{ aria: { label: Close }, data: { dismiss: 'modal' }, type: 'button' }
+          %span{ aria: { hidden: 'true' } } ×
         %h4.modal-title
           Gdzie mam wyrzucić "#{phrase.name}" ?
       .modal-body
@@ -12,6 +12,6 @@
         - if phrase.fraction.try(:waste_data_id).present?
           %p
             Kliknij
-            = succeed "," do
-              %strong= link_to "<TU>", fractions_places_home_path(waste_name: phrase.fraction.waste_data.kind), remote: true
+            = succeed ',' do
+              %strong= link_to '<TU>', fractions_places_home_path(waste_name: phrase.fraction.waste_data.kind), remote: true
             aby pokazać punkty na mapie.

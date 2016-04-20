@@ -4,11 +4,11 @@
   .row
     .col-md-12
       %p.text-center
-        = form_tag service_hazardous_wastes_path, multipart: true, class: "form-horizontal" do
+        = form_tag service_hazardous_wastes_path, multipart: true, class: 'form-horizontal' do
           .form-group
-            = label_tag :file, t('.file'), class: "col-sm-2 control-label"
+            = label_tag :file, t('.file'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = file_field_tag :file, class: "form-control"
+              = file_field_tag :file, class: 'form-control'
           .form-group
             .col-sm-offset-2.col-sm-10
-              = submit_tag t("buttons.submit"), class: "btn btn-success"
+              = submit_tag t('buttons.submit'), class: 'btn btn-success'

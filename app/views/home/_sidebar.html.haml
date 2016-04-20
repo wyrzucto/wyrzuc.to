@@ -1,19 +1,19 @@
 .sidebar.x-sidebar
-  %a.handle{:href => "#"} Pokaż dodatkowe informacje
+  %a.handle{ href: '#' } Pokaż dodatkowe informacje
   .closed
-    = image_tag "icon_kalendarz.png", class: "center", style: "width: 44px; height: 42px"
+    = image_tag 'icon_kalendarz.png', class: 'center', style: 'width: 44px; height: 42px'
   .open
     .text-center
       .sprawdzTermin.x-form
         %h2 Chcesz, aby Gdańsk był bardziej czystszym miastem? Tu znajdziesz informacje o zbiórce odpadów różnych typów!
-        = image_tag "icon_kalendarz.png", style: "width: 44px; height: 42px"
+        = image_tag 'icon_kalendarz.png', style: 'width: 44px; height: 42px'
         %h3
           Sprawdź terminy
           %br>/
           odbioru odpadów
         %hr.short/
         = form_tag search_places_home_path, remote: true, class: 'x-search-locations-form' do
-          = text_field_tag :user_location, nil, required: true,  class: "x-user-location x-autocomplete-locations", placeholder: t("placeholders.user_location")
+          = text_field_tag :user_location, nil, required: true,  class: 'x-user-location x-autocomplete-locations', placeholder: t('placeholders.user_location')
           = hidden_field_tag :count, 1
           = submit_tag t('buttons.search')
       .x-content.hidden

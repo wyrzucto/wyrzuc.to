@@ -2,18 +2,18 @@
   %section.sidebar
     %ul.sidebar-menu
       %li.header Import danych
-      %li.treeview{class: controller_name == 'containers' ? 'active' : nil}
+      %li.treeview{ class: controller_name == 'containers' ? 'active' : nil }
         = link_to zut_containers_path do
           = fa_icon('glass')
           %span Odpady opakowaniowe
-     
+
       %li.header Odbiór odpadów
-      %li.treeview{class: controller_name == 'districts' ? 'active' : nil}
+      %li.treeview{ class: controller_name == 'districts' ? 'active' : nil }
         = link_to zut_districts_path do
           = fa_icon('map')
           %span Dzielnice
 
-      %li.treeview{class: controller_name == 'routes' ? 'active' : nil}
+      %li.treeview{ class: controller_name == 'routes' ? 'active' : nil }
         = link_to zut_routes_path do
           = fa_icon('car')
           %span Trasy

@@ -10,7 +10,7 @@
   .row
     .col-md-12
       %p.text-center
-        = semantic_form_for([:zut, @route, @route_container], url: zut_route_route_containers_path(@route), html: { class: "form-horizontal" }) do |f|
+        = semantic_form_for([:zut, @route, @route_container], url: zut_route_route_containers_path(@route), html: { class: 'form-horizontal' }) do |f|
           = f.input(:id, as: :select, collection: @containers_list, label: t('formtastic.labels.route_container.address'))
 
           = f.actions do

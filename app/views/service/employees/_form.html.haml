@@ -2,11 +2,11 @@
   .row
     .col-md-12
       %p.text-center
-        = semantic_form_for([:service, @employee], html: { class: "form-horizontal" }) do |f|
+        = semantic_form_for([:service, @employee], html: { class: 'form-horizontal' }) do |f|
           = f.inputs do
             = f.input(:email)
             = f.input(:first_name)
             = f.input(:last_name)
             = f.input(:password)
           = f.actions do
-            = f.submit t("buttons.submit"), class: "btn btn-success"
+            = f.submit t('buttons.submit'), class: 'btn btn-success'

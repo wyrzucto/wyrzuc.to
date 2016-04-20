@@ -13,7 +13,7 @@
     %tbody
       - @route_versions.each do |version|
         %tr
-          %td= version.created_at.strftime("%d.%m.%Y")
+          %td= version.created_at.strftime('%d.%m.%Y')
           %td.action.text-center= version.data.count
           %td
             - version.data.each do |row|

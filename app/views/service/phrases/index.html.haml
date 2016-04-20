@@ -13,6 +13,6 @@
       - @phrases.each do |phrase|
         %tr
           %td= phrase.name
-          %td= phrase.fraction.nil? ? "BRAK" : phrase.fraction.name
+          %td= phrase.fraction.nil? ? 'BRAK' : phrase.fraction.name
           %td= link_to 'edit', edit_service_phrase_path(phrase), class: 'btn btn-info'
           %td= link_to 'usuń', service_phrase_path(phrase), method: :delete, class: 'btn btn-danger'

@@ -2,12 +2,12 @@
   .row
     .col-md-12
       %p.text-center
-        = semantic_form_for([:zut, @container], url: (@container.persisted? ? zut_container_path(@container) : zut_containers_path), html: { class: "form-horizontal" }) do |f|
+        = semantic_form_for([:zut, @container], url: (@container.persisted? ? zut_container_path(@container) : zut_containers_path), html: { class: 'form-horizontal' }) do |f|
           = f.input(:street_name, collection: Location.street_list, label: t('formtastic.labels.container.street'))
           = f.input(:street_number, label: t('formtastic.labels.container.street_number'))
 
           = f.input(:description, as: :string, label: t('formtastic.labels.container.description'))
-          
+
           %h5 Położenie:
           = f.input(:latitude)
           = f.input(:longitude)
@@ -15,20 +15,20 @@
 
           %h5 Pojemniki:
           .row
-            .col-sm-6= f.input(:clear_glass_containers, as: :number, label: t('formtastic.labels.container.clear_glass_containers'), min: 0 )
+            .col-sm-6= f.input(:clear_glass_containers, as: :number, label: t('formtastic.labels.container.clear_glass_containers'), min: 0)
             .col-sm-6= f.input(:clear_glass_container_type, as: :select, label: t('formtastic.labels.container.clear_glass_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
           .row
-            .col-sm-6= f.input(:colorful_glass_containers, as: :number, label: t('formtastic.labels.container.colorful_glass_containers'), min: 0 )
+            .col-sm-6= f.input(:colorful_glass_containers, as: :number, label: t('formtastic.labels.container.colorful_glass_containers'), min: 0)
             .col-sm-6= f.input(:colorful_glass_container_type, as: :select, label: t('formtastic.labels.container.colorful_glass_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
           .row
-            .col-sm-6= f.input(:plastic_containers, as: :number, label: t('formtastic.labels.container.plastic_containers'), min: 0 )
+            .col-sm-6= f.input(:plastic_containers, as: :number, label: t('formtastic.labels.container.plastic_containers'), min: 0)
             .col-sm-6= f.input(:plastic_container_type, as: :select, label: t('formtastic.labels.container.plastic_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
           .row
-            .col-sm-6= f.input(:maculature_containers, as: :number, label: t('formtastic.labels.container.maculature_containers'), min: 0 )
+            .col-sm-6= f.input(:maculature_containers, as: :number, label: t('formtastic.labels.container.maculature_containers'), min: 0)
             .col-sm-6= f.input(:maculature_container_type, as: :select, label: t('formtastic.labels.container.maculature_container_type'), collection: Wastes::PackagingWaste::CONTAINER_TYPES, include_blank: false)
 
 
-          = f.input(:uploaded_picture, as: :string, label: t('formtastic.labels.container.picture'), as: :file)
+          = f.input(:uploaded_picture, label: t('formtastic.labels.container.picture'), as: :file)
 
           = f.input(:district, label: t('formtastic.labels.container.district'))
           = f.input(:route, label: t('formtastic.labels.container.route'))

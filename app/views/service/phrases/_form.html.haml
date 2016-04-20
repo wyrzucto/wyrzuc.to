@@ -2,15 +2,15 @@
   .row
     .col-md-12
       %p.text-center
-        = form_for([:service, @phrase], html: { multipart: true, class: "form-horizontal" }) do |f|
+        = form_for([:service, @phrase], html: { multipart: true, class: 'form-horizontal' }) do |f|
           .form-group
-            = f.label :name, t('.name'), class: "col-sm-2 control-label"
+            = f.label :name, t('.name'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_field :name, class: "form-control"
+              = f.text_field :name, class: 'form-control'
           .form-group
-            = f.label :fraction_id, t('.fraction'), class: "col-sm-2 control-label"
+            = f.label :fraction_id, t('.fraction'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.collection_select :fraction_id, Fraction.all, :id, :name, class: "form-control"
+              = f.collection_select :fraction_id, Fraction.all, :id, :name, class: 'form-control'
           .form-group
             .col-sm-offset-2.col-sm-10
-              = f.submit t("buttons.submit"), class: "btn btn-success"
+              = f.submit t('buttons.submit'), class: 'btn btn-success'

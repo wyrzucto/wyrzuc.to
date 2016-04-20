@@ -1,6 +1,6 @@
 .login-box
   .login-logo
-    %a{:href => "#"}
+    %a{ href: '#' }
       Panel
       %b Admina
   .login-box-body
@@ -8,8 +8,8 @@
     = form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|
       = devise_error_messages!
       .form-group.has-feedback
-        = f.email_field :email, autofocus: true, class: "form-control", placeholder: "Email"
+        = f.email_field :email, autofocus: true, class: 'form-control', placeholder: 'Email'
       .row
         .col-xs-12
-          = f.submit "Send me reset password instructions", class: "btn btn-primary btn-block btn-flat"
-    = render "devise/shared/links"
+          = f.submit 'Send me reset password instructions', class: 'btn btn-primary btn-block btn-flat'
+    = render 'devise/shared/links'

@@ -4,10 +4,10 @@
   .row
     .col-md-12
       %p.text-center
-        = form_tag service_settings_path, class: "form-horizontal" do
+        = form_tag service_settings_path, class: 'form-horizontal' do
           - @edited_settings.each do |setting_name|
             .form-group
-              = label_tag setting_name, setting_name, class: "col-sm-2 control-label"
+              = label_tag setting_name, setting_name, class: 'col-sm-2 control-label'
               .col-sm-10
                 - if Setting.get_type(setting_name) == :text
                   = text_area(:setting, setting_name, value: Setting[setting_name], class: 'form-control')
@@ -19,4 +19,4 @@
                   = text_field(:setting, setting_name, value: Setting[setting_name], class: 'form-control')
           .form-group
             .col-sm-offset-2.col-sm-10
-              = submit_tag t("buttons.submit"), class: "btn btn-success"
+              = submit_tag t('buttons.submit'), class: 'btn btn-success'

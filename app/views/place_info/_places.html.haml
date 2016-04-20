@@ -1,12 +1,12 @@
-%a.handle{:href => "#"} Pokaż dodatkowe informacje
+%a.handle{ href: '#' } Pokaż dodatkowe informacje
 .closed
-  = image_tag 'icon_kalendarz.png', class: "center", style: "width: 44px; height: 42px"
+  = image_tag 'icon_kalendarz.png', class: 'center', style: 'width: 44px; height: 42px'
 .open
   .text-center.header
-    = image_tag 'icon_kalendarz.png', style: "width: 44px; height: 42px"
+    = image_tag 'icon_kalendarz.png', style: 'width: 44px; height: 42px'
   .location
     Gdzie wyrzucić:
-    %a.close{:href => "/"}
+    %a.close{ href: '/' }
       = image_tag 'icon_close.png'
   .tse-scrollable.wrapper.dark-green
     .tse-content
@@ -15,6 +15,6 @@
       - places.each do |place|
         %p= link_to place[:street], mobile_map_place_info_path(place[:id]), class: 'fs24'
 .back.show-for-mobile
-  %a.back{:href => "/"}
+  %a.back{ href: '/' }
     = image_tag 'icon_back.png'
     Wróć

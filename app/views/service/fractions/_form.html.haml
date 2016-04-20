@@ -2,19 +2,19 @@
   .row
     .col-md-12
       %p.text-center
-        = form_for([:service, @fraction], html: { multipart: true, class: "form-horizontal" }) do |f|
+        = form_for([:service, @fraction], html: { multipart: true, class: 'form-horizontal' }) do |f|
           .form-group
-            = f.label :name, t('.name'), class: "col-sm-2 control-label"
+            = f.label :name, t('.name'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_field :name, class: "form-control"
+              = f.text_field :name, class: 'form-control'
           .form-group
-            = f.label :description, t('.description'), class: "col-sm-2 control-label"
+            = f.label :description, t('.description'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_area :description, class: "form-control"
+              = f.text_area :description, class: 'form-control'
           .form-group
-            = f.label :waste_data_id, t('.waste_data'), class: "col-sm-2 control-label"
+            = f.label :waste_data_id, t('.waste_data'), class: 'col-sm-2 control-label'
             .col-sm-10
-              = f.collection_select :waste_data_id, WasteData.all, :id, :name, class: "form-control", include_blank: 'Brak powiązania z mapą'
+              = f.collection_select :waste_data_id, WasteData.all, :id, :name, class: 'form-control', include_blank: 'Brak powiązania z mapą'
           .form-group
             .col-sm-offset-2.col-sm-10
-              = f.submit t("buttons.submit"), class: "btn btn-success"
+              = f.submit t('buttons.submit'), class: 'btn btn-success'
