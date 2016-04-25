@@ -25,8 +25,7 @@ class Route < ActiveRecord::Base
     center = Spreadsheet::Format.new horizontal_align: :centre, vertical_align: :middle
     center_bold = Spreadsheet::Format.new horizontal_align: :centre,
       vertical_align: :centre,
-      weight: :bold,
-      vertical_align: :middle
+      weight: :bold
     border = Spreadsheet::Format.new border: :thin, vertical_align: :middle
 
     route_book = Spreadsheet::Workbook.new
