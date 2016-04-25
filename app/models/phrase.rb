@@ -5,10 +5,10 @@ class Phrase < ActiveRecord::Base
   validates :name, presence: true, uniqueness: true
 
   def parsed_description
-    if fraction.try(:description).nil?
-      I18n.t('description.default_description')
-    else
+    if fraction&.description
       fraction.description.gsub(/\{\{.*\}\}/, name)
+    else
+      I18n.t('description.default_description')
     end
   end
 end

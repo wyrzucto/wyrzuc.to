@@ -10,6 +10,7 @@ group :development, :test do
   gem 'pry-rails'
   gem 'sqlite3'
   gem 'erb2haml'
+  gem 'factory_girl'
 end
 
 group :test_codeship, :production do

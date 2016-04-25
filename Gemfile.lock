@@ -120,6 +120,8 @@ GEM
       html2haml
     erubis (2.7.0)
     execjs (2.6.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
     faker (1.6.3)
       i18n (~> 0.5)
     fancybox2-rails (0.2.8)
@@ -378,6 +380,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
   erb2haml
+  factory_girl
   fancybox2-rails
   font-awesome-rails!
   formtastic

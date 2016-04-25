@@ -1,5 +1,7 @@
 require 'simplecov'
 require 'faker'
+require 'factory_girl'
+
 
 # Don't include unnecessary stuff into rcov
 SimpleCov.start do
@@ -14,6 +16,7 @@ end
 
 RSpec.configure do |config|
   config.mock_framework = :mocha
+  config.include FactoryGirl::Syntax::Methods
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
   end
